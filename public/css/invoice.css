@@ -1,0 +1,209 @@
+html {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji"; /* 4 */
+        src: local('img/fotosPDF/cotizacion.png');
+}
+.up{
+    text-transform: uppercase;
+}
+
+.invoice-box {
+    background-color: rgb(255, 255, 255);
+    color: #2a2a2a;
+    font-size: 13px;
+    height: auto;
+    line-height: 15px;
+    margin: 0 auto;
+    max-width: 21.5cm;
+}
+
+.hidden {
+    display: none;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.items-table .total {
+    border-bottom: 2px solid #eee;
+    border-top: 1px solid #000;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: right;
+}
+
+.items-table td {
+    padding: 5px;
+    vertical-align: top;
+    vertical-align: inherit;
+    border: 1px solid #000;
+}
+
+.items-table th {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    /* color de fondo */
+    background: #1e293b;
+    color: white;
+    font-weight: bold;
+}
+.tnota{
+    /* margin: 20px; */
+    /* margin-top: 4cm; */
+    /* margin-left: 1cm; */
+    /* margin-right: 1cm; */
+    margin-bottom: 10px;
+}
+.nota {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+.cliente {
+    padding: 3px;
+    /* color de fondo */
+    background: #1e293b;
+    color: white;
+    /* border-bottom: 1px solid #ddd; */
+    font-weight: bold;
+}
+
+.right {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mt {
+    margin-top: 0.5cm;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.options {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #6abe84;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media print {
+    div.saltopagina {
+        display: block;
+        page-break-before: always;
+    }
+    .invoice-box {
+        margin: 0;
+        padding: 0;
+    }
+    .options {
+        display: none;
+    }
+}
+@page {
+    margin: 1.1cm;
+    /* margin-top: 1.2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 0.5cm; */
+}
+
+#header {
+    position: fixed;
+    /* position: absolute; */
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 0cm;
+}
+
+.headerr {
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    /* height: 80px; */
+    /* margin-bottom: cm; */
+    /* padding-bottom: 1cm; */
+    /* padding: 0px 0px; */
+    position: sticky;
+}
+
+.headerxD {
+    position: fixed;
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 2cm;
+    background-color: #F93855;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.footerxD {
+    position: fixed;
+    bottom: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 2cm;
+    background-color: #F93855;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+footer {
+    position: fixed;
+    position: sticky;
+    bottom: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 0cm;
+}
+

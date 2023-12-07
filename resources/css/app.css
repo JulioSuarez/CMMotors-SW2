@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lilita+One&family=Patua+One&family=Russo+One&display=swap');
+@import 'scrollbar.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* creacion de clases, apply significa aplicar   */
+.btn {
+    @apply rounded-md px-2 py-1 border border-gray-600;
+}
+
+.btn-red {
+    @apply rounded-md px-2 py-1 capitalize bg-red-600 text-white
+            hover:bg-red-500 cursor-pointer transition hover:scale-110;
+}
+
+.btn-green {
+    @apply rounded-md px-2 py-1 capitalize bg-green-600 text-white
+            hover:bg-green-500 cursor-pointer transition hover:scale-110;
+}
+
+.btn-blue {
+    @apply rounded-md px-2 py-1 capitalize bg-blue-600 text-white
+            hover:bg-blue-500 cursor-pointer transition hover:scale-110;
+}
+
+.btn-yellow {
+    @apply rounded-md px-2 py-1 capitalize bg-yellow-600 text-white
+            hover:bg-yellow-500 cursor-pointer transition hover:scale-110;
+}
+
+.btn-gray {
+    @apply rounded-md px-2 py-1 capitalize bg-gray-600 text-white
+            hover:bg-gray-500 cursor-pointer transition hover:scale-110;
+}
+
+.btn-purple {
+    @apply rounded-md px-2 py-1 capitalize bg-purple-600 text-white
+            hover:bg-purple-500 cursor-pointer transition hover:scale-110;
+}
+
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34, 34, 34, 0.311); /* Fondo semi-transparente */
+    z-index: 9999; /* Capa superior */
+    display: none; /* Inicialmente oculto */
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+/* disenio para modal de arriba hacia abajo */
+
+.animacion-appear {
+    /* animacion de cuadno se abre el dialog */
+    animation: appear .15s cubic-bezier(0, 1.8, 1, 1.8);
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+dialog[open] {
+    animation: appear .15s cubic-bezier(0, 1.8, 1, 1.8);
+}
+
+dialog::backdrop {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(54, 54, 54, 0.5));
+    backdrop-filter: blur(3px);
+}
+

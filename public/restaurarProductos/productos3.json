@@ -1,0 +1,4004 @@
+{
+    "Productos": [
+        {
+            "cod_oem": "PMAQPLA-816",
+            "id_producto": 3932916
+        },
+        {
+            "cod_oem": "PMAQPLA-680",
+            "id_producto": 3932915
+        },
+        {
+            "cod_oem": "PMAQPLA-670",
+            "id_producto": 3932914
+        },
+        {
+            "cod_oem": "PMAQPLA-660",
+            "id_producto": 3932913
+        },
+        {
+            "cod_oem": "PMAQPLA-650",
+            "id_producto": 3932912
+        },
+        {
+            "cod_oem": "PMAQPLA-645",
+            "id_producto": 3932911
+        },
+        {
+            "cod_oem": "PMAQPLA-640",
+            "id_producto": 3932909
+        },
+        {
+            "cod_oem": "PMAQPLA-635",
+            "id_producto": 3932908
+        },
+        {
+            "cod_oem": "PMAQPLA-630",
+            "id_producto": 3932907
+        },
+        {
+            "cod_oem": "PMAQPLA-625",
+            "id_producto": 3932906
+        },
+        {
+            "cod_oem": "PMAQPLA-620",
+            "id_producto": 3932905
+        },
+        {
+            "cod_oem": "PMAQPLA-616",
+            "id_producto": 3932904
+        },
+        {
+            "cod_oem": "PMAQPLA-612",
+            "id_producto": 3932903
+        },
+        {
+            "cod_oem": "PMAQPLA-570",
+            "id_producto": 3932902
+        },
+        {
+            "cod_oem": "PMAQPLA-560",
+            "id_producto": 3932901
+        },
+        {
+            "cod_oem": "PMAQPLA-550",
+            "id_producto": 3932900
+        },
+        {
+            "cod_oem": "PMAQPLA-540",
+            "id_producto": 3932899
+        },
+        {
+            "cod_oem": "PMAQPLA-535",
+            "id_producto": 3932898
+        },
+        {
+            "cod_oem": "PMAQPLA-530",
+            "id_producto": 3932897
+        },
+        {
+            "cod_oem": "PMAQPLA-525",
+            "id_producto": 3932896
+        },
+        {
+            "cod_oem": "PMAQPLA-520",
+            "id_producto": 3932895
+        },
+        {
+            "cod_oem": "PMAQPLA-516",
+            "id_producto": 3932894
+        },
+        {
+            "cod_oem": "PMAQPLA-512",
+            "id_producto": 3932893
+        },
+        {
+            "cod_oem": "PMAQPLA-510",
+            "id_producto": 3932892
+        },
+        {
+            "cod_oem": "PMAQPLA-460",
+            "id_producto": 3932891
+        },
+        {
+            "cod_oem": "PMAQPLA-450",
+            "id_producto": 3932890
+        },
+        {
+            "cod_oem": "PMAQPLA-440",
+            "id_producto": 3932889
+        },
+        {
+            "cod_oem": "PMAQPLA-430",
+            "id_producto": 3932888
+        },
+        {
+            "cod_oem": "PMAQPLA-425",
+            "id_producto": 3932887
+        },
+        {
+            "cod_oem": "PMAQPLA-420",
+            "id_producto": 3932886
+        },
+        {
+            "cod_oem": "PMAQPLA-416",
+            "id_producto": 3932885
+        },
+        {
+            "cod_oem": "PMAQPLA-412",
+            "id_producto": 3932884
+        },
+        {
+            "cod_oem": "PMAQPLA-410",
+            "id_producto": 3932882
+        },
+        {
+            "cod_oem": "CONO-PRIS-58",
+            "id_producto": 3932881
+        },
+        {
+            "cod_oem": "CONO-PRIS-916",
+            "id_producto": 3932880
+        },
+        {
+            "cod_oem": "CONO-PRIS-12",
+            "id_producto": 3932879
+        },
+        {
+            "cod_oem": "CONO-PRIS-716",
+            "id_producto": 3932878
+        },
+        {
+            "cod_oem": "CONO-PRIS-M13",
+            "id_producto": 3932877
+        },
+        {
+            "cod_oem": "CONO-PRIS-M12",
+            "id_producto": 3932876
+        },
+        {
+            "cod_oem": "CONO-PRIS-M10",
+            "id_producto": 3932875
+        },
+        {
+            "cod_oem": "CONO-PRIS-M8",
+            "id_producto": 3932874
+        },
+        {
+            "cod_oem": "TNC2-12ESP",
+            "id_producto": 3932873
+        },
+        {
+            "cod_oem": "TIRAF-DUR-516110",
+            "id_producto": 3932872
+        },
+        {
+            "cod_oem": "CHAVETA-5164",
+            "id_producto": 3932871
+        },
+        {
+            "cod_oem": "CHAVETA-516312",
+            "id_producto": 3932870
+        },
+        {
+            "cod_oem": "CHAVETA-516212",
+            "id_producto": 3932869
+        },
+        {
+            "cod_oem": "CHAVETA-143",
+            "id_producto": 3932868
+        },
+        {
+            "cod_oem": "CHAVETA-14212",
+            "id_producto": 3932867
+        },
+        {
+            "cod_oem": "CHAVETA-142",
+            "id_producto": 3932866
+        },
+        {
+            "cod_oem": "CHAVETA-3163",
+            "id_producto": 3932865
+        },
+        {
+            "cod_oem": "CHAVETA-316212",
+            "id_producto": 3932864
+        },
+        {
+            "cod_oem": "CHAVETA-3162",
+            "id_producto": 3932862
+        },
+        {
+            "cod_oem": "CHAVETA-316112",
+            "id_producto": 3932861
+        },
+        {
+            "cod_oem": "CHAVETA-5322",
+            "id_producto": 3932860
+        },
+        {
+            "cod_oem": "CHAVETA-532112",
+            "id_producto": 3932859
+        },
+        {
+            "cod_oem": "CHAVETA-182",
+            "id_producto": 3932858
+        },
+        {
+            "cod_oem": "CHAVETA-18112",
+            "id_producto": 3932857
+        },
+        {
+            "cod_oem": "CHAVETA-18114",
+            "id_producto": 3932856
+        },
+        {
+            "cod_oem": "CHAVETA-181",
+            "id_producto": 3932855
+        },
+        {
+            "cod_oem": "CHAVETA-332112",
+            "id_producto": 3932854
+        },
+        {
+            "cod_oem": "CHAVETA-3321",
+            "id_producto": 3932853
+        },
+        {
+            "cod_oem": "TORQUE-M22-CTE",
+            "id_producto": 3932852
+        },
+        {
+            "cod_oem": "TORQUE-M20-EXTFINA",
+            "id_producto": 3932851
+        },
+        {
+            "cod_oem": "TORQUE-M20-CTE",
+            "id_producto": 3932850
+        },
+        {
+            "cod_oem": "TORQUE-M18-EXTFINA",
+            "id_producto": 3932849
+        },
+        {
+            "cod_oem": "TORQUE-M18-CTE",
+            "id_producto": 3932848
+        },
+        {
+            "cod_oem": "TORQUE-M16-FINA",
+            "id_producto": 3932847
+        },
+        {
+            "cod_oem": "TORQUE-M16-CTE",
+            "id_producto": 3932846
+        },
+        {
+            "cod_oem": "TORQUE-M14-FINA",
+            "id_producto": 3932845
+        },
+        {
+            "cod_oem": "TORQUE-M14-CTE",
+            "id_producto": 3932844
+        },
+        {
+            "cod_oem": "TORQUE-M12-EXTFINA",
+            "id_producto": 3932843
+        },
+        {
+            "cod_oem": "TORQUE-M12-FINA",
+            "id_producto": 3932842
+        },
+        {
+            "cod_oem": "TORQUE-M12-CTE",
+            "id_producto": 3932841
+        },
+        {
+            "cod_oem": "TORQUE-M10-EXTFINA",
+            "id_producto": 3932840
+        },
+        {
+            "cod_oem": "TORQUE-M10-FINA",
+            "id_producto": 3932839
+        },
+        {
+            "cod_oem": "TORQUE-M10-CTE",
+            "id_producto": 3932838
+        },
+        {
+            "cod_oem": "TORQUE-M8-EXTFINA",
+            "id_producto": 3932837
+        },
+        {
+            "cod_oem": "TORQUE-M8-CTE",
+            "id_producto": 3932836
+        },
+        {
+            "cod_oem": "TORQUE-1-NC",
+            "id_producto": 3932835
+        },
+        {
+            "cod_oem": "TORQUE-34-NF",
+            "id_producto": 3932834
+        },
+        {
+            "cod_oem": "TORQUE-34-NC",
+            "id_producto": 3932833
+        },
+        {
+            "cod_oem": "TORQUE-58-NF",
+            "id_producto": 3932832
+        },
+        {
+            "cod_oem": "TORQUE-58-NC",
+            "id_producto": 3932830
+        },
+        {
+            "cod_oem": "TORQUE-916-NF",
+            "id_producto": 3932829
+        },
+        {
+            "cod_oem": "TORQUE-916-NC",
+            "id_producto": 3932828
+        },
+        {
+            "cod_oem": "TORQUE-12NF",
+            "id_producto": 3932827
+        },
+        {
+            "cod_oem": "TORQUE-12-NC",
+            "id_producto": 3932826
+        },
+        {
+            "cod_oem": "TORQUE-716-NF",
+            "id_producto": 3932825
+        },
+        {
+            "cod_oem": "TORQUE-716-NC",
+            "id_producto": 3932824
+        },
+        {
+            "cod_oem": "TORQUE-38-NF",
+            "id_producto": 3932823
+        },
+        {
+            "cod_oem": "TORQUE-38-NC",
+            "id_producto": 3932822
+        },
+        {
+            "cod_oem": "TORQUE-516-NF",
+            "id_producto": 3932821
+        },
+        {
+            "cod_oem": "TORQUE-516-NC",
+            "id_producto": 3932820
+        },
+        {
+            "cod_oem": "TCIEGA-M8",
+            "id_producto": 3932819
+        },
+        {
+            "cod_oem": "TCIEGA-M6",
+            "id_producto": 3932818
+        },
+        {
+            "cod_oem": "TCIEGA-M5",
+            "id_producto": 3932817
+        },
+        {
+            "cod_oem": "TCIEGA-516",
+            "id_producto": 3932816
+        },
+        {
+            "cod_oem": "TCIEGA-14",
+            "id_producto": 3932815
+        },
+        {
+            "cod_oem": "TCIEGA-316",
+            "id_producto": 3932814
+        },
+        {
+            "cod_oem": "TBAJA-M24",
+            "id_producto": 3932813
+        },
+        {
+            "cod_oem": "TBAJA-M22",
+            "id_producto": 3932812
+        },
+        {
+            "cod_oem": "TBAJA-M20",
+            "id_producto": 3932811
+        },
+        {
+            "cod_oem": "TBAJA-M18",
+            "id_producto": 3932810
+        },
+        {
+            "cod_oem": "TBAJA-M16",
+            "id_producto": 3932809
+        },
+        {
+            "cod_oem": "TBAJA-M14",
+            "id_producto": 3932808
+        },
+        {
+            "cod_oem": "TNF8-34",
+            "id_producto": 3932807
+        },
+        {
+            "cod_oem": "TNF8-58",
+            "id_producto": 3932806
+        },
+        {
+            "cod_oem": "TNF8-916",
+            "id_producto": 3932805
+        },
+        {
+            "cod_oem": "TNF8-12",
+            "id_producto": 3932804
+        },
+        {
+            "cod_oem": "TNF8-716",
+            "id_producto": 3932803
+        },
+        {
+            "cod_oem": "TNF8-38",
+            "id_producto": 3932801
+        },
+        {
+            "cod_oem": "PNF8-586",
+            "id_producto": 3932800
+        },
+        {
+            "cod_oem": "PNF8-585",
+            "id_producto": 3932799
+        },
+        {
+            "cod_oem": "PNF8-58412",
+            "id_producto": 3932798
+        },
+        {
+            "cod_oem": "PNF8-584",
+            "id_producto": 3932797
+        },
+        {
+            "cod_oem": "PNF8-58312",
+            "id_producto": 3932796
+        },
+        {
+            "cod_oem": "PNF8-583",
+            "id_producto": 3932795
+        },
+        {
+            "cod_oem": "PNF8-9163",
+            "id_producto": 3932794
+        },
+        {
+            "cod_oem": "PNF8-916212",
+            "id_producto": 3932793
+        },
+        {
+            "cod_oem": "PNF8-126",
+            "id_producto": 3932792
+        },
+        {
+            "cod_oem": "PNF8-125",
+            "id_producto": 3932791
+        },
+        {
+            "cod_oem": "PNF8-124",
+            "id_producto": 3932790
+        },
+        {
+            "cod_oem": "PNF8-12312",
+            "id_producto": 3932789
+        },
+        {
+            "cod_oem": "PNF8-123",
+            "id_producto": 3932788
+        },
+        {
+            "cod_oem": "PNF8-12212",
+            "id_producto": 3932787
+        },
+        {
+            "cod_oem": "PNF8-122",
+            "id_producto": 3932786
+        },
+        {
+            "cod_oem": "PNF8-12112",
+            "id_producto": 3932785
+        },
+        {
+            "cod_oem": "PNF8-7163",
+            "id_producto": 3932784
+        },
+        {
+            "cod_oem": "PNF8-716212",
+            "id_producto": 3932783
+        },
+        {
+            "cod_oem": "PNF8-7162",
+            "id_producto": 3932782
+        },
+        {
+            "cod_oem": "PNF8-716112",
+            "id_producto": 3932781
+        },
+        {
+            "cod_oem": "PNF8-38212",
+            "id_producto": 3932780
+        },
+        {
+            "cod_oem": "PNF8-38134",
+            "id_producto": 3932779
+        },
+        {
+            "cod_oem": "PNF8-38112",
+            "id_producto": 3932778
+        },
+        {
+            "cod_oem": "PNF8-381",
+            "id_producto": 3932777
+        },
+        {
+            "cod_oem": "TNC8-1",
+            "id_producto": 3932776
+        },
+        {
+            "cod_oem": "TNC8-78",
+            "id_producto": 3932775
+        },
+        {
+            "cod_oem": "TNC8-34",
+            "id_producto": 3932774
+        },
+        {
+            "cod_oem": "TNC8-58",
+            "id_producto": 3932773
+        },
+        {
+            "cod_oem": "TNC8-916",
+            "id_producto": 3932772
+        },
+        {
+            "cod_oem": "TNC8-12",
+            "id_producto": 3932771
+        },
+        {
+            "cod_oem": "TNC8-716",
+            "id_producto": 3932770
+        },
+        {
+            "cod_oem": "TNC8-38",
+            "id_producto": 3932769
+        },
+        {
+            "cod_oem": "PNC8-1-10",
+            "id_producto": 3932768
+        },
+        {
+            "cod_oem": "PNC8-1-8",
+            "id_producto": 3932767
+        },
+        {
+            "cod_oem": "PNC8-1-7",
+            "id_producto": 3932766
+        },
+        {
+            "cod_oem": "PNC8-1-6",
+            "id_producto": 3932765
+        },
+        {
+            "cod_oem": "PNC8-1-5",
+            "id_producto": 3932764
+        },
+        {
+            "cod_oem": "PNC8-1-4",
+            "id_producto": 3932763
+        },
+        {
+            "cod_oem": "PNC8-1-312",
+            "id_producto": 3932762
+        },
+        {
+            "cod_oem": "PNC8-1-3",
+            "id_producto": 3932761
+        },
+        {
+            "cod_oem": "PNC8-1-212",
+            "id_producto": 3932760
+        },
+        {
+            "cod_oem": "PNC8-786",
+            "id_producto": 3932759
+        },
+        {
+            "cod_oem": "PNC8-785",
+            "id_producto": 3932758
+        },
+        {
+            "cod_oem": "PNC8-78312",
+            "id_producto": 3932757
+        },
+        {
+            "cod_oem": "PNC8-783",
+            "id_producto": 3932756
+        },
+        {
+            "cod_oem": "PNC8-78212",
+            "id_producto": 3932755
+        },
+        {
+            "cod_oem": "PNC8-348",
+            "id_producto": 3932754
+        },
+        {
+            "cod_oem": "PNC8-347",
+            "id_producto": 3932753
+        },
+        {
+            "cod_oem": "PNC8-346",
+            "id_producto": 3932752
+        },
+        {
+            "cod_oem": "PNC8-345",
+            "id_producto": 3932751
+        },
+        {
+            "cod_oem": "PNC8-344",
+            "id_producto": 3932750
+        },
+        {
+            "cod_oem": "PNC8-34312",
+            "id_producto": 3932749
+        },
+        {
+            "cod_oem": "PNC8-343",
+            "id_producto": 3932748
+        },
+        {
+            "cod_oem": "PNC8-34212",
+            "id_producto": 3932747
+        },
+        {
+            "cod_oem": "PNC8-342",
+            "id_producto": 3932746
+        },
+        {
+            "cod_oem": "PNC8-587",
+            "id_producto": 3932745
+        },
+        {
+            "cod_oem": "PNC8-586",
+            "id_producto": 3932744
+        },
+        {
+            "cod_oem": "PNC8-585",
+            "id_producto": 3932743
+        },
+        {
+            "cod_oem": "PNC8-584",
+            "id_producto": 3932742
+        },
+        {
+            "cod_oem": "PNC8-58312",
+            "id_producto": 3932741
+        },
+        {
+            "cod_oem": "PNC8-583",
+            "id_producto": 3932740
+        },
+        {
+            "cod_oem": "PNC8-58212",
+            "id_producto": 3932739
+        },
+        {
+            "cod_oem": "PNC8-582",
+            "id_producto": 3932738
+        },
+        {
+            "cod_oem": "PNC8-58112",
+            "id_producto": 3932737
+        },
+        {
+            "cod_oem": "PNC8-9164",
+            "id_producto": 3932736
+        },
+        {
+            "cod_oem": "PNC8-9163",
+            "id_producto": 3932735
+        },
+        {
+            "cod_oem": "PNC8-916212",
+            "id_producto": 3932734
+        },
+        {
+            "cod_oem": "PNC8-9162",
+            "id_producto": 3932733
+        },
+        {
+            "cod_oem": "PNC8-916112",
+            "id_producto": 3932732
+        },
+        {
+            "cod_oem": "PNC8-127",
+            "id_producto": 3932731
+        },
+        {
+            "cod_oem": "PNC8-126",
+            "id_producto": 3932730
+        },
+        {
+            "cod_oem": "PNC8-125",
+            "id_producto": 3932729
+        },
+        {
+            "cod_oem": "PNC8-124",
+            "id_producto": 3932728
+        },
+        {
+            "cod_oem": "PNC8-12312",
+            "id_producto": 3932727
+        },
+        {
+            "cod_oem": "PNC8-123",
+            "id_producto": 3932726
+        },
+        {
+            "cod_oem": "PNC8-12212",
+            "id_producto": 3932725
+        },
+        {
+            "cod_oem": "PNC8-122",
+            "id_producto": 3932724
+        },
+        {
+            "cod_oem": "PNC8-12112",
+            "id_producto": 3932723
+        },
+        {
+            "cod_oem": "PNC8-7163",
+            "id_producto": 3932722
+        },
+        {
+            "cod_oem": "PNC8-716212",
+            "id_producto": 3932721
+        },
+        {
+            "cod_oem": "PNC8-7162",
+            "id_producto": 3932720
+        },
+        {
+            "cod_oem": "PNC8-716112",
+            "id_producto": 3932719
+        },
+        {
+            "cod_oem": "PNC8-384",
+            "id_producto": 3932718
+        },
+        {
+            "cod_oem": "PNC8-383",
+            "id_producto": 3932717
+        },
+        {
+            "cod_oem": "PNC8-38212",
+            "id_producto": 3932716
+        },
+        {
+            "cod_oem": "PNC8-382",
+            "id_producto": 3932715
+        },
+        {
+            "cod_oem": "PNC8-38112",
+            "id_producto": 3932714
+        },
+        {
+            "cod_oem": "PNC8-381",
+            "id_producto": 3932713
+        },
+        {
+            "cod_oem": "PROFONNC5-346",
+            "id_producto": 3932712
+        },
+        {
+            "cod_oem": "PROFONNC5-344",
+            "id_producto": 3932711
+        },
+        {
+            "cod_oem": "PROFONNC5-586",
+            "id_producto": 3932710
+        },
+        {
+            "cod_oem": "PROFONNC5-584",
+            "id_producto": 3932709
+        },
+        {
+            "cod_oem": "PROFONNC5-126",
+            "id_producto": 3932708
+        },
+        {
+            "cod_oem": "PROFONNC5-124",
+            "id_producto": 3932707
+        },
+        {
+            "cod_oem": "PROFONNC5-123",
+            "id_producto": 3932706
+        },
+        {
+            "cod_oem": "PROFONNC5-386",
+            "id_producto": 3932705
+        },
+        {
+            "cod_oem": "PROFONNC5-384",
+            "id_producto": 3932704
+        },
+        {
+            "cod_oem": "PROFONNC5-383",
+            "id_producto": 3932703
+        },
+        {
+            "cod_oem": "PROFONNC5-5163",
+            "id_producto": 3932702
+        },
+        {
+            "cod_oem": "PROFONNC5-144",
+            "id_producto": 3932701
+        },
+        {
+            "cod_oem": "PROFONNC5-143",
+            "id_producto": 3932700
+        },
+        {
+            "cod_oem": "PROFONCTE-20150",
+            "id_producto": 3932699
+        },
+        {
+            "cod_oem": "PROFONCTE-20100",
+            "id_producto": 3932698
+        },
+        {
+            "cod_oem": "PROFONCTE-16150",
+            "id_producto": 3932697
+        },
+        {
+            "cod_oem": "PROFONCTE-16100",
+            "id_producto": 3932696
+        },
+        {
+            "cod_oem": "PROFONCTE-14150",
+            "id_producto": 3932695
+        },
+        {
+            "cod_oem": "PROFONCTE-14100",
+            "id_producto": 3932694
+        },
+        {
+            "cod_oem": "PROFONCTE-12150",
+            "id_producto": 3932693
+        },
+        {
+            "cod_oem": "PROFONCTE-12100",
+            "id_producto": 3932692
+        },
+        {
+            "cod_oem": "PROFONCTE-1280",
+            "id_producto": 3932691
+        },
+        {
+            "cod_oem": "PROFONCTE-10150",
+            "id_producto": 3932690
+        },
+        {
+            "cod_oem": "PROFONCTE-10120",
+            "id_producto": 3932689
+        },
+        {
+            "cod_oem": "PROFONCTE-10100",
+            "id_producto": 3932688
+        },
+        {
+            "cod_oem": "PROFONCTE-1080",
+            "id_producto": 3932687
+        },
+        {
+            "cod_oem": "PROFONCTE-1060",
+            "id_producto": 3932686
+        },
+        {
+            "cod_oem": "PROFONCTE-8140",
+            "id_producto": 3932685
+        },
+        {
+            "cod_oem": "PROFONCTE-8100",
+            "id_producto": 3932684
+        },
+        {
+            "cod_oem": "PROFONCTE-880",
+            "id_producto": 3932683
+        },
+        {
+            "cod_oem": "PROFONCTE-860",
+            "id_producto": 3932682
+        },
+        {
+            "cod_oem": "PROFONCTE-6100",
+            "id_producto": 3932681
+        },
+        {
+            "cod_oem": "PROFONCTE-680",
+            "id_producto": 3932680
+        },
+        {
+            "cod_oem": "PROFONCTE-660",
+            "id_producto": 3932679
+        },
+        {
+            "cod_oem": "MTAPON-M26150",
+            "id_producto": 3932678
+        },
+        {
+            "cod_oem": "MTAPON-M24150",
+            "id_producto": 3932677
+        },
+        {
+            "cod_oem": "MTAPON-M22150",
+            "id_producto": 3932676
+        },
+        {
+            "cod_oem": "MTAPON-M20150",
+            "id_producto": 3932675
+        },
+        {
+            "cod_oem": "MTAPON-M18150",
+            "id_producto": 3932674
+        },
+        {
+            "cod_oem": "MTAPON-M16150",
+            "id_producto": 3932673
+        },
+        {
+            "cod_oem": "MTAPON-M14150",
+            "id_producto": 3932672
+        },
+        {
+            "cod_oem": "MTAPON-M12150",
+            "id_producto": 3932671
+        },
+        {
+            "cod_oem": "MTAPON-M12125",
+            "id_producto": 3932670
+        },
+        {
+            "cod_oem": "MTAPON-M10125",
+            "id_producto": 3932669
+        },
+        {
+            "cod_oem": "MTAPON-M10100",
+            "id_producto": 3932668
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1260",
+            "id_producto": 3932667
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1250",
+            "id_producto": 3932666
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1240",
+            "id_producto": 3932665
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1230",
+            "id_producto": 3932664
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1060",
+            "id_producto": 3932663
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1050",
+            "id_producto": 3932662
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1040",
+            "id_producto": 3932661
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1030",
+            "id_producto": 3932660
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-1025",
+            "id_producto": 3932659
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-860",
+            "id_producto": 3932658
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-850",
+            "id_producto": 3932657
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-840",
+            "id_producto": 3932656
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-830",
+            "id_producto": 3932655
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-825",
+            "id_producto": 3932654
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-820",
+            "id_producto": 3932653
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-650",
+            "id_producto": 3932652
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-640",
+            "id_producto": 3932651
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-630",
+            "id_producto": 3932650
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-625",
+            "id_producto": 3932649
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-620",
+            "id_producto": 3932648
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-616",
+            "id_producto": 3932647
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-530",
+            "id_producto": 3932646
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-525",
+            "id_producto": 3932645
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-520",
+            "id_producto": 3932644
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-516",
+            "id_producto": 3932643
+        },
+        {
+            "cod_oem": "PMALLEN-CAB-PLA-512",
+            "id_producto": 3932642
+        },
+        {
+            "cod_oem": "PMCOPA-1240",
+            "id_producto": 3932641
+        },
+        {
+            "cod_oem": "PMCOPA-1230",
+            "id_producto": 3932640
+        },
+        {
+            "cod_oem": "PMCOPA-1225",
+            "id_producto": 3932638
+        },
+        {
+            "cod_oem": "PMCOPA-1220",
+            "id_producto": 3932637
+        },
+        {
+            "cod_oem": "PMCOPA-1216",
+            "id_producto": 3932636
+        },
+        {
+            "cod_oem": "PMCOPA-1030",
+            "id_producto": 3932635
+        },
+        {
+            "cod_oem": "PMCOPA-1025",
+            "id_producto": 3932634
+        },
+        {
+            "cod_oem": "PMCOPA-1020",
+            "id_producto": 3932633
+        },
+        {
+            "cod_oem": "PMCOPA-1016",
+            "id_producto": 3932632
+        },
+        {
+            "cod_oem": "PMCOPA-1012",
+            "id_producto": 3932631
+        },
+        {
+            "cod_oem": "PMCOPA-825",
+            "id_producto": 3932630
+        },
+        {
+            "cod_oem": "PMCOPA-820",
+            "id_producto": 3932629
+        },
+        {
+            "cod_oem": "PMCOPA-816",
+            "id_producto": 3932628
+        },
+        {
+            "cod_oem": "PMCOPA-812",
+            "id_producto": 3932627
+        },
+        {
+            "cod_oem": "PMCOPA-810",
+            "id_producto": 3932626
+        },
+        {
+            "cod_oem": "PMCOPA-625",
+            "id_producto": 3932625
+        },
+        {
+            "cod_oem": "PMCOPA-620",
+            "id_producto": 3932624
+        },
+        {
+            "cod_oem": "PMCOPA-616",
+            "id_producto": 3932623
+        },
+        {
+            "cod_oem": "PMCOPA-612",
+            "id_producto": 3932621
+        },
+        {
+            "cod_oem": "PMCOPA-610",
+            "id_producto": 3932620
+        },
+        {
+            "cod_oem": "PMCOPA-68",
+            "id_producto": 3932619
+        },
+        {
+            "cod_oem": "PMCOPA-516",
+            "id_producto": 3932618
+        },
+        {
+            "cod_oem": "PMCOPA-512",
+            "id_producto": 3932617
+        },
+        {
+            "cod_oem": "PMCOPA-510",
+            "id_producto": 3932616
+        },
+        {
+            "cod_oem": "PMCOPA-58",
+            "id_producto": 3932615
+        },
+        {
+            "cod_oem": "PMCOPA-416",
+            "id_producto": 3932614
+        },
+        {
+            "cod_oem": "PMCOPA-412",
+            "id_producto": 3932613
+        },
+        {
+            "cod_oem": "PMCOPA-410",
+            "id_producto": 3932612
+        },
+        {
+            "cod_oem": "PMCOPA-48",
+            "id_producto": 3932611
+        },
+        {
+            "cod_oem": "PCOPA-12112",
+            "id_producto": 3932610
+        },
+        {
+            "cod_oem": "PCOPA-12114",
+            "id_producto": 3932609
+        },
+        {
+            "cod_oem": "PCOPA-121",
+            "id_producto": 3932608
+        },
+        {
+            "cod_oem": "PCOPA-1234",
+            "id_producto": 3932607
+        },
+        {
+            "cod_oem": "PCOPA-38114",
+            "id_producto": 3932606
+        },
+        {
+            "cod_oem": "PCOPA-381",
+            "id_producto": 3932605
+        },
+        {
+            "cod_oem": "PCOPA-3834",
+            "id_producto": 3932604
+        },
+        {
+            "cod_oem": "PCOPA-3812",
+            "id_producto": 3932603
+        },
+        {
+            "cod_oem": "PCOPA-5161",
+            "id_producto": 3932602
+        },
+        {
+            "cod_oem": "PCOPA-51634",
+            "id_producto": 3932601
+        },
+        {
+            "cod_oem": "PCOPA-51658",
+            "id_producto": 3932600
+        },
+        {
+            "cod_oem": "PCOPA-51612",
+            "id_producto": 3932599
+        },
+        {
+            "cod_oem": "PCOPA-51638",
+            "id_producto": 3932598
+        },
+        {
+            "cod_oem": "PCOPA-516516",
+            "id_producto": 3932597
+        },
+        {
+            "cod_oem": "PCOPA-141",
+            "id_producto": 3932596
+        },
+        {
+            "cod_oem": "PCOPA-1434",
+            "id_producto": 3932595
+        },
+        {
+            "cod_oem": "PCOPA-1458",
+            "id_producto": 3932594
+        },
+        {
+            "cod_oem": "PCOPA-1412",
+            "id_producto": 3932593
+        },
+        {
+            "cod_oem": "PCOPA-1438",
+            "id_producto": 3932592
+        },
+        {
+            "cod_oem": "PCOPA-14516",
+            "id_producto": 3932591
+        },
+        {
+            "cod_oem": "PCOPA-31658",
+            "id_producto": 3932590
+        },
+        {
+            "cod_oem": "PCOPA-31612",
+            "id_producto": 3932589
+        },
+        {
+            "cod_oem": "PCOPA-31638",
+            "id_producto": 3932588
+        },
+        {
+            "cod_oem": "PCOPA-316516",
+            "id_producto": 3932587
+        },
+        {
+            "cod_oem": "PABOMBADO-850",
+            "id_producto": 3932586
+        },
+        {
+            "cod_oem": "PABOMBADO-840",
+            "id_producto": 3932585
+        },
+        {
+            "cod_oem": "PABOMBADO-830",
+            "id_producto": 3932584
+        },
+        {
+            "cod_oem": "PABOMBADO-825",
+            "id_producto": 3932583
+        },
+        {
+            "cod_oem": "PABOMBADO-820",
+            "id_producto": 3932582
+        },
+        {
+            "cod_oem": "PABOMBADO-816",
+            "id_producto": 3932581
+        },
+        {
+            "cod_oem": "PABOMBADO-650",
+            "id_producto": 3932580
+        },
+        {
+            "cod_oem": "PABOMBADO-640",
+            "id_producto": 3932579
+        },
+        {
+            "cod_oem": "PABOMBADO-630",
+            "id_producto": 3932578
+        },
+        {
+            "cod_oem": "PABOMBADO-625",
+            "id_producto": 3932577
+        },
+        {
+            "cod_oem": "PABOMBADO-620",
+            "id_producto": 3932576
+        },
+        {
+            "cod_oem": "PABOMBADO-616",
+            "id_producto": 3932575
+        },
+        {
+            "cod_oem": "PABOMBADO-612",
+            "id_producto": 3932574
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-123",
+            "id_producto": 3932573
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-12212",
+            "id_producto": 3932572
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-122",
+            "id_producto": 3932571
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-12112",
+            "id_producto": 3932570
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-383",
+            "id_producto": 3932569
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-38212",
+            "id_producto": 3932568
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-382",
+            "id_producto": 3932567
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-38112",
+            "id_producto": 3932566
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-381",
+            "id_producto": 3932565
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-5162",
+            "id_producto": 3932564
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-516112",
+            "id_producto": 3932563
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-5161",
+            "id_producto": 3932562
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-51634",
+            "id_producto": 3932561
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-142",
+            "id_producto": 3932560
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-14112",
+            "id_producto": 3932559
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-141",
+            "id_producto": 3932558
+        },
+        {
+            "cod_oem": "PALLEN-CAB-PLA-1434",
+            "id_producto": 3932557
+        },
+        {
+            "cod_oem": "PALLEN-1-8",
+            "id_producto": 3932556
+        },
+        {
+            "cod_oem": "PALLEN-1-7",
+            "id_producto": 3932555
+        },
+        {
+            "cod_oem": "PALLEN-1-6",
+            "id_producto": 3932554
+        },
+        {
+            "cod_oem": "PALLEN-1-5",
+            "id_producto": 3932553
+        },
+        {
+            "cod_oem": "PALLEN-1-4",
+            "id_producto": 3932552
+        },
+        {
+            "cod_oem": "PALLEN-1-3",
+            "id_producto": 3932551
+        },
+        {
+            "cod_oem": "PALLEN-788",
+            "id_producto": 3932550
+        },
+        {
+            "cod_oem": "PALLEN-787",
+            "id_producto": 3932549
+        },
+        {
+            "cod_oem": "PALLEN-786",
+            "id_producto": 3932548
+        },
+        {
+            "cod_oem": "PALLEN-785",
+            "id_producto": 3932547
+        },
+        {
+            "cod_oem": "PALLEN-784",
+            "id_producto": 3932546
+        },
+        {
+            "cod_oem": "PALLEN-783",
+            "id_producto": 3932545
+        },
+        {
+            "cod_oem": "PALLEN-346",
+            "id_producto": 3932544
+        },
+        {
+            "cod_oem": "PALLEN-345",
+            "id_producto": 3932543
+        },
+        {
+            "cod_oem": "PALLEN-344",
+            "id_producto": 3932542
+        },
+        {
+            "cod_oem": "PALLEN-34312",
+            "id_producto": 3932541
+        },
+        {
+            "cod_oem": "PALLEN-343",
+            "id_producto": 3932540
+        },
+        {
+            "cod_oem": "PALLEN-34212",
+            "id_producto": 3932539
+        },
+        {
+            "cod_oem": "PALLEN-585",
+            "id_producto": 3932538
+        },
+        {
+            "cod_oem": "PALLEN-584",
+            "id_producto": 3932537
+        },
+        {
+            "cod_oem": "PALLEN-58312",
+            "id_producto": 3932536
+        },
+        {
+            "cod_oem": "PALLEN-583",
+            "id_producto": 3932535
+        },
+        {
+            "cod_oem": "PALLEN-58212",
+            "id_producto": 3932534
+        },
+        {
+            "cod_oem": "PALLEN-582",
+            "id_producto": 3932533
+        },
+        {
+            "cod_oem": "PALLEN-58112",
+            "id_producto": 3932532
+        },
+        {
+            "cod_oem": "PALLEN-9164",
+            "id_producto": 3932531
+        },
+        {
+            "cod_oem": "PALLEN-9163",
+            "id_producto": 3932530
+        },
+        {
+            "cod_oem": "PALLEN-916212",
+            "id_producto": 3932529
+        },
+        {
+            "cod_oem": "PALLEN-9162",
+            "id_producto": 3932528
+        },
+        {
+            "cod_oem": "PALLEN-124",
+            "id_producto": 3932527
+        },
+        {
+            "cod_oem": "PALLEN-12312",
+            "id_producto": 3932526
+        },
+        {
+            "cod_oem": "PALLEN-123",
+            "id_producto": 3932525
+        },
+        {
+            "cod_oem": "PALLEN-12212",
+            "id_producto": 3932524
+        },
+        {
+            "cod_oem": "PALLEN-122",
+            "id_producto": 3932523
+        },
+        {
+            "cod_oem": "PALLEN-12112",
+            "id_producto": 3932522
+        },
+        {
+            "cod_oem": "PALLEN-7163",
+            "id_producto": 3932521
+        },
+        {
+            "cod_oem": "PALLEN-716212",
+            "id_producto": 3932520
+        },
+        {
+            "cod_oem": "PALLEN-7162",
+            "id_producto": 3932519
+        },
+        {
+            "cod_oem": "PALLEN-716112",
+            "id_producto": 3932518
+        },
+        {
+            "cod_oem": "PALLEN-384",
+            "id_producto": 3932517
+        },
+        {
+            "cod_oem": "PALLEN-38312",
+            "id_producto": 3932516
+        },
+        {
+            "cod_oem": "PALLEN-383",
+            "id_producto": 3932515
+        },
+        {
+            "cod_oem": "PALLEN-38212",
+            "id_producto": 3932514
+        },
+        {
+            "cod_oem": "PALLEN-382",
+            "id_producto": 3932513
+        },
+        {
+            "cod_oem": "PALLEN-38112",
+            "id_producto": 3932512
+        },
+        {
+            "cod_oem": "PALLEN-381",
+            "id_producto": 3932511
+        },
+        {
+            "cod_oem": "PALLEN-5164",
+            "id_producto": 3932510
+        },
+        {
+            "cod_oem": "PALLEN-516312",
+            "id_producto": 3932509
+        },
+        {
+            "cod_oem": "PALLEN-5163",
+            "id_producto": 3932508
+        },
+        {
+            "cod_oem": "PALLEN-516212",
+            "id_producto": 3932507
+        },
+        {
+            "cod_oem": "PALLEN-5162",
+            "id_producto": 3932506
+        },
+        {
+            "cod_oem": "PALLEN-516112",
+            "id_producto": 3932505
+        },
+        {
+            "cod_oem": "PALLEN-5161",
+            "id_producto": 3932504
+        },
+        {
+            "cod_oem": "PALLEN-51634",
+            "id_producto": 3932503
+        },
+        {
+            "cod_oem": "PALLEN-143",
+            "id_producto": 3932502
+        },
+        {
+            "cod_oem": "PALLEN-14212",
+            "id_producto": 3932501
+        },
+        {
+            "cod_oem": "PALLEN-142",
+            "id_producto": 3932500
+        },
+        {
+            "cod_oem": "PALLEN-14112",
+            "id_producto": 3932499
+        },
+        {
+            "cod_oem": "PALLEN-141",
+            "id_producto": 3932498
+        },
+        {
+            "cod_oem": "PALLEN-1434",
+            "id_producto": 3932497
+        },
+        {
+            "cod_oem": "PALLEN-3162",
+            "id_producto": 3932496
+        },
+        {
+            "cod_oem": "PALLEN-316112",
+            "id_producto": 3932495
+        },
+        {
+            "cod_oem": "PALLEN-3161",
+            "id_producto": 3932494
+        },
+        {
+            "cod_oem": "PALLEN-31634",
+            "id_producto": 3932493
+        },
+        {
+            "cod_oem": "PMALLEN-20160",
+            "id_producto": 3932492
+        },
+        {
+            "cod_oem": "PMALLEN-20140",
+            "id_producto": 3932491
+        },
+        {
+            "cod_oem": "PMALLEN-20120",
+            "id_producto": 3932490
+        },
+        {
+            "cod_oem": "PMALLEN-20100",
+            "id_producto": 3932488
+        },
+        {
+            "cod_oem": "PMALLEN-2080",
+            "id_producto": 3932487
+        },
+        {
+            "cod_oem": "PMALLEN-2060",
+            "id_producto": 3932486
+        },
+        {
+            "cod_oem": "PMALLEN-2050",
+            "id_producto": 3932485
+        },
+        {
+            "cod_oem": "PMALLEN-18140",
+            "id_producto": 3932484
+        },
+        {
+            "cod_oem": "PMALLEN-18120",
+            "id_producto": 3932483
+        },
+        {
+            "cod_oem": "PMALLEN-18100",
+            "id_producto": 3932482
+        },
+        {
+            "cod_oem": "PMALLEN-1880",
+            "id_producto": 3932481
+        },
+        {
+            "cod_oem": "PMALLEN-1860",
+            "id_producto": 3932480
+        },
+        {
+            "cod_oem": "PMALLEN-1850",
+            "id_producto": 3932478
+        },
+        {
+            "cod_oem": "PMALLEN-16160",
+            "id_producto": 3932477
+        },
+        {
+            "cod_oem": "PMALLEN-16140",
+            "id_producto": 3932476
+        },
+        {
+            "cod_oem": "PMALLEN-16120",
+            "id_producto": 3932475
+        },
+        {
+            "cod_oem": "PMALLEN-16100",
+            "id_producto": 3932474
+        },
+        {
+            "cod_oem": "PMALLEN-1680",
+            "id_producto": 3932473
+        },
+        {
+            "cod_oem": "PMALLEN-1660",
+            "id_producto": 3932472
+        },
+        {
+            "cod_oem": "PMALLEN-1650",
+            "id_producto": 3932471
+        },
+        {
+            "cod_oem": "PMALLEN-1640",
+            "id_producto": 3932470
+        },
+        {
+            "cod_oem": "PMALLEN-14140",
+            "id_producto": 3932469
+        },
+        {
+            "cod_oem": "PMALLEN-14120",
+            "id_producto": 3932468
+        },
+        {
+            "cod_oem": "PMALLEN-14100",
+            "id_producto": 3932467
+        },
+        {
+            "cod_oem": "PMALLEN-1480",
+            "id_producto": 3932466
+        },
+        {
+            "cod_oem": "PMALLEN-1460",
+            "id_producto": 3932465
+        },
+        {
+            "cod_oem": "PMALLEN-1450",
+            "id_producto": 3932464
+        },
+        {
+            "cod_oem": "PMALLEN-1440",
+            "id_producto": 3932463
+        },
+        {
+            "cod_oem": "PMALLEN-12160",
+            "id_producto": 3932462
+        },
+        {
+            "cod_oem": "PMALLEN-12140",
+            "id_producto": 3932461
+        },
+        {
+            "cod_oem": "PMALLEN-12120",
+            "id_producto": 3932460
+        },
+        {
+            "cod_oem": "PMALLEN-12100",
+            "id_producto": 3932459
+        },
+        {
+            "cod_oem": "PMALLEN-1280",
+            "id_producto": 3932458
+        },
+        {
+            "cod_oem": "PMALLEN-1260",
+            "id_producto": 3932457
+        },
+        {
+            "cod_oem": "PMALLEN-1250",
+            "id_producto": 3932456
+        },
+        {
+            "cod_oem": "PMALLEN-1240",
+            "id_producto": 3932455
+        },
+        {
+            "cod_oem": "PMALLEN-1230",
+            "id_producto": 3932454
+        },
+        {
+            "cod_oem": "PMALLEN-1225",
+            "id_producto": 3932453
+        },
+        {
+            "cod_oem": "PMALLEN-10140",
+            "id_producto": 3932452
+        },
+        {
+            "cod_oem": "PMALLEN-10120",
+            "id_producto": 3932451
+        },
+        {
+            "cod_oem": "PMALLEN-10100",
+            "id_producto": 3932450
+        },
+        {
+            "cod_oem": "PMALLEN-1080",
+            "id_producto": 3932449
+        },
+        {
+            "cod_oem": "PMALLEN-1060",
+            "id_producto": 3932448
+        },
+        {
+            "cod_oem": "PMALLEN-1050",
+            "id_producto": 3932447
+        },
+        {
+            "cod_oem": "PMALLEN-1040",
+            "id_producto": 3932446
+        },
+        {
+            "cod_oem": "PMALLEN-1030",
+            "id_producto": 3932445
+        },
+        {
+            "cod_oem": "PMALLEN-1025",
+            "id_producto": 3932444
+        },
+        {
+            "cod_oem": "PMALLEN-8140",
+            "id_producto": 3932443
+        },
+        {
+            "cod_oem": "PMALLEN-8120",
+            "id_producto": 3932442
+        },
+        {
+            "cod_oem": "PMALLEN-8100",
+            "id_producto": 3932441
+        },
+        {
+            "cod_oem": "PMALLEN-880",
+            "id_producto": 3932440
+        },
+        {
+            "cod_oem": "PMALLEN-860",
+            "id_producto": 3932439
+        },
+        {
+            "cod_oem": "PMALLEN-850",
+            "id_producto": 3932438
+        },
+        {
+            "cod_oem": "PMALLEN-840",
+            "id_producto": 3932437
+        },
+        {
+            "cod_oem": "PMALLEN-830",
+            "id_producto": 3932436
+        },
+        {
+            "cod_oem": "PMALLEN-825",
+            "id_producto": 3932435
+        },
+        {
+            "cod_oem": "PMALLEN-820",
+            "id_producto": 3932434
+        },
+        {
+            "cod_oem": "PMALLEN-6100",
+            "id_producto": 3932433
+        },
+        {
+            "cod_oem": "PMALLEN-680",
+            "id_producto": 3932432
+        },
+        {
+            "cod_oem": "PMALLEN-660",
+            "id_producto": 3932431
+        },
+        {
+            "cod_oem": "PMALLEN-650",
+            "id_producto": 3932430
+        },
+        {
+            "cod_oem": "PMALLEN-640",
+            "id_producto": 3932429
+        },
+        {
+            "cod_oem": "PMALLEN-630",
+            "id_producto": 3932428
+        },
+        {
+            "cod_oem": "PMALLEN-625",
+            "id_producto": 3932427
+        },
+        {
+            "cod_oem": "PMALLEN-616",
+            "id_producto": 3932426
+        },
+        {
+            "cod_oem": "PMALLEN-550",
+            "id_producto": 3932425
+        },
+        {
+            "cod_oem": "PMALLEN-540",
+            "id_producto": 3932424
+        },
+        {
+            "cod_oem": "PMALLEN-530",
+            "id_producto": 3932423
+        },
+        {
+            "cod_oem": "PMALLEN-525",
+            "id_producto": 3932422
+        },
+        {
+            "cod_oem": "PMALLEN-520",
+            "id_producto": 3932421
+        },
+        {
+            "cod_oem": "PMALLEN-516",
+            "id_producto": 3932420
+        },
+        {
+            "cod_oem": "PMALLEN-512",
+            "id_producto": 3932419
+        },
+        {
+            "cod_oem": "PMALLEN-450",
+            "id_producto": 3932418
+        },
+        {
+            "cod_oem": "PMALLEN-440",
+            "id_producto": 3932417
+        },
+        {
+            "cod_oem": "PMALLEN-430",
+            "id_producto": 3932416
+        },
+        {
+            "cod_oem": "PMALLEN-425",
+            "id_producto": 3932415
+        },
+        {
+            "cod_oem": "PMALLEN-420",
+            "id_producto": 3932413
+        },
+        {
+            "cod_oem": "PMALLEN-416",
+            "id_producto": 3932412
+        },
+        {
+            "cod_oem": "PMALLEN-412",
+            "id_producto": 3932411
+        },
+        {
+            "cod_oem": "PMALLEN-330",
+            "id_producto": 3932410
+        },
+        {
+            "cod_oem": "PMALLEN-325",
+            "id_producto": 3932409
+        },
+        {
+            "cod_oem": "PMALLEN-320",
+            "id_producto": 3932408
+        },
+        {
+            "cod_oem": "PMALLEN-316",
+            "id_producto": 3932407
+        },
+        {
+            "cod_oem": "PMALLEN-312",
+            "id_producto": 3932406
+        },
+        {
+            "cod_oem": "PCTTE-30260",
+            "id_producto": 3932405
+        },
+        {
+            "cod_oem": "PCTTE-30240",
+            "id_producto": 3932404
+        },
+        {
+            "cod_oem": "PCTTE-30220",
+            "id_producto": 3932403
+        },
+        {
+            "cod_oem": "PCTTE-30200",
+            "id_producto": 3932402
+        },
+        {
+            "cod_oem": "PCTTE-30180",
+            "id_producto": 3932401
+        },
+        {
+            "cod_oem": "PCTTE-30160",
+            "id_producto": 3932400
+        },
+        {
+            "cod_oem": "PCTTE-30140",
+            "id_producto": 3932399
+        },
+        {
+            "cod_oem": "PCTTE-30120",
+            "id_producto": 3932398
+        },
+        {
+            "cod_oem": "PCTTE-30100",
+            "id_producto": 3932397
+        },
+        {
+            "cod_oem": "PCTTE-24220",
+            "id_producto": 3932396
+        },
+        {
+            "cod_oem": "PCTTE-24200",
+            "id_producto": 3932395
+        },
+        {
+            "cod_oem": "PCTTE-24180",
+            "id_producto": 3932394
+        },
+        {
+            "cod_oem": "PCTTE-24160",
+            "id_producto": 3932393
+        },
+        {
+            "cod_oem": "PCTTE-24140",
+            "id_producto": 3932392
+        },
+        {
+            "cod_oem": "PCTTE-24120",
+            "id_producto": 3932391
+        },
+        {
+            "cod_oem": "PCTTE-24100",
+            "id_producto": 3932390
+        },
+        {
+            "cod_oem": "PCTTE-2480",
+            "id_producto": 3932389
+        },
+        {
+            "cod_oem": "PCTTE-2470",
+            "id_producto": 3932388
+        },
+        {
+            "cod_oem": "PCTTE-20220",
+            "id_producto": 3932387
+        },
+        {
+            "cod_oem": "PCTTE-20200",
+            "id_producto": 3932386
+        },
+        {
+            "cod_oem": "PCTTE-20180",
+            "id_producto": 3932385
+        },
+        {
+            "cod_oem": "PCTTE-20160",
+            "id_producto": 3932384
+        },
+        {
+            "cod_oem": "PCTTE-20140",
+            "id_producto": 3932383
+        },
+        {
+            "cod_oem": "PCTTE-20120",
+            "id_producto": 3932382
+        },
+        {
+            "cod_oem": "PCTTE-20100",
+            "id_producto": 3932381
+        },
+        {
+            "cod_oem": "PCTTE-2080",
+            "id_producto": 3932380
+        },
+        {
+            "cod_oem": "PCTTE-2070",
+            "id_producto": 3932379
+        },
+        {
+            "cod_oem": "PCTTE-2060",
+            "id_producto": 3932378
+        },
+        {
+            "cod_oem": "PCTTE-2050",
+            "id_producto": 3932377
+        },
+        {
+            "cod_oem": "PCTTE-18200",
+            "id_producto": 3932376
+        },
+        {
+            "cod_oem": "PCTTE-18180",
+            "id_producto": 3932375
+        },
+        {
+            "cod_oem": "PCTTE-18160",
+            "id_producto": 3932374
+        },
+        {
+            "cod_oem": "PCTTE-18150",
+            "id_producto": 3932373
+        },
+        {
+            "cod_oem": "PCTTE-18140",
+            "id_producto": 3932372
+        },
+        {
+            "cod_oem": "PCTTE-18120",
+            "id_producto": 3932371
+        },
+        {
+            "cod_oem": "PCTTE-18100",
+            "id_producto": 3932370
+        },
+        {
+            "cod_oem": "PCTTE-1880",
+            "id_producto": 3932369
+        },
+        {
+            "cod_oem": "PCTTE-1870",
+            "id_producto": 3932368
+        },
+        {
+            "cod_oem": "PCTTE-1860",
+            "id_producto": 3932367
+        },
+        {
+            "cod_oem": "PCTTE-1850",
+            "id_producto": 3932366
+        },
+        {
+            "cod_oem": "PCTTE-16220",
+            "id_producto": 3932365
+        },
+        {
+            "cod_oem": "PCTTE-16200",
+            "id_producto": 3932364
+        },
+        {
+            "cod_oem": "PCTTE-16180",
+            "id_producto": 3932363
+        },
+        {
+            "cod_oem": "PCTTE-16160",
+            "id_producto": 3932362
+        },
+        {
+            "cod_oem": "PCTTE-16140",
+            "id_producto": 3932361
+        },
+        {
+            "cod_oem": "PCTTE-16120",
+            "id_producto": 3932360
+        },
+        {
+            "cod_oem": "PCTTE-1680",
+            "id_producto": 3932359
+        },
+        {
+            "cod_oem": "PCTTE-1670",
+            "id_producto": 3932358
+        },
+        {
+            "cod_oem": "PCTTE-1660",
+            "id_producto": 3932357
+        },
+        {
+            "cod_oem": "PCTTE-1650",
+            "id_producto": 3932356
+        },
+        {
+            "cod_oem": "PCTTE-1645",
+            "id_producto": 3932355
+        },
+        {
+            "cod_oem": "PCTTE-1640",
+            "id_producto": 3932354
+        },
+        {
+            "cod_oem": "PCTTE-14180",
+            "id_producto": 3932353
+        },
+        {
+            "cod_oem": "PCTTE-14160",
+            "id_producto": 3932352
+        },
+        {
+            "cod_oem": "PCTTE-14140",
+            "id_producto": 3932351
+        },
+        {
+            "cod_oem": "PCTTE-14120",
+            "id_producto": 3932350
+        },
+        {
+            "cod_oem": "PCTTE-14100",
+            "id_producto": 3932349
+        },
+        {
+            "cod_oem": "PCTTE-1480",
+            "id_producto": 3932348
+        },
+        {
+            "cod_oem": "PCTTE-1470",
+            "id_producto": 3932347
+        },
+        {
+            "cod_oem": "PCTTE-1460",
+            "id_producto": 3932346
+        },
+        {
+            "cod_oem": "PCTTE-1440",
+            "id_producto": 3932345
+        },
+        {
+            "cod_oem": "PCTTE-1435",
+            "id_producto": 3932344
+        },
+        {
+            "cod_oem": "PCTTE-1430",
+            "id_producto": 3932343
+        },
+        {
+            "cod_oem": "PCTTE-12240",
+            "id_producto": 3932342
+        },
+        {
+            "cod_oem": "PCTTE-12220",
+            "id_producto": 3932341
+        },
+        {
+            "cod_oem": "PCTTE-12200",
+            "id_producto": 3932340
+        },
+        {
+            "cod_oem": "PCTTE-12180",
+            "id_producto": 3932339
+        },
+        {
+            "cod_oem": "PCTTE-12160",
+            "id_producto": 3932338
+        },
+        {
+            "cod_oem": "PCTTE-12140",
+            "id_producto": 3932337
+        },
+        {
+            "cod_oem": "PCTTE-12120",
+            "id_producto": 3932336
+        },
+        {
+            "cod_oem": "PCTTE-12100",
+            "id_producto": 3932335
+        },
+        {
+            "cod_oem": "PCTTE-1290",
+            "id_producto": 3932334
+        },
+        {
+            "cod_oem": "PCTTE-1280",
+            "id_producto": 3932333
+        },
+        {
+            "cod_oem": "PCTTE-1270",
+            "id_producto": 3932332
+        },
+        {
+            "cod_oem": "PCTTE-1260",
+            "id_producto": 3932331
+        },
+        {
+            "cod_oem": "PCTTE-1250",
+            "id_producto": 3932330
+        },
+        {
+            "cod_oem": "PCTTE-1240",
+            "id_producto": 3932329
+        },
+        {
+            "cod_oem": "PCTTE-10200",
+            "id_producto": 3932328
+        },
+        {
+            "cod_oem": "PCTTE-10180",
+            "id_producto": 3932327
+        },
+        {
+            "cod_oem": "PCTTE-10160",
+            "id_producto": 3932326
+        },
+        {
+            "cod_oem": "PCTTE-10140",
+            "id_producto": 3932325
+        },
+        {
+            "cod_oem": "PCTTE-10120",
+            "id_producto": 3932324
+        },
+        {
+            "cod_oem": "PCTTE-1090",
+            "id_producto": 3932323
+        },
+        {
+            "cod_oem": "PCTTE-1080",
+            "id_producto": 3932322
+        },
+        {
+            "cod_oem": "PCTTE-1070",
+            "id_producto": 3932321
+        },
+        {
+            "cod_oem": "PCTTE-1060",
+            "id_producto": 3932320
+        },
+        {
+            "cod_oem": "PCTTE-1045",
+            "id_producto": 3932319
+        },
+        {
+            "cod_oem": "PCTTE-1040",
+            "id_producto": 3932318
+        },
+        {
+            "cod_oem": "PCTTE-1035",
+            "id_producto": 3932317
+        },
+        {
+            "cod_oem": "PCTTE-1030",
+            "id_producto": 3932316
+        },
+        {
+            "cod_oem": "PCTTE-1025",
+            "id_producto": 3932315
+        },
+        {
+            "cod_oem": "PCTTE-1020",
+            "id_producto": 3932314
+        },
+        {
+            "cod_oem": "PCTTE-8200",
+            "id_producto": 3932313
+        },
+        {
+            "cod_oem": "PCTTE-8180",
+            "id_producto": 3932312
+        },
+        {
+            "cod_oem": "PCTTE-8160",
+            "id_producto": 3932311
+        },
+        {
+            "cod_oem": "PCTTE-8120",
+            "id_producto": 3932310
+        },
+        {
+            "cod_oem": "PCTTE-8100",
+            "id_producto": 3932309
+        },
+        {
+            "cod_oem": "PCTTE-890",
+            "id_producto": 3932308
+        },
+        {
+            "cod_oem": "PCTTE-870",
+            "id_producto": 3932307
+        },
+        {
+            "cod_oem": "PCTTE-860",
+            "id_producto": 3932306
+        },
+        {
+            "cod_oem": "PCTTE-850",
+            "id_producto": 3932305
+        },
+        {
+            "cod_oem": "PCTTE-845",
+            "id_producto": 3932304
+        },
+        {
+            "cod_oem": "PCTTE-816",
+            "id_producto": 3932303
+        },
+        {
+            "cod_oem": "PCTTE-750",
+            "id_producto": 3932302
+        },
+        {
+            "cod_oem": "PCTTE-730",
+            "id_producto": 3932301
+        },
+        {
+            "cod_oem": "PCTTE-6140",
+            "id_producto": 3932300
+        },
+        {
+            "cod_oem": "PCTTE-6120",
+            "id_producto": 3932299
+        },
+        {
+            "cod_oem": "PCTTE-6100",
+            "id_producto": 3932298
+        },
+        {
+            "cod_oem": "PCTTE-680",
+            "id_producto": 3932297
+        },
+        {
+            "cod_oem": "PCTTE-670",
+            "id_producto": 3932296
+        },
+        {
+            "cod_oem": "PCTTE-660",
+            "id_producto": 3932295
+        },
+        {
+            "cod_oem": "PCTTE-645",
+            "id_producto": 3932294
+        },
+        {
+            "cod_oem": "PCTTE-640",
+            "id_producto": 3932293
+        },
+        {
+            "cod_oem": "PCTTE-635",
+            "id_producto": 3932292
+        },
+        {
+            "cod_oem": "PCTTE-630",
+            "id_producto": 3932291
+        },
+        {
+            "cod_oem": "PCTTE-616",
+            "id_producto": 3932290
+        },
+        {
+            "cod_oem": "PCTTE-580",
+            "id_producto": 3932289
+        },
+        {
+            "cod_oem": "PCTTE-560",
+            "id_producto": 3932288
+        },
+        {
+            "cod_oem": "PCTTE-550",
+            "id_producto": 3932287
+        },
+        {
+            "cod_oem": "PCTTE-530",
+            "id_producto": 3932286
+        },
+        {
+            "cod_oem": "PCTTE-525",
+            "id_producto": 3932285
+        },
+        {
+            "cod_oem": "TESP-M24EXTFINA",
+            "id_producto": 3932284
+        },
+        {
+            "cod_oem": "TESP-M24FINA",
+            "id_producto": 3932283
+        },
+        {
+            "cod_oem": "TESP-M22FINA",
+            "id_producto": 3932282
+        },
+        {
+            "cod_oem": "TCTTE-M30",
+            "id_producto": 3932281
+        },
+        {
+            "cod_oem": "TCTTE-M24",
+            "id_producto": 3932280
+        },
+        {
+            "cod_oem": "TCTTE-M22",
+            "id_producto": 3932279
+        },
+        {
+            "cod_oem": "TCTTE-M18",
+            "id_producto": 3932278
+        },
+        {
+            "cod_oem": "TCTTE-M14",
+            "id_producto": 3932277
+        },
+        {
+            "cod_oem": "TCTTE-M7",
+            "id_producto": 3932276
+        },
+        {
+            "cod_oem": "PEXTFINA-20120",
+            "id_producto": 3932275
+        },
+        {
+            "cod_oem": "PEXTFINA-20100",
+            "id_producto": 3932274
+        },
+        {
+            "cod_oem": "PEXTFINA-2080",
+            "id_producto": 3932273
+        },
+        {
+            "cod_oem": "PEXTFINA-2070",
+            "id_producto": 3932272
+        },
+        {
+            "cod_oem": "PEXTFINA-2060",
+            "id_producto": 3932271
+        },
+        {
+            "cod_oem": "PEXTFINA-2050",
+            "id_producto": 3932270
+        },
+        {
+            "cod_oem": "PEXTFINA-18140",
+            "id_producto": 3932269
+        },
+        {
+            "cod_oem": "PEXTFINA-18120",
+            "id_producto": 3932268
+        },
+        {
+            "cod_oem": "PEXTFINA-18100",
+            "id_producto": 3932267
+        },
+        {
+            "cod_oem": "PEXTFINA-1880",
+            "id_producto": 3932266
+        },
+        {
+            "cod_oem": "PEXTFINA-1870",
+            "id_producto": 3932265
+        },
+        {
+            "cod_oem": "PEXTFINA-1860",
+            "id_producto": 3932264
+        },
+        {
+            "cod_oem": "PEXTFINA-1850",
+            "id_producto": 3932263
+        },
+        {
+            "cod_oem": "PEXTFINA-12140",
+            "id_producto": 3932262
+        },
+        {
+            "cod_oem": "PEXTFINA-12120",
+            "id_producto": 3932261
+        },
+        {
+            "cod_oem": "PEXTFINA-12100",
+            "id_producto": 3932260
+        },
+        {
+            "cod_oem": "PEXTFINA-1290",
+            "id_producto": 3932259
+        },
+        {
+            "cod_oem": "PEXTFINA-1280",
+            "id_producto": 3932258
+        },
+        {
+            "cod_oem": "PEXTFINA-1270",
+            "id_producto": 3932257
+        },
+        {
+            "cod_oem": "PEXTFINA-1260",
+            "id_producto": 3932256
+        },
+        {
+            "cod_oem": "PEXTFINA-1250",
+            "id_producto": 3932255
+        },
+        {
+            "cod_oem": "PEXTFINA-1245",
+            "id_producto": 3932254
+        },
+        {
+            "cod_oem": "PEXTFINA-1240",
+            "id_producto": 3932253
+        },
+        {
+            "cod_oem": "PEXTFINA-1235",
+            "id_producto": 3932252
+        },
+        {
+            "cod_oem": "PEXTFINA-1230",
+            "id_producto": 3932251
+        },
+        {
+            "cod_oem": "PEXTFINA-1225",
+            "id_producto": 3932250
+        },
+        {
+            "cod_oem": "PEXTFINA-1040",
+            "id_producto": 3932249
+        },
+        {
+            "cod_oem": "PEXTFINA-1030",
+            "id_producto": 3932248
+        },
+        {
+            "cod_oem": "PEXTFINA-1025",
+            "id_producto": 3932247
+        },
+        {
+            "cod_oem": "PEXTFINA-850",
+            "id_producto": 3932246
+        },
+        {
+            "cod_oem": "PEXTFINA-840",
+            "id_producto": 3932245
+        },
+        {
+            "cod_oem": "PEXTFINA-830",
+            "id_producto": 3932244
+        },
+        {
+            "cod_oem": "PEXTFINA-820",
+            "id_producto": 3932243
+        },
+        {
+            "cod_oem": "PEXTFINA-816",
+            "id_producto": 3932242
+        },
+        {
+            "cod_oem": "TEXTFINA-20",
+            "id_producto": 3932241
+        },
+        {
+            "cod_oem": "TEXTFINA-18",
+            "id_producto": 3932240
+        },
+        {
+            "cod_oem": "TEXTFINA-8",
+            "id_producto": 3932239
+        },
+        {
+            "cod_oem": "PFINA-16140",
+            "id_producto": 3932238
+        },
+        {
+            "cod_oem": "PFINA-16120",
+            "id_producto": 3932237
+        },
+        {
+            "cod_oem": "PFINA-16100",
+            "id_producto": 3932236
+        },
+        {
+            "cod_oem": "PFINA-1680",
+            "id_producto": 3932235
+        },
+        {
+            "cod_oem": "PFINA-1670",
+            "id_producto": 3932234
+        },
+        {
+            "cod_oem": "PFINA-1660",
+            "id_producto": 3932233
+        },
+        {
+            "cod_oem": "PFINA-1650",
+            "id_producto": 3932232
+        },
+        {
+            "cod_oem": "PFINA-1645",
+            "id_producto": 3932231
+        },
+        {
+            "cod_oem": "PFINA-1640",
+            "id_producto": 3932230
+        },
+        {
+            "cod_oem": "PFINA-14140",
+            "id_producto": 3932229
+        },
+        {
+            "cod_oem": "PFINA-14120",
+            "id_producto": 3932228
+        },
+        {
+            "cod_oem": "PFINA-14100",
+            "id_producto": 3932227
+        },
+        {
+            "cod_oem": "PFINA-1490",
+            "id_producto": 3932226
+        },
+        {
+            "cod_oem": "PFINA-1480",
+            "id_producto": 3932225
+        },
+        {
+            "cod_oem": "PFINA-1470",
+            "id_producto": 3932224
+        },
+        {
+            "cod_oem": "PFINA-1460",
+            "id_producto": 3932223
+        },
+        {
+            "cod_oem": "PFINA-1450",
+            "id_producto": 3932222
+        },
+        {
+            "cod_oem": "PFINA-1445",
+            "id_producto": 3932221
+        },
+        {
+            "cod_oem": "PFINA-1440",
+            "id_producto": 3932220
+        },
+        {
+            "cod_oem": "PFINA-12140",
+            "id_producto": 3932219
+        },
+        {
+            "cod_oem": "PFINA-12120",
+            "id_producto": 3932218
+        },
+        {
+            "cod_oem": "PFINA-12100",
+            "id_producto": 3932217
+        },
+        {
+            "cod_oem": "PFINA-1290",
+            "id_producto": 3932216
+        },
+        {
+            "cod_oem": "PFINA-1280",
+            "id_producto": 3932215
+        },
+        {
+            "cod_oem": "PFINA-1270",
+            "id_producto": 3932214
+        },
+        {
+            "cod_oem": "PFINA-1260",
+            "id_producto": 3932213
+        },
+        {
+            "cod_oem": "PFINA-1250",
+            "id_producto": 3932212
+        },
+        {
+            "cod_oem": "PFINA-1245",
+            "id_producto": 3932211
+        },
+        {
+            "cod_oem": "PFINA-1240",
+            "id_producto": 3932210
+        },
+        {
+            "cod_oem": "PFINA-1235",
+            "id_producto": 3932209
+        },
+        {
+            "cod_oem": "PFINA-1230",
+            "id_producto": 3932208
+        },
+        {
+            "cod_oem": "PFINA-1225",
+            "id_producto": 3932207
+        },
+        {
+            "cod_oem": "PFINA-10140",
+            "id_producto": 3932206
+        },
+        {
+            "cod_oem": "PFINA-10120",
+            "id_producto": 3932205
+        },
+        {
+            "cod_oem": "PFINA-10100",
+            "id_producto": 3932204
+        },
+        {
+            "cod_oem": "PFINA-1090",
+            "id_producto": 3932203
+        },
+        {
+            "cod_oem": "PFINA-1080",
+            "id_producto": 3932202
+        },
+        {
+            "cod_oem": "PFINA-1070",
+            "id_producto": 3932201
+        },
+        {
+            "cod_oem": "PFINA-1050",
+            "id_producto": 3932200
+        },
+        {
+            "cod_oem": "PFINA-1045",
+            "id_producto": 3932199
+        },
+        {
+            "cod_oem": "PFINA-1040",
+            "id_producto": 3932198
+        },
+        {
+            "cod_oem": "PFINA-1035",
+            "id_producto": 3932197
+        },
+        {
+            "cod_oem": "PFINA-1030",
+            "id_producto": 3932196
+        },
+        {
+            "cod_oem": "PFINA-1025",
+            "id_producto": 3932195
+        },
+        {
+            "cod_oem": "TFINA-16",
+            "id_producto": 3932194
+        },
+        {
+            "cod_oem": "TFINA-10",
+            "id_producto": 3932193
+        },
+        {
+            "cod_oem": "PMPAN-860",
+            "id_producto": 3932192
+        },
+        {
+            "cod_oem": "PMPAN-850",
+            "id_producto": 3932191
+        },
+        {
+            "cod_oem": "PMPAN-840",
+            "id_producto": 3932190
+        },
+        {
+            "cod_oem": "PMPAN-830",
+            "id_producto": 3932189
+        },
+        {
+            "cod_oem": "PMPAN-825",
+            "id_producto": 3932188
+        },
+        {
+            "cod_oem": "PMPAN-820",
+            "id_producto": 3932187
+        },
+        {
+            "cod_oem": "PMPAN-6100",
+            "id_producto": 3932186
+        },
+        {
+            "cod_oem": "PMPAN-680",
+            "id_producto": 3932185
+        },
+        {
+            "cod_oem": "PMPAN-670",
+            "id_producto": 3932184
+        },
+        {
+            "cod_oem": "PMPAN-660",
+            "id_producto": 3932183
+        },
+        {
+            "cod_oem": "PMPAN-650",
+            "id_producto": 3932182
+        },
+        {
+            "cod_oem": "PMPAN-640",
+            "id_producto": 3932181
+        },
+        {
+            "cod_oem": "PMPAN-635",
+            "id_producto": 3932180
+        },
+        {
+            "cod_oem": "PMPAN-620",
+            "id_producto": 3932179
+        },
+        {
+            "cod_oem": "PMPAN-616",
+            "id_producto": 3932178
+        },
+        {
+            "cod_oem": "PMPAN-5100",
+            "id_producto": 3932177
+        },
+        {
+            "cod_oem": "PMPAN-580",
+            "id_producto": 3932176
+        },
+        {
+            "cod_oem": "PMPAN-570",
+            "id_producto": 3932175
+        },
+        {
+            "cod_oem": "PMPAN-550",
+            "id_producto": 3932174
+        },
+        {
+            "cod_oem": "PMPAN-530",
+            "id_producto": 3932173
+        },
+        {
+            "cod_oem": "PMPAN-525",
+            "id_producto": 3932172
+        },
+        {
+            "cod_oem": "PMPAN-516",
+            "id_producto": 3932171
+        },
+        {
+            "cod_oem": "PMPAN-510",
+            "id_producto": 3932170
+        },
+        {
+            "cod_oem": "PMPAN-470",
+            "id_producto": 3932169
+        },
+        {
+            "cod_oem": "PMPAN-460",
+            "id_producto": 3932168
+        },
+        {
+            "cod_oem": "PMPAN-450",
+            "id_producto": 3932167
+        },
+        {
+            "cod_oem": "PMPAN-440",
+            "id_producto": 3932166
+        },
+        {
+            "cod_oem": "PMPAN-435",
+            "id_producto": 3932165
+        },
+        {
+            "cod_oem": "PMPAN-430",
+            "id_producto": 3932164
+        },
+        {
+            "cod_oem": "PMPAN-420",
+            "id_producto": 3932163
+        },
+        {
+            "cod_oem": "PMPAN-412",
+            "id_producto": 3932162
+        },
+        {
+            "cod_oem": "PMPAN-410",
+            "id_producto": 3932161
+        },
+        {
+            "cod_oem": "PMPAN-330",
+            "id_producto": 3932160
+        },
+        {
+            "cod_oem": "PMPAN-325",
+            "id_producto": 3932159
+        },
+        {
+            "cod_oem": "PMPAN-320",
+            "id_producto": 3932158
+        },
+        {
+            "cod_oem": "PMPAN-316",
+            "id_producto": 3932157
+        },
+        {
+            "cod_oem": "PMPAN-312",
+            "id_producto": 3932156
+        },
+        {
+            "cod_oem": "PMPAN-310",
+            "id_producto": 3932155
+        },
+        {
+            "cod_oem": "TMPAN-6",
+            "id_producto": 3932154
+        },
+        {
+            "cod_oem": "TMPAN-4",
+            "id_producto": 3932153
+        },
+        {
+            "cod_oem": "TMPAN-3",
+            "id_producto": 3932152
+        },
+        {
+            "cod_oem": "PNF5-1-6",
+            "id_producto": 3932151
+        },
+        {
+            "cod_oem": "PNF5-1-5",
+            "id_producto": 3932150
+        },
+        {
+            "cod_oem": "PNF5-1-4",
+            "id_producto": 3932149
+        },
+        {
+            "cod_oem": "PNF5-786",
+            "id_producto": 3932148
+        },
+        {
+            "cod_oem": "PNF5-785",
+            "id_producto": 3932147
+        },
+        {
+            "cod_oem": "PNF5-784",
+            "id_producto": 3932146
+        },
+        {
+            "cod_oem": "PNF5-783",
+            "id_producto": 3932145
+        },
+        {
+            "cod_oem": "PNF5-78212",
+            "id_producto": 3932144
+        },
+        {
+            "cod_oem": "PNF5-346",
+            "id_producto": 3932143
+        },
+        {
+            "cod_oem": "PNF5-345",
+            "id_producto": 3932142
+        },
+        {
+            "cod_oem": "PNF5-344",
+            "id_producto": 3932141
+        },
+        {
+            "cod_oem": "PNF5-34312",
+            "id_producto": 3932140
+        },
+        {
+            "cod_oem": "PNF5-343",
+            "id_producto": 3932139
+        },
+        {
+            "cod_oem": "PNF5-34212",
+            "id_producto": 3932138
+        },
+        {
+            "cod_oem": "PNF5-342",
+            "id_producto": 3932137
+        },
+        {
+            "cod_oem": "PNF5-34112",
+            "id_producto": 3932136
+        },
+        {
+            "cod_oem": "PNF5-586",
+            "id_producto": 3932135
+        },
+        {
+            "cod_oem": "PNF5-585",
+            "id_producto": 3932134
+        },
+        {
+            "cod_oem": "PNF5-58412",
+            "id_producto": 3932133
+        },
+        {
+            "cod_oem": "PNF5-584",
+            "id_producto": 3932132
+        },
+        {
+            "cod_oem": "PNF5-58312",
+            "id_producto": 3932131
+        },
+        {
+            "cod_oem": "PNF5-583",
+            "id_producto": 3932130
+        },
+        {
+            "cod_oem": "PNF5-58212",
+            "id_producto": 3932129
+        },
+        {
+            "cod_oem": "PNF5-582",
+            "id_producto": 3932128
+        },
+        {
+            "cod_oem": "PNF5-58112",
+            "id_producto": 3932127
+        },
+        {
+            "cod_oem": "PNF5-9166",
+            "id_producto": 3932126
+        },
+        {
+            "cod_oem": "PNF5-9165",
+            "id_producto": 3932125
+        },
+        {
+            "cod_oem": "PNF5-916412",
+            "id_producto": 3932124
+        },
+        {
+            "cod_oem": "PNF5-9164",
+            "id_producto": 3932123
+        },
+        {
+            "cod_oem": "PNF5-916312",
+            "id_producto": 3932122
+        },
+        {
+            "cod_oem": "PNF5-9163",
+            "id_producto": 3932121
+        },
+        {
+            "cod_oem": "PNF5-916212",
+            "id_producto": 3932120
+        },
+        {
+            "cod_oem": "PNF5-9162",
+            "id_producto": 3932119
+        },
+        {
+            "cod_oem": "PNF5-916112",
+            "id_producto": 3932118
+        },
+        {
+            "cod_oem": "PNF5-126",
+            "id_producto": 3932117
+        },
+        {
+            "cod_oem": "PNF5-125",
+            "id_producto": 3932116
+        },
+        {
+            "cod_oem": "PNF5-12412",
+            "id_producto": 3932115
+        },
+        {
+            "cod_oem": "PNF5-124",
+            "id_producto": 3932114
+        },
+        {
+            "cod_oem": "PNF5-12312",
+            "id_producto": 3932113
+        },
+        {
+            "cod_oem": "PNF5-123",
+            "id_producto": 3932112
+        },
+        {
+            "cod_oem": "PNF5-12212",
+            "id_producto": 3932111
+        },
+        {
+            "cod_oem": "PNF5-122",
+            "id_producto": 3932110
+        },
+        {
+            "cod_oem": "PNF5-12112",
+            "id_producto": 3932109
+        },
+        {
+            "cod_oem": "PNF5-12114",
+            "id_producto": 3932108
+        },
+        {
+            "cod_oem": "PNF5-121",
+            "id_producto": 3932107
+        },
+        {
+            "cod_oem": "PNF5-7166",
+            "id_producto": 3932106
+        },
+        {
+            "cod_oem": "PNF5-7165",
+            "id_producto": 3932105
+        },
+        {
+            "cod_oem": "PNF5-716412",
+            "id_producto": 3932104
+        },
+        {
+            "cod_oem": "PNF5-7164",
+            "id_producto": 3932103
+        },
+        {
+            "cod_oem": "PNF5-716312",
+            "id_producto": 3932102
+        },
+        {
+            "cod_oem": "PNF5-7163",
+            "id_producto": 3932101
+        },
+        {
+            "cod_oem": "PNF5-716212",
+            "id_producto": 3932100
+        },
+        {
+            "cod_oem": "PNF5-7162",
+            "id_producto": 3932099
+        },
+        {
+            "cod_oem": "PNF5-716114",
+            "id_producto": 3932098
+        },
+        {
+            "cod_oem": "PNF5-7161",
+            "id_producto": 3932097
+        },
+        {
+            "cod_oem": "PNF5-386",
+            "id_producto": 3932096
+        },
+        {
+            "cod_oem": "PNF5-385",
+            "id_producto": 3932095
+        },
+        {
+            "cod_oem": "PNF5-38412",
+            "id_producto": 3932094
+        },
+        {
+            "cod_oem": "PNF5-384",
+            "id_producto": 3932093
+        },
+        {
+            "cod_oem": "PNF5-38312",
+            "id_producto": 3932092
+        },
+        {
+            "cod_oem": "PNF5-383",
+            "id_producto": 3932091
+        },
+        {
+            "cod_oem": "PNF5-38212",
+            "id_producto": 3932090
+        },
+        {
+            "cod_oem": "PNF5-382",
+            "id_producto": 3932089
+        },
+        {
+            "cod_oem": "PNF5-38112",
+            "id_producto": 3932088
+        },
+        {
+            "cod_oem": "PNF5-38114",
+            "id_producto": 3932087
+        },
+        {
+            "cod_oem": "PNF5-5164",
+            "id_producto": 3932086
+        },
+        {
+            "cod_oem": "PNF5-516312",
+            "id_producto": 3932085
+        },
+        {
+            "cod_oem": "PNF5-5163",
+            "id_producto": 3932084
+        },
+        {
+            "cod_oem": "PNF5-516212",
+            "id_producto": 3932083
+        },
+        {
+            "cod_oem": "PNF5-5162",
+            "id_producto": 3932082
+        },
+        {
+            "cod_oem": "PNF5-516112",
+            "id_producto": 3932081
+        },
+        {
+            "cod_oem": "PNF5-516114",
+            "id_producto": 3932080
+        },
+        {
+            "cod_oem": "PNF5-5161",
+            "id_producto": 3932079
+        },
+        {
+            "cod_oem": "PNF5-51634",
+            "id_producto": 3932078
+        },
+        {
+            "cod_oem": "PNF5-144",
+            "id_producto": 3932077
+        },
+        {
+            "cod_oem": "PNF5-143",
+            "id_producto": 3932076
+        },
+        {
+            "cod_oem": "PNF5-14212",
+            "id_producto": 3932075
+        },
+        {
+            "cod_oem": "PNF5-142",
+            "id_producto": 3932074
+        },
+        {
+            "cod_oem": "PNF5-14112",
+            "id_producto": 3932073
+        },
+        {
+            "cod_oem": "PNF5-14114",
+            "id_producto": 3932072
+        },
+        {
+            "cod_oem": "PNF5-141",
+            "id_producto": 3932071
+        },
+        {
+            "cod_oem": "PNF5-1434",
+            "id_producto": 3932070
+        },
+        {
+            "cod_oem": "TNF5-1",
+            "id_producto": 3932069
+        },
+        {
+            "cod_oem": "TNF5-78",
+            "id_producto": 3932068
+        },
+        {
+            "cod_oem": "TNF5-58",
+            "id_producto": 3932067
+        },
+        {
+            "cod_oem": "TNF5-916",
+            "id_producto": 3932066
+        },
+        {
+            "cod_oem": "TNF5-12",
+            "id_producto": 3932065
+        },
+        {
+            "cod_oem": "TNF5-716",
+            "id_producto": 3932064
+        },
+        {
+            "cod_oem": "TNF5-38",
+            "id_producto": 3932063
+        },
+        {
+            "cod_oem": "TNF5-516",
+            "id_producto": 3932062
+        },
+        {
+            "cod_oem": "TNF5-14",
+            "id_producto": 3932061
+        },
+        {
+            "cod_oem": "PINCOR-12100-EXTFINA",
+            "id_producto": 3932060
+        },
+        {
+            "cod_oem": "PINCOR-1280-EXTFINA",
+            "id_producto": 3932059
+        },
+        {
+            "cod_oem": "PINCOR-1270-EXTFINA",
+            "id_producto": 3932058
+        },
+        {
+            "cod_oem": "PINCOR-1260-EXTFINA",
+            "id_producto": 3932057
+        },
+        {
+            "cod_oem": "PINCOR-1250-EXTFINA",
+            "id_producto": 3932056
+        },
+        {
+            "cod_oem": "PINCOR-1240-EXTFINA",
+            "id_producto": 3932055
+        },
+        {
+            "cod_oem": "PINCOR-1235-EXTFINA",
+            "id_producto": 3932054
+        },
+        {
+            "cod_oem": "PINCOR-1230-EXTFINA",
+            "id_producto": 3932053
+        },
+        {
+            "cod_oem": "PINCOR-1225-EXTFINA",
+            "id_producto": 3932052
+        },
+        {
+            "cod_oem": "PINCOR-1080-FINA",
+            "id_producto": 3932051
+        },
+        {
+            "cod_oem": "PINCOR-1070-FINA",
+            "id_producto": 3932050
+        },
+        {
+            "cod_oem": "PINCOR-1060-FINA",
+            "id_producto": 3932049
+        },
+        {
+            "cod_oem": "PINCOR-1050-FINA",
+            "id_producto": 3932048
+        },
+        {
+            "cod_oem": "PINCOR-1040-FINA",
+            "id_producto": 3932047
+        },
+        {
+            "cod_oem": "PINCOR-1035-FINA",
+            "id_producto": 3932046
+        },
+        {
+            "cod_oem": "PINCOR-1030-FINA",
+            "id_producto": 3932045
+        },
+        {
+            "cod_oem": "PINCOR-1025-FINA",
+            "id_producto": 3932044
+        },
+        {
+            "cod_oem": "PINCOR-1020-FINA",
+            "id_producto": 3932043
+        },
+        {
+            "cod_oem": "PINCOR-14100",
+            "id_producto": 3932042
+        },
+        {
+            "cod_oem": "PINCOR-1480",
+            "id_producto": 3932041
+        },
+        {
+            "cod_oem": "PINCOR-1470",
+            "id_producto": 3932040
+        },
+        {
+            "cod_oem": "PINCOR-1460",
+            "id_producto": 3932039
+        },
+        {
+            "cod_oem": "PINCOR-1450",
+            "id_producto": 3932038
+        },
+        {
+            "cod_oem": "PINCOR-1440",
+            "id_producto": 3932037
+        },
+        {
+            "cod_oem": "PINCOR-12100-CTE",
+            "id_producto": 3932036
+        },
+        {
+            "cod_oem": "PINCOR-1280-CTE",
+            "id_producto": 3932035
+        },
+        {
+            "cod_oem": "PINCOR-1270-CTE",
+            "id_producto": 3932034
+        },
+        {
+            "cod_oem": "PINCOR-1260-CTE",
+            "id_producto": 3932033
+        },
+        {
+            "cod_oem": "PINCOR-1250-CTE",
+            "id_producto": 3932032
+        },
+        {
+            "cod_oem": "PINCOR-1235-CTE",
+            "id_producto": 3932031
+        },
+        {
+            "cod_oem": "PINCOR-1230-CTE",
+            "id_producto": 3932030
+        },
+        {
+            "cod_oem": "PINCOR-1080-CTE",
+            "id_producto": 3932029
+        },
+        {
+            "cod_oem": "PINCOR-1070-CTE",
+            "id_producto": 3932028
+        },
+        {
+            "cod_oem": "PINCOR-1060-CTE",
+            "id_producto": 3932027
+        },
+        {
+            "cod_oem": "PINCOR-1050-CTE",
+            "id_producto": 3932026
+        },
+        {
+            "cod_oem": "PINCOR-1040-CTE",
+            "id_producto": 3932025
+        },
+        {
+            "cod_oem": "PINCOR-1035-CTE",
+            "id_producto": 3932024
+        },
+        {
+            "cod_oem": "PINCOR-1030-CTE",
+            "id_producto": 3932023
+        },
+        {
+            "cod_oem": "PINCOR-1025-CTE",
+            "id_producto": 3932022
+        },
+        {
+            "cod_oem": "PINCOR-880",
+            "id_producto": 3932021
+        },
+        {
+            "cod_oem": "PINCOR-860",
+            "id_producto": 3932020
+        },
+        {
+            "cod_oem": "PINCOR-850",
+            "id_producto": 3932019
+        },
+        {
+            "cod_oem": "PINCOR-845",
+            "id_producto": 3932018
+        },
+        {
+            "cod_oem": "PINCOR-840",
+            "id_producto": 3932017
+        },
+        {
+            "cod_oem": "PINCOR-835",
+            "id_producto": 3932016
+        },
+        {
+            "cod_oem": "PINCOR-660",
+            "id_producto": 3932015
+        },
+        {
+            "cod_oem": "PINCOR-650",
+            "id_producto": 3932014
+        },
+        {
+            "cod_oem": "PINCOR-645",
+            "id_producto": 3932013
+        },
+        {
+            "cod_oem": "PINCOR-640",
+            "id_producto": 3932012
+        },
+        {
+            "cod_oem": "PINCOR-635",
+            "id_producto": 3932011
+        },
+        {
+            "cod_oem": "PINCOR-630",
+            "id_producto": 3932010
+        },
+        {
+            "cod_oem": "PINCOR-620",
+            "id_producto": 3932009
+        },
+        {
+            "cod_oem": "PINCOR-616",
+            "id_producto": 3932008
+        },
+        {
+            "cod_oem": "TINCOR-34",
+            "id_producto": 3932007
+        },
+        {
+            "cod_oem": "TINCOR-58",
+            "id_producto": 3932006
+        },
+        {
+            "cod_oem": "TINCOR-716",
+            "id_producto": 3932005
+        },
+        {
+            "cod_oem": "TINCOR-38",
+            "id_producto": 3932004
+        },
+        {
+            "cod_oem": "TINCOR-516",
+            "id_producto": 3932003
+        },
+        {
+            "cod_oem": "TINCOR-14",
+            "id_producto": 3932002
+        },
+        {
+            "cod_oem": "TINCOR-M16-FINA",
+            "id_producto": 3932001
+        },
+        {
+            "cod_oem": "TINCOR-M14-FINA",
+            "id_producto": 3932000
+        },
+        {
+            "cod_oem": "TINCOR-M12-FINA",
+            "id_producto": 3931999
+        },
+        {
+            "cod_oem": "TINCOR-M10-FINA",
+            "id_producto": 3931998
+        },
+        {
+            "cod_oem": "TINCOR-M16-CTE",
+            "id_producto": 3931997
+        },
+        {
+            "cod_oem": "TINCOR-M14-CTE",
+            "id_producto": 3931996
+        },
+        {
+            "cod_oem": "TINCOR-M12-CTE",
+            "id_producto": 3931995
+        },
+        {
+            "cod_oem": "TINCOR-M10-CTE",
+            "id_producto": 3931994
+        },
+        {
+            "cod_oem": "TINCOR-M7",
+            "id_producto": 3931993
+        },
+        {
+            "cod_oem": "TINCOR-M5",
+            "id_producto": 3931992
+        },
+        {
+            "cod_oem": "PNC5-112-10",
+            "id_producto": 3931991
+        },
+        {
+            "cod_oem": "PNC5-112-8",
+            "id_producto": 3931990
+        },
+        {
+            "cod_oem": "PNC5-112-7",
+            "id_producto": 3931989
+        },
+        {
+            "cod_oem": "PNC5-112-6",
+            "id_producto": 3931988
+        },
+        {
+            "cod_oem": "PNC5-112-5",
+            "id_producto": 3931987
+        },
+        {
+            "cod_oem": "PNC5-112-4",
+            "id_producto": 3931986
+        },
+        {
+            "cod_oem": "PNC5-114-10",
+            "id_producto": 3931985
+        },
+        {
+            "cod_oem": "PNC5-114-8",
+            "id_producto": 3931984
+        },
+        {
+            "cod_oem": "PNC5-114-7",
+            "id_producto": 3931983
+        },
+        {
+            "cod_oem": "PNC5-114-6",
+            "id_producto": 3931982
+        },
+        {
+            "cod_oem": "PNC5-114-5",
+            "id_producto": 3931981
+        },
+        {
+            "cod_oem": "PNC5-114-412",
+            "id_producto": 3931980
+        },
+        {
+            "cod_oem": "PNC5-114-4",
+            "id_producto": 3931979
+        },
+        {
+            "cod_oem": "PNC5-118-10",
+            "id_producto": 3931978
+        },
+        {
+            "cod_oem": "PNC5-118-8",
+            "id_producto": 3931977
+        },
+        {
+            "cod_oem": "PNC5-118-7",
+            "id_producto": 3931976
+        },
+        {
+            "cod_oem": "PNC5-118-6",
+            "id_producto": 3931975
+        },
+        {
+            "cod_oem": "PNC5-118-5",
+            "id_producto": 3931974
+        },
+        {
+            "cod_oem": "PNC5-118-412",
+            "id_producto": 3931973
+        },
+        {
+            "cod_oem": "PNC5-118-4",
+            "id_producto": 3931972
+        },
+        {
+            "cod_oem": "PNC5-118-312",
+            "id_producto": 3931971
+        },
+        {
+            "cod_oem": "PNC5-118-3",
+            "id_producto": 3931970
+        },
+        {
+            "cod_oem": "PNC5-1-10",
+            "id_producto": 3931969
+        },
+        {
+            "cod_oem": "PNC5-1-9",
+            "id_producto": 3931968
+        },
+        {
+            "cod_oem": "PNC5-1-8",
+            "id_producto": 3931967
+        },
+        {
+            "cod_oem": "PNC5-1-6",
+            "id_producto": 3931966
+        },
+        {
+            "cod_oem": "PNC5-1-5",
+            "id_producto": 3931965
+        },
+        {
+            "cod_oem": "PNC5-1-4",
+            "id_producto": 3931964
+        },
+        {
+            "cod_oem": "PNC5-1-312",
+            "id_producto": 3931963
+        },
+        {
+            "cod_oem": "PNC5-1-212",
+            "id_producto": 3931962
+        },
+        {
+            "cod_oem": "PNC5-7810",
+            "id_producto": 3931961
+        },
+        {
+            "cod_oem": "PNC5-789",
+            "id_producto": 3931960
+        },
+        {
+            "cod_oem": "PNC5-788",
+            "id_producto": 3931959
+        },
+        {
+            "cod_oem": "PNC5-787",
+            "id_producto": 3931958
+        },
+        {
+            "cod_oem": "PNC5-786",
+            "id_producto": 3931957
+        },
+        {
+            "cod_oem": "PNC5-785",
+            "id_producto": 3931956
+        },
+        {
+            "cod_oem": "PNC5-784",
+            "id_producto": 3931955
+        },
+        {
+            "cod_oem": "PNC5-78312",
+            "id_producto": 3931954
+        },
+        {
+            "cod_oem": "PNC5-783",
+            "id_producto": 3931953
+        },
+        {
+            "cod_oem": "PNC5-78212",
+            "id_producto": 3931952
+        },
+        {
+            "cod_oem": "PNC5-3410",
+            "id_producto": 3931951
+        },
+        {
+            "cod_oem": "PNC5-349",
+            "id_producto": 3931950
+        },
+        {
+            "cod_oem": "PNC5-348",
+            "id_producto": 3931945
+        },
+        {
+            "cod_oem": "PNC5-347",
+            "id_producto": 3931944
+        },
+        {
+            "cod_oem": "PNC5-346",
+            "id_producto": 3931943
+        },
+        {
+            "cod_oem": "PNC5-345",
+            "id_producto": 3931942
+        },
+        {
+            "cod_oem": "PNC5-34412",
+            "id_producto": 3931941
+        },
+        {
+            "cod_oem": "PNC5-344",
+            "id_producto": 3931940
+        },
+        {
+            "cod_oem": "PNC5-34312",
+            "id_producto": 3931939
+        },
+        {
+            "cod_oem": "PNC5-343",
+            "id_producto": 3931938
+        },
+        {
+            "cod_oem": "PNC5-34212",
+            "id_producto": 3931937
+        },
+        {
+            "cod_oem": "PNC5-342",
+            "id_producto": 3931936
+        },
+        {
+            "cod_oem": "PNC5-34112",
+            "id_producto": 3931935
+        },
+        {
+            "cod_oem": "PNC5-5810",
+            "id_producto": 3931934
+        },
+        {
+            "cod_oem": "PNC5-589",
+            "id_producto": 3931933
+        },
+        {
+            "cod_oem": "PNC5-588",
+            "id_producto": 3931932
+        },
+        {
+            "cod_oem": "PNC5-5867",
+            "id_producto": 3931931
+        },
+        {
+            "cod_oem": "PNC5-586",
+            "id_producto": 3931930
+        },
+        {
+            "cod_oem": "PNC5-585",
+            "id_producto": 3931929
+        },
+        {
+            "cod_oem": "PNC5-58412",
+            "id_producto": 3931928
+        },
+        {
+            "cod_oem": "PNC5-584",
+            "id_producto": 3931927
+        },
+        {
+            "cod_oem": "PNC5-58312",
+            "id_producto": 3931926
+        },
+        {
+            "cod_oem": "PNC5-583",
+            "id_producto": 3931925
+        },
+        {
+            "cod_oem": "PNC5-58212",
+            "id_producto": 3931924
+        },
+        {
+            "cod_oem": "PNC5-58112",
+            "id_producto": 3931923
+        },
+        {
+            "cod_oem": "PNC5-9166",
+            "id_producto": 3931922
+        },
+        {
+            "cod_oem": "PNC5-9165",
+            "id_producto": 3931921
+        },
+        {
+            "cod_oem": "PNC5-916412",
+            "id_producto": 3931920
+        },
+        {
+            "cod_oem": "PNC5-9164",
+            "id_producto": 3931919
+        },
+        {
+            "cod_oem": "PNC5-916312",
+            "id_producto": 3931918
+        },
+        {
+            "cod_oem": "PNC5-9163",
+            "id_producto": 3931917
+        },
+        {
+            "cod_oem": "PNC5-916212",
+            "id_producto": 3931916
+        },
+        {
+            "cod_oem": "PNC5-916112",
+            "id_producto": 3931914
+        },
+        {
+            "cod_oem": "PNC5-128",
+            "id_producto": 3931913
+        },
+        {
+            "cod_oem": "PNC5-126",
+            "id_producto": 3931912
+        },
+        {
+            "cod_oem": "PNC5-125",
+            "id_producto": 3931911
+        },
+        {
+            "cod_oem": "PNC5-12412",
+            "id_producto": 3931910
+        },
+        {
+            "cod_oem": "PNC5-12312",
+            "id_producto": 3931909
+        },
+        {
+            "cod_oem": "PNC5-123",
+            "id_producto": 3931908
+        },
+        {
+            "cod_oem": "PNC5-12212",
+            "id_producto": 3931907
+        },
+        {
+            "cod_oem": "PNC5-12114",
+            "id_producto": 3931906
+        },
+        {
+            "cod_oem": "PNC5-7166",
+            "id_producto": 3931905
+        },
+        {
+            "cod_oem": "PNC5-7165",
+            "id_producto": 3931904
+        },
+        {
+            "cod_oem": "PNC5-716412",
+            "id_producto": 3931903
+        },
+        {
+            "cod_oem": "PNC5-716312",
+            "id_producto": 3931902
+        }
+    ]
+}

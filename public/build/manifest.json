@@ -1,0 +1,27 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.3def9732.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/livewire_events.js": {
+    "file": "assets/livewire_events.521dd473.js",
+    "src": "resources/js/livewire_events.js",
+    "isEntry": true
+  },
+  "resources/js/loading.js": {
+    "file": "assets/loading.f7812020.js",
+    "src": "resources/js/loading.js",
+    "isEntry": true
+  },
+  "resources/js/facturacion.js": {
+    "file": "assets/facturacion.0baa4098.js",
+    "src": "resources/js/facturacion.js",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.9f803ccf.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,46 @@
+Informe del paquete
+
+-----------------------------------------------------------------------------
+Documento:
+Nombre: ventas.svg
+Modo de color: Color RGB
+Perfil de color: ninguno
+Unidades de regla: puntos
+Dimensiones de la mesa de trabajo: 612 pt x 792 pt
+Mostrar imágenes en modo contorno: Desactivado
+Resaltar fuentes sustituidas: Desactivado
+Resaltar glifos sustituidos: Desactivado
+Conservar capacidad de edición de texto
+Simular papel de color: Desactivado
+
+-----------------------------------------------------------------------------
+Objetos de tintas planas:
+
+-----------------------------------------------------------------------------
+Fuentes no disponibles:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes protegidas no empaquetadas:Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes:
+Ninguno
+
+-----------------------------------------------------------------------------
+Fuentes incrustadas:
+Ninguno
+
+-----------------------------------------------------------------------------
+Enlaces no disponibles:
+Ninguno
+
+-----------------------------------------------------------------------------
+Imágenes enlazadas:
+
+D:\2. Trabajo julio\SOFTWARE\CM Motors\LOGO\coti1.png
+Tipo: RGB transparente
+Bits por píxel: 32
+Canales: 4
+Tamaño: 8217K, 1275 por 1650 píxeles
+Dimensiones: 612 por 792 puntos 
+Resolución: 150 por 150 píxeles por pulgada

@@ -1,0 +1,2741 @@
+{
+    "Productos": [
+        {
+            "CODIGO": "9X8256",
+            "MARCA": "CAT",
+            "CANTIDAD": "8",
+            "UBICACION": "A1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3058383",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "111",
+            "UBICACION": "C1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EWP3389",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "D1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EF67490",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "4",
+            "UBICACION": "F1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MP0411",
+            "MARCA": "MASS PARTS",
+            "CANTIDAD": "10",
+            "UBICACION": "H1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "57XL-40",
+            "MARCA": "LENZ",
+            "CANTIDAD": "2",
+            "UBICACION": "H1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "171867",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "K1",
+            "UNIDAD": "KIT"
+        },
+        {
+            "CODIGO": "136066",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "K1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4089500",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "1",
+            "UBICACION": "K1",
+            "UNIDAD": "KIT"
+        },
+        {
+            "CODIGO": "ECK1568",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "K1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "651520F",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "M1",
+            "UNIDAD": "KIT"
+        },
+        {
+            "CODIGO": "ARE9986",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "M1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ARE9987",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "M1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM99890",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "M1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM99880",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "M1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "045001",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "M1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1911951",
+            "MARCA": "",
+            "CANTIDAD": "502",
+            "UBICACION": "O1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "42064",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "42013",
+            "MARCA": "PAI",
+            "CANTIDAD": "7",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "136163",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "111213",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "P1",
+            "UNIDAD": "KIT"
+        },
+        {
+            "CODIGO": "45010",
+            "MARCA": "DSG INC - PAI",
+            "CANTIDAD": "18",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "45006",
+            "MARCA": "PAI",
+            "CANTIDAD": "18",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "45007",
+            "MARCA": "PAI",
+            "CANTIDAD": "24",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "45008",
+            "MARCA": "PAI",
+            "CANTIDAD": "45",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "45011",
+            "MARCA": "PAI",
+            "CANTIDAD": "24",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4504492601",
+            "MARCA": "FP",
+            "CANTIDAD": "11",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "45000",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3048803",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "6",
+            "UBICACION": "P1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "405045",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "Q1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "M-3043909",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "1",
+            "UBICACION": "Q1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SS47882 O RP311124",
+            "MARCA": "VICTOR REINZ",
+            "CANTIDAD": "1",
+            "UBICACION": "Q1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "BOS7262",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "Q1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "BOS7262",
+            "MARCA": "TRISEAL",
+            "CANTIDAD": "8",
+            "UBICACION": "R1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6304-2ESC3",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "3",
+            "UBICACION": "R1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FSF4243",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "R1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GBG6135",
+            "MARCA": "SKF",
+            "CANTIDAD": "1",
+            "UBICACION": "R1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "136126",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "R1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4326596",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "S1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FCL4713",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "S1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "740251",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "S1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "21426987",
+            "MARCA": "VOLVO",
+            "CANTIDAD": "1",
+            "UBICACION": "S1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EE22310",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "5",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MBA0009905455",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1075870",
+            "MARCA": "MACK",
+            "CANTIDAD": "2",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "9X9591",
+            "MARCA": "CAT",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1093038",
+            "MARCA": "CAT",
+            "CANTIDAD": "5",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181840",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "692041",
+            "MARCA": "",
+            "CANTIDAD": "11",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EE22550",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ERC8394",
+            "MARCA": "PAI",
+            "CANTIDAD": "13",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181830",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "681850",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181930",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FNU4743",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181842",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "KD2291",
+            "MARCA": "BARKSDALE",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "90555376",
+            "MARCA": "HALDEX",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "802665E",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1878571C95",
+            "MARCA": "INTERNATIONAL",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "158938",
+            "MARCA": "CAT",
+            "CANTIDAD": "5",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "192017",
+            "MARCA": "PAI",
+            "CANTIDAD": "216",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "5005037",
+            "MARCA": "BENDIX",
+            "CANTIDAD": "3",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM35910",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "E252PS",
+            "MARCA": "IR ARO",
+            "CANTIDAD": "5",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "284143N",
+            "MARCA": "BENDIX",
+            "CANTIDAD": "21",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "690GC2210FP",
+            "MARCA": "FP",
+            "CANTIDAD": "4",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "7M7431",
+            "MARCA": "FP",
+            "CANTIDAD": "6",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EP1391631",
+            "MARCA": "TPS",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "R950014",
+            "MARCA": "ARMADA",
+            "CANTIDAD": "1",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "21519707",
+            "MARCA": "",
+            "CANTIDAD": "4",
+            "UBICACION": "V1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "RS3518",
+            "MARCA": "BALDWIN",
+            "CANTIDAD": "1",
+            "UBICACION": "Z1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "RS3519",
+            "MARCA": "BALDWIN",
+            "CANTIDAD": "1",
+            "UBICACION": "Z1",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EF10570249",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "14",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DRS4312STD",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DRS4312010",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DRS4312020",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DRS4311STD",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "671636",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "192011",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EF10570249",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "14",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "692005",
+            "MARCA": "PAI",
+            "CANTIDAD": "24",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "151526",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "A2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "43045210225296",
+            "MARCA": "CAT",
+            "CANTIDAD": "16",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "307663",
+            "MARCA": "CAT",
+            "CANTIDAD": "16",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1332249",
+            "MARCA": "CAT",
+            "CANTIDAD": "1",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1018468",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DBG4145020",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DBG4145010",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "13520",
+            "MARCA": "MERITOR",
+            "CANTIDAD": "2",
+            "UBICACION": "B2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "203660",
+            "MARCA": "FP",
+            "CANTIDAD": "15",
+            "UBICACION": "C2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "214851",
+            "MARCA": "FP",
+            "CANTIDAD": "1",
+            "UBICACION": "C2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4301844",
+            "MARCA": "EATON",
+            "CANTIDAD": "1",
+            "UBICACION": "C2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131389",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "D2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131491",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "D2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131683",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "D2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "23532298",
+            "MARCA": "FP",
+            "CANTIDAD": "1",
+            "UBICACION": "D2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "23532333",
+            "MARCA": "FP",
+            "CANTIDAD": "1",
+            "UBICACION": "D2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "M-4920076",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "2",
+            "UBICACION": "E2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131490",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "E2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "96213",
+            "MARCA": "MANNFILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "G2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "5P8052",
+            "MARCA": "FP",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1842663C93",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "331410",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "331411",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131685",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131241",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "H2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "901201",
+            "MARCA": "GEN PARTS",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LFP815FN",
+            "MARCA": "LUBER FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "WA940\/1",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "HF6710",
+            "MARCA": "FLEETGUARD",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PF828",
+            "MARCA": "AC",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FF185",
+            "MARCA": "FLEETGUARD",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "C24",
+            "MARCA": "KRALNATOR FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FF105",
+            "MARCA": "FLEETGUARD",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "WK731",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PH140",
+            "MARCA": "HIGHFIL",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PSC496",
+            "MARCA": "TECFIL",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PPH8A",
+            "MARCA": "LUBER FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LFH4937",
+            "MARCA": "LUBER FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P550587",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P553004",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FH2849A",
+            "MARCA": "HIGHFIL",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "0986B01652",
+            "MARCA": "BOSCH",
+            "CANTIDAD": "2",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SFF1723",
+            "MARCA": "SURE FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "H601\/4",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "7111\/296",
+            "MARCA": "FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MD136790",
+            "MARCA": "S\/MARCA",
+            "CANTIDAD": "1",
+            "UBICACION": "K2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ECL1939",
+            "MARCA": "TORCTITE",
+            "CANTIDAD": "7",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MPEC40SS",
+            "MARCA": "MASS PARTS",
+            "CANTIDAD": "6",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MPEC50AL",
+            "MARCA": "MASS PARTS",
+            "CANTIDAD": "3",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1613",
+            "MARCA": "SKF",
+            "CANTIDAD": "1",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P165705",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "8",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SFO4777",
+            "MARCA": "SURE FILTER",
+            "CANTIDAD": "2",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "H11106",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SFO1A",
+            "MARCA": "SURE FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "L2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6001819450",
+            "MARCA": "KOMATSU",
+            "CANTIDAD": "1",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P536457",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "208149",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P163172",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P554071",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "8",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P551313",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "24",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PH8A",
+            "MARCA": "USA FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "M2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "85315",
+            "MARCA": "GABRIEL",
+            "CANTIDAD": "1",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "165510",
+            "MARCA": "MONROE",
+            "CANTIDAD": "1",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "90045504",
+            "MARCA": "",
+            "CANTIDAD": "3",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "20496217",
+            "MARCA": "MONROE",
+            "CANTIDAD": "2",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "20721254",
+            "MARCA": "MONROE",
+            "CANTIDAD": "2",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "20704334",
+            "MARCA": "MONROE",
+            "CANTIDAD": "2",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "85070",
+            "MARCA": "GABRIEL",
+            "CANTIDAD": "1",
+            "UBICACION": "N2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EKT8561",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "321297",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FTW4476",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "S16093",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "045018",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "G901107001R",
+            "MARCA": "PACCAR",
+            "CANTIDAD": "1",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "11544",
+            "MARCA": "",
+            "CANTIDAD": "9",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "11124",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "10075",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "11615",
+            "MARCA": "",
+            "CANTIDAD": "",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "S4721950330",
+            "MARCA": "MERITOR",
+            "CANTIDAD": "1",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "121415",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "O2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DPA4372020",
+            "MARCA": "MATORSELL ENGLAND",
+            "CANTIDAD": "2",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "640015-019",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3047963",
+            "MARCA": "FP",
+            "CANTIDAD": "6",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "302GC479M",
+            "MARCA": "MACK",
+            "CANTIDAD": "1",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8T4971",
+            "MARCA": "CAT",
+            "CANTIDAD": "4",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "7C7890",
+            "MARCA": "CTP",
+            "CANTIDAD": "1",
+            "UBICACION": "P2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3930906",
+            "MARCA": "FP",
+            "CANTIDAD": "7",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "W5207LUA",
+            "MARCA": "NTN",
+            "CANTIDAD": "4",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EBG8331P1",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EBG8331P10",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "171801",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "171954",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EBG8330P1",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "151501",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EMS8572-P20",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EMS8575P10",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EMS8575P20",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EMS8575P1",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "KIT"
+        },
+        {
+            "CODIGO": "3047390",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "6",
+            "UBICACION": "Q2",
+            "UNIDAD": "PARES"
+        },
+        {
+            "CODIGO": "20988696",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181920",
+            "MARCA": "PAI",
+            "CANTIDAD": "10",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "39922",
+            "MARCA": "SKF",
+            "CANTIDAD": "6",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "KT-YKFN",
+            "MARCA": "TPS",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "WAR950013",
+            "MARCA": "WORLD AMERICAN PARTS",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "L44643",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "1",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "W5207LUA",
+            "MARCA": "NTN",
+            "CANTIDAD": "4",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "391837",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "Q2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "25624317",
+            "MARCA": "FEDERAL MOGUL",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "85108352",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FSF4244",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EOS0444",
+            "MARCA": "PAI",
+            "CANTIDAD": "108",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EOS8820",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "691960",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EOS0442",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "RA100-NPP",
+            "MARCA": "INA",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DPH4371STD",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "636024",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "5485BAG",
+            "MARCA": "ARCA",
+            "CANTIDAD": "3",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6123",
+            "MARCA": "ARCA",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1694395091",
+            "MARCA": "INTER",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EF69580",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "9",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ER73170",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "2",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM67200",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "5",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "43090-90060",
+            "MARCA": "OIL SEAL MUSASHI",
+            "CANTIDAD": "4",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM66550",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GBG6090",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "1",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GBG6071",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ER85570",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "3",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "84263",
+            "MARCA": "DPH",
+            "CANTIDAD": "2",
+            "UBICACION": "R2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "D8587",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "452722A",
+            "MARCA": "TPS",
+            "CANTIDAD": "16",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "452722B",
+            "MARCA": "TPS",
+            "CANTIDAD": "15",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3020815",
+            "MARCA": "",
+            "CANTIDAD": "5",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2569381",
+            "MARCA": "CAT",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "650660",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "650665",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "650656",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "650666",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "692000",
+            "MARCA": "PAI",
+            "CANTIDAD": "24",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1638516",
+            "MARCA": "CAT",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8MB12Z-5P35",
+            "MARCA": "TRUCK",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FSU0556",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "23531531",
+            "MARCA": "DETROIT DIESEL",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "853778",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "S2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4238535",
+            "MARCA": "DEUTZ",
+            "CANTIDAD": "1",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181840",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EFC8397",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8929870",
+            "MARCA": "DETROIT DEISEL",
+            "CANTIDAD": "3",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "181864",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "681872",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "740035",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "T2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FS3175TG",
+            "MARCA": "PEVISA",
+            "CANTIDAD": "1",
+            "UBICACION": "U2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3800939",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "U2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "TPS065661",
+            "MARCA": "TPS",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "TPS001242",
+            "MARCA": "TPS",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "TPS277863",
+            "MARCA": "TPS",
+            "CANTIDAD": "3",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "5030QR",
+            "MARCA": "MP",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8929127",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "12",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8929126",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "12",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "K033221",
+            "MARCA": "BENDIX",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "205105",
+            "MARCA": "",
+            "CANTIDAD": "5",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "ETN673420",
+            "MARCA": "SPICER",
+            "CANTIDAD": "2",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "691909",
+            "MARCA": "PAI",
+            "CANTIDAD": "24",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MAV4231",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MAV4228",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "MAV4229",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "OR275491X",
+            "MARCA": "BENDIX",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "180200",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "V2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EDS-8811",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "HKT4059",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LVK1372",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LVK3603",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "25122671",
+            "MARCA": "DEFEO",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GRI2734",
+            "MARCA": "PAI",
+            "CANTIDAD": "10",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GSP1671",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GPN1656",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GRI2836",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "01967",
+            "MARCA": "SABO",
+            "CANTIDAD": "4",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "9L7873",
+            "MARCA": "CAT",
+            "CANTIDAD": "4",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3978036",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "2",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "85114034",
+            "MARCA": "MACK",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3978032",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3978034",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3978031",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "2",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "Q347137",
+            "MARCA": "FLEETGUARD",
+            "CANTIDAD": "4",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "331289",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "HRK2773",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "17121",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "113033120",
+            "MARCA": "ONAN",
+            "CANTIDAD": "4",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FBG4620",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "247475",
+            "MARCA": "SPICER",
+            "CANTIDAD": "2",
+            "UBICACION": "W2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "H1074",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2040TM-0R",
+            "MARCA": "PARKER RACOR",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "370L210",
+            "MARCA": "FAIREY ARLON",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "33208",
+            "MARCA": "WIX",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LH8504",
+            "MARCA": "LUBER FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "CH33APL",
+            "MARCA": "FRAM",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P550936",
+            "MARCA": "DONLADSON",
+            "CANTIDAD": "4",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P55050",
+            "MARCA": "DONLADSON",
+            "CANTIDAD": "3",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PB50",
+            "MARCA": "LUBER FINER",
+            "CANTIDAD": "2",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P558615",
+            "MARCA": "DONLADSON",
+            "CANTIDAD": "3",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "BF1226",
+            "MARCA": "BALDWIN",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "FF105D",
+            "MARCA": "FLEETGUARD",
+            "CANTIDAD": "2",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3121",
+            "MARCA": "NAPA",
+            "CANTIDAD": "1",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "PSC802",
+            "MARCA": "TECFIL",
+            "CANTIDAD": "2",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P551329",
+            "MARCA": "DONLADSON",
+            "CANTIDAD": "2",
+            "UBICACION": "Y2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "AP7998",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P163172",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P550138",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "5",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LAF2745A",
+            "MARCA": "LUBER-FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P811",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "2",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P550132",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "P123230",
+            "MARCA": "DONALDSON",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "C13103",
+            "MARCA": "MANN FILTER",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LAF222",
+            "MARCA": "LUBER-FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "LAF1275",
+            "MARCA": "LUBER-FINER",
+            "CANTIDAD": "1",
+            "UBICACION": "Z2",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4302047",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "A23275Z1196",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "A23275Y1195",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "R114282",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6I0497",
+            "MARCA": "CAT",
+            "CANTIDAD": "4",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GWA5973",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GTW5998",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GTW1021",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GTW1022",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EE30340",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "6",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "951787",
+            "MARCA": "CAT",
+            "CANTIDAD": "5",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "23530554",
+            "MARCA": "FP",
+            "CANTIDAD": "4",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "25095219",
+            "MARCA": "",
+            "CANTIDAD": "13",
+            "UBICACION": "A3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "681870",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2447222125",
+            "MARCA": "BOSH",
+            "CANTIDAD": "1",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3884192",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "3",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3173775",
+            "MARCA": "",
+            "CANTIDAD": "4",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "151485",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "0964402",
+            "MARCA": "CTP",
+            "CANTIDAD": "2",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3075381",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "3",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DBG1023STD",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "B3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "671595",
+            "MARCA": "PAI",
+            "CANTIDAD": "12",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "671590",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "671570",
+            "MARCA": "PAI",
+            "CANTIDAD": "9",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "5261014",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8929680",
+            "MARCA": "FP",
+            "CANTIDAD": "1",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "8929670A",
+            "MARCA": "FP",
+            "CANTIDAD": "6",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "671615",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3095355",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "5",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "171781",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "21045103X",
+            "MARCA": "SPICER",
+            "CANTIDAD": "2",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "DA640",
+            "MARCA": "TAIHO",
+            "CANTIDAD": "7",
+            "UBICACION": "C3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "131440",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "E3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "631304",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "E3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EP058790",
+            "MARCA": "",
+            "CANTIDAD": "3",
+            "UBICACION": "E3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "CCA9733",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "F3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "150LFPE88R54-020",
+            "MARCA": "IR",
+            "CANTIDAD": "1",
+            "UBICACION": "G3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "TPS065525",
+            "MARCA": "TPS",
+            "CANTIDAD": "1",
+            "UBICACION": "G3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3632225",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "1",
+            "UBICACION": "G3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "WKAN44071",
+            "MARCA": "",
+            "CANTIDAD": "6",
+            "UBICACION": "H3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "R824000",
+            "MARCA": "MERITOR",
+            "CANTIDAD": "3",
+            "UBICACION": "H3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SA21102",
+            "MARCA": "",
+            "CANTIDAD": "2",
+            "UBICACION": "H3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2815919189480",
+            "MARCA": "DIESEL DETROIT",
+            "CANTIDAD": "5",
+            "UBICACION": "I3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3038985",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3076523",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "382560",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1103474",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "30411042",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "194329",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "K3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "920190",
+            "MARCA": "EXCEL",
+            "CANTIDAD": "1",
+            "UBICACION": "O3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "33KN411A",
+            "MARCA": "MACK",
+            "CANTIDAD": "6",
+            "UBICACION": "O3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2422195",
+            "MARCA": "MACK",
+            "CANTIDAD": "3",
+            "UBICACION": "O3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "111542",
+            "MARCA": "PAI",
+            "CANTIDAD": "5",
+            "UBICACION": "P3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "111336",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "P3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "111333",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "P3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3901383",
+            "MARCA": "MCBEE",
+            "CANTIDAD": "2",
+            "UBICACION": "Q3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3236",
+            "MARCA": "MERITOR",
+            "CANTIDAD": "12",
+            "UBICACION": "Q3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "20851217",
+            "MARCA": "MACK",
+            "CANTIDAD": "2",
+            "UBICACION": "Q3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "25085684",
+            "MARCA": "MACK",
+            "CANTIDAD": "15",
+            "UBICACION": "Q3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6461A",
+            "MARCA": "PRECISION",
+            "CANTIDAD": "2",
+            "UBICACION": "Q3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EOS8592",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3025354",
+            "MARCA": "CUMMINS",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "2658025",
+            "MARCA": "CAT",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM66550",
+            "MARCA": "",
+            "CANTIDAD": "3",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "29544138",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "85114034",
+            "MARCA": "MACK",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "81485545621",
+            "MARCA": "MACK",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "HK3516",
+            "MARCA": "SKF",
+            "CANTIDAD": "5",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EBG8639",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EBG8043",
+            "MARCA": "PAI",
+            "CANTIDAD": "2",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "RC8124",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "136163",
+            "MARCA": "PAI",
+            "CANTIDAD": "6",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "GBG8966",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SET424",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "2",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "555-S",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SET401",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "2",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "SET403",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "EM76110",
+            "MARCA": "PAI-EXCEL",
+            "CANTIDAD": "7",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "552A",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "4301843",
+            "MARCA": "",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "636020",
+            "MARCA": "PAI",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "6420",
+            "MARCA": "PAI",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "64700",
+            "MARCA": "TIMKEN",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3929112",
+            "MARCA": "STEMCO",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3838139",
+            "MARCA": "STEMCO",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "NJ313C3",
+            "MARCA": "STEYR",
+            "CANTIDAD": "1",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "1078240",
+            "MARCA": "MACK",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "3173774",
+            "MARCA": "",
+            "CANTIDAD": "4",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "R518233",
+            "MARCA": "JOHN DEER",
+            "CANTIDAD": "24",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "81485545381",
+            "MARCA": "MACK",
+            "CANTIDAD": "2",
+            "UBICACION": "R3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "R0333819",
+            "MARCA": "FREIGHTLINER",
+            "CANTIDAD": "1",
+            "UBICACION": "S3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "331463",
+            "MARCA": "PAI",
+            "CANTIDAD": "3",
+            "UBICACION": "T3",
+            "UNIDAD": "PZA"
+        },
+        {
+            "CODIGO": "29546246",
+            "MARCA": "DEFEO",
+            "CANTIDAD": "1",
+            "UBICACION": "T3",
+            "UNIDAD": "KIT"
+        }
+    ]
+}

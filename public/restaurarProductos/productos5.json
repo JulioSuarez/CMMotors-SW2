@@ -1,0 +1,3928 @@
+{
+    "Productos": [
+        {
+            "cod_oem": "20758295",
+            "id_producto": 3930897
+        },
+        {
+            "cod_oem": "33KN411A",
+            "id_producto": 3930896
+        },
+        {
+            "cod_oem": "25623116",
+            "id_producto": 3930895
+        },
+        {
+            "cod_oem": "FLK5904",
+            "id_producto": 3930894
+        },
+        {
+            "cod_oem": "HNM780322",
+            "id_producto": 3930893
+        },
+        {
+            "cod_oem": "21128983",
+            "id_producto": 3930892
+        },
+        {
+            "cod_oem": "25100042",
+            "id_producto": 3930891
+        },
+        {
+            "cod_oem": "10QK3109M",
+            "id_producto": 3930890
+        },
+        {
+            "cod_oem": "25173955",
+            "id_producto": 3930889
+        },
+        {
+            "cod_oem": "LFF3347",
+            "id_producto": 3930888
+        },
+        {
+            "cod_oem": "GBG6166",
+            "id_producto": 3930887
+        },
+        {
+            "cod_oem": "MA1209",
+            "id_producto": 3930886
+        },
+        {
+            "cod_oem": "3013331",
+            "id_producto": 3930885
+        },
+        {
+            "cod_oem": "3013330",
+            "id_producto": 3930884
+        },
+        {
+            "cod_oem": "3007759",
+            "id_producto": 3930883
+        },
+        {
+            "cod_oem": "3923564",
+            "id_producto": 3930882
+        },
+        {
+            "cod_oem": "RE525523",
+            "id_producto": 3930881
+        },
+        {
+            "cod_oem": "RE509672",
+            "id_producto": 3930880
+        },
+        {
+            "cod_oem": "SN1812",
+            "id_producto": 3930879
+        },
+        {
+            "cod_oem": "25171842",
+            "id_producto": 3930878
+        },
+        {
+            "cod_oem": "7373000083",
+            "id_producto": 3930877
+        },
+        {
+            "cod_oem": "9364101829",
+            "id_producto": 3930876
+        },
+        {
+            "cod_oem": "9364101830",
+            "id_producto": 3930875
+        },
+        {
+            "cod_oem": "7373000072",
+            "id_producto": 3930874
+        },
+        {
+            "cod_oem": "1S5175",
+            "id_producto": 3930873
+        },
+        {
+            "cod_oem": "4657451",
+            "id_producto": 3930872
+        },
+        {
+            "cod_oem": "11615",
+            "id_producto": 3930871
+        },
+        {
+            "cod_oem": "10075",
+            "id_producto": 3930870
+        },
+        {
+            "cod_oem": "1615215000",
+            "id_producto": 3930869
+        },
+        {
+            "cod_oem": "11124",
+            "id_producto": 3930868
+        },
+        {
+            "cod_oem": "11544",
+            "id_producto": 3930867
+        },
+        {
+            "cod_oem": "BCD289451",
+            "id_producto": 3930866
+        },
+        {
+            "cod_oem": "A2251969000",
+            "id_producto": 3930865
+        },
+        {
+            "cod_oem": "P3376",
+            "id_producto": 3930864
+        },
+        {
+            "cod_oem": "C11860PL",
+            "id_producto": 3930863
+        },
+        {
+            "cod_oem": "CA5021",
+            "id_producto": 3930862
+        },
+        {
+            "cod_oem": "23505309",
+            "id_producto": 3930861
+        },
+        {
+            "cod_oem": "184400",
+            "id_producto": 3930860
+        },
+        {
+            "cod_oem": "3901306",
+            "id_producto": 3930859
+        },
+        {
+            "cod_oem": "3909410",
+            "id_producto": 3930858
+        },
+        {
+            "cod_oem": "23508986",
+            "id_producto": 3930857
+        },
+        {
+            "cod_oem": "23502068",
+            "id_producto": 3930856
+        },
+        {
+            "cod_oem": "23502067",
+            "id_producto": 3930855
+        },
+        {
+            "cod_oem": "135957",
+            "id_producto": 3930854
+        },
+        {
+            "cod_oem": "3802463",
+            "id_producto": 3930853
+        },
+        {
+            "cod_oem": "3226064",
+            "id_producto": 3930852
+        },
+        {
+            "cod_oem": "176927",
+            "id_producto": 3930851
+        },
+        {
+            "cod_oem": "7W3200",
+            "id_producto": 3930850
+        },
+        {
+            "cod_oem": "3408421",
+            "id_producto": 3930849
+        },
+        {
+            "cod_oem": "5149642",
+            "id_producto": 3930848
+        },
+        {
+            "cod_oem": "8927189",
+            "id_producto": 3930847
+        },
+        {
+            "cod_oem": "8923729",
+            "id_producto": 3930846
+        },
+        {
+            "cod_oem": "23507238",
+            "id_producto": 3930845
+        },
+        {
+            "cod_oem": "1280317",
+            "id_producto": 3930844
+        },
+        {
+            "cod_oem": "5121256",
+            "id_producto": 3930843
+        },
+        {
+            "cod_oem": "5108175",
+            "id_producto": 3930842
+        },
+        {
+            "cod_oem": "23516871",
+            "id_producto": 3930841
+        },
+        {
+            "cod_oem": "5229192",
+            "id_producto": 3930840
+        },
+        {
+            "cod_oem": "5229034",
+            "id_producto": 3930839
+        },
+        {
+            "cod_oem": "23520026",
+            "id_producto": 3930838
+        },
+        {
+            "cod_oem": "5116224",
+            "id_producto": 3930837
+        },
+        {
+            "cod_oem": "8921209",
+            "id_producto": 3930836
+        },
+        {
+            "cod_oem": "8927857",
+            "id_producto": 3930835
+        },
+        {
+            "cod_oem": "23500480",
+            "id_producto": 3930834
+        },
+        {
+            "cod_oem": "8922369",
+            "id_producto": 3930833
+        },
+        {
+            "cod_oem": "8923654",
+            "id_producto": 3930832
+        },
+        {
+            "cod_oem": "8920200",
+            "id_producto": 3930831
+        },
+        {
+            "cod_oem": "23503535",
+            "id_producto": 3930830
+        },
+        {
+            "cod_oem": "8924453",
+            "id_producto": 3930829
+        },
+        {
+            "cod_oem": "3010461",
+            "id_producto": 3930828
+        },
+        {
+            "cod_oem": "3004316",
+            "id_producto": 3930827
+        },
+        {
+            "cod_oem": "3353977",
+            "id_producto": 3930826
+        },
+        {
+            "cod_oem": "3628895",
+            "id_producto": 3930825
+        },
+        {
+            "cod_oem": "23512418",
+            "id_producto": 3930824
+        },
+        {
+            "cod_oem": "136025",
+            "id_producto": 3930823
+        },
+        {
+            "cod_oem": "5115454",
+            "id_producto": 3930822
+        },
+        {
+            "cod_oem": "3967060",
+            "id_producto": 3930821
+        },
+        {
+            "cod_oem": "8921721",
+            "id_producto": 3930820
+        },
+        {
+            "cod_oem": "92601",
+            "id_producto": 3930819
+        },
+        {
+            "cod_oem": "3064304",
+            "id_producto": 3930818
+        },
+        {
+            "cod_oem": "5188406",
+            "id_producto": 3930817
+        },
+        {
+            "cod_oem": "3934046",
+            "id_producto": 3930816
+        },
+        {
+            "cod_oem": "5193666",
+            "id_producto": 3930815
+        },
+        {
+            "cod_oem": "925053",
+            "id_producto": 3930814
+        },
+        {
+            "cod_oem": "5116293",
+            "id_producto": 3930813
+        },
+        {
+            "cod_oem": "5119974",
+            "id_producto": 3930812
+        },
+        {
+            "cod_oem": "193736",
+            "id_producto": 3930811
+        },
+        {
+            "cod_oem": "5104701",
+            "id_producto": 3930810
+        },
+        {
+            "cod_oem": "5229649",
+            "id_producto": 3930809
+        },
+        {
+            "cod_oem": "5143406",
+            "id_producto": 3930808
+        },
+        {
+            "cod_oem": "121196",
+            "id_producto": 3930807
+        },
+        {
+            "cod_oem": "1537024",
+            "id_producto": 3930806
+        },
+        {
+            "cod_oem": "145701",
+            "id_producto": 3930805
+        },
+        {
+            "cod_oem": "111585",
+            "id_producto": 3930804
+        },
+        {
+            "cod_oem": "144911",
+            "id_producto": 3930803
+        },
+        {
+            "cod_oem": "43067",
+            "id_producto": 3930802
+        },
+        {
+            "cod_oem": "5199561",
+            "id_producto": 3930801
+        },
+        {
+            "cod_oem": "002",
+            "id_producto": 3930800
+        },
+        {
+            "cod_oem": "3016761",
+            "id_producto": 3930799
+        },
+        {
+            "cod_oem": "3010242",
+            "id_producto": 3930798
+        },
+        {
+            "cod_oem": "23514203",
+            "id_producto": 3930797
+        },
+        {
+            "cod_oem": "5199534",
+            "id_producto": 3930796
+        },
+        {
+            "cod_oem": "AR51477",
+            "id_producto": 3930795
+        },
+        {
+            "cod_oem": "3801264",
+            "id_producto": 3930794
+        },
+        {
+            "cod_oem": "5195948",
+            "id_producto": 3930793
+        },
+        {
+            "cod_oem": "5149599",
+            "id_producto": 3930792
+        },
+        {
+            "cod_oem": "3802211",
+            "id_producto": 3930791
+        },
+        {
+            "cod_oem": "203070",
+            "id_producto": 3930790
+        },
+        {
+            "cod_oem": "5116257",
+            "id_producto": 3930789
+        },
+        {
+            "cod_oem": "7N3636",
+            "id_producto": 3930788
+        },
+        {
+            "cod_oem": "3069759",
+            "id_producto": 3930787
+        },
+        {
+            "cod_oem": "5113800",
+            "id_producto": 3930786
+        },
+        {
+            "cod_oem": "3054250",
+            "id_producto": 3930785
+        },
+        {
+            "cod_oem": "5P8052",
+            "id_producto": 3930784
+        },
+        {
+            "cod_oem": "5149641",
+            "id_producto": 3930783
+        },
+        {
+            "cod_oem": "5120930",
+            "id_producto": 3930782
+        },
+        {
+            "cod_oem": "3033314",
+            "id_producto": 3930781
+        },
+        {
+            "cod_oem": "3021581",
+            "id_producto": 3930780
+        },
+        {
+            "cod_oem": "3412285",
+            "id_producto": 3930779
+        },
+        {
+            "cod_oem": "5116381",
+            "id_producto": 3930778
+        },
+        {
+            "cod_oem": "5147506",
+            "id_producto": 3930777
+        },
+        {
+            "cod_oem": "5119284",
+            "id_producto": 3930776
+        },
+        {
+            "cod_oem": "8922969",
+            "id_producto": 3930775
+        },
+        {
+            "cod_oem": "195950",
+            "id_producto": 3930774
+        },
+        {
+            "cod_oem": "3802376",
+            "id_producto": 3930773
+        },
+        {
+            "cod_oem": "7W7544",
+            "id_producto": 3930772
+        },
+        {
+            "cod_oem": "5149575",
+            "id_producto": 3930771
+        },
+        {
+            "cod_oem": "5099M",
+            "id_producto": 3930770
+        },
+        {
+            "cod_oem": "203673",
+            "id_producto": 3930769
+        },
+        {
+            "cod_oem": "5192878",
+            "id_producto": 3930768
+        },
+        {
+            "cod_oem": "157623",
+            "id_producto": 3930767
+        },
+        {
+            "cod_oem": "5149456",
+            "id_producto": 3930766
+        },
+        {
+            "cod_oem": "203672",
+            "id_producto": 3930765
+        },
+        {
+            "cod_oem": "214953",
+            "id_producto": 3930764
+        },
+        {
+            "cod_oem": "5192877",
+            "id_producto": 3930763
+        },
+        {
+            "cod_oem": "5149559",
+            "id_producto": 3930762
+        },
+        {
+            "cod_oem": "8924360",
+            "id_producto": 3930761
+        },
+        {
+            "cod_oem": "214950",
+            "id_producto": 3930760
+        },
+        {
+            "cod_oem": "214951",
+            "id_producto": 3930759
+        },
+        {
+            "cod_oem": "5149556",
+            "id_producto": 3930758
+        },
+        {
+            "cod_oem": "5192874",
+            "id_producto": 3930757
+        },
+        {
+            "cod_oem": "203661",
+            "id_producto": 3930756
+        },
+        {
+            "cod_oem": "203660",
+            "id_producto": 3930755
+        },
+        {
+            "cod_oem": "203670",
+            "id_producto": 3930754
+        },
+        {
+            "cod_oem": "214954",
+            "id_producto": 3930753
+        },
+        {
+            "cod_oem": "BM99823",
+            "id_producto": 3930752
+        },
+        {
+            "cod_oem": "203662",
+            "id_producto": 3930751
+        },
+        {
+            "cod_oem": "203663",
+            "id_producto": 3930750
+        },
+        {
+            "cod_oem": "203674",
+            "id_producto": 3930749
+        },
+        {
+            "cod_oem": "3901431",
+            "id_producto": 3930748
+        },
+        {
+            "cod_oem": "1154109",
+            "id_producto": 3930747
+        },
+        {
+            "cod_oem": "8921714",
+            "id_producto": 3930746
+        },
+        {
+            "cod_oem": "23507226",
+            "id_producto": 3930745
+        },
+        {
+            "cod_oem": "3901434",
+            "id_producto": 3930744
+        },
+        {
+            "cod_oem": "8927784",
+            "id_producto": 3930743
+        },
+        {
+            "cod_oem": "8928670",
+            "id_producto": 3930742
+        },
+        {
+            "cod_oem": "5111423",
+            "id_producto": 3930741
+        },
+        {
+            "cod_oem": "5175986",
+            "id_producto": 3930740
+        },
+        {
+            "cod_oem": "005",
+            "id_producto": 3930739
+        },
+        {
+            "cod_oem": "5199368",
+            "id_producto": 3930738
+        },
+        {
+            "cod_oem": "3002834",
+            "id_producto": 3930737
+        },
+        {
+            "cod_oem": "5197922",
+            "id_producto": 3930736
+        },
+        {
+            "cod_oem": "5116181",
+            "id_producto": 3930735
+        },
+        {
+            "cod_oem": "5197921",
+            "id_producto": 3930734
+        },
+        {
+            "cod_oem": "5197923",
+            "id_producto": 3930733
+        },
+        {
+            "cod_oem": "8923920",
+            "id_producto": 3930732
+        },
+        {
+            "cod_oem": "4089811",
+            "id_producto": 3930731
+        },
+        {
+            "cod_oem": "23515461",
+            "id_producto": 3930730
+        },
+        {
+            "cod_oem": "5148490",
+            "id_producto": 3930729
+        },
+        {
+            "cod_oem": "5159353",
+            "id_producto": 3930728
+        },
+        {
+            "cod_oem": "5149314",
+            "id_producto": 3930727
+        },
+        {
+            "cod_oem": "3009213",
+            "id_producto": 3930726
+        },
+        {
+            "cod_oem": "3019218",
+            "id_producto": 3930725
+        },
+        {
+            "cod_oem": "5194827",
+            "id_producto": 3930724
+        },
+        {
+            "cod_oem": "1W8922",
+            "id_producto": 3930723
+        },
+        {
+            "cod_oem": "5198230",
+            "id_producto": 3930722
+        },
+        {
+            "cod_oem": "151523",
+            "id_producto": 3930721
+        },
+        {
+            "cod_oem": "8923917",
+            "id_producto": 3930720
+        },
+        {
+            "cod_oem": "23514971",
+            "id_producto": 3930719
+        },
+        {
+            "cod_oem": "5170450",
+            "id_producto": 3930718
+        },
+        {
+            "cod_oem": "4089489",
+            "id_producto": 3930717
+        },
+        {
+            "cod_oem": "F010035",
+            "id_producto": 3930716
+        },
+        {
+            "cod_oem": "F010012",
+            "id_producto": 3930715
+        },
+        {
+            "cod_oem": "F010011",
+            "id_producto": 3930714
+        },
+        {
+            "cod_oem": "F010034",
+            "id_producto": 3930713
+        },
+        {
+            "cod_oem": "F276180",
+            "id_producto": 3930712
+        },
+        {
+            "cod_oem": "LF9080",
+            "id_producto": 3930711
+        },
+        {
+            "cod_oem": "FS1007",
+            "id_producto": 3930710
+        },
+        {
+            "cod_oem": "FF5036",
+            "id_producto": 3930709
+        },
+        {
+            "cod_oem": "25624339",
+            "id_producto": 3930708
+        },
+        {
+            "cod_oem": "25623960",
+            "id_producto": 3930707
+        },
+        {
+            "cod_oem": "25624317",
+            "id_producto": 3930706
+        },
+        {
+            "cod_oem": "415938",
+            "id_producto": 3930705
+        },
+        {
+            "cod_oem": "BM68356",
+            "id_producto": 3930704
+        },
+        {
+            "cod_oem": "MU1307",
+            "id_producto": 3930703
+        },
+        {
+            "cod_oem": "481804",
+            "id_producto": 3930702
+        },
+        {
+            "cod_oem": "451570",
+            "id_producto": 3930701
+        },
+        {
+            "cod_oem": "451350",
+            "id_producto": 3930700
+        },
+        {
+            "cod_oem": "441451",
+            "id_producto": 3930699
+        },
+        {
+            "cod_oem": "436015",
+            "id_producto": 3930698
+        },
+        {
+            "cod_oem": "436005",
+            "id_producto": 3930697
+        },
+        {
+            "cod_oem": "ER73010",
+            "id_producto": 3930696
+        },
+        {
+            "cod_oem": "ER85910",
+            "id_producto": 3930695
+        },
+        {
+            "cod_oem": "392011",
+            "id_producto": 3930694
+        },
+        {
+            "cod_oem": "391994",
+            "id_producto": 3930693
+        },
+        {
+            "cod_oem": "370180",
+            "id_producto": 3930692
+        },
+        {
+            "cod_oem": "370035",
+            "id_producto": 3930691
+        },
+        {
+            "cod_oem": "351553",
+            "id_producto": 3930690
+        },
+        {
+            "cod_oem": "336013",
+            "id_producto": 3930689
+        },
+        {
+            "cod_oem": "336012",
+            "id_producto": 3930688
+        },
+        {
+            "cod_oem": "331463",
+            "id_producto": 3930687
+        },
+        {
+            "cod_oem": "EE22550",
+            "id_producto": 3930686
+        },
+        {
+            "cod_oem": "331254",
+            "id_producto": 3930685
+        },
+        {
+            "cod_oem": "331241",
+            "id_producto": 3930684
+        },
+        {
+            "cod_oem": "331218",
+            "id_producto": 3930683
+        },
+        {
+            "cod_oem": "EE22310",
+            "id_producto": 3930682
+        },
+        {
+            "cod_oem": "EE22240",
+            "id_producto": 3930681
+        },
+        {
+            "cod_oem": "321351",
+            "id_producto": 3930680
+        },
+        {
+            "cod_oem": "321285",
+            "id_producto": 3930679
+        },
+        {
+            "cod_oem": "EF16860",
+            "id_producto": 3930678
+        },
+        {
+            "cod_oem": "220073",
+            "id_producto": 3930677
+        },
+        {
+            "cod_oem": "220072",
+            "id_producto": 3930676
+        },
+        {
+            "cod_oem": "220071",
+            "id_producto": 3930675
+        },
+        {
+            "cod_oem": "220070",
+            "id_producto": 3930674
+        },
+        {
+            "cod_oem": "ER85570",
+            "id_producto": 3930673
+        },
+        {
+            "cod_oem": "EM67200",
+            "id_producto": 3930672
+        },
+        {
+            "cod_oem": "ER73170",
+            "id_producto": 3930671
+        },
+        {
+            "cod_oem": "220039",
+            "id_producto": 3930670
+        },
+        {
+            "cod_oem": "EM66200",
+            "id_producto": 3930669
+        },
+        {
+            "cod_oem": "220027",
+            "id_producto": 3930668
+        },
+        {
+            "cod_oem": "ER85560",
+            "id_producto": 3930667
+        },
+        {
+            "cod_oem": "ER73150",
+            "id_producto": 3930666
+        },
+        {
+            "cod_oem": "220016",
+            "id_producto": 3930665
+        },
+        {
+            "cod_oem": "220015",
+            "id_producto": 3930664
+        },
+        {
+            "cod_oem": "219931",
+            "id_producto": 3930663
+        },
+        {
+            "cod_oem": "EF08900",
+            "id_producto": 3930662
+        },
+        {
+            "cod_oem": "191951",
+            "id_producto": 3930661
+        },
+        {
+            "cod_oem": "191942",
+            "id_producto": 3930660
+        },
+        {
+            "cod_oem": "191940",
+            "id_producto": 3930659
+        },
+        {
+            "cod_oem": "191178",
+            "id_producto": 3930658
+        },
+        {
+            "cod_oem": "EF06490",
+            "id_producto": 3930657
+        },
+        {
+            "cod_oem": "EF06410",
+            "id_producto": 3930656
+        },
+        {
+            "cod_oem": "EM23820",
+            "id_producto": 3930655
+        },
+        {
+            "cod_oem": "190397",
+            "id_producto": 3930654
+        },
+        {
+            "cod_oem": "181841",
+            "id_producto": 3930653
+        },
+        {
+            "cod_oem": "181839",
+            "id_producto": 3930652
+        },
+        {
+            "cod_oem": "181838",
+            "id_producto": 3930651
+        },
+        {
+            "cod_oem": "181836",
+            "id_producto": 3930650
+        },
+        {
+            "cod_oem": "EF25530",
+            "id_producto": 3930649
+        },
+        {
+            "cod_oem": "181833",
+            "id_producto": 3930648
+        },
+        {
+            "cod_oem": "181829",
+            "id_producto": 3930647
+        },
+        {
+            "cod_oem": "180270",
+            "id_producto": 3930646
+        },
+        {
+            "cod_oem": "EF64570",
+            "id_producto": 3930645
+        },
+        {
+            "cod_oem": "171812",
+            "id_producto": 3930644
+        },
+        {
+            "cod_oem": "171811",
+            "id_producto": 3930643
+        },
+        {
+            "cod_oem": "171720",
+            "id_producto": 3930642
+        },
+        {
+            "cod_oem": "171699",
+            "id_producto": 3930641
+        },
+        {
+            "cod_oem": "151541",
+            "id_producto": 3930640
+        },
+        {
+            "cod_oem": "151519",
+            "id_producto": 3930639
+        },
+        {
+            "cod_oem": "CCB9696",
+            "id_producto": 3930638
+        },
+        {
+            "cod_oem": "151505",
+            "id_producto": 3930637
+        },
+        {
+            "cod_oem": "EM96900",
+            "id_producto": 3930636
+        },
+        {
+            "cod_oem": "136131",
+            "id_producto": 3930635
+        },
+        {
+            "cod_oem": "136066",
+            "id_producto": 3930634
+        },
+        {
+            "cod_oem": "136009",
+            "id_producto": 3930633
+        },
+        {
+            "cod_oem": "131931",
+            "id_producto": 3930632
+        },
+        {
+            "cod_oem": "131835",
+            "id_producto": 3930631
+        },
+        {
+            "cod_oem": "131496",
+            "id_producto": 3930630
+        },
+        {
+            "cod_oem": "131491",
+            "id_producto": 3930629
+        },
+        {
+            "cod_oem": "131490",
+            "id_producto": 3930628
+        },
+        {
+            "cod_oem": "131489",
+            "id_producto": 3930627
+        },
+        {
+            "cod_oem": "131488",
+            "id_producto": 3930626
+        },
+        {
+            "cod_oem": "131432",
+            "id_producto": 3930625
+        },
+        {
+            "cod_oem": "EF10570249",
+            "id_producto": 3930624
+        },
+        {
+            "cod_oem": "131428-1",
+            "id_producto": 3930623
+        },
+        {
+            "cod_oem": "131428",
+            "id_producto": 3930621
+        },
+        {
+            "cod_oem": "131394",
+            "id_producto": 3930620
+        },
+        {
+            "cod_oem": "EE30950",
+            "id_producto": 3930619
+        },
+        {
+            "cod_oem": "131384",
+            "id_producto": 3930618
+        },
+        {
+            "cod_oem": "131351",
+            "id_producto": 3930617
+        },
+        {
+            "cod_oem": "22941",
+            "id_producto": 3930616
+        },
+        {
+            "cod_oem": "4301843",
+            "id_producto": 3930615
+        },
+        {
+            "cod_oem": "14287",
+            "id_producto": 3930614
+        },
+        {
+            "cod_oem": "A6473",
+            "id_producto": 3930613
+        },
+        {
+            "cod_oem": "22903",
+            "id_producto": 3930612
+        },
+        {
+            "cod_oem": "K3130",
+            "id_producto": 3930611
+        },
+        {
+            "cod_oem": "K3246",
+            "id_producto": 3930610
+        },
+        {
+            "cod_oem": "4301844",
+            "id_producto": 3930609
+        },
+        {
+            "cod_oem": "4302047",
+            "id_producto": 3930608
+        },
+        {
+            "cod_oem": "3006742",
+            "id_producto": 3930607
+        },
+        {
+            "cod_oem": "3411710",
+            "id_producto": 3930606
+        },
+        {
+            "cod_oem": "3061037",
+            "id_producto": 3930605
+        },
+        {
+            "cod_oem": "5229953",
+            "id_producto": 3930604
+        },
+        {
+            "cod_oem": "3061022",
+            "id_producto": 3930603
+        },
+        {
+            "cod_oem": "3061033",
+            "id_producto": 3930602
+        },
+        {
+            "cod_oem": "5228795",
+            "id_producto": 3930601
+        },
+        {
+            "cod_oem": "3609841",
+            "id_producto": 3930600
+        },
+        {
+            "cod_oem": "5234775",
+            "id_producto": 3930599
+        },
+        {
+            "cod_oem": "5226795",
+            "id_producto": 3930598
+        },
+        {
+            "cod_oem": "3933254",
+            "id_producto": 3930597
+        },
+        {
+            "cod_oem": "P552562",
+            "id_producto": 3930596
+        },
+        {
+            "cod_oem": "P554004",
+            "id_producto": 3930595
+        },
+        {
+            "cod_oem": "P559000",
+            "id_producto": 3930594
+        },
+        {
+            "cod_oem": "P554005",
+            "id_producto": 3930593
+        },
+        {
+            "cod_oem": "P550777",
+            "id_producto": 3930592
+        },
+        {
+            "cod_oem": "P567580",
+            "id_producto": 3930591
+        },
+        {
+            "cod_oem": "P551381",
+            "id_producto": 3930590
+        },
+        {
+            "cod_oem": "P550388",
+            "id_producto": 3930589
+        },
+        {
+            "cod_oem": "P557440",
+            "id_producto": 3930588
+        },
+        {
+            "cod_oem": "P551670",
+            "id_producto": 3930587
+        },
+        {
+            "cod_oem": "P555823",
+            "id_producto": 3930586
+        },
+        {
+            "cod_oem": "P551712",
+            "id_producto": 3930585
+        },
+        {
+            "cod_oem": "3800558",
+            "id_producto": 3930584
+        },
+        {
+            "cod_oem": "3095038",
+            "id_producto": 3930583
+        },
+        {
+            "cod_oem": "5198041",
+            "id_producto": 3930582
+        },
+        {
+            "cod_oem": "8927465",
+            "id_producto": 3930581
+        },
+        {
+            "cod_oem": "692041",
+            "id_producto": 3930580
+        },
+        {
+            "cod_oem": "5229727",
+            "id_producto": 3930579
+        },
+        {
+            "cod_oem": "23518092",
+            "id_producto": 3930578
+        },
+        {
+            "cod_oem": "23530252",
+            "id_producto": 3930577
+        },
+        {
+            "cod_oem": "5107072",
+            "id_producto": 3930576
+        },
+        {
+            "cod_oem": "5101120",
+            "id_producto": 3930575
+        },
+        {
+            "cod_oem": "5122233",
+            "id_producto": 3930574
+        },
+        {
+            "cod_oem": "5229930",
+            "id_producto": 3930573
+        },
+        {
+            "cod_oem": "5228770",
+            "id_producto": 3930572
+        },
+        {
+            "cod_oem": "5104018",
+            "id_producto": 3930571
+        },
+        {
+            "cod_oem": "5109544",
+            "id_producto": 3930570
+        },
+        {
+            "cod_oem": "5124458",
+            "id_producto": 3930569
+        },
+        {
+            "cod_oem": "5144787",
+            "id_producto": 3930568
+        },
+        {
+            "cod_oem": "5198209",
+            "id_producto": 3930567
+        },
+        {
+            "cod_oem": "NA04",
+            "id_producto": 3930566
+        },
+        {
+            "cod_oem": "23042210",
+            "id_producto": 3930565
+        },
+        {
+            "cod_oem": "BK700",
+            "id_producto": 3930564
+        },
+        {
+            "cod_oem": "23012606",
+            "id_producto": 3930563
+        },
+        {
+            "cod_oem": "29536379",
+            "id_producto": 3930562
+        },
+        {
+            "cod_oem": "29530326",
+            "id_producto": 3930561
+        },
+        {
+            "cod_oem": "R9131",
+            "id_producto": 3930560
+        },
+        {
+            "cod_oem": "R6082",
+            "id_producto": 3930559
+        },
+        {
+            "cod_oem": "5972",
+            "id_producto": 3930558
+        },
+        {
+            "cod_oem": "A2688",
+            "id_producto": 3930557
+        },
+        {
+            "cod_oem": "308137C6",
+            "id_producto": 3930556
+        },
+        {
+            "cod_oem": "39835",
+            "id_producto": 3930555
+        },
+        {
+            "cod_oem": "3016788",
+            "id_producto": 3930554
+        },
+        {
+            "cod_oem": "5257595",
+            "id_producto": 3930553
+        },
+        {
+            "cod_oem": "3801356",
+            "id_producto": 3930552
+        },
+        {
+            "cod_oem": "5317174",
+            "id_producto": 3930551
+        },
+        {
+            "cod_oem": "3028065",
+            "id_producto": 3930550
+        },
+        {
+            "cod_oem": "3073231",
+            "id_producto": 3930549
+        },
+        {
+            "cod_oem": "3892170",
+            "id_producto": 3930548
+        },
+        {
+            "cod_oem": "3284377",
+            "id_producto": 3930547
+        },
+        {
+            "cod_oem": "3046574",
+            "id_producto": 3930546
+        },
+        {
+            "cod_oem": "3803360",
+            "id_producto": 3930545
+        },
+        {
+            "cod_oem": "3802085",
+            "id_producto": 3930544
+        },
+        {
+            "cod_oem": "164159",
+            "id_producto": 3930543
+        },
+        {
+            "cod_oem": "3803613",
+            "id_producto": 3930542
+        },
+        {
+            "cod_oem": "3802147",
+            "id_producto": 3930541
+        },
+        {
+            "cod_oem": "175830",
+            "id_producto": 3930540
+        },
+        {
+            "cod_oem": "3609861",
+            "id_producto": 3930539
+        },
+        {
+            "cod_oem": "3922072",
+            "id_producto": 3930538
+        },
+        {
+            "cod_oem": "3095043",
+            "id_producto": 3930537
+        },
+        {
+            "cod_oem": "3024148",
+            "id_producto": 3930536
+        },
+        {
+            "cod_oem": "4945762",
+            "id_producto": 3930535
+        },
+        {
+            "cod_oem": "3524660",
+            "id_producto": 3930534
+        },
+        {
+            "cod_oem": "3160924",
+            "id_producto": 3930533
+        },
+        {
+            "cod_oem": "4076930",
+            "id_producto": 3930532
+        },
+        {
+            "cod_oem": "4954905",
+            "id_producto": 3930531
+        },
+        {
+            "cod_oem": "175755",
+            "id_producto": 3930530
+        },
+        {
+            "cod_oem": "2897333",
+            "id_producto": 3930529
+        },
+        {
+            "cod_oem": "4326596",
+            "id_producto": 3930528
+        },
+        {
+            "cod_oem": "5297641-1",
+            "id_producto": 3930527
+        },
+        {
+            "cod_oem": "3408529",
+            "id_producto": 3930526
+        },
+        {
+            "cod_oem": "3082142",
+            "id_producto": 3930525
+        },
+        {
+            "cod_oem": "4921485",
+            "id_producto": 3930524
+        },
+        {
+            "cod_oem": "3028551",
+            "id_producto": 3930523
+        },
+        {
+            "cod_oem": "3008998",
+            "id_producto": 3930522
+        },
+        {
+            "cod_oem": "173368",
+            "id_producto": 3930521
+        },
+        {
+            "cod_oem": "3900250",
+            "id_producto": 3930520
+        },
+        {
+            "cod_oem": "3024709",
+            "id_producto": 3930519
+        },
+        {
+            "cod_oem": "3901177",
+            "id_producto": 3930518
+        },
+        {
+            "cod_oem": "3064305",
+            "id_producto": 3930517
+        },
+        {
+            "cod_oem": "193949",
+            "id_producto": 3930516
+        },
+        {
+            "cod_oem": "3072369",
+            "id_producto": 3930515
+        },
+        {
+            "cod_oem": "3007634",
+            "id_producto": 3930514
+        },
+        {
+            "cod_oem": "207244",
+            "id_producto": 3930513
+        },
+        {
+            "cod_oem": "109319",
+            "id_producto": 3930512
+        },
+        {
+            "cod_oem": "3502231",
+            "id_producto": 3930511
+        },
+        {
+            "cod_oem": "3758848",
+            "id_producto": 3930510
+        },
+        {
+            "cod_oem": "135169",
+            "id_producto": 3930509
+        },
+        {
+            "cod_oem": "3521441",
+            "id_producto": 3930508
+        },
+        {
+            "cod_oem": "3801522",
+            "id_producto": 3930507
+        },
+        {
+            "cod_oem": "3047188",
+            "id_producto": 3930506
+        },
+        {
+            "cod_oem": "183049",
+            "id_producto": 3930505
+        },
+        {
+            "cod_oem": "116982",
+            "id_producto": 3930504
+        },
+        {
+            "cod_oem": "3038997",
+            "id_producto": 3930503
+        },
+        {
+            "cod_oem": "3056344",
+            "id_producto": 3930502
+        },
+        {
+            "cod_oem": "3035342",
+            "id_producto": 3930501
+        },
+        {
+            "cod_oem": "3054608",
+            "id_producto": 3930500
+        },
+        {
+            "cod_oem": "3078155",
+            "id_producto": 3930499
+        },
+        {
+            "cod_oem": "200307",
+            "id_producto": 3930498
+        },
+        {
+            "cod_oem": "3038998",
+            "id_producto": 3930497
+        },
+        {
+            "cod_oem": "3071085",
+            "id_producto": 3930496
+        },
+        {
+            "cod_oem": "3408345",
+            "id_producto": 3930495
+        },
+        {
+            "cod_oem": "3903576",
+            "id_producto": 3930494
+        },
+        {
+            "cod_oem": "3062875",
+            "id_producto": 3930493
+        },
+        {
+            "cod_oem": "3408619",
+            "id_producto": 3930492
+        },
+        {
+            "cod_oem": "3903110",
+            "id_producto": 3930491
+        },
+        {
+            "cod_oem": "215090",
+            "id_producto": 3930490
+        },
+        {
+            "cod_oem": "3893913",
+            "id_producto": 3930489
+        },
+        {
+            "cod_oem": "3016787",
+            "id_producto": 3930488
+        },
+        {
+            "cod_oem": "3020190",
+            "id_producto": 3930487
+        },
+        {
+            "cod_oem": "8929750",
+            "id_producto": 3930486
+        },
+        {
+            "cod_oem": "3904353",
+            "id_producto": 3930485
+        },
+        {
+            "cod_oem": "68274",
+            "id_producto": 3930484
+        },
+        {
+            "cod_oem": "3064406",
+            "id_producto": 3930483
+        },
+        {
+            "cod_oem": "3027680",
+            "id_producto": 3930482
+        },
+        {
+            "cod_oem": "3023101",
+            "id_producto": 3930481
+        },
+        {
+            "cod_oem": "128080",
+            "id_producto": 3930480
+        },
+        {
+            "cod_oem": "166009",
+            "id_producto": 3930479
+        },
+        {
+            "cod_oem": "3019600",
+            "id_producto": 3930478
+        },
+        {
+            "cod_oem": "202128",
+            "id_producto": 3930477
+        },
+        {
+            "cod_oem": "3070460",
+            "id_producto": 3930476
+        },
+        {
+            "cod_oem": "69736",
+            "id_producto": 3930475
+        },
+        {
+            "cod_oem": "3010150",
+            "id_producto": 3930474
+        },
+        {
+            "cod_oem": "S16002",
+            "id_producto": 3930473
+        },
+        {
+            "cod_oem": "S16054",
+            "id_producto": 3930472
+        },
+        {
+            "cod_oem": "3900299",
+            "id_producto": 3930471
+        },
+        {
+            "cod_oem": "203100",
+            "id_producto": 3930470
+        },
+        {
+            "cod_oem": "186780",
+            "id_producto": 3930469
+        },
+        {
+            "cod_oem": "3870890",
+            "id_producto": 3930468
+        },
+        {
+            "cod_oem": "3006736",
+            "id_producto": 3930467
+        },
+        {
+            "cod_oem": "3033232",
+            "id_producto": 3930466
+        },
+        {
+            "cod_oem": "3046200",
+            "id_producto": 3930465
+        },
+        {
+            "cod_oem": "S3193",
+            "id_producto": 3930464
+        },
+        {
+            "cod_oem": "3048808",
+            "id_producto": 3930463
+        },
+        {
+            "cod_oem": "3076126",
+            "id_producto": 3930462
+        },
+        {
+            "cod_oem": "3047447",
+            "id_producto": 3930461
+        },
+        {
+            "cod_oem": "3070393",
+            "id_producto": 3930460
+        },
+        {
+            "cod_oem": "200908",
+            "id_producto": 3930459
+        },
+        {
+            "cod_oem": "3925852",
+            "id_producto": 3930458
+        },
+        {
+            "cod_oem": "147100",
+            "id_producto": 3930457
+        },
+        {
+            "cod_oem": "3069707",
+            "id_producto": 3930456
+        },
+        {
+            "cod_oem": "212350",
+            "id_producto": 3930455
+        },
+        {
+            "cod_oem": "3762564",
+            "id_producto": 3930454
+        },
+        {
+            "cod_oem": "3800140",
+            "id_producto": 3930453
+        },
+        {
+            "cod_oem": "3901793",
+            "id_producto": 3930452
+        },
+        {
+            "cod_oem": "215705",
+            "id_producto": 3930451
+        },
+        {
+            "cod_oem": "212161",
+            "id_producto": 3930450
+        },
+        {
+            "cod_oem": "128086",
+            "id_producto": 3930449
+        },
+        {
+            "cod_oem": "128085",
+            "id_producto": 3930448
+        },
+        {
+            "cod_oem": "3033247",
+            "id_producto": 3930447
+        },
+        {
+            "cod_oem": "3033248",
+            "id_producto": 3930446
+        },
+        {
+            "cod_oem": "3007442",
+            "id_producto": 3930445
+        },
+        {
+            "cod_oem": "3000521",
+            "id_producto": 3930444
+        },
+        {
+            "cod_oem": "151881",
+            "id_producto": 3930443
+        },
+        {
+            "cod_oem": "154087",
+            "id_producto": 3930442
+        },
+        {
+            "cod_oem": "3912473",
+            "id_producto": 3930441
+        },
+        {
+            "cod_oem": "100099",
+            "id_producto": 3930440
+        },
+        {
+            "cod_oem": "3010617",
+            "id_producto": 3930439
+        },
+        {
+            "cod_oem": "3751948",
+            "id_producto": 3930438
+        },
+        {
+            "cod_oem": "145551",
+            "id_producto": 3930437
+        },
+        {
+            "cod_oem": "145506",
+            "id_producto": 3930436
+        },
+        {
+            "cod_oem": "129888",
+            "id_producto": 3930435
+        },
+        {
+            "cod_oem": "211177",
+            "id_producto": 3930434
+        },
+        {
+            "cod_oem": "3820791",
+            "id_producto": 3930433
+        },
+        {
+            "cod_oem": "3903475",
+            "id_producto": 3930432
+        },
+        {
+            "cod_oem": "3762915",
+            "id_producto": 3930431
+        },
+        {
+            "cod_oem": "211999",
+            "id_producto": 3930430
+        },
+        {
+            "cod_oem": "61554",
+            "id_producto": 3930429
+        },
+        {
+            "cod_oem": "3179664",
+            "id_producto": 3930428
+        },
+        {
+            "cod_oem": "3803756",
+            "id_producto": 3930427
+        },
+        {
+            "cod_oem": "3901020",
+            "id_producto": 3930426
+        },
+        {
+            "cod_oem": "3019960",
+            "id_producto": 3930425
+        },
+        {
+            "cod_oem": "3924445",
+            "id_producto": 3930424
+        },
+        {
+            "cod_oem": "183429",
+            "id_producto": 3930423
+        },
+        {
+            "cod_oem": "3925031",
+            "id_producto": 3930422
+        },
+        {
+            "cod_oem": "3006745",
+            "id_producto": 3930421
+        },
+        {
+            "cod_oem": "3019959",
+            "id_producto": 3930420
+        },
+        {
+            "cod_oem": "3019957",
+            "id_producto": 3930419
+        },
+        {
+            "cod_oem": "3025517",
+            "id_producto": 3930418
+        },
+        {
+            "cod_oem": "3084568",
+            "id_producto": 3930417
+        },
+        {
+            "cod_oem": "3802529",
+            "id_producto": 3930416
+        },
+        {
+            "cod_oem": "3060001",
+            "id_producto": 3930415
+        },
+        {
+            "cod_oem": "3803478",
+            "id_producto": 3930414
+        },
+        {
+            "cod_oem": "3803573",
+            "id_producto": 3930413
+        },
+        {
+            "cod_oem": "3803574",
+            "id_producto": 3930412
+        },
+        {
+            "cod_oem": "3027681",
+            "id_producto": 3930411
+        },
+        {
+            "cod_oem": "3803727",
+            "id_producto": 3930410
+        },
+        {
+            "cod_oem": "3803612",
+            "id_producto": 3930409
+        },
+        {
+            "cod_oem": "3917780",
+            "id_producto": 3930408
+        },
+        {
+            "cod_oem": "3931346",
+            "id_producto": 3930407
+        },
+        {
+            "cod_oem": "009",
+            "id_producto": 3930406
+        },
+        {
+            "cod_oem": "3929253",
+            "id_producto": 3930405
+        },
+        {
+            "cod_oem": "3087557",
+            "id_producto": 3930404
+        },
+        {
+            "cod_oem": "3016676",
+            "id_producto": 3930403
+        },
+        {
+            "cod_oem": "004",
+            "id_producto": 3930402
+        },
+        {
+            "cod_oem": "3522773",
+            "id_producto": 3930401
+        },
+        {
+            "cod_oem": "3527047",
+            "id_producto": 3930400
+        },
+        {
+            "cod_oem": "3524996",
+            "id_producto": 3930399
+        },
+        {
+            "cod_oem": "3884189",
+            "id_producto": 3930398
+        },
+        {
+            "cod_oem": "3882433",
+            "id_producto": 3930397
+        },
+        {
+            "cod_oem": "3804409",
+            "id_producto": 3930396
+        },
+        {
+            "cod_oem": "3058555",
+            "id_producto": 3930395
+        },
+        {
+            "cod_oem": "3045214",
+            "id_producto": 3930394
+        },
+        {
+            "cod_oem": "218548",
+            "id_producto": 3930393
+        },
+        {
+            "cod_oem": "146483",
+            "id_producto": 3930392
+        },
+        {
+            "cod_oem": "3066311",
+            "id_producto": 3930391
+        },
+        {
+            "cod_oem": "3010030",
+            "id_producto": 3930390
+        },
+        {
+            "cod_oem": "3019227",
+            "id_producto": 3930389
+        },
+        {
+            "cod_oem": "3931351",
+            "id_producto": 3930388
+        },
+        {
+            "cod_oem": "3078407",
+            "id_producto": 3930387
+        },
+        {
+            "cod_oem": "3012532",
+            "id_producto": 3930386
+        },
+        {
+            "cod_oem": "3931350",
+            "id_producto": 3930385
+        },
+        {
+            "cod_oem": "3929012",
+            "id_producto": 3930384
+        },
+        {
+            "cod_oem": "119363",
+            "id_producto": 3930383
+        },
+        {
+            "cod_oem": "3201386",
+            "id_producto": 3930382
+        },
+        {
+            "cod_oem": "3024960",
+            "id_producto": 3930381
+        },
+        {
+            "cod_oem": "3931348",
+            "id_producto": 3930380
+        },
+        {
+            "cod_oem": "3019616",
+            "id_producto": 3930379
+        },
+        {
+            "cod_oem": "185848",
+            "id_producto": 3930378
+        },
+        {
+            "cod_oem": "3047159",
+            "id_producto": 3930377
+        },
+        {
+            "cod_oem": "218245",
+            "id_producto": 3930376
+        },
+        {
+            "cod_oem": "154018",
+            "id_producto": 3930375
+        },
+        {
+            "cod_oem": "3011931",
+            "id_producto": 3930374
+        },
+        {
+            "cod_oem": "3020943",
+            "id_producto": 3930373
+        },
+        {
+            "cod_oem": "208128",
+            "id_producto": 3930372
+        },
+        {
+            "cod_oem": "210647",
+            "id_producto": 3930371
+        },
+        {
+            "cod_oem": "176027",
+            "id_producto": 3930370
+        },
+        {
+            "cod_oem": "3901356",
+            "id_producto": 3930369
+        },
+        {
+            "cod_oem": "202961",
+            "id_producto": 3930368
+        },
+        {
+            "cod_oem": "3008017",
+            "id_producto": 3930367
+        },
+        {
+            "cod_oem": "3069098",
+            "id_producto": 3930366
+        },
+        {
+            "cod_oem": "3014614",
+            "id_producto": 3930365
+        },
+        {
+            "cod_oem": "157551",
+            "id_producto": 3930364
+        },
+        {
+            "cod_oem": "3020851",
+            "id_producto": 3930363
+        },
+        {
+            "cod_oem": "3066217",
+            "id_producto": 3930362
+        },
+        {
+            "cod_oem": "3069177",
+            "id_producto": 3930361
+        },
+        {
+            "cod_oem": "3927154",
+            "id_producto": 3930360
+        },
+        {
+            "cod_oem": "3025123",
+            "id_producto": 3930359
+        },
+        {
+            "cod_oem": "3025124",
+            "id_producto": 3930358
+        },
+        {
+            "cod_oem": "3045622",
+            "id_producto": 3930357
+        },
+        {
+            "cod_oem": "3072919",
+            "id_producto": 3930356
+        },
+        {
+            "cod_oem": "3050395",
+            "id_producto": 3930355
+        },
+        {
+            "cod_oem": "3054841",
+            "id_producto": 3930354
+        },
+        {
+            "cod_oem": "3076522",
+            "id_producto": 3930353
+        },
+        {
+            "cod_oem": "3067616",
+            "id_producto": 3930352
+        },
+        {
+            "cod_oem": "3931347",
+            "id_producto": 3930351
+        },
+        {
+            "cod_oem": "3067613",
+            "id_producto": 3930350
+        },
+        {
+            "cod_oem": "3069097",
+            "id_producto": 3930349
+        },
+        {
+            "cod_oem": "3018673",
+            "id_producto": 3930348
+        },
+        {
+            "cod_oem": "3013811",
+            "id_producto": 3930347
+        },
+        {
+            "cod_oem": "3062107",
+            "id_producto": 3930346
+        },
+        {
+            "cod_oem": "3558763",
+            "id_producto": 3930345
+        },
+        {
+            "cod_oem": "3058383",
+            "id_producto": 3930344
+        },
+        {
+            "cod_oem": "3032228",
+            "id_producto": 3930343
+        },
+        {
+            "cod_oem": "3019198",
+            "id_producto": 3930342
+        },
+        {
+            "cod_oem": "3901171",
+            "id_producto": 3930341
+        },
+        {
+            "cod_oem": "3019204",
+            "id_producto": 3930340
+        },
+        {
+            "cod_oem": "210415",
+            "id_producto": 3930339
+        },
+        {
+            "cod_oem": "132770",
+            "id_producto": 3930338
+        },
+        {
+            "cod_oem": "203097",
+            "id_producto": 3930337
+        },
+        {
+            "cod_oem": "3019186",
+            "id_producto": 3930336
+        },
+        {
+            "cod_oem": "3801106",
+            "id_producto": 3930335
+        },
+        {
+            "cod_oem": "144178",
+            "id_producto": 3930334
+        },
+        {
+            "cod_oem": "3901085",
+            "id_producto": 3930333
+        },
+        {
+            "cod_oem": "3075381",
+            "id_producto": 3930332
+        },
+        {
+            "cod_oem": "3884192",
+            "id_producto": 3930331
+        },
+        {
+            "cod_oem": "3801715",
+            "id_producto": 3930330
+        },
+        {
+            "cod_oem": "3901247",
+            "id_producto": 3930329
+        },
+        {
+            "cod_oem": "3067932",
+            "id_producto": 3930328
+        },
+        {
+            "cod_oem": "3883171",
+            "id_producto": 3930327
+        },
+        {
+            "cod_oem": "3060905",
+            "id_producto": 3930326
+        },
+        {
+            "cod_oem": "100670",
+            "id_producto": 3930325
+        },
+        {
+            "cod_oem": "68365",
+            "id_producto": 3930324
+        },
+        {
+            "cod_oem": "9224",
+            "id_producto": 3930323
+        },
+        {
+            "cod_oem": "116391",
+            "id_producto": 3930322
+        },
+        {
+            "cod_oem": "3067871",
+            "id_producto": 3930321
+        },
+        {
+            "cod_oem": "213213",
+            "id_producto": 3930320
+        },
+        {
+            "cod_oem": "3913990",
+            "id_producto": 3930319
+        },
+        {
+            "cod_oem": "3026189",
+            "id_producto": 3930318
+        },
+        {
+            "cod_oem": "3408324-1",
+            "id_producto": 3930317
+        },
+        {
+            "cod_oem": "66748",
+            "id_producto": 3930316
+        },
+        {
+            "cod_oem": "67946",
+            "id_producto": 3930315
+        },
+        {
+            "cod_oem": "200861",
+            "id_producto": 3930314
+        },
+        {
+            "cod_oem": "3904105",
+            "id_producto": 3930313
+        },
+        {
+            "cod_oem": "188040",
+            "id_producto": 3930312
+        },
+        {
+            "cod_oem": "3900808",
+            "id_producto": 3930311
+        },
+        {
+            "cod_oem": "153514",
+            "id_producto": 3930310
+        },
+        {
+            "cod_oem": "160514",
+            "id_producto": 3930309
+        },
+        {
+            "cod_oem": "138609",
+            "id_producto": 3930308
+        },
+        {
+            "cod_oem": "179063",
+            "id_producto": 3930307
+        },
+        {
+            "cod_oem": "66292",
+            "id_producto": 3930306
+        },
+        {
+            "cod_oem": "3069692",
+            "id_producto": 3930305
+        },
+        {
+            "cod_oem": "3084020",
+            "id_producto": 3930304
+        },
+        {
+            "cod_oem": "3756754",
+            "id_producto": 3930303
+        },
+        {
+            "cod_oem": "3084899",
+            "id_producto": 3930302
+        },
+        {
+            "cod_oem": "3523542",
+            "id_producto": 3930301
+        },
+        {
+            "cod_oem": "3906694",
+            "id_producto": 3930300
+        },
+        {
+            "cod_oem": "3929005",
+            "id_producto": 3930299
+        },
+        {
+            "cod_oem": "200354",
+            "id_producto": 3930298
+        },
+        {
+            "cod_oem": "188042",
+            "id_producto": 3930297
+        },
+        {
+            "cod_oem": "129768",
+            "id_producto": 3930296
+        },
+        {
+            "cod_oem": "3026557",
+            "id_producto": 3930295
+        },
+        {
+            "cod_oem": "3026556",
+            "id_producto": 3930294
+        },
+        {
+            "cod_oem": "3906854",
+            "id_producto": 3930293
+        },
+        {
+            "cod_oem": "114638",
+            "id_producto": 3930292
+        },
+        {
+            "cod_oem": "211662",
+            "id_producto": 3930291
+        },
+        {
+            "cod_oem": "3803961",
+            "id_producto": 3930290
+        },
+        {
+            "cod_oem": "127930",
+            "id_producto": 3930289
+        },
+        {
+            "cod_oem": "3054590",
+            "id_producto": 3930288
+        },
+        {
+            "cod_oem": "3803472",
+            "id_producto": 3930287
+        },
+        {
+            "cod_oem": "3034578",
+            "id_producto": 3930286
+        },
+        {
+            "cod_oem": "190769",
+            "id_producto": 3930285
+        },
+        {
+            "cod_oem": "3924582",
+            "id_producto": 3930284
+        },
+        {
+            "cod_oem": "7C4297",
+            "id_producto": 3930283
+        },
+        {
+            "cod_oem": "1W8606",
+            "id_producto": 3930282
+        },
+        {
+            "cod_oem": "2W3211",
+            "id_producto": 3930281
+        },
+        {
+            "cod_oem": "4T1860",
+            "id_producto": 3930280
+        },
+        {
+            "cod_oem": "7E1177",
+            "id_producto": 3930279
+        },
+        {
+            "cod_oem": "2N3853",
+            "id_producto": 3930278
+        },
+        {
+            "cod_oem": "9G5127",
+            "id_producto": 3930277
+        },
+        {
+            "cod_oem": "1087930",
+            "id_producto": 3930276
+        },
+        {
+            "cod_oem": "1B3867",
+            "id_producto": 3930275
+        },
+        {
+            "cod_oem": "9N5496",
+            "id_producto": 3930274
+        },
+        {
+            "cod_oem": "1090077",
+            "id_producto": 3930273
+        },
+        {
+            "cod_oem": "6L7816",
+            "id_producto": 3930272
+        },
+        {
+            "cod_oem": "4W7021",
+            "id_producto": 3930271
+        },
+        {
+            "cod_oem": "7E1551",
+            "id_producto": 3930270
+        },
+        {
+            "cod_oem": "2N9299",
+            "id_producto": 3930269
+        },
+        {
+            "cod_oem": "2N9298",
+            "id_producto": 3930268
+        },
+        {
+            "cod_oem": "4N0406",
+            "id_producto": 3930267
+        },
+        {
+            "cod_oem": "7C6208",
+            "id_producto": 3930266
+        },
+        {
+            "cod_oem": "8N0702",
+            "id_producto": 3930265
+        },
+        {
+            "cod_oem": "1192924",
+            "id_producto": 3930264
+        },
+        {
+            "cod_oem": "1753617",
+            "id_producto": 3930263
+        },
+        {
+            "cod_oem": "1527582",
+            "id_producto": 3930262
+        },
+        {
+            "cod_oem": "CB1288P20",
+            "id_producto": 3930261
+        },
+        {
+            "cod_oem": "SH2181S",
+            "id_producto": 3930260
+        },
+        {
+            "cod_oem": "001",
+            "id_producto": 3930259
+        },
+        {
+            "cod_oem": "CPO33HT",
+            "id_producto": 3930258
+        },
+        {
+            "cod_oem": "1028392",
+            "id_producto": 3930257
+        },
+        {
+            "cod_oem": "7W4137",
+            "id_producto": 3930256
+        },
+        {
+            "cod_oem": "7V5645",
+            "id_producto": 3930255
+        },
+        {
+            "cod_oem": "7X7655",
+            "id_producto": 3930254
+        },
+        {
+            "cod_oem": "391954",
+            "id_producto": 3930253
+        },
+        {
+            "cod_oem": "7W3863-1",
+            "id_producto": 3930252
+        },
+        {
+            "cod_oem": "7W3863",
+            "id_producto": 3930251
+        },
+        {
+            "cod_oem": "1293178",
+            "id_producto": 3930250
+        },
+        {
+            "cod_oem": "4200653",
+            "id_producto": 3930249
+        },
+        {
+            "cod_oem": "1020050",
+            "id_producto": 3930248
+        },
+        {
+            "cod_oem": "2655287",
+            "id_producto": 3930247
+        },
+        {
+            "cod_oem": "2244536",
+            "id_producto": 3930246
+        },
+        {
+            "cod_oem": "2418368",
+            "id_producto": 3930245
+        },
+        {
+            "cod_oem": "7E8342",
+            "id_producto": 3930244
+        },
+        {
+            "cod_oem": "1070612",
+            "id_producto": 3930243
+        },
+        {
+            "cod_oem": "5P8970",
+            "id_producto": 3930242
+        },
+        {
+            "cod_oem": "6F1069",
+            "id_producto": 3930241
+        },
+        {
+            "cod_oem": "2W9162",
+            "id_producto": 3930240
+        },
+        {
+            "cod_oem": "9Y4973",
+            "id_producto": 3930239
+        },
+        {
+            "cod_oem": "2382501",
+            "id_producto": 3930238
+        },
+        {
+            "cod_oem": "7E1246",
+            "id_producto": 3930237
+        },
+        {
+            "cod_oem": "2353546",
+            "id_producto": 3930236
+        },
+        {
+            "cod_oem": "1131504",
+            "id_producto": 3930235
+        },
+        {
+            "cod_oem": "3015166",
+            "id_producto": 3930234
+        },
+        {
+            "cod_oem": "1279485",
+            "id_producto": 3930233
+        },
+        {
+            "cod_oem": "9T4057",
+            "id_producto": 3930232
+        },
+        {
+            "cod_oem": "6V3955",
+            "id_producto": 3930231
+        },
+        {
+            "cod_oem": "7X7662",
+            "id_producto": 3930230
+        },
+        {
+            "cod_oem": "3B8486",
+            "id_producto": 3930229
+        },
+        {
+            "cod_oem": "6T1395",
+            "id_producto": 3930228
+        },
+        {
+            "cod_oem": "2842728",
+            "id_producto": 3930227
+        },
+        {
+            "cod_oem": "1305187",
+            "id_producto": 3930226
+        },
+        {
+            "cod_oem": "1561200",
+            "id_producto": 3930225
+        },
+        {
+            "cod_oem": "1803730",
+            "id_producto": 3930224
+        },
+        {
+            "cod_oem": "1028805",
+            "id_producto": 3930223
+        },
+        {
+            "cod_oem": "7N4509",
+            "id_producto": 3930222
+        },
+        {
+            "cod_oem": "2321793",
+            "id_producto": 3930221
+        },
+        {
+            "cod_oem": "6I0497",
+            "id_producto": 3930220
+        },
+        {
+            "cod_oem": "1070268",
+            "id_producto": 3930219
+        },
+        {
+            "cod_oem": "8M4014",
+            "id_producto": 3930218
+        },
+        {
+            "cod_oem": "5S1757",
+            "id_producto": 3930217
+        },
+        {
+            "cod_oem": "AUJ5921",
+            "id_producto": 3930216
+        },
+        {
+            "cod_oem": "432191273",
+            "id_producto": 3930215
+        },
+        {
+            "cod_oem": "432191642",
+            "id_producto": 3930214
+        },
+        {
+            "cod_oem": "UN1950-1",
+            "id_producto": 3930213
+        },
+        {
+            "cod_oem": "6145R3H03",
+            "id_producto": 3930212
+        },
+        {
+            "cod_oem": "131337",
+            "id_producto": 3930211
+        },
+        {
+            "cod_oem": "131331",
+            "id_producto": 3930210
+        },
+        {
+            "cod_oem": "111336",
+            "id_producto": 3930209
+        },
+        {
+            "cod_oem": "111333",
+            "id_producto": 3930208
+        },
+        {
+            "cod_oem": "HW960243",
+            "id_producto": 3930207
+        },
+        {
+            "cod_oem": "R5509",
+            "id_producto": 3930206
+        },
+        {
+            "cod_oem": "5679",
+            "id_producto": 3930205
+        },
+        {
+            "cod_oem": "5485BAG",
+            "id_producto": 3930204
+        },
+        {
+            "cod_oem": "5973",
+            "id_producto": 3930203
+        },
+        {
+            "cod_oem": "AND9122",
+            "id_producto": 3930202
+        },
+        {
+            "cod_oem": "EIN8935",
+            "id_producto": 3930201
+        },
+        {
+            "cod_oem": "29537371",
+            "id_producto": 3930200
+        },
+        {
+            "cod_oem": "PF828",
+            "id_producto": 3930199
+        },
+        {
+            "cod_oem": "SR6",
+            "id_producto": 3930196
+        },
+        {
+            "cod_oem": "TNC2ZB-516",
+            "id_producto": 3890676
+        },
+        {
+            "cod_oem": "PNC2ZB-516312",
+            "id_producto": 3890674
+        },
+        {
+            "cod_oem": "PROFONNC5-5164",
+            "id_producto": 3890652
+        },
+        {
+            "cod_oem": "BIRWIN-C10",
+            "id_producto": 3890651
+        },
+        {
+            "cod_oem": "BIRWIN-F8",
+            "id_producto": 3890650
+        },
+        {
+            "cod_oem": "GOT-LIQ",
+            "id_producto": 3890642
+        },
+        {
+            "cod_oem": "65411",
+            "id_producto": 3889451
+        },
+        {
+            "cod_oem": "BROCAIRWIN-6",
+            "id_producto": 3862719
+        },
+        {
+            "cod_oem": "BROCAIRWIN-5",
+            "id_producto": 3862715
+        },
+        {
+            "cod_oem": "BROCAHSS-4",
+            "id_producto": 3862713
+        },
+        {
+            "cod_oem": "BROCAHSS-8",
+            "id_producto": 3862710
+        },
+        {
+            "cod_oem": "PREDZN-31638",
+            "id_producto": 3862687
+        },
+        {
+            "cod_oem": "JLM104948",
+            "id_producto": 3860273
+        },
+        {
+            "cod_oem": "kit1001",
+            "id_producto": 3858546
+        },
+        {
+            "cod_oem": "994347",
+            "id_producto": 3856968
+        },
+        {
+            "cod_oem": "MP-2768ESP",
+            "id_producto": 3854264
+        },
+        {
+            "cod_oem": "TREDZN-532",
+            "id_producto": 3854157
+        },
+        {
+            "cod_oem": "PREDZN-53238",
+            "id_producto": 3854155
+        },
+        {
+            "cod_oem": "PRUE-MOVIL-MB-2289",
+            "id_producto": 3853396
+        },
+        {
+            "cod_oem": "TORQUE-78-NC",
+            "id_producto": 3852625
+        },
+        {
+            "cod_oem": "BROCAHSS-3",
+            "id_producto": 3852608
+        },
+        {
+            "cod_oem": "PNC8-784",
+            "id_producto": 3852604
+        },
+        {
+            "cod_oem": "TINOX-M6",
+            "id_producto": 3852598
+        },
+        {
+            "cod_oem": "PINOXCTE-620",
+            "id_producto": 3852593
+        },
+        {
+            "cod_oem": "PINOXCTE-1240",
+            "id_producto": 3848300
+        },
+        {
+            "cod_oem": "WD40",
+            "id_producto": 3847481
+        },
+        {
+            "cod_oem": "PMALLEN-620",
+            "id_producto": 3842137
+        },
+        {
+            "cod_oem": "LIJA3M-600",
+            "id_producto": 3842129
+        },
+        {
+            "cod_oem": "PRUE-MACK-22125",
+            "id_producto": 3828939
+        },
+        {
+            "cod_oem": "SERV136",
+            "id_producto": 3822841
+        },
+        {
+            "cod_oem": "SR695X2",
+            "id_producto": 3822140
+        },
+        {
+            "cod_oem": "PRESINTO-48500",
+            "id_producto": 3820901
+        },
+        {
+            "cod_oem": "LIJA3M-220",
+            "id_producto": 3820896
+        },
+        {
+            "cod_oem": "LIJA3M-80",
+            "id_producto": 3820893
+        },
+        {
+            "cod_oem": "TRABASIL-PERNO-6G",
+            "id_producto": 3820884
+        },
+        {
+            "cod_oem": "TARRAJA-8PCS-UYUS",
+            "id_producto": 3816835
+        },
+        {
+            "cod_oem": "1524838",
+            "id_producto": 3813121
+        },
+        {
+            "cod_oem": "14750",
+            "id_producto": 3812454
+        },
+        {
+            "cod_oem": "6212",
+            "id_producto": 3812120
+        },
+        {
+            "cod_oem": "10094142",
+            "id_producto": 3812104
+        },
+        {
+            "cod_oem": "20807261",
+            "id_producto": 3812101
+        },
+        {
+            "cod_oem": "108925",
+            "id_producto": 3812093
+        },
+        {
+            "cod_oem": "9125129242",
+            "id_producto": 3809910
+        },
+        {
+            "cod_oem": "9000012003",
+            "id_producto": 3809892
+        },
+        {
+            "cod_oem": "9000012012",
+            "id_producto": 3809879
+        },
+        {
+            "cod_oem": "6-5-2-329",
+            "id_producto": 3809833
+        },
+        {
+            "cod_oem": "s422",
+            "id_producto": 3809816
+        },
+        {
+            "cod_oem": "020023",
+            "id_producto": 3808857
+        },
+        {
+            "cod_oem": "ST1948",
+            "id_producto": 3808564
+        },
+        {
+            "cod_oem": "45BVV8539DLK3",
+            "id_producto": 3808509
+        },
+        {
+            "cod_oem": "994346",
+            "id_producto": 3808506
+        },
+        {
+            "cod_oem": "71-10789-00",
+            "id_producto": 3805964
+        },
+        {
+            "cod_oem": "30550023",
+            "id_producto": 3805957
+        },
+        {
+            "cod_oem": "MTGU958",
+            "id_producto": 3805954
+        },
+        {
+            "cod_oem": "MPEC50SS",
+            "id_producto": 3805950
+        },
+        {
+            "cod_oem": "MPELB5X90",
+            "id_producto": 3805948
+        },
+        {
+            "cod_oem": "6304",
+            "id_producto": 3805663
+        },
+        {
+            "cod_oem": "10PK1430",
+            "id_producto": 3805657
+        },
+        {
+            "cod_oem": "8PK1400",
+            "id_producto": 3805653
+        },
+        {
+            "cod_oem": "00001",
+            "id_producto": 3805541
+        },
+        {
+            "cod_oem": "30BD40ATDD",
+            "id_producto": 3805440
+        },
+        {
+            "cod_oem": "6302",
+            "id_producto": 3805432
+        },
+        {
+            "cod_oem": "BW5074",
+            "id_producto": 3805403
+        },
+        {
+            "cod_oem": "K4148",
+            "id_producto": 3804202
+        },
+        {
+            "cod_oem": "AS89",
+            "id_producto": 3803278
+        },
+        {
+            "cod_oem": "M-44041",
+            "id_producto": 3803276
+        },
+        {
+            "cod_oem": "CHAVETA-532212",
+            "id_producto": 3803265
+        },
+        {
+            "cod_oem": "SE037",
+            "id_producto": 3803262
+        },
+        {
+            "cod_oem": "MP1577EHB",
+            "id_producto": 3803254
+        },
+        {
+            "cod_oem": "MP1567EHB",
+            "id_producto": 3803252
+        },
+        {
+            "cod_oem": "100000166203",
+            "id_producto": 3803246
+        },
+        {
+            "cod_oem": "03574",
+            "id_producto": 3803240
+        },
+        {
+            "cod_oem": "52108217",
+            "id_producto": 3741444
+        },
+        {
+            "cod_oem": "284143N",
+            "id_producto": 3741083
+        },
+        {
+            "cod_oem": "RC1040",
+            "id_producto": 3740699
+        },
+        {
+            "cod_oem": "VARILLANC-58",
+            "id_producto": 3712063
+        },
+        {
+            "cod_oem": "DCNORTON-412-1",
+            "id_producto": 3710791
+        },
+        {
+            "cod_oem": "TRUE-MOVIL-VOLVOA22",
+            "id_producto": 3681746
+        },
+        {
+            "cod_oem": "SIERRA-MEC-24",
+            "id_producto": 3540816
+        },
+        {
+            "cod_oem": "CALIB-1",
+            "id_producto": 3540767
+        },
+        {
+            "cod_oem": "VARILLANC-34",
+            "id_producto": 3540741
+        },
+        {
+            "cod_oem": "VARILLANC-12",
+            "id_producto": 3540726
+        },
+        {
+            "cod_oem": "A1-3236-Q-2123",
+            "id_producto": 3480927
+        },
+        {
+            "cod_oem": "AF-GL1-2",
+            "id_producto": 3480763
+        },
+        {
+            "cod_oem": "S303031LH",
+            "id_producto": 3480645
+        },
+        {
+            "cod_oem": "S303031RH",
+            "id_producto": 3480638
+        },
+        {
+            "cod_oem": "TBRONCE-MANG5\/32",
+            "id_producto": 3479241
+        },
+        {
+            "cod_oem": "PLM-5\/32",
+            "id_producto": 3479220
+        },
+        {
+            "cod_oem": "UN-02",
+            "id_producto": 3479195
+        },
+        {
+            "cod_oem": "CD-0102",
+            "id_producto": 3479185
+        },
+        {
+            "cod_oem": "TP-02",
+            "id_producto": 3479168
+        },
+        {
+            "cod_oem": "CN-02",
+            "id_producto": 3479159
+        },
+        {
+            "cod_oem": "ABRA12-22-T9",
+            "id_producto": 3479140
+        },
+        {
+            "cod_oem": "PRESINTO-48300",
+            "id_producto": 3479051
+        },
+        {
+            "cod_oem": "DESARM-STAR",
+            "id_producto": 3479039
+        },
+        {
+            "cod_oem": "SELLOAL10",
+            "id_producto": 3479023
+        },
+        {
+            "cod_oem": "SPLO1",
+            "id_producto": 3478999
+        },
+        {
+            "cod_oem": "PCTTE-16100",
+            "id_producto": 3474876
+        },
+        {
+            "cod_oem": "PCTTE-1245",
+            "id_producto": 3474841
+        },
+        {
+            "cod_oem": "PCTTE-1235",
+            "id_producto": 3474839
+        },
+        {
+            "cod_oem": "PCTTE-1230",
+            "id_producto": 3474838
+        },
+        {
+            "cod_oem": "PCTTE-1225",
+            "id_producto": 3474837
+        },
+        {
+            "cod_oem": "PCTTE-10100",
+            "id_producto": 3474803
+        },
+        {
+            "cod_oem": "PCTTE-1050",
+            "id_producto": 3474798
+        },
+        {
+            "cod_oem": "PCTTE-8140",
+            "id_producto": 3474786
+        },
+        {
+            "cod_oem": "PCTTE-880",
+            "id_producto": 3474778
+        },
+        {
+            "cod_oem": "PCTTE-840",
+            "id_producto": 3474771
+        },
+        {
+            "cod_oem": "PCTTE-835",
+            "id_producto": 3474769
+        },
+        {
+            "cod_oem": "PCTTE-830",
+            "id_producto": 3474768
+        },
+        {
+            "cod_oem": "PCTTE-825",
+            "id_producto": 3474767
+        },
+        {
+            "cod_oem": "PCTTE-820",
+            "id_producto": 3474766
+        },
+        {
+            "cod_oem": "PCTTE-740",
+            "id_producto": 3474763
+        },
+        {
+            "cod_oem": "PCTTE-725",
+            "id_producto": 3474761
+        },
+        {
+            "cod_oem": "PCTTE-720",
+            "id_producto": 3474760
+        },
+        {
+            "cod_oem": "PCTTE-650",
+            "id_producto": 3474753
+        },
+        {
+            "cod_oem": "PCTTE-625",
+            "id_producto": 3474748
+        },
+        {
+            "cod_oem": "PCTTE-620",
+            "id_producto": 3474747
+        },
+        {
+            "cod_oem": "PCTTE-612",
+            "id_producto": 3474744
+        },
+        {
+            "cod_oem": "PCTTE-540",
+            "id_producto": 3474740
+        },
+        {
+            "cod_oem": "PCTTE-520",
+            "id_producto": 3474736
+        },
+        {
+            "cod_oem": "PCTTE-516",
+            "id_producto": 3474735
+        },
+        {
+            "cod_oem": "PCTTE-512",
+            "id_producto": 3474734
+        },
+        {
+            "cod_oem": "TCTTE-M20",
+            "id_producto": 3474727
+        },
+        {
+            "cod_oem": "TCTTE-M16",
+            "id_producto": 3474725
+        },
+        {
+            "cod_oem": "TCTTE-M12",
+            "id_producto": 3474723
+        },
+        {
+            "cod_oem": "TCTTE-M10",
+            "id_producto": 3474722
+        },
+        {
+            "cod_oem": "TCTTE-M8",
+            "id_producto": 3474721
+        },
+        {
+            "cod_oem": "TCTTE-M6",
+            "id_producto": 3474719
+        },
+        {
+            "cod_oem": "PEXTFINA-1050",
+            "id_producto": 3474689
+        },
+        {
+            "cod_oem": "PEXTFINA-825",
+            "id_producto": 3474679
+        },
+        {
+            "cod_oem": "TEXTFINA-12",
+            "id_producto": 3474670
+        },
+        {
+            "cod_oem": "TEXTFINA-10",
+            "id_producto": 3474669
+        },
+        {
+            "cod_oem": "PFINA-1430",
+            "id_producto": 3474646
+        },
+        {
+            "cod_oem": "PFINA-1060",
+            "id_producto": 3474626
+        },
+        {
+            "cod_oem": "PFINA-1020",
+            "id_producto": 3474619
+        },
+        {
+            "cod_oem": "TFINA-14",
+            "id_producto": 3474616
+        },
+        {
+            "cod_oem": "TFINA-12",
+            "id_producto": 3474615
+        },
+        {
+            "cod_oem": "PMPAN-630",
+            "id_producto": 3474599
+        },
+        {
+            "cod_oem": "PMPAN-625",
+            "id_producto": 3474598
+        },
+        {
+            "cod_oem": "PMPAN-612",
+            "id_producto": 3474595
+        },
+        {
+            "cod_oem": "PMPAN-560",
+            "id_producto": 3474590
+        },
+        {
+            "cod_oem": "PMPAN-540",
+            "id_producto": 3474587
+        },
+        {
+            "cod_oem": "PMPAN-520",
+            "id_producto": 3474582
+        },
+        {
+            "cod_oem": "PMPAN-512",
+            "id_producto": 3474579
+        },
+        {
+            "cod_oem": "PMPAN-425",
+            "id_producto": 3474571
+        },
+        {
+            "cod_oem": "PMPAN-416",
+            "id_producto": 3474569
+        },
+        {
+            "cod_oem": "TMPAN-5",
+            "id_producto": 3474559
+        },
+        {
+            "cod_oem": "PNF5-716112",
+            "id_producto": 3474503
+        },
+        {
+            "cod_oem": "PNF5-381",
+            "id_producto": 3474487
+        },
+        {
+            "cod_oem": "TNF5-34",
+            "id_producto": 3474464
+        },
+        {
+            "cod_oem": "PINCOR-1240-CTE",
+            "id_producto": 3474425
+        },
+        {
+            "cod_oem": "PINCOR-1020-CTE",
+            "id_producto": 3474414
+        },
+        {
+            "cod_oem": "PINCOR-870",
+            "id_producto": 3474412
+        },
+        {
+            "cod_oem": "PINCOR-830",
+            "id_producto": 3474406
+        },
+        {
+            "cod_oem": "PINCOR-825",
+            "id_producto": 3474405
+        },
+        {
+            "cod_oem": "PINCOR-820",
+            "id_producto": 3474404
+        },
+        {
+            "cod_oem": "PINCOR-816",
+            "id_producto": 3474403
+        },
+        {
+            "cod_oem": "PINCOR-625",
+            "id_producto": 3474393
+        },
+        {
+            "cod_oem": "PINCOR-612",
+            "id_producto": 3474388
+        },
+        {
+            "cod_oem": "TINCOR-12",
+            "id_producto": 3474385
+        },
+        {
+            "cod_oem": "TINCOR-M12-EXTFINA",
+            "id_producto": 3474376
+        },
+        {
+            "cod_oem": "TINCOR-M8",
+            "id_producto": 3474370
+        },
+        {
+            "cod_oem": "TINCOR-M6",
+            "id_producto": 3474368
+        },
+        {
+            "cod_oem": "PNC5-1-7",
+            "id_producto": 3474341
+        },
+        {
+            "cod_oem": "PNC5-1-3",
+            "id_producto": 3474331
+        },
+        {
+            "cod_oem": "PNC5-582",
+            "id_producto": 3474295
+        },
+        {
+            "cod_oem": "PNC5-9162",
+            "id_producto": 3474286
+        },
+        {
+            "cod_oem": "PNC5-127",
+            "id_producto": 3474283
+        },
+        {
+            "cod_oem": "PNC5-124",
+            "id_producto": 3474279
+        },
+        {
+            "cod_oem": "PNC5-122",
+            "id_producto": 3474274
+        },
+        {
+            "cod_oem": "PNC5-12112",
+            "id_producto": 3474273
+        },
+        {
+            "cod_oem": "PNC5-121",
+            "id_producto": 3474271
+        },
+        {
+            "cod_oem": "PNC5-7164",
+            "id_producto": 3474267
+        },
+        {
+            "cod_oem": "PNC5-716114",
+            "id_producto": 3474261
+        },
+        {
+            "cod_oem": "PNC5-7161",
+            "id_producto": 3474260
+        },
+        {
+            "cod_oem": "PNC5-382",
+            "id_producto": 3474247
+        },
+        {
+            "cod_oem": "PNC5-38112",
+            "id_producto": 3474246
+        },
+        {
+            "cod_oem": "PNC5-381",
+            "id_producto": 3474244
+        },
+        {
+            "cod_oem": "PNC5-5165",
+            "id_producto": 3474242
+        },
+        {
+            "cod_oem": "PNC5-5162",
+            "id_producto": 3474236
+        },
+        {
+            "cod_oem": "PNC5-516112",
+            "id_producto": 3474235
+        },
+        {
+            "cod_oem": "PNC5-516114",
+            "id_producto": 3474234
+        },
+        {
+            "cod_oem": "PNC5-5161",
+            "id_producto": 3474233
+        },
+        {
+            "cod_oem": "PNC5-14112",
+            "id_producto": 3474224
+        },
+        {
+            "cod_oem": "PNC5-141",
+            "id_producto": 3474221
+        },
+        {
+            "cod_oem": "PNC5-1434",
+            "id_producto": 3474220
+        },
+        {
+            "cod_oem": "TNC5-1",
+            "id_producto": 3474215
+        },
+        {
+            "cod_oem": "TNC5-34",
+            "id_producto": 3474213
+        },
+        {
+            "cod_oem": "TNC5-58",
+            "id_producto": 3474212
+        },
+        {
+            "cod_oem": "TNC5-916",
+            "id_producto": 3474211
+        },
+        {
+            "cod_oem": "TNC5-12",
+            "id_producto": 3474210
+        },
+        {
+            "cod_oem": "TNC5-716",
+            "id_producto": 3474209
+        },
+        {
+            "cod_oem": "TNC5-38",
+            "id_producto": 3474208
+        },
+        {
+            "cod_oem": "TNC5-516",
+            "id_producto": 3474207
+        },
+        {
+            "cod_oem": "TNC5-14",
+            "id_producto": 3474206
+        },
+        {
+            "cod_oem": "AUTOPER142",
+            "id_producto": 3474200
+        },
+        {
+            "cod_oem": "PCARR-5166",
+            "id_producto": 3473968
+        },
+        {
+            "cod_oem": "PCARR-14112",
+            "id_producto": 3473946
+        },
+        {
+            "cod_oem": "PNC2-585",
+            "id_producto": 3473895
+        },
+        {
+            "cod_oem": "PNC2-386",
+            "id_producto": 3473851
+        },
+        {
+            "cod_oem": "PNC2-5163",
+            "id_producto": 3473829
+        },
+        {
+            "cod_oem": "PNC2-5162",
+            "id_producto": 3473826
+        },
+        {
+            "cod_oem": "PNC2-51634",
+            "id_producto": 3473822
+        },
+        {
+            "cod_oem": "PNC2-14212",
+            "id_producto": 3473813
+        },
+        {
+            "cod_oem": "PNC2-1412",
+            "id_producto": 3473807
+        },
+        {
+            "cod_oem": "TNC2-12",
+            "id_producto": 3473791
+        },
+        {
+            "cod_oem": "TNC2-38",
+            "id_producto": 3473789
+        },
+        {
+            "cod_oem": "TNC2-14",
+            "id_producto": 3473787
+        },
+        {
+            "cod_oem": "ANCHA58",
+            "id_producto": 3473783
+        },
+        {
+            "cod_oem": "ANCHA12",
+            "id_producto": 3473781
+        },
+        {
+            "cod_oem": "ANCHA516",
+            "id_producto": 3473778
+        },
+        {
+            "cod_oem": "ANGO30",
+            "id_producto": 3473760
+        },
+        {
+            "cod_oem": "ANGO16",
+            "id_producto": 3473754
+        },
+        {
+            "cod_oem": "ANGO14",
+            "id_producto": 3473753
+        },
+        {
+            "cod_oem": "ANGO12",
+            "id_producto": 3473752
+        },
+        {
+            "cod_oem": "AZB14",
+            "id_producto": 3473713
+        },
+        {
+            "cod_oem": "AZB316",
+            "id_producto": 3473712
+        },
+        {
+            "cod_oem": "ZB516",
+            "id_producto": 3473704
+        },
+        {
+            "cod_oem": "NORMA12",
+            "id_producto": 3473678
+        },
+        {
+            "cod_oem": "NORMA38",
+            "id_producto": 3473676
+        },
+        {
+            "cod_oem": "NORMA516",
+            "id_producto": 3473675
+        },
+        {
+            "cod_oem": "NORMA14",
+            "id_producto": 3473674
+        },
+        {
+            "cod_oem": "A1",
+            "id_producto": 3473641
+        },
+        {
+            "cod_oem": "A78",
+            "id_producto": 3473640
+        },
+        {
+            "cod_oem": "A58",
+            "id_producto": 3473638
+        },
+        {
+            "cod_oem": "A916",
+            "id_producto": 3473637
+        },
+        {
+            "cod_oem": "A12",
+            "id_producto": 3473636
+        },
+        {
+            "cod_oem": "A38",
+            "id_producto": 3473589
+        },
+        {
+            "cod_oem": "A14",
+            "id_producto": 3473587
+        },
+        {
+            "cod_oem": "AINOX12",
+            "id_producto": 3473582
+        },
+        {
+            "cod_oem": "PPINOX12",
+            "id_producto": 3473574
+        },
+        {
+            "cod_oem": "PPM10",
+            "id_producto": 3473559
+        },
+        {
+            "cod_oem": "PP58",
+            "id_producto": 3473550
+        },
+        {
+            "cod_oem": "PP916",
+            "id_producto": 3473549
+        },
+        {
+            "cod_oem": "PP12",
+            "id_producto": 3473547
+        },
+        {
+            "cod_oem": "PP716",
+            "id_producto": 3473546
+        },
+        {
+            "cod_oem": "10222M",
+            "id_producto": 3468368
+        },
+        {
+            "cod_oem": "HLK1035K",
+            "id_producto": 3459109
+        },
+        {
+            "cod_oem": "M17402UB",
+            "id_producto": 3459107
+        },
+        {
+            "cod_oem": "89440HD",
+            "id_producto": 3459097
+        },
+        {
+            "cod_oem": "27534",
+            "id_producto": 3451724
+        },
+        {
+            "cod_oem": "27033",
+            "id_producto": 3451720
+        },
+        {
+            "cod_oem": "52721",
+            "id_producto": 3451706
+        },
+        {
+            "cod_oem": "52723",
+            "id_producto": 3451699
+        },
+        {
+            "cod_oem": "52715",
+            "id_producto": 3451686
+        },
+        {
+            "cod_oem": "53105B210",
+            "id_producto": 3451468
+        },
+        {
+            "cod_oem": "51259n274",
+            "id_producto": 3451463
+        },
+        {
+            "cod_oem": "51779R18",
+            "id_producto": 3451455
+        },
+        {
+            "cod_oem": "17QF463P180",
+            "id_producto": 3451442
+        },
+        {
+            "cod_oem": "836061",
+            "id_producto": 3451434
+        },
+        {
+            "cod_oem": "R850075",
+            "id_producto": 3306771
+        },
+        {
+            "cod_oem": "GBG6133",
+            "id_producto": 3306646
+        },
+        {
+            "cod_oem": "EF61030",
+            "id_producto": 3306492
+        },
+        {
+            "cod_oem": "994349",
+            "id_producto": 3306315
+        },
+        {
+            "cod_oem": "6306",
+            "id_producto": 3306220
+        },
+        {
+            "cod_oem": "191207",
+            "id_producto": 3305816
+        },
+        {
+            "cod_oem": "127760",
+            "id_producto": 3305749
+        },
+        {
+            "cod_oem": "1229H4090",
+            "id_producto": 3305746
+        },
+        {
+            "cod_oem": "EF27470",
+            "id_producto": 3305686
+        },
+        {
+            "cod_oem": "3408324",
+            "id_producto": 3305590
+        },
+        {
+            "cod_oem": "msp677",
+            "id_producto": 3305570
+        },
+        {
+            "cod_oem": "5297641",
+            "id_producto": 3305567
+        },
+        {
+            "cod_oem": "3150-063415A",
+            "id_producto": 3305549
+        },
+        {
+            "cod_oem": "23519651",
+            "id_producto": 3305532
+        },
+        {
+            "cod_oem": "1543896",
+            "id_producto": 3305510
+        },
+        {
+            "cod_oem": "3903924",
+            "id_producto": 3305479
+        },
+        {
+            "cod_oem": "3904849",
+            "id_producto": 3305478
+        },
+        {
+            "cod_oem": "8929690",
+            "id_producto": 3305464
+        },
+        {
+            "cod_oem": "57XL40",
+            "id_producto": 3305439
+        },
+        {
+            "cod_oem": "S-1659",
+            "id_producto": 3305430
+        },
+        {
+            "cod_oem": "a6473",
+            "id_producto": 3305429
+        },
+        {
+            "cod_oem": "8623056",
+            "id_producto": 3305396
+        },
+        {
+            "cod_oem": "23559",
+            "id_producto": 3305308
+        },
+        {
+            "cod_oem": "3044196",
+            "id_producto": 3305212
+        },
+        {
+            "cod_oem": "REP",
+            "id_producto": 3305201
+        },
+        {
+            "cod_oem": "UN1950",
+            "id_producto": 3305199
+        },
+        {
+            "cod_oem": "insumo",
+            "id_producto": 3305198
+        },
+        {
+            "cod_oem": "SERV",
+            "id_producto": 3305197
+        },
+        {
+            "cod_oem": "3803363",
+            "id_producto": 3304550
+        },
+        {
+            "cod_oem": "275491",
+            "id_producto": 3304510
+        },
+        {
+            "cod_oem": "ADJ-01",
+            "id_producto": 3303578
+        },
+        {
+            "cod_oem": "ADE-01",
+            "id_producto": 3176578
+        }
+    ]
+}

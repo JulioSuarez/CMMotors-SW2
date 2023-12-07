@@ -1,0 +1,39 @@
+/* estilos para mi buscador by Julico Suarez */
+    body{
+        background-color: #008080;
+    }
+    /*input search style*/
+    .search {
+        position: relative;
+    }
+    .search input {
+        height: 50px;
+        text-indent: 25px;
+        border-radius: 10px;
+        width: 90%;
+    }
+    .search input:focus {
+        box-shadow: none;
+        border: 2px solid rgb(23, 209, 255);
+        box-shadow: 0 0 10px #05dbdb;
+    }
+    .search .fa-search {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+    .icon{
+        color: #008080;
+    }
+    /*style list products*/
+    .list-group-item{
+        width:622px;border:1px solid #f1f1f1;
+    }
+    .flex-row{
+        border:1px solid #ccd2db;margin-right:-17px;margin-top:-10px;margin-left:-19px;margin-bottom:-10px;
+    }
+    .divimg{
+        border:1px solid #ccd2db;
+    }
+
+    /* aqui acaba los estilos del buscado de julico */
