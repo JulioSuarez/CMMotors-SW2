@@ -42,29 +42,36 @@ Route::get('/nazeeProd',  [BackupController::class, 'verificarProductos']);
 
 Route::get('/holaxd', function () {
 
-    $jsonString = file_get_contents(public_path('js/backupxd/ventasTuGerente.json'));
-    $jsonString = json_decode($jsonString, true);
+    $numeroRandom = rand(1, 30);
+    $fecha = '2023-12-' . $numeroRandom;
+    $venta = Venta::get();
+    foreach ($venta as $v) {
+        $v->fecha = $fecha;
+        $v->save();
+    }
+    // $jsonString = file_get_contents(public_path('js/backupxd/ventasTuGerente.json'));
+    // $jsonString = json_decode($jsonString, true);
 
-    $lista = [];
-    foreach ($jsonString['results'] as $key => $r) {
-        $l['id_venta'] = $r['id'];
-        $l['bill'] = $r['bill'];
-        $lista[] = $l;
-    }
-    // dd($lista);
-    //buscar el id venta en la venta
-    foreach ($lista as $key => $li) {
-        $v = Venta::where('id_venta', $li['id_venta'])->first();
-        if (!is_null($v)) {
-            if($v->nro_factura == 0){
-                $v->nro_factura = $li['bill'];
-                $v->save();
-            }
-        }else{
-            dd('es null en '. $li['id_venta']);
-        }
-    }
-    dd('fin xd d');
+    // $lista = [];
+    // foreach ($jsonString['results'] as $key => $r) {
+    //     $l['id_venta'] = $r['id'];
+    //     $l['bill'] = $r['bill'];
+    //     $lista[] = $l;
+    // }
+    // // dd($lista);
+    // //buscar el id venta en la venta
+    // foreach ($lista as $key => $li) {
+    //     $v = Venta::where('id_venta', $li['id_venta'])->first();
+    //     if (!is_null($v)) {
+    //         if($v->nro_factura == 0){
+    //             $v->nro_factura = $li['bill'];
+    //             $v->save();
+    //         }
+    //     }else{
+    //         dd('es null en '. $li['id_venta']);
+    //     }
+    // }
+    // dd('fin xd d');
 });
 
 
