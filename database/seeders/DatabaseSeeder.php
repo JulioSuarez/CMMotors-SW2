@@ -20,8 +20,6 @@ use App\Models\Sector;
 use App\Models\Ubicacion;
 use App\Models\DatosGeneral;
 use App\Models\Venta;
-use Carbon\Factory as CarbonFactory;
-use Faker\Factory;
 //libreria de roles by Julico
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
@@ -42,8 +40,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory()->create();
         $this->permisos();
         $this->CargaUser();
-        
-        Venta::factory(50)->create();
+
+        // Venta::factory(50)->create();
 
 
         //Metodo para crear seeders
