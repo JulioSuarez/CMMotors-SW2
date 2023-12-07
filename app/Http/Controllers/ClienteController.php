@@ -42,38 +42,38 @@ class ClienteController extends Controller
 
     public function ActualizarCliente()
     {
-        $__api_key = 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338';
-            $clientes = Cliente::get();
-            foreach ($clientes as $c) {
-                // dd($c);
-                if($c->id_cliente == 0){
-                    dd('es igual a cero');
-                }  
-                $id_cliente = $c->id_cliente;
-                    $response = Http::withHeaders([
-                        'ApiKey' => $__api_key,
-                    ])->put('https://back.tugerente.com/v1/sales/customer/'.$id_cliente, [
-                        "name" => 'BOLINTER LTDA XD XD',
-                        // "nit" => $nit,
-                        // "payment_method" => 2,
-                        // "reference_name" => $nombre,
-                        // "contact_phone" => "70297978",
-                        // "contact_phone_prefix" => "591",
-                        // "country" => "BO",
-                        "document_type" => 5,
-                    ]);
-        
-                 dd($response);
-            }
+        // $__api_key = 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338';
+        //     $clientes = Cliente::get();
+        //     foreach ($clientes as $c) {
+        //         // dd($c);
+        //         if($c->id_cliente == 0){
+        //             dd('es igual a cero');
+        //         }
+        //         $id_cliente = $c->id_cliente;
+        //             $response = Http::withHeaders([
+        //                 'ApiKey' => $__api_key,
+        //             ])->put('https://back.tugerente.com/v1/sales/customer/'.$id_cliente, [
+        //                 "name" => 'BOLINTER LTDA XD XD',
+        //                 // "nit" => $nit,
+        //                 // "payment_method" => 2,
+        //                 // "reference_name" => $nombre,
+        //                 // "contact_phone" => "70297978",
+        //                 // "contact_phone_prefix" => "591",
+        //                 // "country" => "BO",
+        //                 "document_type" => 5,
+        //             ]);
 
-           
-            // $id_cliente = 2809343; //este es un cliente generico
-            // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            //     $id_cliente = $response->json()['id'];
-            // }
-            // // dd($id_cliente);
-            // return $id_cliente;
-    
+        //          dd($response);
+        //     }
+
+
+        //     // $id_cliente = 2809343; //este es un cliente generico
+        //     // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     //     $id_cliente = $response->json()['id'];
+        //     // }
+        //     // // dd($id_cliente);
+        //     // return $id_cliente;
+
 
         return redirect()->route('Cliente.index')->with('success', 'Clientes actualizados correctamente');
     }
@@ -82,7 +82,7 @@ class ClienteController extends Controller
     //usar static cuando no ocupe ningun llamado de storeGErente
     public function store(Request $r)
     {
-     
+
         $r->validate([
             'ci' => 'required',
             'nombre' => 'required',
@@ -113,28 +113,29 @@ class ClienteController extends Controller
 
     private function __storeGerente($nombre, $nit)
     {
-        // dd($nombre,$nit);
-        $response = Http::withHeaders([
-            'ApiKey' => $this->__apiKey,
-        ])->post('https://back.tugerente.com/v1/sales/customer/', [
-            // "tenant_id" => 35344,
-            "name" => $nombre,
-            "nit" => $nit,
-            "payment_method" => 2,
-            "reference_name" => $nombre,
-            "contact_phone" => "70297978", //70297978
-            "contact_phone_prefix" => "591",
-            "country" => "BO",
-            "document_type" => 5,
-        ]);
+        // // dd($nombre,$nit);
+        // $response = Http::withHeaders([
+        //     'ApiKey' => $this->__apiKey,
+        // ])->post('https://back.tugerente.com/v1/sales/customer/', [
+        //     // "tenant_id" => 35344,
+        //     "name" => $nombre,
+        //     "nit" => $nit,
+        //     "payment_method" => 2,
+        //     "reference_name" => $nombre,
+        //     "contact_phone" => "70297978", //70297978
+        //     "contact_phone_prefix" => "591",
+        //     "country" => "BO",
+        //     "document_type" => 5,
+        // ]);
 
-        //  dd($response->json());
-        $id_cliente = 2809343; //este es un cliente generico
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            $id_cliente = $response->json()['id'];
-        }
-        // dd($id_cliente);
-        return $id_cliente;
+        // //  dd($response->json());
+        // $id_cliente = 2809343; //este es un cliente generico
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     $id_cliente = $response->json()['id'];
+        // }
+        // // dd($id_cliente);
+        // return $id_cliente;
+        return;
     }
 
     public function edit($id)
@@ -161,13 +162,6 @@ class ClienteController extends Controller
         return redirect()->route('Cliente.index');
     }
 
-    //se usa para
-    // public function variables()
-    // {
-    //     $clientes = Cliente::get();
-    //     //dd($clientes);
-    //     return view('VistaClientes.lista', compact('clientes'));
-    // }
 
     public function existeCliente(Request $r)
     {
@@ -222,7 +216,7 @@ class ClienteController extends Controller
     }
 
 
-    //busqueda de clientes 
+    //busqueda de clientes
     public function buscarCliente(Request $r)
     {
         $clientes = Cliente::where('nombre', 'like', $r->nombre . '%')

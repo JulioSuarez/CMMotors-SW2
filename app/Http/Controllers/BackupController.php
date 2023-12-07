@@ -40,8 +40,8 @@ class BackupController extends Controller
         //traer los clientes del json
         $Empleados = $this->__jsonCMMotors['Empleados'];
         foreach ($Empleados as $E) {
-            //bsucar por id_usuario al usuario en el json de backup 
-            // y crearal aqui 
+            //bsucar por id_usuario al usuario en el json de backup
+            // y crearal aqui
             if (is_null( Empleado::find($E['ci']))){
                 Empleado::create($E);
             }
@@ -179,7 +179,7 @@ class BackupController extends Controller
 
     public function RestaurarProductoTuGenrente(Request $r)
     {
-        dd($r, 'restaurar tugerten ');
+        // dd($r, 'restaurar tugerten ');
         // dd('llegue  xd xd xd',$this->ValoresProd);
         //lee todo el backup de cmmotors
         $jsonString = file_get_contents(public_path('js/backupxd/Json_Cmmotors.json'));
@@ -264,18 +264,18 @@ class BackupController extends Controller
         $contador = 5251;
         $productos = Producto::get();
         // dd(count($productos));
-        
+
         $listaPro = [];
         // $listoBase = [];
         $cc = 0;
         foreach ($productos as $key => $p) {
-          
+
             if ( $key < $contador && $key >= $contador -  5251 && $p->nombre != '') {
 
                 // dd('entre',$p->nombre, $p->id_tugerente );
-                if($p->id_tugerente == 0){       
+                if($p->id_tugerente == 0){
                     // dd('entre',$p );
-                    //registtatr en nut gereten 
+                    //registtatr en nut gereten
                     $cc++;
                         $listaPro[] = $p->cod_producto;
                             /* nombre | codigo
@@ -311,7 +311,7 @@ class BackupController extends Controller
                             "product_type" => "FINISHED",
                             "unit_measure" => $unidad,
                         ]);
-                
+
                         // dd($response->json()['id']);
                         if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
                             $p->id_tugerente = $response->json()['id'];
@@ -319,13 +319,13 @@ class BackupController extends Controller
                         }else{
                             dd('hubo un error al crear el producto, code:'.$p->cod_producto,$response->json(),$listaPro );
                         }
-                
+
                 }
             }
 
         }
 
-        dd('regsitrados exitosamente: ' ,  $cc, $listaPro);   
+        dd('regsitrados exitosamente: ' ,  $cc, $listaPro);
     }
 
     public function RestaurarDatosG()
@@ -361,7 +361,7 @@ class BackupController extends Controller
 
         $this->__storeDetalleCotizarAPI();
         $dd = count(DetalleCotizacion::get());
-     
+
         $cc = count(Cotizacion::get());
         return redirect()->route('Rol.index')->with('Mensaje', $cc . 'Cotizaciones Cargados Correctamente y ' .$dd . ' detale de coti');
     } //end rest cotizacione
@@ -444,7 +444,7 @@ class BackupController extends Controller
         foreach ($productos as $i => $p) {
             if($p['id']  == $id_producto ){
                 // dd('lo pille esta bien ', $p);
-                //verificar si existe, 
+                //verificar si existe,
                 $prod = Producto::where('id',$p['id'] )->first();
                 if(is_null( $prod)){
                     $p['id_tugerente'] = $p['id_producto'];
@@ -452,7 +452,7 @@ class BackupController extends Controller
                     Producto::create($p);
                 }
                 return;
-            }   
+            }
         }
 
         dd('no se encontro el producto');
@@ -466,10 +466,10 @@ class BackupController extends Controller
         $cc = count(Venta::get());
         // dd('se restauro ventas',$cc);
         // dd('llegamos ');
-        
+
         $this->__storeDetalleVentasAPI();
         $dd = count(DetalleVenta::get());
-        
+
         // dd('se restauro cotizaciones',$cc,$dd);
 
 
@@ -508,7 +508,7 @@ class BackupController extends Controller
             // $c->save();
             // $xd = new datosgeneral();
             //enviar a
-           
+
         }
 
         // return redirect()->route('Rol.index')->with('Registro_Exitoso', ' Datos Cargados Correctamente');
@@ -519,7 +519,7 @@ class BackupController extends Controller
         // dd('llegamos a detalle s');
         //saca detalles de venta de backup
         $Dventas = $this->__jsonCMMotors['DetallesVentas'];
-     
+
         foreach ($Dventas as $r) {
             DetalleVenta::create($r);
             // $this->__verificarProducto($r['id_producto']);
@@ -677,7 +677,7 @@ class BackupController extends Controller
 
 
 
-    //sacar todos los id proucdto en tu gerente 
+    //sacar todos los id proucdto en tu gerente
     //sacar todo los id_gerente en loocal
     //comparar del local quien no esta en tu gerente
     //luego biceversa
@@ -687,9 +687,9 @@ class BackupController extends Controller
          $jsonString = file_get_contents(public_path('restaurarProductos/productos.json'));
          $ProducGerente = json_decode($jsonString, true);
 
-     
+
          $ProducGerente  =   $ProducGerente ['Productos'];
-      
+
          //poner en un array los id_gerente
             $id_gerente = [];
             foreach ($ProducGerente as $p) {
@@ -712,7 +712,7 @@ class BackupController extends Controller
         dd($listaPro);
 
 
-       
+
     }
 
 
@@ -826,7 +826,7 @@ class BackupController extends Controller
             $letras_sacar_cuatro,
             $letras_sacar_cinco
         ];
-      
+
         // dd($num,$superlista[$num]);
         $cadenas = [];
         $acumulador = [];
@@ -865,7 +865,7 @@ class BackupController extends Controller
     }
 
     public function LimpiezaProductos(){
-        //ejecutar limpiar espacio 
+        //ejecutar limpiar espacio
         $this->EliminarEspacios();
         //ejecutar eliminar letras y guiones
         $this->eliminarLetras(5);
@@ -884,12 +884,12 @@ class BackupController extends Controller
         $jsonString = json_decode($jsonString, true);
 
         $lista = [];
-        //pasar por la lista de detalles de json 
+        //pasar por la lista de detalles de json
         foreach ($jsonString['DetallesCotizaciones'] as $key => $d) {
-            // verificar si esta dentro de la base de datos cmmotors 
+            // verificar si esta dentro de la base de datos cmmotors
             $detalle = DetalleCotizacion::where('id',$d['id'])->first();
             if(is_null($detalle)){
-                //crearlo, 
+                //crearlo,
                 if($d["id_cotizacion"] == 328 || $d["id_cotizacion"] == 329){
                     //verificar si existe el prod
                     $p = Producto::where('id',$d['id_producto'])->first();
@@ -909,7 +909,7 @@ class BackupController extends Controller
                     }
                 }
 
-                // //poner en una lista todo los detales de coti que no stan cargados, 
+                // //poner en una lista todo los detales de coti que no stan cargados,
                 // $l['id'] = $d['id'];
                 // $coti = Cotizacion::where('id',$d['id_cotizacion'])->first();
                 // $l['nro_coti'] = $coti->nro_coti;
@@ -933,12 +933,12 @@ class BackupController extends Controller
 
         $lista = [];
         $nombres = [];
-        //pasar por la lista de detalles de json 
+        //pasar por la lista de detalles de json
         foreach ($jsonString['Productos'] as $key => $p) {
-            // verificar si esta dentro de la base de datos cmmotors 
+            // verificar si esta dentro de la base de datos cmmotors
             $producto = Producto::where('id',$p['id'])->first();
             if(is_null($producto)){
-                //poner en una lista todo los detales de coti que no stan cargados, 
+                //poner en una lista todo los detales de coti que no stan cargados,
                 $l['id'] = $p['id'];
                 $l['cod_producto'] = $p['cod_producto'];
                 $lista[] = $l;
@@ -946,7 +946,7 @@ class BackupController extends Controller
                 if($p['cod_producto'] != $producto->cod_producto){
                     $nombres[] = $p['cod_producto'];
                 }
-            } 
+            }
         }
         dd($lista, $nombres);
     }

@@ -98,7 +98,7 @@ class ProductoController extends Controller
                 } else {
                     // return $q->where('productos.cantidad', '<=', Request('stock_menores'));
                     if(Request('mostrar_por') == '1'){
-                        //registrado en tugerente 
+                        //registrado en tugerente
                          return $q->where('productos.id_tugerente','!=', '0');
                     }else{
                         if(Request('mostrar_por') == '2'){
@@ -201,8 +201,8 @@ class ProductoController extends Controller
                 $p->id_proveedor = $r->proveedor;
 
                 $nombre = $p->nombre;
-                $id_tugerente = $this->__storeGerente($r->cod_producto, $r->nombre);
-                // $id_tugerente = 0;
+                // $id_tugerente = $this->__storeGerente($r->cod_producto, $r->nombre);
+                $id_tugerente = 0;
                 $p->id_tugerente = $id_tugerente;
                 $p->save();
                 DB::commit();
@@ -228,53 +228,55 @@ class ProductoController extends Controller
 
     public function homologarProducto(Request $r)
     {
-        // dd('llegamos, ', $r->all());
-        //validar que minimo tenga nombre y codigo
-        $producto = Producto::where('id', $r->prod_id)->first();
-        // dd($producto);
-        if (is_null($producto)) {
-            throw ValidationException::withMessages([
-                'EroorHomologacion' =>  'Error: producto no encontrado!',
-            ]);
-        } else {
-            if ($producto->nombre == '' || $producto->nombre == null) {
-                throw ValidationException::withMessages([
-                    'EroorHomologacion' =>  $producto->cod_producto . ' No cuenta con nombre!',
-                ]);
-            } else {
-                $producto->id_tugerente = $this->__storeGerente($producto->cod_producto, $producto->nombre);
-                $producto->save();
-                if ($producto->id_tugerente == 0)
-                    throw ValidationException::withMessages([
-                        'EroorHomologacion' =>  $producto->cod_producto . 'NO SE PUDO HOMOLOGAR, INTENTE MAS TARDE!!!',
-                    ]);
-            }
-        }
+        // // dd('llegamos, ', $r->all());
+        // //validar que minimo tenga nombre y codigo
+        // $producto = Producto::where('id', $r->prod_id)->first();
+        // // dd($producto);
+        // if (is_null($producto)) {
+        //     throw ValidationException::withMessages([
+        //         'EroorHomologacion' =>  'Error: producto no encontrado!',
+        //     ]);
+        // } else {
+        //     if ($producto->nombre == '' || $producto->nombre == null) {
+        //         throw ValidationException::withMessages([
+        //             'EroorHomologacion' =>  $producto->cod_producto . ' No cuenta con nombre!',
+        //         ]);
+        //     } else {
+        //         $producto->id_tugerente = $this->__storeGerente($producto->cod_producto, $producto->nombre);
+        //         $producto->save();
+        //         if ($producto->id_tugerente == 0)
+        //             throw ValidationException::withMessages([
+        //                 'EroorHomologacion' =>  $producto->cod_producto . 'NO SE PUDO HOMOLOGAR, INTENTE MAS TARDE!!!',
+        //             ]);
+        //     }
+        // }
 
-        return redirect()->route('Producto.index')->with([
-            'RegistroProducto' => $producto->cod_producto . ' HOMOLOGADO EXITOSAMENTE!!!',
-            'estado' => 'bg-lime-500',
-        ]);
+        // return redirect()->route('Producto.index')->with([
+        //     'RegistroProducto' => $producto->cod_producto . ' HOMOLOGADO EXITOSAMENTE!!!',
+        //     'estado' => 'bg-lime-500',
+        // ]);
+        return;
     }
 
 
     private function __storeGerente($code, $nombre)
     {
-        $id_producto = 0;
-        $response = Http::withHeaders([
-            'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
-        ])->post('https://back.tugerente.com/v1/warehouses/product/', [
-            "code" => $code,
-            "name" => $nombre,
-            "product_type" => "FINISHED",
-        ]);
+        // $id_producto = 0;
+        // $response = Http::withHeaders([
+        //     'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
+        // ])->post('https://back.tugerente.com/v1/warehouses/product/', [
+        //     "code" => $code,
+        //     "name" => $nombre,
+        //     "product_type" => "FINISHED",
+        // ]);
 
-        // dd($response->json()['id']);
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            $id_producto = $response->json()['id'];
-        }
+        // // dd($response->json()['id']);
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     $id_producto = $response->json()['id'];
+        // }
 
-        return $id_producto;
+        // return $id_producto;
+        return;
     }
 
 

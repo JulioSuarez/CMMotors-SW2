@@ -88,7 +88,7 @@ class VentasController extends Controller
             ->orderByDesc('ventas.id')->get();
         // dd($ventas);
 
-        //para reazliar busquedas con produtos 
+        //para reazliar busquedas con produtos
         if (!is_null(Request('producto'))) {
 
             $prod_id = Producto::where('cod_producto', $producto)->first();
@@ -157,7 +157,7 @@ class VentasController extends Controller
     }
 
 
-    public function storeVolverASubir( Venta $venta)
+    public function storeVolverASubir(Venta $venta)
     {
         set_time_limit(120);
         // dd($venta);
@@ -188,8 +188,8 @@ class VentasController extends Controller
         // dd('entre a crear una nueva venta');
         $id_venta = $this->__storeTuGerente($venta->monto_total, $cliente->id_tugerete, $detalles);
         // $id_venta = 11228535;
-        //buscar el nuro de factura 
-        $venta->nro_factura = $this->getNroFactProducto($id_venta );
+        //buscar el nuro de factura
+        $venta->nro_factura = $this->getNroFactProducto($id_venta);
         // dd($venta);
 
         //verificar si el id_venta es diferente de 1111
@@ -204,71 +204,71 @@ class VentasController extends Controller
         }
     }
 
-    //original el que si funiocan, esta para el fecth 
-    public function storeVolverASubirXD( Venta $venta)
+    //original el que si funiocan, esta para el fecth
+    public function storeVolverASubirXD(Venta $venta)
     {
-        // return response()->Json([
-        //     "estado" => 'success',
-        //     "mensaje" => 'Factura #33 realizada con exito',
-        //     "nro_factura" =>   33,
-        // ]);
+        // // return response()->Json([
+        // //     "estado" => 'success',
+        // //     "mensaje" => 'Factura #33 realizada con exito',
+        // //     "nro_factura" =>   33,
+        // // ]);
 
 
-        set_time_limit(120);
-        // dd($venta);
-        //buscar sus detalles
-        $detventas = DetalleVenta::where('id_venta', $venta->id)->get();
-        // dd( $detventas);
-        $detalles = [];
-        foreach ($detventas as $d) {
-            $producto = Producto::where('id', $d->id_producto)->first();
-            $detalle = [
-                "product" => $producto->id_tugerente,
-                "price" => $d->precio_producto_unitario,
-                "qty" => $d->cantidad,
-                "total" => $d->precio, //cantidad * precio unitario
-            ];
-            $detalles[] = $detalle;
-        }
-        // dd($detalles);
+        // set_time_limit(120);
+        // // dd($venta);
+        // //buscar sus detalles
+        // $detventas = DetalleVenta::where('id_venta', $venta->id)->get();
+        // // dd( $detventas);
+        // $detalles = [];
+        // foreach ($detventas as $d) {
+        //     $producto = Producto::where('id', $d->id_producto)->first();
+        //     $detalle = [
+        //         "product" => $producto->id_tugerente,
+        //         "price" => $d->precio_producto_unitario,
+        //         "qty" => $d->cantidad,
+        //         "total" => $d->precio, //cantidad * precio unitario
+        //     ];
+        //     $detalles[] = $detalle;
+        // }
+        // // dd($detalles);
 
-        $cliente = Cliente::where('ci', $venta->ci_cliente)->first();
-        // dd($cliente);
-        //verificar si el cliente tiene un id_cliente diferente de 0
-        if ($cliente->id_tugerete == 0) {
-            //si es 0, entonces crear un nuevo cliente
-            $cliente->id_tugerete = $this->__storeClienteGerente($cliente->nombre, $cliente->ci);
-            $cliente->save();
-        }
-        // dd('entre a crear una nueva venta');
-        $id_venta = $this->__storeTuGerente($venta->monto_total, $cliente->id_tugerete, $detalles);
-        // $id_venta = 11228535;
-    
-        // dd($venta);
+        // $cliente = Cliente::where('ci', $venta->ci_cliente)->first();
+        // // dd($cliente);
+        // //verificar si el cliente tiene un id_cliente diferente de 0
+        // if ($cliente->id_tugerete == 0) {
+        //     //si es 0, entonces crear un nuevo cliente
+        //     $cliente->id_tugerete = $this->__storeClienteGerente($cliente->nombre, $cliente->ci);
+        //     $cliente->save();
+        // }
+        // // dd('entre a crear una nueva venta');
+        // $id_venta = $this->__storeTuGerente($venta->monto_total, $cliente->id_tugerete, $detalles);
+        // // $id_venta = 11228535;
 
-        //verificar si el id_venta es diferente de 1111
-        if ($id_venta == 0) {
-            //si es 0, entonces no se pudo crear la venta
-            // return redirect()->route('Venta.index')->with('error_gerente', 'No se pudo crear la factura, vuelve a intentarlo!');
-            return response()->Json([
-                "estado" => 'error',
-                "mensaje" => 'Nro Venta #'.$venta->id.': No se pudo crear la factura, verifique si se Homologaron los productos seleccionados!',
-                "nro_factura" => 0,
-            ]);
-        } else {
-            //buscar el nuro de factura 
-            $venta->nro_factura = $this->getNroFactProducto($id_venta );
-            //ahora actualizar el id_venta de la venta que se subio
-            $venta->id_venta = $id_venta;
-            $venta->save();
-            // return redirect()->route('Venta.index')->with('success', 'Factura realizada con exito');
-            return response()->Json([
-                "estado" => 'success',
-                "mensaje" => 'Factura #'.$venta->nro_factura.' realizada con exito',
-                "nro_factura" =>   $venta->nro_factura,
-            ]);  
-        }
+        // // dd($venta);
 
+        // //verificar si el id_venta es diferente de 1111
+        // if ($id_venta == 0) {
+        //     //si es 0, entonces no se pudo crear la venta
+        //     // return redirect()->route('Venta.index')->with('error_gerente', 'No se pudo crear la factura, vuelve a intentarlo!');
+        //     return response()->Json([
+        //         "estado" => 'error',
+        //         "mensaje" => 'Nro Venta #'.$venta->id.': No se pudo crear la factura, verifique si se Homologaron los productos seleccionados!',
+        //         "nro_factura" => 0,
+        //     ]);
+        // } else {
+        //     //buscar el nuro de factura
+        //     $venta->nro_factura = $this->getNroFactProducto($id_venta );
+        //     //ahora actualizar el id_venta de la venta que se subio
+        //     $venta->id_venta = $id_venta;
+        //     $venta->save();
+        //     // return redirect()->route('Venta.index')->with('success', 'Factura realizada con exito');
+        //     return response()->Json([
+        //         "estado" => 'success',
+        //         "mensaje" => 'Factura #'.$venta->nro_factura.' realizada con exito',
+        //         "nro_factura" =>   $venta->nro_factura,
+        //     ]);
+        // }
+        return;
     }
 
     public function store(Request $r)
@@ -287,7 +287,8 @@ class VentasController extends Controller
                 $c = Cliente::where('ci', $r->ci_cliente)->first();
                 if ($c == null) {
                     $c = new Cliente();
-                    $c->id_cliente = $this->__storeClienteGerente($r->cliente, $r->ci_cliente);
+                    // $c->id_cliente = $this->__storeClienteGerente($r->cliente, $r->ci_cliente);
+                    $c->id_cliente = $r->ci_cliente;
                 }
                 // $id_cliente = $c->id_cliente;
                 $c->ci = $r->ci_cliente;
@@ -399,196 +400,200 @@ class VentasController extends Controller
 
     private function __storeClienteGerente($nombre, $nit)
     {
-        $response = Http::withHeaders([
-            'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
-        ])->post('https://back.tugerente.com/v1/sales/customer/', [
-            "name" => $nombre,
-            "nit" => $nit,
-            "payment_method" => 2,
-            "reference_name" => $nombre,
-            "contact_phone" => "70297978",
-            "contact_phone_prefix" => "591",
-            "country" => "BO",
-            "document_type" => 5,
-        ]);
+        // $response = Http::withHeaders([
+        //     'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
+        // ])->post('https://back.tugerente.com/v1/sales/customer/', [
+        //     "name" => $nombre,
+        //     "nit" => $nit,
+        //     "payment_method" => 2,
+        //     "reference_name" => $nombre,
+        //     "contact_phone" => "70297978",
+        //     "contact_phone_prefix" => "591",
+        //     "country" => "BO",
+        //     "document_type" => 5,
+        // ]);
 
-        //  dd($response);
-        $id_cliente = 2809343;
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            $id_cliente = $response->json()['id'];
-        }
-        return $id_cliente;
+        // //  dd($response);
+        // $id_cliente = 2809343;
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     $id_cliente = $response->json()['id'];
+        // }
+        // return $id_cliente;
+        return;
     }
 
     public function storeVentasGerente($total, $cliente, $detalles)
     {
-        return $this->__storeTuGerente($total, $cliente, $detalles);
+        // return $this->__storeTuGerente($total, $cliente, $detalles);
+        return;
     }
 
-    
+
     public function getNroFactProducto($id_venta_tugerente)
     {
-        // dd('llegeu ',$id_venta_tugerente);
-       $response = Http::withHeaders([
-        'ApiKey' => $this->__apiKey,
-    ])->get($this->__urlApi . 'v1/sales/sale/'.$id_venta_tugerente, []);
+        //     // dd('llegeu ',$id_venta_tugerente);
+        //    $response = Http::withHeaders([
+        //     'ApiKey' => $this->__apiKey,
+        // ])->get($this->__urlApi . 'v1/sales/sale/'.$id_venta_tugerente, []);
 
 
-    // dd($response->json());
-    return $response->json()['bill'];
+        // // dd($response->json());
+        // return $response->json()['bill'];
+        return;
     }
 
 
     private function __storeTuGerente($total, $cliente, $detalles)
     {
-        // dd($total, $cliente, $detalles);
-        $response = Http::withHeaders([
-            'ApiKey' => $this->__apiKey,
-        ])->post($this->__urlApi . 'v1/sales/sale/', [
-            // "tenant_id" => 35344,
-            // "code" => "40042",
-            "payment_method" => 2,
-            // "second_payment_method"=> null,
-            // "third_payment_method"=> null,
-            "warehouse" =>  48380,
-            "customer" => $cliente, //2809343,
-            "employee" => 604368,
-            // "turn"=> null,
-            // "currency" => 336916,
-            // "sale_details_deleted"=> [],
-            "sale_details" => $detalles,
-            // "batch_detail_cards"=> [],
-            // "output_warehouse"=> null,
-            // "card_manager"=> null,
-            // "amount_before_advance" => 64.0,
-            // "motoclick_shipment"=> null,
-            // "delivery"=> null,
-            // "invoice_qr_code"=> "",
-            // "invoice_or_actual_delivery_date"=> "2023-05-18",
-            "comment" => "",
-            "amount" => $total,
-            "discount" => 0,
-            "elaboration_date" => now(),
-            "planned_delivery_date" => now(),
-            "actual_delivery_date" => now(),
-            "delivered" => true,
-            // "bill"=> null,
-            // "latitude"=> "",
-            // "longitude"=> "",
-            // "commission"=> null,
-            // "no_discount_amount"=> "64.0000",
-            "add_bill" => true,
-            // "sale_type"=> null,
-            // "batched"=> false,
-            // "generated_on_new_pos"=> false,
-            "margin_of_gain" => "100.0000",
-            "with_email" => true,
-            "email" => "ernest_eclm@hotmail.com",
-            // "is_py"=> false,
-            // "use_second_payment_method"=> false,
-            // "first_paid_amount"=> null,
-            // "second_paid_amount"=> null,
-            // "is_total_advance"=> false,
-            // "product_from_another_warehouse"=> false,
-            // "credit_payments_with_multipago"=> false,
-            // "amount_billed"=> "0.0000",
-            // "stock_delivered"=> false,
-            // "cashflow_generated"=> false,
-            // "third_paid_amount"=> null,
-            // "use_third_payment_method"=> false,
-            // "coupon_amount"=> "0.0000",
-            // "coupon_number"=> "",
-            // "was_refunded"=> false,
-            // "refund_date"=> null,
-            // "nro_transaction"=> null,
-            // "currency_type"=> null,
-            // "bank"=> null,
-            // "second_nro_transaction"=> "",
-            // "second_currency_type"=> "",
-            // "second_bank"=> "",
-            // "third_nro_transaction"=> "",
-            // "third_currency_type"=> "",
-            // "third_bank"=> "",
-            // "with_email"=> false,
-            // "email"=> "",
-            "billed" => true, //facturacion
-            // "receipt_number"=> "",
-            // "document_id"=> "fe3775fd-36b6-4bce-8c1e-3b27043c6240",
-            // "extra_data"=> null,
-            // "extra_data_for_bill"=> [],
-            // "is_globalfood"=> false,
-            // "latitud"=> null,
-            // "longitud"=> null,
-            // "transaction_mode" => "1",
-            // "contract_number" => "0",
-            // "discount_amount" => "0.0000",
-            // "use_discount_amount"=> false,
-            // "is_service_applied"=> false,
-            // "service_amount" => "0.0000",
-            // "state" => 0,
-            // "sku"=> null,
-            // "stage" => 1,
-            // "is_send_wb"=> false,
-            // "service_mode"=> null,
-            // "card_number"=> null,
-            // "second_card_manager"=> null,
-            // "third_card_manager"=> null
-        ]);
+        // // dd($total, $cliente, $detalles);
+        // $response = Http::withHeaders([
+        //     'ApiKey' => $this->__apiKey,
+        // ])->post($this->__urlApi . 'v1/sales/sale/', [
+        //     // "tenant_id" => 35344,
+        //     // "code" => "40042",
+        //     "payment_method" => 2,
+        //     // "second_payment_method"=> null,
+        //     // "third_payment_method"=> null,
+        //     "warehouse" =>  48380,
+        //     "customer" => $cliente, //2809343,
+        //     "employee" => 604368,
+        //     // "turn"=> null,
+        //     // "currency" => 336916,
+        //     // "sale_details_deleted"=> [],
+        //     "sale_details" => $detalles,
+        //     // "batch_detail_cards"=> [],
+        //     // "output_warehouse"=> null,
+        //     // "card_manager"=> null,
+        //     // "amount_before_advance" => 64.0,
+        //     // "motoclick_shipment"=> null,
+        //     // "delivery"=> null,
+        //     // "invoice_qr_code"=> "",
+        //     // "invoice_or_actual_delivery_date"=> "2023-05-18",
+        //     "comment" => "",
+        //     "amount" => $total,
+        //     "discount" => 0,
+        //     "elaboration_date" => now(),
+        //     "planned_delivery_date" => now(),
+        //     "actual_delivery_date" => now(),
+        //     "delivered" => true,
+        //     // "bill"=> null,
+        //     // "latitude"=> "",
+        //     // "longitude"=> "",
+        //     // "commission"=> null,
+        //     // "no_discount_amount"=> "64.0000",
+        //     "add_bill" => true,
+        //     // "sale_type"=> null,
+        //     // "batched"=> false,
+        //     // "generated_on_new_pos"=> false,
+        //     "margin_of_gain" => "100.0000",
+        //     "with_email" => true,
+        //     "email" => "ernest_eclm@hotmail.com",
+        //     // "is_py"=> false,
+        //     // "use_second_payment_method"=> false,
+        //     // "first_paid_amount"=> null,
+        //     // "second_paid_amount"=> null,
+        //     // "is_total_advance"=> false,
+        //     // "product_from_another_warehouse"=> false,
+        //     // "credit_payments_with_multipago"=> false,
+        //     // "amount_billed"=> "0.0000",
+        //     // "stock_delivered"=> false,
+        //     // "cashflow_generated"=> false,
+        //     // "third_paid_amount"=> null,
+        //     // "use_third_payment_method"=> false,
+        //     // "coupon_amount"=> "0.0000",
+        //     // "coupon_number"=> "",
+        //     // "was_refunded"=> false,
+        //     // "refund_date"=> null,
+        //     // "nro_transaction"=> null,
+        //     // "currency_type"=> null,
+        //     // "bank"=> null,
+        //     // "second_nro_transaction"=> "",
+        //     // "second_currency_type"=> "",
+        //     // "second_bank"=> "",
+        //     // "third_nro_transaction"=> "",
+        //     // "third_currency_type"=> "",
+        //     // "third_bank"=> "",
+        //     // "with_email"=> false,
+        //     // "email"=> "",
+        //     "billed" => true, //facturacion
+        //     // "receipt_number"=> "",
+        //     // "document_id"=> "fe3775fd-36b6-4bce-8c1e-3b27043c6240",
+        //     // "extra_data"=> null,
+        //     // "extra_data_for_bill"=> [],
+        //     // "is_globalfood"=> false,
+        //     // "latitud"=> null,
+        //     // "longitud"=> null,
+        //     // "transaction_mode" => "1",
+        //     // "contract_number" => "0",
+        //     // "discount_amount" => "0.0000",
+        //     // "use_discount_amount"=> false,
+        //     // "is_service_applied"=> false,
+        //     // "service_amount" => "0.0000",
+        //     // "state" => 0,
+        //     // "sku"=> null,
+        //     // "stage" => 1,
+        //     // "is_send_wb"=> false,
+        //     // "service_mode"=> null,
+        //     // "card_number"=> null,
+        //     // "second_card_manager"=> null,
+        //     // "third_card_manager"=> null
+        // ]);
 
 
-        // dd($response->json());
-        // dd($response);
+        // // dd($response->json());
+        // // dd($response);
 
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            // dd('si esta en estafo 200 o 201');
-            return $response->json()['id'];
-        } else {
-            // dd($response->getStatusCode());
-            return 0;
-        }
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     // dd('si esta en estafo 200 o 201');
+        //     return $response->json()['id'];
+        // } else {
+        //     // dd($response->getStatusCode());
+        //     return 0;
+        // }
+        return;
     }
 
 
 
     public function verificarTugereteProd()
     {
-        //scar el json getProdyctos los idgerete de los productos
-      
-         $productosJson = file_get_contents(public_path('js/backupxd/productosTuGerente.json'));
-         $productosJson= json_decode( $productosJson, true);
+        // //scar el json getProdyctos los idgerete de los productos
 
-        $listaIdGerente = [];
-         foreach ($productosJson['results'] as $key => $prod) {
-            // dd($prod);
-            $listaIdGerente[] = $prod['id'];
-         }
+        //  $productosJson = file_get_contents(public_path('js/backupxd/productosTuGerente.json'));
+        //  $productosJson= json_decode( $productosJson, true);
 
-        //  dd(count($listaIdGerente));
+        // $listaIdGerente = [];
+        //  foreach ($productosJson['results'] as $key => $prod) {
+        //     // dd($prod);
+        //     $listaIdGerente[] = $prod['id'];
+        //  }
 
-         //sacar los id_gerentes que no esten en los productos vendidos
-        $productos = Producto::where('id_tugerente', '!=',0)->get();
-        // dd(count($productos ), count($listaIdGerente));
-        $listaFinalxd = [];
-        foreach ($productos as $key => $p) {
-           if(!in_array($p->id_tugerente,$listaIdGerente)){
-                $listaFinalxd[] = $p->id_tugerente;
-            }
-           
-        }
-        // foreach ($listaIdGerente as $key => $ll) {
-        //     // if($key == 70 ){
-        //         $p = Producto::where('id_tugerente', $ll)->first();
-        //         // dd($p, $ll);
-        //     if(is_null($p)){
-        //         $aux['id'] = $ll;
-        //         $aux['key'] = $key;
-        //         $listaFinalxd[] = $aux;
+        // //  dd(count($listaIdGerente));
+
+        //  //sacar los id_gerentes que no esten en los productos vendidos
+        // $productos = Producto::where('id_tugerente', '!=',0)->get();
+        // // dd(count($productos ), count($listaIdGerente));
+        // $listaFinalxd = [];
+        // foreach ($productos as $key => $p) {
+        //    if(!in_array($p->id_tugerente,$listaIdGerente)){
+        //         $listaFinalxd[] = $p->id_tugerente;
         //     }
-        //     // }
+
         // }
+        // // foreach ($listaIdGerente as $key => $ll) {
+        // //     // if($key == 70 ){
+        // //         $p = Producto::where('id_tugerente', $ll)->first();
+        // //         // dd($p, $ll);
+        // //     if(is_null($p)){
+        // //         $aux['id'] = $ll;
+        // //         $aux['key'] = $key;
+        // //         $listaFinalxd[] = $aux;
+        // //     }
+        // //     // }
+        // // }
 
 
-        dd( $listaFinalxd, $productos, $listaIdGerente);
+        // dd( $listaFinalxd, $productos, $listaIdGerente);
 
 
 
@@ -596,112 +601,114 @@ class VentasController extends Controller
 
     public function getIdTuGerenteProductos($contador)
     {
-        //scar el json getProdyctos los idgerete de los productos
-      
-         $productosJson = file_get_contents(public_path('js/backupxd/Json_Cmmotors_04-10.json'));
-         $productosJson= json_decode( $productosJson, true);
-        // dd($productosJson['Productos']);
-        $id_tugerente = [];
-        foreach ($productosJson['Productos'] as $producto) {
-            $id_tugerente[] = $producto['id_producto'];
-        }
-        // dd($id_tugerente );
+        // //scar el json getProdyctos los idgerete de los productos
 
-        //sacar de la base los idgerete de los productos 
-        $productos = Producto::where('id_tugerente', '!=',0)->get();
-        // dd($productos );
-        $id_prod_vendidos = [];
-        foreach ($productos as $key => $p) {
-            $id_prod_vendidos[] = $p->id_tugerente;
-        }
-        // dd($id_prod_vendidos);
+        //  $productosJson = file_get_contents(public_path('js/backupxd/Json_Cmmotors_04-10.json'));
+        //  $productosJson= json_decode( $productosJson, true);
+        // // dd($productosJson['Productos']);
+        // $id_tugerente = [];
+        // foreach ($productosJson['Productos'] as $producto) {
+        //     $id_tugerente[] = $producto['id_producto'];
+        // }
+        // // dd($id_tugerente );
 
-        //crear la nueva lista donde estera la lista de prodcutos que se elimanarn
-        $listaFinal = [];
-        foreach ($id_tugerente as $key => $id) {
-            // Verificar si el elemento ya está en el array
-            if (!in_array($id, $id_prod_vendidos)) {
-                $aux['id'] = $id;
-                $listaFinal[] = $aux;
-            }
-        }
+        // //sacar de la base los idgerete de los productos
+        // $productos = Producto::where('id_tugerente', '!=',0)->get();
+        // // dd($productos );
+        // $id_prod_vendidos = [];
+        // foreach ($productos as $key => $p) {
+        //     $id_prod_vendidos[] = $p->id_tugerente;
+        // }
+        // // dd($id_prod_vendidos);
 
-        $listaFinal2 = [];
-        foreach ($listaFinal as $key => $id) {
-            if ( $key < $contador && $key >= ($contador - 2)) {
-                $listaFinal2[] = $id;
-            }
-        }
-        dd( $listaFinal2, $listaFinal);
+        // //crear la nueva lista donde estera la lista de prodcutos que se elimanarn
+        // $listaFinal = [];
+        // foreach ($id_tugerente as $key => $id) {
+        //     // Verificar si el elemento ya está en el array
+        //     if (!in_array($id, $id_prod_vendidos)) {
+        //         $aux['id'] = $id;
+        //         $listaFinal[] = $aux;
+        //     }
+        // }
 
-        // dd( count($id_tugerente), count($id_prod_vendidos) ,count($listaFinal)  ,  $listaFinal);
-        return $listaFinal2;
+        // $listaFinal2 = [];
+        // foreach ($listaFinal as $key => $id) {
+        //     if ( $key < $contador && $key >= ($contador - 2)) {
+        //         $listaFinal2[] = $id;
+        //     }
+        // }
+        // dd( $listaFinal2, $listaFinal);
 
+        // // dd( count($id_tugerente), count($id_prod_vendidos) ,count($listaFinal)  ,  $listaFinal);
+        // return $listaFinal2;
 
+        return;
     }
-    
+
 
 
     public function deleteTuGerente(Request $r)
     {
-        $listaProductos =  $this->verificarTugereteProd();
-        // $listaProductos =  $this->getIdTuGerenteProductos(2946);
-        // [
-        //     [
-        //         "id" => 3929679,
-        //     ],
-        //     [
-        //         "id" => 3929680,
-        //     ],
-        //     [
-        //         "id" => 3929681,
-        //     ]
-        // ],
-      
-        //back.tugerente.com/v1/warehouses/product/0/
-        $response = Http::withHeaders([
-            'ApiKey' => $this->__apiKey,
-        ])->delete($this->__urlApi . 'v1/warehouses/product/0/', [
-            "products" => $listaProductos,
-            // "products" => [
-            //         [
-            //             "id" => 3929679,
-            //         ],
-            //         [
-            //             "id" => 3929680,
-            //         ],
-            //         [
-            //             "id" => 3929682,
-            //         ]
-            //     ],
-            // 'is_reversed' => false,
-        ]);
-        dd($response);
+        // $listaProductos =  $this->verificarTugereteProd();
+        // // $listaProductos =  $this->getIdTuGerenteProductos(2946);
+        // // [
+        // //     [
+        // //         "id" => 3929679,
+        // //     ],
+        // //     [
+        // //         "id" => 3929680,
+        // //     ],
+        // //     [
+        // //         "id" => 3929681,
+        // //     ]
+        // // ],
 
-    
+        // //back.tugerente.com/v1/warehouses/product/0/
+        // $response = Http::withHeaders([
+        //     'ApiKey' => $this->__apiKey,
+        // ])->delete($this->__urlApi . 'v1/warehouses/product/0/', [
+        //     "products" => $listaProductos,
+        //     // "products" => [
+        //     //         [
+        //     //             "id" => 3929679,
+        //     //         ],
+        //     //         [
+        //     //             "id" => 3929680,
+        //     //         ],
+        //     //         [
+        //     //             "id" => 3929682,
+        //     //         ]
+        //     //     ],
+        //     // 'is_reversed' => false,
+        // ]);
+        // dd($response);
 
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            // dd('si esta en estafo 200 o 201');
-            return $response->json()['id'];
-        } else {
-            // dd($response->getStatusCode());
-            return 0;
-        }
+
+
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     // dd('si esta en estafo 200 o 201');
+        //     return $response->json()['id'];
+        // } else {
+        //     // dd($response->getStatusCode());
+        //     return 0;
+        // }
+        return;
     }
 
 
     private function __pruebaXD()
     {
-        $response = Http::withHeaders([
-            'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
-        ])->post('https://back.tugerente.com/v1/sales/sale/', []);
+        // $response = Http::withHeaders([
+        //     'ApiKey' => 'OeTMTOa9iTTBLrMwTMXsVgdn31PatNHIyzpmw338',
+        // ])->post('https://back.tugerente.com/v1/sales/sale/', []);
 
-        // dd($response);
+        // // dd($response);
+        return;
     }
 
     public function show(Venta $venta)
     {
-         dd($venta, 'estoy en show');
+        dd($venta, 'estoy en show');
 
         // $ventas = DetalleVenta::join('productos as p', 'p.id', '=', 'detalle_ventas.id_producto')
         //     ->select('detalle_ventas.*', 'p.cod_oem', 'p.nombre as nombre_producto')
@@ -786,7 +793,7 @@ class VentasController extends Controller
         $detall_antiguos = DetalleVenta::where('id_venta', $v->id)->get();
         foreach ($detall_antiguos as $det) {
             $producto = Producto::where('id', $det->id_producto)->first();
-            $producto->cantidad += $det->cantidad; 
+            $producto->cantidad += $det->cantidad;
             $producto->save();
             $det->delete();
         }
@@ -809,7 +816,7 @@ class VentasController extends Controller
 
             //restar de productos que se esta vendiendo/ id, cantidad a restar
             $producto->cantidad -= $d->cantidad;
-            $producto->save();  
+            $producto->save();
         }
 
 
@@ -830,47 +837,43 @@ class VentasController extends Controller
     {
         // dd('llegamos a destroy', $r, $venta);
         // dd('llegamos a facturacion');
-        $response = Http::withHeaders([
-            'ApiKey' => $this->__apiKey,
-        ])->delete($this->__urlApi . 'v1/sales/sale/0/', [
-            "sales" => [
-                [
-                    "id" => $venta->id_venta,
-                ],
-            ],
-            'is_reversed' => false,
-        ]);
+        // $response = Http::withHeaders([
+        //     'ApiKey' => $this->__apiKey,
+        // ])->delete($this->__urlApi . 'v1/sales/sale/0/', [
+        //     "sales" => [
+        //         [
+        //             "id" => $venta->id_venta,
+        //         ],
+        //     ],
+        //     'is_reversed' => false,
+        // ]);
 
-        // dd($response->json());
-        if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
-            if($r->tipo == 'facturacion'){
-                $venta->id_venta = 0;
-                $venta->nro_factura = 0;
-                $venta->save();
-                return redirect()->route('Venta.index')->with('success', 'se elimino la factura nro: '.$venta->nro_factura.'con exito');
-            }else{
+        // // dd($response->json());
+        // if ($response->getStatusCode() == 200 || $response->getStatusCode() == 201) {
+        //     if ($r->tipo == 'facturacion') {
+        //         $venta->id_venta = 0;
+        //         $venta->nro_factura = 0;
+        //         $venta->save();
+        //         return redirect()->route('Venta.index')->with('success', 'se elimino la factura nro: ' . $venta->nro_factura . 'con exito');
+        //     } else {
                 $detalles = DetalleVenta::where('id_venta', $venta->id)->get();
-    
+
                 foreach ($detalles as $d) {
                     $p = Producto::where('id', $d->id_producto)->first();
                     $p->cantidad += $d->cantidad;
                     $p->save();
                 }
                 $venta->delete();
-                return redirect()->route('Venta.index')->with('success', 'se elimino la venta '.$venta->id.' y la factura: '.$venta->nro_factura.'con exito');
-            }
-    
-           
-
-        } else {
-            //retornar con un error
-            throw ValidationException::withMessages([
-                //meustra el eeroror del correo
-                // 'errorG' => $e->getMessage(),
-                'eroorEliminacion' => 'Ocurrió un error inesperado, no se pudo eliminar la factura en TuGerente!!!'
-            ]);
-        }
-
+                return redirect()->route('Venta.index')->with('success', 'se elimino la venta ' . $venta->id . ' con exito');
+        //     }
+        // } else {
+        //     //retornar con un error
+        //     throw ValidationException::withMessages([
+        //         //meustra el eeroror del correo
+        //         // 'errorG' => $e->getMessage(),
+        //         'eroorEliminacion' => 'Ocurrió un error inesperado, no se pudo eliminar la factura en TuGerente!!!'
+        //     ]);
+        // }
     }
 
     //cotizaciones
