@@ -124,6 +124,23 @@ class DatabaseSeeder extends Seeder
     public function CargaUser()
     {
         $user = new User();
+        $user->nombre_usuario = 'Ernesto_Claros';
+        $user->correo_electronico = 'Ernest_eclm@hotmail.com';
+        $user->password =  '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'; // password
+        $user->remember_token =  Str::random(10);
+        $user->assignRole('Administrador');
+        $user->save();
+
+
+        $r = new Empleado();
+        $r->ci = 9000001;
+        $r->nombre = 'Ernesto Edil Claros Melgar';
+        $r->telefono =  70297978;
+        $r->estado =  'Habilitado';
+        $r->id_usuario = '1';
+        $r->save();
+
+        $user = new User();
         $user->nombre_usuario = 'mark';
         $user->correo_electronico = 'mark@julicosuarez.tech';
         $user->password =  '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'; // password
@@ -137,8 +154,29 @@ class DatabaseSeeder extends Seeder
         $r->nombre = 'Marco Antonio Cruz Rojas';
         $r->telefono =  74678959;
         $r->estado =  'Habilitado';
-        $r->id_usuario = '1';
+        $r->id_usuario = '2';
         $r->save();
+
+
+
+
+        $user = new User();
+        $user->nombre_usuario = 'mirian_molina';
+        $user->correo_electronico = 'mirian_molina@gmail.com';
+        $user->password =  '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi'; // password
+        $user->remember_token =  Str::random(10);
+        $user->assignRole('Administrador');
+        $user->save();
+
+
+        $r = new Empleado();
+        $r->ci = 7795549;
+        $r->nombre = 'MIRIAN MOLINA AVILA';
+        $r->telefono =  79821603;
+        $r->estado =  'Habilitado';
+        $r->id_usuario = '3';
+        $r->save();
+
 
 
         $user = new User();
@@ -155,7 +193,7 @@ class DatabaseSeeder extends Seeder
         $r->nombre = 'Devs Suarez y Cruz';
         $r->telefono =  76034449;
         $r->estado =  'Habilitado';
-        $r->id_usuario = '2';
+        $r->id_usuario = '4';
         $r->save();
 
 
