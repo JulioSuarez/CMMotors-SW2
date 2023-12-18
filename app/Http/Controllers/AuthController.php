@@ -223,8 +223,7 @@ class AuthController extends Controller
                 'cotizaciones',
                 'ventas',
                 'progreso',
-                'diasRestantes',
-                'clientesPorMes'
+                'diasRestantes'
             )
         );
     }

@@ -40,6 +40,8 @@ Route::post('/homologarProducto',  [ProductoController::class, 'homologarProduct
 Route::get('/nazeeCoti',  [BackupController::class, 'verificarCotizacion']);
 Route::get('/nazeeProd',  [BackupController::class, 'verificarProductos']);
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Route::get('/holaxd', function () {
 
     $venta = Venta::get();
@@ -50,98 +52,9 @@ Route::get('/holaxd', function () {
         $v->fecha = $fecha;
         $v->save();
     }
-    // $jsonString = file_get_contents(public_path('js/backupxd/ventasTuGerente.json'));
-    // $jsonString = json_decode($jsonString, true);
-
-    // $lista = [];
-    // foreach ($jsonString['results'] as $key => $r) {
-    //     $l['id_venta'] = $r['id'];
-    //     $l['bill'] = $r['bill'];
-    //     $lista[] = $l;
-    // }
-    // // dd($lista);
-    // //buscar el id venta en la venta
-    // foreach ($lista as $key => $li) {
-    //     $v = Venta::where('id_venta', $li['id_venta'])->first();
-    //     if (!is_null($v)) {
-    //         if($v->nro_factura == 0){
-    //             $v->nro_factura = $li['bill'];
-    //             $v->save();
-    //         }
-    //     }else{
-    //         dd('es null en '. $li['id_venta']);
-    //     }
-    // }
-    // dd('fin xd d');
 });
 
 
-
-
-Route::get('/cod_oem_repetido', function () {
-
-    $productos = Producto::get();
-    // Tu array existente
-    $miArray = [];
-    foreach ($productos as $p) {
-
-        // Verificar si el elemento ya está en el array
-        if (!in_array($p->tienda, $miArray)) {
-            // Agregar el elemento solo si no existe
-            $miArray[] = $p->tienda;
-        }
-    }
-    dd($miArray);
-
-    //verificar si el cod_produ esta en el excel
-    // $productos = Producto::get();
-    // $productitos = [];
-    // $c=0;
-    // foreach ($productos as $p) {
-    //     //es el mismo
-    //     if($p->cod_oem != $p->cod_producto)
-
-    //     $prod = ExcelPrueba::where('cod_oem', $p->cod_producto)->first();
-    //     if(!is_null($prod)){
-    //         dd('excel:',$prod,'cmmortrs:',$p);
-    //         $c++;
-    //     }
-    // }
-    // dd('no hay nada',$c);
-
-    // $productos = ExcelPrueba::wherw
-
-    // $productosRepetidos = DB::table('excel_pruebas')
-    // ->select('cod_producto', DB::raw('COUNT(*) as cantidad'))
-    // ->groupBy('cod_producto')
-    // ->havingRaw('COUNT(*) > 1')
-    // ->get();
-
-    // dd($productosRepetidos);
-    // $productosXD =[];
-    // $productos = ExcelPrueba::get();
-    //     $productosXD =[];
-    //     foreach ($productos as $p) {
-    //             // dd( $p);
-    //             if(is_null($p->precio_compra )){
-    //                 $productosXD[] = $p->cod_producto;
-
-    //             }
-    //     }
-
-    // $tiendas = [];
-    // $productos = Producto::get();
-    // foreach ($productos as $p) {
-    //     if (!in_array($p->tienda, $tiendas)) {
-    //         // array_push($tiendas, $p->tienda);
-    //         $tiendas[] = $p->tienda;
-    //     }
-    // }
-
-    //comparar repetidos
-
-    return redirect()->Route('Dashboard');
-});
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -173,9 +86,6 @@ Route::get('/', function () {
 })->middleware('auth');
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Route::get('/prueba', function () {
-    return view('prueba');
-});
 
 Route::get('/prueba2', function () {
     $productos = Producto::get();
@@ -186,26 +96,21 @@ Route::get('/prueba2', function () {
     }
     dd('no hay nada');
 });
-// Route::post('/prueba', [ProductoController::class, 'show'])->name('prueba.show');
-
-
-
-Route::post('/cargarIdproducto', [BackupController::class, 'cargarIdproducto'])->name('cargarIdproducto');
-Route::get('/prueba3', [BackupController::class, 'prueba3']);
-Route::get('/ActualizarCliente', [ClienteController::class, 'ActualizarCliente']);
-
-Route::delete('/deleteTuGerente', [VentasController::class, 'deleteTuGerente'])->name('deleteTuGerente');
-
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // pruebas
 Route::get('/prueba', function () {
     return view('prueba');
 })->middleware('rol_admin');
-// Route::post('/prueba', [VentasController::class, 'existeCotizar2'])->name('prueba_post')->middleware('rol_admin');
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Route::post('/cargarIdproducto', [BackupController::class, 'cargarIdproducto'])->name('cargarIdproducto');
+Route::get('/prueba3', [BackupController::class, 'prueba3']);
+Route::get('/ActualizarCliente', [ClienteController::class, 'ActualizarCliente']);
+Route::delete('/deleteTuGerente', [VentasController::class, 'deleteTuGerente'])->name('deleteTuGerente');
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //login, inicio de sesio
 Route::get('Login', [AuthController::class, 'login'])
