@@ -194,14 +194,14 @@ class AuthController extends Controller
         ->get();
 
 
-        $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
-        ->select(
-            DB::raw('MONTHNAME(ventas.fecha) as mes'),
-            DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
-        )
-        ->groupBy('mes')
-        ->orderByRaw('MONTH(ventas.fecha)')
-        ->get();
+        // $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
+        // ->select(
+        //     DB::raw('MONTHNAME(ventas.fecha) as mes'),
+        //     DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
+        // )
+        // ->groupBy('mes')
+        // ->orderByRaw('MONTH(ventas.fecha)')
+        // ->get();
 
 
         $cotizaciones = Cotizacion::count();
