@@ -114,65 +114,50 @@
 
         {{-- Fila 1 //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
         <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100">
-            {{-- Column-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
-            <input id="productosAgrupados" name="productosAgrupados" class="hidden" value="{{ $productosAgrupados }}">
-            <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
-                <div class="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
-                    <div class="flex items-center">
-                        <div
-                            class="w-12 h-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center me-3">
-                            {{-- <svg class="w-6 h-6 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 19">
-                                <path
-                                    d="M14.5 0A3.987 3.987 0 0 0 11 2.1a4.977 4.977 0 0 1 3.9 5.858A3.989 3.989 0 0 0 14.5 0ZM9 13h2a4 4 0 0 1 4 4v2H5v-2a4 4 0 0 1 4-4Z" />
-                                <path
-                                    d="M5 19h10v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2ZM5 7a5.008 5.008 0 0 1 4-4.9 3.988 3.988 0 1 0-3.9 5.859A4.974 4.974 0 0 1 5 7Zm5 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm5-1h-.424a5.016 5.016 0 0 1-1.942 2.232A6.007 6.007 0 0 1 17 17h2a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5ZM5.424 9H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h2a6.007 6.007 0 0 1 4.366-5.768A5.016 5.016 0 0 1 5.424 9Z" />
-                            </svg> --}}
-                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 11 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M1.75 15.363a4.954 4.954 0 0 0 2.638 1.574c2.345.572 4.653-.434 5.155-2.247.502-1.813-1.313-3.79-3.657-4.364-2.344-.574-4.16-2.551-3.658-4.364.502-1.813 2.81-2.818 5.155-2.246A4.97 4.97 0 0 1 10 5.264M6 17.097v1.82m0-17.5v2.138" />
-                            </svg>
-                        </div>
-                        <div>
-                            <h5 class="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">
-                                {{ $ventas_mes }} $us</h5>
-                            <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Ventas generadas este mes</p>
-                        </div>
-                    </div>
+            {{-- Bar-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
+            <input class="hidden" type="text" name="balanceMensual" value="{{ $balanceMensual }}">
+            <div class=" w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                <div class="flex justify-between border-gray-200 border-b dark:border-gray-700 pb-3">
+                    <dl>
+                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Ganancia</dt>
+                        <dd class="leading-none text-3xl font-bold text-gray-900 dark:text-white">Bs.-
+                            {{ $blance[0]['Ganancia'] }}</dd>
+                    </dl>
                     <div>
                         {{-- <span
                             class="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-1 rounded-md dark:bg-green-900 dark:text-green-300">
                             <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 14">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M5 13V1m0 0L1 5m4-4 4 4" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4" />
                             </svg>
-                            42.5%
+                            Tasa de Garancia%
                         </span> --}}
                     </div>
                 </div>
 
-                {{-- <div class="grid grid-cols-2">
-                    <dl class="flex items-center">
-                        <dt class="text-gray-500 dark:text-gray-400 text-sm font-normal me-1">Money spent:</dt>
-                        <dd class="text-gray-900 text-sm dark:text-white font-semibold">$3,232</dd>
+                <div class="grid grid-cols-2 py-3">
+                    <dl>
+                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Ingreso</dt>
+                        <dd class="leading-none text-xl font-bold text-green-500 dark:text-green-400">
+                            ${{ $blance[0]['Ingreso'] }}</dd>
                     </dl>
-                    <dl class="flex items-center justify-end">
-                        <dt class="text-gray-500 dark:text-gray-400 text-sm font-normal me-1">Conversion rate:</dt>
-                        <dd class="text-gray-900 text-sm dark:text-white font-semibold">1.2%</dd>
+                    <dl>
+                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Egreso</dt>
+                        <dd class="leading-none text-xl font-bold text-red-600 dark:text-red-500">
+                            -${{ $blance[0]['Egreso'] }}</dd>
                     </dl>
-                </div> --}}
+                </div>
 
-                <div id="column-chart"></div>
-                <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                <div id="bar-chart"></div>
+                {{-- <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
                     <div class="flex justify-between items-center pt-5">
                         <!-- Button -->
-                        <button id="dropdownDefaultButton" data-dropdown-toggle="lastDaysdropdownc"
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="lastDaysdropdownb"
                             data-dropdown-placement="bottom"
                             class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
                             type="button">
-                            Last 7 days
+                            Last 6 months
                             <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -180,7 +165,7 @@
                             </svg>
                         </button>
                         <!-- Dropdown menu -->
-                        <div id="lastDaysdropdownc"
+                        <div id="lastDaysdropdownb"
                             class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
                                 aria-labelledby="dropdownDefaultButton">
@@ -207,11 +192,21 @@
                                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
                                         90 days</a>
                                 </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
+                                        6 months</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
+                                        year</a>
+                                </li>
                             </ul>
                         </div>
                         <a href="#"
                             class="uppercase text-sm font-semibold inline-flex items-center rounded-lg text-blue-600 hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2">
-                            Leads Report
+                            Revenue Report
                             <svg class="w-2.5 h-2.5 ms-1.5 rtl:rotate-180" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -219,8 +214,9 @@
                             </svg>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
+
 
             {{-- Radial-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
             <input class="hidden" type="text" name="ventas" value="{{ $ventas }}">
@@ -388,54 +384,73 @@
 
         {{-- Fila 2 //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
         <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100">
-            {{-- Bar-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
-            <div class=" w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
-                <div class="flex justify-between border-gray-200 border-b dark:border-gray-700 pb-3">
-                    <dl>
-                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Profit</dt>
-                        <dd class="leading-none text-3xl font-bold text-gray-900 dark:text-white">$5,405</dd>
-                    </dl>
+            {{-- Column-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
+            <input id="productosAgrupados" name="productosAgrupados" class="hidden" value="{{ $productosAgrupados }}">
+            <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
+                <div class="flex justify-between pb-4 mb-4 border-b border-gray-200 dark:border-gray-700">
+                    <div class="flex items-center">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center me-3">
+                            {{-- <svg class="w-6 h-6 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 19">
+                                <path
+                                    d="M14.5 0A3.987 3.987 0 0 0 11 2.1a4.977 4.977 0 0 1 3.9 5.858A3.989 3.989 0 0 0 14.5 0ZM9 13h2a4 4 0 0 1 4 4v2H5v-2a4 4 0 0 1 4-4Z" />
+                                <path
+                                    d="M5 19h10v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2ZM5 7a5.008 5.008 0 0 1 4-4.9 3.988 3.988 0 1 0-3.9 5.859A4.974 4.974 0 0 1 5 7Zm5 3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm5-1h-.424a5.016 5.016 0 0 1-1.942 2.232A6.007 6.007 0 0 1 17 17h2a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5ZM5.424 9H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h2a6.007 6.007 0 0 1 4.366-5.768A5.016 5.016 0 0 1 5.424 9Z" />
+                            </svg> --}}
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 11 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M1.75 15.363a4.954 4.954 0 0 0 2.638 1.574c2.345.572 4.653-.434 5.155-2.247.502-1.813-1.313-3.79-3.657-4.364-2.344-.574-4.16-2.551-3.658-4.364.502-1.813 2.81-2.818 5.155-2.246A4.97 4.97 0 0 1 10 5.264M6 17.097v1.82m0-17.5v2.138" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h5 class="leading-none text-2xl font-bold text-gray-900 dark:text-white pb-1">
+                                {{ $ventas_mes }} $us</h5>
+                            <p class="text-sm font-normal text-gray-500 dark:text-gray-400">Ventas generadas este mes</p>
+                        </div>
+                    </div>
                     <div>
-                        <span
+                        {{-- <span
                             class="bg-green-100 text-green-800 text-xs font-medium inline-flex items-center px-2.5 py-1 rounded-md dark:bg-green-900 dark:text-green-300">
                             <svg class="w-2.5 h-2.5 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 14">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="M5 13V1m0 0L1 5m4-4 4 4" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13V1m0 0L1 5m4-4 4 4" />
                             </svg>
-                            Profit rate 23.5%
-                        </span>
+                            42.5%
+                        </span> --}}
                     </div>
                 </div>
 
-                <div class="grid grid-cols-2 py-3">
-                    <dl>
-                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Income</dt>
-                        <dd class="leading-none text-xl font-bold text-green-500 dark:text-green-400">$23,635</dd>
+                {{-- <div class="grid grid-cols-2">
+                    <dl class="flex items-center">
+                        <dt class="text-gray-500 dark:text-gray-400 text-sm font-normal me-1">Money spent:</dt>
+                        <dd class="text-gray-900 text-sm dark:text-white font-semibold">$3,232</dd>
                     </dl>
-                    <dl>
-                        <dt class="text-base font-normal text-gray-500 dark:text-gray-400 pb-1">Expense</dt>
-                        <dd class="leading-none text-xl font-bold text-red-600 dark:text-red-500">-$18,230</dd>
+                    <dl class="flex items-center justify-end">
+                        <dt class="text-gray-500 dark:text-gray-400 text-sm font-normal me-1">Conversion rate:</dt>
+                        <dd class="text-gray-900 text-sm dark:text-white font-semibold">1.2%</dd>
                     </dl>
-                </div>
+                </div> --}}
 
-                <div id="bar-chart"></div>
-                <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                <div id="column-chart"></div>
+                {{-- <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
                     <div class="flex justify-between items-center pt-5">
                         <!-- Button -->
-                        <button id="dropdownDefaultButton" data-dropdown-toggle="lastDaysdropdownb"
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="lastDaysdropdownc"
                             data-dropdown-placement="bottom"
                             class="text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-gray-900 text-center inline-flex items-center dark:hover:text-white"
                             type="button">
-                            Last 6 months
+                            Last 7 days
                             <svg class="w-2.5 m-2.5 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 10 6">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="m1 1 4 4 4-4" />
                             </svg>
                         </button>
                         <!-- Dropdown menu -->
-                        <div id="lastDaysdropdownb"
+                        <div id="lastDaysdropdownc"
                             class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
                                 aria-labelledby="dropdownDefaultButton">
@@ -462,21 +477,11 @@
                                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
                                         90 days</a>
                                 </li>
-                                <li>
-                                    <a href="#"
-                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
-                                        6 months</a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Last
-                                        year</a>
-                                </li>
                             </ul>
                         </div>
                         <a href="#"
                             class="uppercase text-sm font-semibold inline-flex items-center rounded-lg text-blue-600 hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2">
-                            Revenue Report
+                            Leads Report
                             <svg class="w-2.5 h-2.5 ms-1.5 rtl:rotate-180" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -484,50 +489,46 @@
                             </svg>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
 
-
             {{-- pie-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
+            <input class="hidden" name="Venta_Tienda" value="{{ $Venta_Tienda }}">
             <div class=" w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
 
                 <div class="flex justify-between items-start w-full">
                     <div class="flex-col items-center">
                         <div class="flex items-center mb-1">
-                            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Website traffic
+                            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Ingresos por Tienda
                             </h5>
-                            <svg data-popover-target="chart-info" data-popover-placement="bottom"
+                            <svg data-popover-target="chart-infop" data-popover-placement="bottom"
                                 class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer ms-1"
                                 aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                 viewBox="0 0 20 20">
                                 <path
                                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm0 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm1-5.034V12a1 1 0 0 1-2 0v-1.418a1 1 0 0 1 1.038-.999 1.436 1.436 0 0 0 1.488-1.441 1.501 1.501 0 1 0-3-.116.986.986 0 0 1-1.037.961 1 1 0 0 1-.96-1.037A3.5 3.5 0 1 1 11 11.466Z" />
                             </svg>
-                            <div data-popover id="chart-info" role="tooltip"
+                            <div data-popover id="chart-infop" role="tooltip"
                                 class="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
                                 <div class="p-3 space-y-2">
-                                    <h3 class="font-semibold text-gray-900 dark:text-white">Activity growth - Incremental
+                                    <h3 class="font-semibold text-gray-900 dark:text-white">Crecimiento de la actividad - Tiendas
                                     </h3>
-                                    <p>Report helps navigate cumulative growth of community activities. Ideally, the chart
-                                        should have a growing trend, as stagnating chart signifies a significant decrease of
-                                        community activity.</p>
+                                    <p>El informe ayuda a navegar el crecimiento acumulativo de los ingresos de las tiendas. Idealmente, el gráfico debería tener una tendencia creciente, ya que un gráfico estancado significa una disminución significativa de los ingresos en alguna tienda.
+                                    </p>
                                     <h3 class="font-semibold text-gray-900 dark:text-white">Calculation</h3>
-                                    <p>For each date bucket, the all-time volume of activities is calculated. This means
-                                        that
-                                        activities in period n contain all activities up to period n, plus the activities
-                                        generated by your community in period.</p>
-                                    <a href="#"
+                                    <p>Para cada segmento de fechas, se calcula el volumen de actividades de todos los tiempos. Esto significa que las ventas en el período n contienen todas los ingresos hasta el período n, más las actividades economicas generadas por su tienda en el período.</p>
+                                    {{-- <a href="#"
                                         class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline">Read
                                         more <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true"
                                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                                 stroke-width="2" d="m1 9 4-4-4-4" />
-                                        </svg></a>
+                                        </svg></a> --}}
                                 </div>
                                 <div data-popper-arrow></div>
                             </div>
                         </div>
-                        <button id="dateRangeButton" data-dropdown-toggle="dateRangeDropdown"
+                        {{-- <button id="dateRangeButton" data-dropdown-toggle="dateRangeDropdown"
                             data-dropdown-ignore-click-outside-class="datepicker" type="button"
                             class="inline-flex items-center text-blue-700 dark:text-blue-600 font-medium hover:underline">31
                             Nov - 31 Dev <svg class="w-3 h-3 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -569,9 +570,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
-                    <div class="flex justify-end items-center">
+                    {{-- <div class="flex justify-end items-center">
                         <button id="widgetDropdownButton" data-dropdown-toggle="widgetDropdown"
                             data-dropdown-placement="bottom" type="button"
                             class="inline-flex items-center justify-center text-gray-500 w-8 h-8 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm"><svg
@@ -631,13 +632,11 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <!-- pie-chart -->
                 <div class="py-6" id="pie-chart"></div>
-
-                <!-- Line-chart -->
-                <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
+                {{-- <div class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
                     <div class="flex justify-between items-center pt-5">
                         <!-- Button -->
                         <button id="dropdownDefaultButton" data-dropdown-toggle="lastDaysdropdownl"
@@ -690,7 +689,7 @@
                             </svg>
                         </a>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 

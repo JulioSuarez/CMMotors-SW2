@@ -8,12 +8,12 @@
     ]
   },
   "resources/js/area-chart.js": {
-    "file": "assets/area-chart.669bc5f5.js",
+    "file": "assets/area-chart.211716c1.js",
     "src": "resources/js/area-chart.js",
     "isEntry": true
   },
   "resources/js/bar-chart.js": {
-    "file": "assets/bar-chart.8a238389.js",
+    "file": "assets/bar-chart.42809fd4.js",
     "src": "resources/js/bar-chart.js",
     "isEntry": true
   },
@@ -26,7 +26,7 @@
     ]
   },
   "resources/js/column-chart.js": {
-    "file": "assets/column-chart.2787e175.js",
+    "file": "assets/column-chart.7705b629.js",
     "src": "resources/js/column-chart.js",
     "isEntry": true
   },
@@ -51,17 +51,17 @@
     "isEntry": true
   },
   "resources/js/OpenCloset.js": {
-    "file": "assets/OpenCloset.ba684cca.js",
+    "file": "assets/OpenCloset.5a7d9acb.js",
     "src": "resources/js/OpenCloset.js",
     "isEntry": true
   },
   "resources/js/pie-chart.js": {
-    "file": "assets/pie-chart.1d5cfc62.js",
+    "file": "assets/pie-chart.50675b51.js",
     "src": "resources/js/pie-chart.js",
     "isEntry": true
   },
   "resources/js/radial-chart.js": {
-    "file": "assets/radial-chart.a817bd58.js",
+    "file": "assets/radial-chart.c4011715.js",
     "src": "resources/js/radial-chart.js",
     "isEntry": true
   },

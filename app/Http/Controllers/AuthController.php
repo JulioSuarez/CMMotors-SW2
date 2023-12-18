@@ -187,29 +187,106 @@ class AuthController extends Controller
         // $productosAgrupadosCount = DetalleVenta::get()->groupBy('id_producto');
 
         $productosAgrupados = DetalleVenta::join('productos', 'detalle_ventas.id_producto', '=', 'productos.id')
-        ->groupBy('detalle_ventas.id_producto', 'productos.cod_producto')
-        ->select('productos.cod_producto as x', DB::raw('count(*) as y'))
-        ->orderBy('y', 'desc')
-        ->take(15)
-        ->get();
+            ->groupBy('detalle_ventas.id_producto', 'productos.cod_producto')
+            ->select('productos.cod_producto as x', DB::raw('count(*) as y'))
+            ->orderBy('y', 'desc')
+            ->take(15)
+            ->get();
 
 
-        // $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
-        // ->select(
-        //     DB::raw('MONTHNAME(ventas.fecha) as mes'),
-        //     DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
-        // )
-        // ->groupBy('mes')
-        // ->orderByRaw('MONTH(ventas.fecha)')
-        // ->get();
+        $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
+            ->select(
+                DB::raw('MONTHNAME(ventas.fecha) as mes'),
+                DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
+            )
+            ->groupBy('mes')
+            ->orderByRaw('MONTH(ventas.fecha)')
+            ->get();
+
+        // dd($clientesPorMes);
+
+        $clientesF2 = DB::table('ventas as v')
+            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci')
+            ->where('c.ci', '!=', '9903')
+            ->select(
+                DB::raw('MONTH(v.fecha) as mes'),
+                'c.ci',
+                'c.nombre as nombre_cliente',
+                DB::raw('COUNT(v.id) as total_ventas')
+            )
+            ->groupBy('mes', 'ci', 'nombre_cliente')
+            ->orderByDesc('total_ventas')
+            ->get();
+
+        // dd($clientesF2);
+
+        $clientesFrecuentes = DB::table('detalle_ventas as dv')
+            ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
+            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci') // Asume que existe una tabla 'clientes' con un campo 'id'
+            ->select(
+                DB::raw('MONTH(v.fecha) as mes'),
+                'c.ci',
+                'c.nombre as nombre_cliente',
+                DB::raw('SUM(dv.cantidad * dv.precio) as total_compras')
+            )
+            ->groupBy('mes', 'c.ci', 'nombre_cliente')
+            ->orderByDesc('total_compras')
+            ->get();
+
+        // dd($clientesFrecuentes);
 
 
         $cotizaciones = Cotizacion::count();
         $ventas = Venta::count();
-        $progreso = number_format(($ventas/200)*100);
+        $progreso = number_format(($ventas / 200) * 100);
         $diasRestantes = date('t') - date('d');
 
         // dd($ventas_mes);
+
+
+        //balance
+        $balanceMensual = DB::table('detalle_ventas as dv')
+            ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
+            ->select(
+                DB::raw('MONTHNAME(v.fecha) as mes'),
+                DB::raw('SUM(dv.costo_producto * dv.cantidad) as sumatoria_costo'),
+                DB::raw('SUM(dv.cantidad * dv.precio) as sumatoria_ingresos')
+            )
+            ->groupBy('mes')
+            ->get();
+
+        // dd($balanceMensual);
+
+        $Ingreso = 0;
+        $Egreso = 0;
+        $Ganancia = 0;
+        $blance = [];
+        foreach ($balanceMensual as $b) {
+            $Ingreso += $b->sumatoria_ingresos;
+            $Egreso += $b->sumatoria_costo;
+            $Ganancia = $Ingreso - $Egreso;
+        }
+        $blance[] = [
+            "Ingreso" => $Ingreso,
+            "Egreso" => $Egreso,
+            "Ganancia" => $Ganancia,
+        ];
+
+        // dd($blance);
+
+        $Venta_Tienda = DB::table('detalle_ventas as dv')
+            ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
+            ->join('productos as p', 'dv.id_producto', '=', 'p.id')
+            ->select(
+                'p.tienda',
+                DB::raw('COUNT(v.id) as total_ventas')
+
+            )
+            ->groupBy('p.tienda')
+            ->get();
+
+        // dd($Venta_Tienda);
+
 
         return view(
             'VistasAuth.dashboard',
@@ -223,7 +300,10 @@ class AuthController extends Controller
                 'cotizaciones',
                 'ventas',
                 'progreso',
-                'diasRestantes'
+                'diasRestantes',
+                'balanceMensual',
+                'blance',
+                'Venta_Tienda'
             )
         );
     }

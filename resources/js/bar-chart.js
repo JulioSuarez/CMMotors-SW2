@@ -1,14 +1,29 @@
-  // ApexCharts options and config
-  window.addEventListener("load", function() {
+var artefactos = document.querySelectorAll('input[name="balanceMensual"]');
+var balanceMensual = JSON.parse(artefactos[0].value);
+
+// console.log(balanceMensual);
+
+var sumatoria_ingresos = [];
+var sumatoria_costo = [];
+var meses = [];
+
+balanceMensual.forEach(element => {
+    sumatoria_ingresos.push(element['sumatoria_ingresos']);
+    sumatoria_costo.push(element['sumatoria_costo']);
+    meses.push(element['mes']);
+});
+
+// ApexCharts options and config
+window.addEventListener("load", function() {
     var options = {
         series: [{
                 name: "Income",
                 color: "#31C48D",
-                data: ["1420", "1620", "1820", "1420", "1650", "2120"],
+                data: sumatoria_ingresos,
             },
             {
                 name: "Expense",
-                data: ["788", "810", "866", "788", "1100", "1200"],
+                data: sumatoria_costo,
                 color: "#F05252",
             }
         ],
@@ -62,7 +77,7 @@
                     return "$" + value
                 }
             },
-            categories: ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            categories: meses,
             axisTicks: {
                 show: false,
             },

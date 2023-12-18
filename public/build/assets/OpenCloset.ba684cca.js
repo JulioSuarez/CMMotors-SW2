@@ -1,1 +1,0 @@
-const e=document.getElementById("bt_cerrar_modal");e.addEventListener("click",function(){document.getElementById("myModal").close()});const t=document.getElementById("dropdownDefaultButton");t.addEventListener("click",function(){console.log("abrir_modal"),document.getElementById("lastDaysdropdown").showModal()});document.getElementById("bt_save_object");
