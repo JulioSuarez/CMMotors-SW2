@@ -2,17 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Http\Request;
+use PDF;
+use Carbon\Carbon;
+use App\Models\Venta;
+use App\Models\Cliente;
+use App\Models\Empleado;
 use App\Models\Producto;
 use App\Models\Proveedor;
-use App\Models\Empleado;
-use App\Models\Cliente;
 use App\Models\Cotizacion;
-use App\Models\DetalleCotizacion;
-use App\Models\Venta;
 use App\Models\DetalleVenta;
-use PDF;
+use Illuminate\Http\Request;
+use App\Models\DetalleCotizacion;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class PruebasController extends Controller
 {
@@ -367,5 +369,196 @@ class PruebasController extends Controller
     public function facturar()
     {
         return view('pruebas.facturar');
+    }
+
+    public function TallerGrado()
+    {
+        //Vista Principal del Taller de Grado
+        // $ClientesTop10 = Venta::groupBy('ci_cliente')
+        //     ->select('ci_cliente', DB::raw('count(id) as total'))
+        //     ->orderBy('total', 'desc')
+        //     ->take(10)
+        //     ->get();
+
+        // $array = [];
+        // foreach ($ClientesTop10 as $c) {
+        //     $datosVenta = []; // Mueve esta línea aquí para que se reinicie para cada cliente
+        //     $cliente = Cliente::where('ci', $c->ci_cliente)->first();
+        //     $datos = Venta::where('ci_cliente', $c->ci_cliente)->get();
+        //     foreach ($datos as $v) {
+        //         $datosVenta[] = [
+        //             'id_venta' => $v->id,
+        //             'fecha' => $v->fecha,
+        //             'monto_total' => $v->monto_total,
+        //             'descuento' => $v->descuento,
+        //             'ci_empleado' => $v->ci_empleado,
+
+        //         ];
+        //     }
+
+        //     $array[] = [
+        //         'ci_cliente' => $c->ci_cliente,
+        //         'cliente_name' => $cliente->nombre,
+        //         'total' => $c->total,
+        //         'datosVenta' => $datosVenta
+        //     ];
+        // }
+
+
+
+        // // dd($array,$array[0]['datosVenta']);
+
+
+
+        // $ClientesTop10v2 = Venta::groupBy('fecha')
+        //     ->select('fecha', DB::raw('count(ci_cliente) as total'))
+        //     ->orderBy('total', 'desc')
+        //     ->take(10)
+        //     ->get();
+
+
+        // $ClientesTop10PorMes = Venta::select(
+        //     DB::raw('fecha as mes'),
+        //     'ci_cliente',
+        //     DB::raw('count(id) as totalVentas')
+        // )
+        //     ->groupBy('mes', 'ci_cliente')
+        //     ->orderBy('mes')
+        //     ->orderByDesc('totalVentas')
+        //     ->take(10)
+        //     ->get();
+
+
+        $mesElegido = 'September'; // Puedes cambiar esto según el mes deseado
+
+        // $ClientesTop10PorMes2 = Venta::whereMonth('fecha', '=', Carbon::parse($mesElegido)->month)
+        //     ->whereYear('fecha', '=', date('Y'))
+        //     ->select(
+        //         DB::raw('MONTHNAME(fecha) as mes'),
+        //         'ci_cliente',
+        //         DB::raw('count(id) as totalVentas'),
+        //         DB::raw('SUM(monto_total) as monto_total')
+        //     )
+        //     ->groupBy('mes', 'ci_cliente') // Corrección en la cláusula groupBy
+        //     ->orderBy('mes')
+        //     ->orderByDesc('monto_total')
+        //     ->take(10)
+        //     ->get();
+        $ClientesTop10PorMes2 = Venta::select(
+            DB::raw('MONTHNAME(fecha) as mes'),
+            'ci_cliente',
+            DB::raw('count(id) as totalVentas'),
+            DB::raw('SUM(monto_total) as monto_total')
+        )
+            ->groupBy('mes', 'ci_cliente') // Corrección en la cláusula groupBy
+            ->orderBy('mes')
+            ->orderByDesc('monto_total')
+            ->take(10)
+            ->get();
+
+        $arrayCM = [];
+        foreach ($ClientesTop10PorMes2 as $c) {
+            $datosVenta = []; // Mueve esta línea aquí para que se reinicie para cada cliente
+            $cliente = Cliente::where('ci', $c->ci_cliente)->first();
+            $datos = Venta::where('ci_cliente', $c->ci_cliente)
+                ->whereMonth('fecha', '=', Carbon::parse($mesElegido)->month)
+                ->whereYear('fecha', '=', date('Y'))->get();
+            foreach ($datos as $v) {
+                $datosVenta[] = [
+                    'id_venta' => $v->id,
+                    'fecha' => $v->fecha,
+                    'monto_total' => $v->monto_total,
+                    'descuento' => $v->descuento,
+                    'ci_empleado' => $v->ci_empleado,
+                ];
+            }
+
+            $arrayCM[] = [
+                'ci_cliente' => $c->ci_cliente,
+                'cliente_name' => $cliente->nombre,
+                'total' => $c->totalVentas,
+                'monto_total' => $c->monto_total,
+                'datosVenta' => $datosVenta,
+                'mes' => $c->mes
+            ];
+        }
+
+
+        $cotizaciones = Cotizacion::count();
+        $ventas = Venta::get();
+
+dd($cotizaciones);
+        return view(
+            'pruebas.julico.TallerGrado',
+            compact('arrayCM', 'ClientesTop10PorMes2', 'cotizaciones', 'ventas')
+        );
+    }
+
+    public function TallerGrado2()
+    {
+
+        $ClientesTopMontoTotalPorMes = Venta::select(
+            DB::raw('MONTHNAME(fecha) as mes'),
+            'ci_cliente',
+            DB::raw('SUM(monto_total) as monto_total')
+        )
+            ->whereYear('fecha', '=', date('Y'))
+            ->groupBy('mes', 'ci_cliente')
+            ->orderBy('mes')
+            ->orderByDesc('monto_total')
+            ->distinct('mes')
+            ->get();
+
+
+
+        //Vista Principal del Taller de Grado
+        $ClientesTop10 = Venta::groupBy('ci_cliente')
+            ->select('ci_cliente', DB::raw('count(id) as total'))
+            ->orderBy('total', 'desc')
+            ->take(10)
+            ->get();
+
+        $array = [];
+        foreach ($ClientesTop10 as $c) {
+            $datosVenta = []; // Mueve esta línea aquí para que se reinicie para cada cliente
+            $cliente = Cliente::where('ci', $c->ci_cliente)->first();
+            $datos = Venta::where('ci_cliente', $c->ci_cliente)->get();
+            foreach ($datos as $v) {
+                $datosVenta[] = [
+                    'id_venta' => $v->id,
+                    'fecha' => $v->fecha,
+                    'monto_total' => $v->monto_total,
+                    'descuento' => $v->descuento,
+                    'ci_empleado' => $v->ci_empleado,
+
+                ];
+            }
+
+            $array[] = [
+                'ci_cliente' => $c->ci_cliente,
+                'cliente_name' => $cliente->nombre,
+                'total' => $c->total,
+                'datosVenta' => $datosVenta
+            ];
+        }
+    }
+
+    public function ventasMensuales(Request $request)
+    {
+        $anioElegido = $request->input('anio', date('Y')); // Obtiene el año del parámetro, o el año actual si no se proporciona
+
+        $VentasPorMes = Venta::select(
+            DB::raw('MONTHNAME(fecha) as mes'),
+            DB::raw('COUNT(id) as cantidad_ventas')
+        )
+            ->when($anioElegido, function ($query, $anioElegido) {
+                return $query->whereYear('fecha', '=', $anioElegido);
+            })
+            ->groupBy('mes')
+            ->orderBy('mes')
+            ->get();
+
+        dd($VentasPorMes);
+        return;
     }
 }

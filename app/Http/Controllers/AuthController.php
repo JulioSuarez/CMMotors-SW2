@@ -3,24 +3,25 @@
 namespace App\Http\Controllers;
 
 
-use Maatwebsite\Excel\Facades\Excel;
-use App\Exports\ExportBackup;
+use App\Models\User;
+use App\Models\Venta;
 use App\Models\Backup;
+use App\Models\Empleado;
+use App\Models\Producto;
+use App\Models\Proveedor;
+use App\Models\Cotizacion;
 use App\Models\DetalleVenta;
 use Illuminate\Http\Request;
-use Illuminate\Validation\ValidationException; //para enviar mensajes de error
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash; //para encriptar contrasenas
-use App\Models\Producto;
-use App\Models\Venta;
+use App\Exports\ExportBackup;
 use Illuminate\Http\Response;
 
 use Illuminate\Support\Facades\DB;
 
-use App\Models\User;
-use App\Models\Empleado;
-use App\Models\Proveedor;
+use Illuminate\Support\Facades\Auth;
+use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Hash; //para encriptar contrasenas
+use Illuminate\Validation\ValidationException; //para enviar mensajes de error
 
 class AuthController extends Controller
 {
@@ -185,15 +186,47 @@ class AuthController extends Controller
         // dd($array);
         // $productosAgrupadosCount = DetalleVenta::get()->groupBy('id_producto');
 
-        $productosAgrupados = DetalleVenta::groupBy('id_producto')
-            ->select('id_producto as x', DB::raw('count(*) as y'))
-            ->orderBy('y', 'desc')
-            ->take(50)
-            ->get();
+        $productosAgrupados = DetalleVenta::join('productos', 'detalle_ventas.id_producto', '=', 'productos.id')
+        ->groupBy('detalle_ventas.id_producto', 'productos.cod_producto')
+        ->select('productos.cod_producto as x', DB::raw('count(*) as y'))
+        ->orderBy('y', 'desc')
+        ->take(15)
+        ->get();
 
-        // dd($productosAgrupados);
 
-        return view('VistasAuth.dashboard', compact('array','productosAgrupados', 'user', 'producto', 'ventas_dia', 'ventas_mes'));
+        $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
+        ->select(
+            DB::raw('MONTHNAME(ventas.fecha) as mes'),
+            DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
+        )
+        ->groupBy('mes')
+        ->orderByRaw('MONTH(ventas.fecha)')
+        ->get();
+
+
+        $cotizaciones = Cotizacion::count();
+        $ventas = Venta::count();
+        $progreso = number_format(($ventas/200)*100);
+        $diasRestantes = date('t') - date('d');
+
+        // dd($ventas_mes);
+
+        return view(
+            'VistasAuth.dashboard',
+            compact(
+                'array',
+                'productosAgrupados',
+                'user',
+                'producto',
+                'ventas_dia',
+                'ventas_mes',
+                'cotizaciones',
+                'ventas',
+                'progreso',
+                'diasRestantes',
+                'clientesPorMes'
+            )
+        );
     }
 
 

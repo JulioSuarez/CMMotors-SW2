@@ -1,17 +1,22 @@
 import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+import laravel, { refreshPaths } from 'laravel-vite-plugin';
+import glob from 'glob';
+
+// Obtén la lista de archivos JS en el directorio resources/js
+const jsFiles = glob.sync('resources/js/*.js');
+const cssFiles = glob.sync('resources/css/*.css');
 
 export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css',
-                'resources/js/app.js',
-                'resources/js/livewire_events.js',
-                'resources/js/loading.js',
-                'resources/js/facturacion.js'
-                ],
-            refresh: true,
+                ...cssFiles, // Agrega todos los archivos css del directorio
+                ...jsFiles, // Agrega todos los archivos JS del directorio
+            ],
+            refresh: [
+                ...refreshPaths,
+                'app/Livewire/**',
+            ],
         }),
     ],
 });

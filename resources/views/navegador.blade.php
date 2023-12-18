@@ -186,7 +186,7 @@
                 </div>
                 <div class=" flex justify-between  h-14 dark:bg-gray-800 bg-blue-800 header-right ">
                     <div class="flex relative ">
-                       <button id="bt_cambiar_busqueda" class="p-1 text-center flex justify-center items-center">
+                        <button id="bt_cambiar_busqueda" class="p-1 text-center flex justify-center items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d=" M10.5 6h9.75M10.5 6a1.5 1.5 0
         11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75
@@ -529,6 +529,24 @@
                             </span>
                             <span class="ml-2 text-sm tracking-wide truncate">
                                 Roles y permisos
+                            </span>
+                        </a>
+                    </li>
+                @endcan
+                @can('roles.index')
+                    <li>
+                        <a href="{{ Route('TallerGrado') }}"
+                            class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-r-2 border-gray-800 hover:border-blue-500 dark:hover:border-gray-800 pr-6">
+                            <span class="inline-flex justify-center items-center ml-4">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="ml-2 text-sm tracking-wide truncate">
+                                Taller de Grado
                             </span>
                         </a>
                     </li>

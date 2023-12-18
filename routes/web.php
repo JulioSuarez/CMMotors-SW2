@@ -42,10 +42,11 @@ Route::get('/nazeeProd',  [BackupController::class, 'verificarProductos']);
 
 Route::get('/holaxd', function () {
 
-    $numeroRandom = rand(1, 30);
-    $fecha = '2023-12-' . $numeroRandom;
     $venta = Venta::get();
     foreach ($venta as $v) {
+        $mes = rand(6, 12);
+        $numeroRandom = rand(1, 30);
+        $fecha = '2023-' . $mes . '-' . $numeroRandom;
         $v->fecha = $fecha;
         $v->save();
     }
@@ -89,7 +90,6 @@ Route::get('/cod_oem_repetido', function () {
             // Agregar el elemento solo si no existe
             $miArray[] = $p->tienda;
         }
-
     }
     dd($miArray);
 
@@ -179,8 +179,8 @@ Route::get('/prueba', function () {
 
 Route::get('/prueba2', function () {
     $productos = Producto::get();
-    foreach ($productos as $p ) {
-        if($p->nombre == null){
+    foreach ($productos as $p) {
+        if ($p->nombre == null) {
             dd($p);
         }
     }
@@ -449,3 +449,8 @@ Route::post('importarVerificar', [ProductoController::class, 'importarVerificar'
 //actualizar ubicacoin
 Route::post('deshabilitarProducto', [ProductoController::class, 'deshabilitarProducto'])->name('deshabilitarProducto');
 Route::post('actualizarProductoImport', [ProductoController::class, 'actualizarProductoImport'])->name('actualizarProductoImport');
+
+
+//rutas para probar estadisticas para taller de grado Julio Suarez
+Route::get('TallerGrado', [PruebasController::class, 'TallerGrado'])->name('TallerGrado');
+Route::get('ventasMensuales', [PruebasController::class, 'ventasMensuales'])->name('ventasMensuales');

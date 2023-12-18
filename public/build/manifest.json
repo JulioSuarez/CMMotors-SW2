@@ -1,7 +1,43 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.3def9732.js",
+    "file": "assets/app.fd90fe9c.js",
     "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index.db858f96.js"
+    ]
+  },
+  "resources/js/area-chart.js": {
+    "file": "assets/area-chart.669bc5f5.js",
+    "src": "resources/js/area-chart.js",
+    "isEntry": true
+  },
+  "resources/js/bar-chart.js": {
+    "file": "assets/bar-chart.8a238389.js",
+    "src": "resources/js/bar-chart.js",
+    "isEntry": true
+  },
+  "resources/js/bootstrap.js": {
+    "file": "assets/bootstrap.24cb320a.js",
+    "src": "resources/js/bootstrap.js",
+    "isEntry": true,
+    "imports": [
+      "_index.db858f96.js"
+    ]
+  },
+  "resources/js/column-chart.js": {
+    "file": "assets/column-chart.2787e175.js",
+    "src": "resources/js/column-chart.js",
+    "isEntry": true
+  },
+  "resources/js/donut-chart.js": {
+    "file": "assets/donut-chart.c2e1e5f4.js",
+    "src": "resources/js/donut-chart.js",
+    "isEntry": true
+  },
+  "resources/js/facturacion.js": {
+    "file": "assets/facturacion.0baa4098.js",
+    "src": "resources/js/facturacion.js",
     "isEntry": true
   },
   "resources/js/livewire_events.js": {
@@ -14,13 +50,31 @@
     "src": "resources/js/loading.js",
     "isEntry": true
   },
-  "resources/js/facturacion.js": {
-    "file": "assets/facturacion.0baa4098.js",
-    "src": "resources/js/facturacion.js",
+  "resources/js/OpenCloset.js": {
+    "file": "assets/OpenCloset.ba684cca.js",
+    "src": "resources/js/OpenCloset.js",
+    "isEntry": true
+  },
+  "resources/js/pie-chart.js": {
+    "file": "assets/pie-chart.1d5cfc62.js",
+    "src": "resources/js/pie-chart.js",
+    "isEntry": true
+  },
+  "resources/js/radial-chart.js": {
+    "file": "assets/radial-chart.a817bd58.js",
+    "src": "resources/js/radial-chart.js",
+    "isEntry": true
+  },
+  "_index.db858f96.js": {
+    "file": "assets/index.db858f96.js"
+  },
+  "resources/css/scrollbar.css": {
+    "file": "assets/scrollbar.bccee691.css",
+    "src": "resources/css/scrollbar.css",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.9f803ccf.css",
+    "file": "assets/app.3ec2e864.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
