@@ -2,6 +2,21 @@
 
 
 @section('Contenido')
+    @php
+        $rutaActual = request()->path();
+        $contadorKey = 'visitas_' . $rutaActual;
+
+        if (session()->has($contadorKey)) {
+            $visitas = session($contadorKey) + 1;
+            session([$contadorKey => $visitas]);
+        } else {
+            session([$contadorKey => 1]);
+            $visitas = 1;
+        }
+    @endphp
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
     @vite(['resources/js/area-chart.js', 'resources/js/bar-chart.js', 'resources/js/column-chart.js', 'resources/js/donut-chart.js', 'resources/js/pie-chart.js', 'resources/js/radial-chart.js', 'resources/js/OpenCloset.js'])
     {{-- clasificacion de tamanio --}}
@@ -400,7 +415,8 @@
                             </svg> --}}
                             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 11 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
                                     d="M1.75 15.363a4.954 4.954 0 0 0 2.638 1.574c2.345.572 4.653-.434 5.155-2.247.502-1.813-1.313-3.79-3.657-4.364-2.344-.574-4.16-2.551-3.658-4.364.502-1.813 2.81-2.818 5.155-2.246A4.97 4.97 0 0 1 10 5.264M6 17.097v1.82m0-17.5v2.138" />
                             </svg>
                         </div>
@@ -499,7 +515,8 @@
                 <div class="flex justify-between items-start w-full">
                     <div class="flex-col items-center">
                         <div class="flex items-center mb-1">
-                            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Ingresos por Tienda
+                            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white me-1">Ingresos por
+                                Tienda
                             </h5>
                             <svg data-popover-target="chart-infop" data-popover-placement="bottom"
                                 class="w-3.5 h-3.5 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white cursor-pointer ms-1"
@@ -511,12 +528,18 @@
                             <div data-popover id="chart-infop" role="tooltip"
                                 class="absolute z-10 invisible inline-block text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 w-72 dark:bg-gray-800 dark:border-gray-600 dark:text-gray-400">
                                 <div class="p-3 space-y-2">
-                                    <h3 class="font-semibold text-gray-900 dark:text-white">Crecimiento de la actividad - Tiendas
+                                    <h3 class="font-semibold text-gray-900 dark:text-white">Crecimiento de la actividad -
+                                        Tiendas
                                     </h3>
-                                    <p>El informe ayuda a navegar el crecimiento acumulativo de los ingresos de las tiendas. Idealmente, el gráfico debería tener una tendencia creciente, ya que un gráfico estancado significa una disminución significativa de los ingresos en alguna tienda.
+                                    <p>El informe ayuda a navegar el crecimiento acumulativo de los ingresos de las tiendas.
+                                        Idealmente, el gráfico debería tener una tendencia creciente, ya que un gráfico
+                                        estancado significa una disminución significativa de los ingresos en alguna tienda.
                                     </p>
                                     <h3 class="font-semibold text-gray-900 dark:text-white">Calculation</h3>
-                                    <p>Para cada segmento de fechas, se calcula el volumen de actividades de todos los tiempos. Esto significa que las ventas en el período n contienen todas los ingresos hasta el período n, más las actividades economicas generadas por su tienda en el período.</p>
+                                    <p>Para cada segmento de fechas, se calcula el volumen de actividades de todos los
+                                        tiempos. Esto significa que las ventas en el período n contienen todas los ingresos
+                                        hasta el período n, más las actividades economicas generadas por su tienda en el
+                                        período.</p>
                                     {{-- <a href="#"
                                         class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700 hover:underline">Read
                                         more <svg class="w-2 h-2 ms-1.5 rtl:rotate-180" aria-hidden="true"

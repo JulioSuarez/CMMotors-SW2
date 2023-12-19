@@ -1,7 +1,20 @@
 @extends('navegador')
 
 @section('Contenido')
-@vite('resources/js/loading.js')
+    @php
+        $rutaActual = request()->path();
+        $contadorKey = 'visitas_' . $rutaActual;
+
+        if (session()->has($contadorKey)) {
+            $visitas = session($contadorKey) + 1;
+            session([$contadorKey => $visitas]);
+        } else {
+            session([$contadorKey => 1]);
+            $visitas = 1;
+        }
+    @endphp
+
+    @vite('resources/js/loading.js')
     <div id="loadingScreen" class="loading-screen">
         <div class="loader"></div>
     </div>
@@ -41,7 +54,7 @@
 
         @error('EroorHomologacion')
             <div class="  py-2 px-3 bg-red-500 w-full rounded-lg ">
-                <p>  {{ $message }} </p>
+                <p> {{ $message }} </p>
             </div>
         @enderror
 
@@ -91,13 +104,13 @@
                 Lista de Deshabilitados
             </a>
         @endcan
-         {{-- <a href="{{ route('exportar.producto.view') }}" id="exportButton" class="py-1 px-2 mb-1 mr-3 h-fit w-fit text-center font-medium tracking-wide text-white bg-blue-500 rounded-md text-sm sm:text-lg hover:bg-blue-600 focus:bg-blue-600 focus:outline-none">
+        {{-- <a href="{{ route('exportar.producto.view') }}" id="exportButton" class="py-1 px-2 mb-1 mr-3 h-fit w-fit text-center font-medium tracking-wide text-white bg-blue-500 rounded-md text-sm sm:text-lg hover:bg-blue-600 focus:bg-blue-600 focus:outline-none">
                 Exporta Excel
             </a> --}}
-            <button id="exportButton"
-                class="py-1 px-2 mb-1 mr-3 h-fit w-fit text-center font-medium tracking-wide text-white bg-green-500 rounded-md text-sm sm:text-lg hover:bg-green-600 focus:bg-green-600 focus:outline-none">
-                Exportar Excel
-            </button>
+        <button id="exportButton"
+            class="py-1 px-2 mb-1 mr-3 h-fit w-fit text-center font-medium tracking-wide text-white bg-green-500 rounded-md text-sm sm:text-lg hover:bg-green-600 focus:bg-green-600 focus:outline-none">
+            Exportar Excel
+        </button>
     </div>
 
     <form action="" method="GET">
@@ -270,40 +283,42 @@
             <div class="flex  items-center  space-x-8">
                 <div class="">
                     <label for="mostrar_por" class="">Mostrar por</label>
-                    <select name="mostrar_por" id="mostrar_por" 
-                    class="dark:bg-gray-600 border border-black rounded-lg p-1 ">
+                    <select name="mostrar_por" id="mostrar_por"
+                        class="dark:bg-gray-600 border border-black rounded-lg p-1 ">
 
 
-                        
-                            {{-- <option selected value="null" class="py-3">Creados recientemente</option>
-                
+
+                        {{-- <option selected value="null" class="py-3">Creados recientemente</option>
+
                             <option  value="1">Registrado en TG </option>
-                        
+
                             <option value="2" class="py-3">No Registrados en TG </option>
-                     
+
                             <option  value="3">Sin nombre</option>
-                       
+
                             <option value="4">Sin precio</option> --}}
-                            @php
+                        @php
                             $selectedValue = $mostrar_por ?? 'null';
                             $opciones = [
                                 'null' => 'Creados recientemente',
                                 '1' => 'Registrado en TG',
                                 '2' => 'No Registrados en TG',
                                 '3' => 'Sin nombre',
-                                '4' => 'Sin precio'
+                                '4' => 'Sin precio',
                             ];
                         @endphp
 
                         @foreach ($opciones as $value => $label)
-                            <option value="{{ $value }}" {{ $value == $selectedValue ? 'selected' : '' }} class="{{ $value == 'null' ? 'py-3' : '' }}">
+                            <option value="{{ $value }}" {{ $value == $selectedValue ? 'selected' : '' }}
+                                class="{{ $value == 'null' ? 'py-3' : '' }}">
                                 {{ $label }}
                             </option>
                         @endforeach
-                </select>
+                    </select>
                 </div>
-           
-                <a class="flex justify-center  border border-gray-200 hover:bg-gray-300 p-1 rounded-lg" href="{{ Route('Producto.index') }}">Restrablacer
+
+                <a class="flex justify-center  border border-gray-200 hover:bg-gray-300 p-1 rounded-lg"
+                    href="{{ Route('Producto.index') }}">Restrablacer
                     <svg class="w-6 h-6 pl-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -354,7 +369,7 @@
                                 {{-- <td class=" px-2 text-sm font-semibold flex flex-col justify-center items-center bg-red-300">
                                     <p class="whitespace-nowrap font-semibold">{{ $p->cod_producto }}</p>
                                     <p class="whitespace-nowrap text-xs">{{ $p->cod_oem }}</p>
-                                
+
                                 </td> --}}
                                 <td>
                                     <a href="{{ route('Producto.show', $p->id) }}" class=" text-sm flex flex-col ">
@@ -372,7 +387,7 @@
                                 <td class="px-2 py-1">
                                     <a href="{{ route('Producto.show', $p->id) }}">
                                         <div
-                                            class="flex items-center text-sm py-1 px-1  bg-gray-50 rounded-lg 
+                                            class="flex items-center text-sm py-1 px-1  bg-gray-50 rounded-lg
                                         hover:shadow hover:shadow-gray-300  hover:border hover:border-gray-300 ">
                                             <div class=" hidden md:block w-2/12 h-full rounded-lg">
                                                 <img class="object-cover w-10 h-10 rounded-xl"
@@ -469,11 +484,11 @@
                                         </p> --}}
                                         <form action="{{ route('homologarProducto') }}" method="post">
                                             @csrf
-                                            <input type="hidden" name="prod_id" value="{{ $p->id  }}">
+                                            <input type="hidden" name="prod_id" value="{{ $p->id }}">
                                             <button type="submit"
-                                            onclick="return confirm('Confirmar si en verdad desea homologar el producto: {{ $p->cod_producto }}?')"
-                                            class="whitespace-nowrap text-sm font-semibold text-black border  p-1 rounded-lg bg-red-100 flex items-center justify-center">
-                                            <span class=" inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></span>
+                                                onclick="return confirm('Confirmar si en verdad desea homologar el producto: {{ $p->cod_producto }}?')"
+                                                class="whitespace-nowrap text-sm font-semibold text-black border  p-1 rounded-lg bg-red-100 flex items-center justify-center">
+                                                <span class=" inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></span>
                                                 <span class="whitespace-nowrap mr-1"> No Registrado!</span>
                                             </button>
                                         </form>
@@ -481,9 +496,10 @@
                                         <p disabled
                                             class="text-sm font-semibold text-black border  p-1 rounded-lg bg-blue-100 flex items-center justify-center">
                                             <span class="inline-block w-3 h-3 mr-2 rounded-full bg-blue-500"></span>
-                                            Registrado 
-                                             <img class="w-7  ml-1 rounded-lg" src="{{ asset('img/logo-tugerente.png') }}" alt="">
-           
+                                            Registrado
+                                            <img class="w-7  ml-1 rounded-lg" src="{{ asset('img/logo-tugerente.png') }}"
+                                                alt="">
+
                                         </p>
                                     @endif
                                 </td>

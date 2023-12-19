@@ -14,6 +14,27 @@
 
 <body class="scrollbar-xd">
 
+    <div x-data="{ Configuraciones: false }">
+        <div class="fixed bottom-4 right-4 z-50">
+            <button @click="Configuraciones = !Configuraciones"
+                class="flex items-center bg-gray-200 hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
+                <span>
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                            d="M1 5h1.424a3.228 3.228 0 0 0 6.152 0H19a1 1 0 1 0 0-2H8.576a3.228 3.228 0 0 0-6.152 0H1a1 1 0 1 0 0 2Zm18 4h-1.424a3.228 3.228 0 0 0-6.152 0H1a1 1 0 1 0 0 2h10.424a3.228 3.228 0 0 0 6.152 0H19a1 1 0 0 0 0-2Zm0 6H8.576a3.228 3.228 0 0 0-6.152 0H1a1 1 0 0 0 0 2h1.424a3.228 3.228 0 0 0 6.152 0H19a1 1 0 0 0 0-2Z" />
+                    </svg>
+                </span>
+            </button>
+
+        </div>
+
+        <div x-show="Configuraciones" class="fixed bottom-16 right-4 z-50">
+            <div class="p-4 text-sm text-gray-800 rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-gray-300" role="alert">
+                <span class="font-medium">Visitas en {{ $rutaActual }}: </span>{{ session($contadorKey) }}
+            </div>
+        </div>
+    </div>
     <!-- component -->
     <style>
         /* Compiled dark classes from Tailwind */

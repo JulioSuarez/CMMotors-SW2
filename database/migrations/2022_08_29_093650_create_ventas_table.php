@@ -27,6 +27,7 @@ return new class extends Migration
             $table->string('id_venta');
             $table->string('nro_factura')->default('0');
 
+
             //foring key con datos generales
             $table->foreign('id_datos_generales')
                 ->references('id')

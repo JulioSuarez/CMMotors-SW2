@@ -46,5 +46,16 @@ class Venta extends Model
     return $this->belongsTo(DatosGeneral::class);
     }
 
+    public function pagos(){
+        //hasMany{tien mucho} //metodo para dar la primari key
+        return $this->hasMany(Pago::class,'id_venta');
+    }
+
+    public function detalle_membresia(){
+        //hasMany{tien mucho} //metodo para dar la primari key
+        return $this->hasMany(detalle_membresia::class,'id_venta');
+    }
+
+    
 
 }
