@@ -32,7 +32,7 @@
         </p>
     @endif
 
-    <div class="bg-gray-100">
+    <div class="bg-gray-100 dark:bg-gray-400">
 
         {{-- Fila 0  TARJETAS //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 p-4 gap-4 ">
