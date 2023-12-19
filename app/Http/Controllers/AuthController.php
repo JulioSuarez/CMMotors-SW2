@@ -220,18 +220,18 @@ class AuthController extends Controller
 
         // dd($clientesF2);
 
-        $clientesFrecuentes = DB::table('detalle_ventas as dv')
-            ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
-            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci') // Asume que existe una tabla 'clientes' con un campo 'id'
-            ->select(
-                DB::raw('MONTH(v.fecha) as mes'),
-                'c.ci',
-                'c.nombre as nombre_cliente',
-                DB::raw('SUM(dv.cantidad * dv.precio) as total_compras')
-            )
-            ->groupBy('mes', 'c.ci', 'nombre_cliente')
-            ->orderByDesc('total_compras')
-            ->get();
+        // $clientesFrecuentes = DB::table('detalle_ventas as dv')
+        //     ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
+        //     ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci') // Asume que existe una tabla 'clientes' con un campo 'id'
+        //     ->select(
+        //         DB::raw('MONTH(v.fecha) as mes'),
+        //         'c.ci',
+        //         'c.nombre as nombre_cliente',
+        //         DB::raw('SUM(dv.cantidad * dv.precio) as total_compras')
+        //     )
+        //     ->groupBy('mes', 'c.ci', 'nombre_cliente')
+        //     ->orderByDesc('total_compras')
+        //     ->get();
 
         // dd($clientesFrecuentes);
 
