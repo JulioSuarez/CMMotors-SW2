@@ -117,7 +117,7 @@
         </div>
 
         {{-- Fila 1 //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
-        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100">
+        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-400">
             {{-- Bar-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
             <input class="hidden" type="text" name="balanceMensual" value="{{ $balanceMensual }}">
             <div class=" w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
@@ -387,7 +387,7 @@
 
 
         {{-- Fila 2 //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
-        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100">
+        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-400">
             {{-- Column-chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
             <input id="productosAgrupados" name="productosAgrupados" class="hidden" value="{{ $productosAgrupados }}">
             <div class="w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
@@ -708,7 +708,7 @@
 
 
         {{-- Fila 3 //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
-        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100">
+        <div class="p-4 m-4 grid grid-cols-1 sm:grid-cols-2 gap-4 bg-gray-100 dark:bg-gray-400">
             {{-- Donut Chart //////////////////////////////////////////////////////////////////////////////////////////////////// --}}
             <div class=" w-full bg-white rounded-lg shadow dark:bg-gray-800 p-4 md:p-6">
 
