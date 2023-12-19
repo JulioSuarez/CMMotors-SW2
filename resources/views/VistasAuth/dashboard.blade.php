@@ -2,18 +2,7 @@
 
 
 @section('Contenido')
-    @php
-        $rutaActual = request()->path();
-        $contadorKey = 'visitas_' . $rutaActual;
 
-        if (session()->has($contadorKey)) {
-            $visitas = session($contadorKey) + 1;
-            session([$contadorKey => $visitas]);
-        } else {
-            session([$contadorKey => 1]);
-            $visitas = 1;
-        }
-    @endphp
 
 
 
