@@ -14,7 +14,7 @@
 
 <body class="scrollbar-xd">
 
-    <div x-data="{ Configuraciones: false }">
+    {{-- <div x-data="{ Configuraciones: false }">
         <div class="fixed bottom-4 right-4 z-50">
             <button @click="Configuraciones = !Configuraciones"
                 class="flex items-center bg-gray-200 hover:bg-gray-300 text-white font-bold py-2 px-4 rounded">
@@ -34,7 +34,7 @@
                 <span class="font-medium">Visitas en {{ $rutaActual }}: </span>{{ session($contadorKey) }}
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- component -->
     <style>
         /* Compiled dark classes from Tailwind */
