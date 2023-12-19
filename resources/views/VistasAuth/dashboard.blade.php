@@ -943,7 +943,7 @@
 
             </div>
 
-            <div x-show="isOpen" class="mt-4 bg-gray-200 p-4">
+            <div x-show="isOpen" class="mt-4 bg-gray-200 dark:bg-gray-400 p-4">
                 <!-- Contenido de la sección desplegable -->
                 <div class="w-full overflow-hidden rounded-lg shadow-xs">
                     <div class="w-full overflow-x-auto">
