@@ -196,7 +196,7 @@ class AuthController extends Controller
 
         $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
             ->select(
-                DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
+                DB::raw("TO_CHAR(ventas.fecha, 'Month') AS mes"),
                 DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
             )
             ->groupBy('mes')
