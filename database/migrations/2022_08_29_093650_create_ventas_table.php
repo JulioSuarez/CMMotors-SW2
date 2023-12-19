@@ -26,6 +26,7 @@ return new class extends Migration
             $table->unsignedBigInteger('id_datos_generales');
             $table->string('id_venta');
             $table->string('nro_factura')->default('0');
+            $table->string('pago_qr')->nullable();
 
 
             //foring key con datos generales
