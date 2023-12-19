@@ -200,7 +200,7 @@ class AuthController extends Controller
                 DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
             )
             ->groupBy('mes')
-            ->orderByRaw('MONTH(ventas.fecha)')
+            ->orderByRaw("TO_CHAR(ventas.fecha, 'Month')")
             ->get();
 
         // dd($clientesPorMes);
