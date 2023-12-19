@@ -205,18 +205,18 @@ class AuthController extends Controller
 
         // dd($clientesPorMes);
 
-        $clientesF2 = DB::table('ventas as v')
-            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci')
-            ->where('c.ci', '!=', '9903')
-            ->select(
-                DB::raw('MONTH(v.fecha) as mes'),
-                'c.ci',
-                'c.nombre as nombre_cliente',
-                DB::raw('COUNT(v.id) as total_ventas')
-            )
-            ->groupBy('mes', 'ci', 'nombre_cliente')
-            ->orderByDesc('total_ventas')
-            ->get();
+        // $clientesF2 = DB::table('ventas as v')
+        //     ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci')
+        //     ->where('c.ci', '!=', '9903')
+        //     ->select(
+        //         DB::raw('MONTH(v.fecha) as mes'),
+        //         'c.ci',
+        //         'c.nombre as nombre_cliente',
+        //         DB::raw('COUNT(v.id) as total_ventas')
+        //     )
+        //     ->groupBy('mes', 'ci', 'nombre_cliente')
+        //     ->orderByDesc('total_ventas')
+        //     ->get();
 
         // dd($clientesF2);
 
