@@ -257,8 +257,8 @@ class AuthController extends Controller
         $balanceMensual = DB::table('detalle_ventas as dv')
             ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
             ->select([
-                // DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
-                DB::raw('MONTHNAME(v.fecha) as mes'),
+                DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
+                // DB::raw('MONTHNAME(v.fecha) as mes'),
                 DB::raw("SUM(dv.costo_producto * dv.cantidad) AS sumatoria_costo"),
                 DB::raw("SUM(dv.cantidad * dv.precio) AS sumatoria_ingresos"),
             ])
