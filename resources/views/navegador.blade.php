@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>CM Motor's Import Export</title>
-    {{-- @vite('resources/css/app.css') --}}
+    @vite('resources/css/app.css')
     @livewireStyles()
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 </head>
