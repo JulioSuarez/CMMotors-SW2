@@ -239,14 +239,14 @@ class VentasController extends Controller
                 // $c->direccion = $r->direccion;
                 $c->save();
 
-                $xd = new DatosGeneral();
-                $xd->tipo_de_cambio = $r->tc;
-                $xd->forma_pago = $r->fpago;
-                $xd->cheque = $r->cheque;
-                $xd->cuenta_bancaria = $r->cuenta;
-                $xd->entrega = $r->entrega;
-                $xd->nota = $r->nota;
-                $xd->save();
+                // $xd = new DatosGeneral();
+                // $xd->tipo_de_cambio = $r->tc;
+                // $xd->forma_pago = $r->fpago;
+                // $xd->cheque = $r->cheque;
+                // $xd->cuenta_bancaria = $r->cuenta;
+                // $xd->entrega = $r->entrega;
+                // $xd->nota = $r->nota;
+                // $xd->save();
 
 
                 // dd($r);
