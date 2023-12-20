@@ -15,7 +15,7 @@ export class buscador {
     }
 
     cambiarUrl(url) {
-        this.url = url + '/grupo07sa/CMMotors-SW2/public/';
+        this.url = url;
     }
 
     //funcion para buscar el codigo de
