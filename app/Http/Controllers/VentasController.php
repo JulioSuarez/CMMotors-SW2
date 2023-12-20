@@ -260,7 +260,7 @@ class VentasController extends Controller
                 $v->descuento = $r->descuento;
                 $v->total_en_bolivianos = $r->total_en_bolivianos;
                 $v->total_en_dolares = $r->total_en_dolares;
-                $v->id_datos_generales = $xd->id;
+                $v->id_datos_generales = 1;
                 $v->id_venta = $id_venta;
                 $v->save();
 
