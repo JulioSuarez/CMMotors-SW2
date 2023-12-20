@@ -542,9 +542,11 @@
                                 @else
                                 @endif
                                 @isset($ventas[$i]->id)
-                                    <img src="{{ $ventas[$i]->id }}"
-                                        class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 "
-                                        alt="user3" />
+                                    <a href="{{ route('descargarQR', $ventas[$i]->pago_qr) }}">
+                                        <img src="{{ $ventas[$i]->pago_qr }}"
+                                            class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 "
+                                            alt="user3" />
+                                    </a>
                                 @endisset
                             </td>
                             <td class=" py-2 text-xs">

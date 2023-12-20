@@ -7,6 +7,7 @@ use App\Http\Controllers\BackupController;
 use App\Http\Controllers\PruebasController;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\EmpleadoController;
+use App\Http\Controllers\PagoController;
 use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\VentasController;
@@ -359,3 +360,7 @@ Route::post('actualizarProductoImport', [ProductoController::class, 'actualizarP
 //rutas para probar estadisticas para taller de grado Julio Suarez
 Route::get('TallerGrado', [PruebasController::class, 'TallerGrado'])->name('TallerGrado');
 Route::get('ventasMensuales', [PruebasController::class, 'ventasMensuales'])->name('ventasMensuales');
+
+
+//ruta para descargar qr
+Route::get('descargarQR/{qr}', [PagoController::class, 'descargarQR'])->name('descargarQR');
