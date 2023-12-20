@@ -541,7 +541,7 @@
                                     </button>
                                 @else
                                 @endif
-                                @isset($ventas[$i]->id)
+                                @isset($ventas[$i]->pago_qr)
                                     <a href="{{ route('descargarQR', $ventas[$i]->pago_qr) }}">
                                         <img src="{{ $ventas[$i]->pago_qr }}"
                                             class="inline-flex items-center justify-center mr-4 text-white transition-all duration-200 ease-soft-in-out text-sm h-9 w-9 "
