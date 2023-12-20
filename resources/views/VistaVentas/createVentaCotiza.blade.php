@@ -126,12 +126,12 @@
             class=" lg:flex lg:justify-between lg:flex-row-reverse   mt-5 mx-6 text-xs sm:text-sm xl:px-4">
             <p>*Nota: puede usar el buscador de arriba por si no recuerda el codigo exacto de algun producto</p>
             <p id="p_no_encontrado" class="text-red-400 ">
-                @foreach ( $mensaje as $m)
+                {{-- @foreach ( $mensaje as $m)
                 {{$m}}
                 <input type="hidden" class="men"  value="{{$m}}">
-                @endforeach
+                @endforeach --}}
             </p>
-            <input type="hidden" id="pruebxd"  value="{{$mensaje[0]}}">
+            {{-- <input type="hidden" id="pruebxd"  value="{{$mensaje[0]}}"> --}}
         </div>
 
         <div class=" max-w-full  xl:mx-9 mx-5 rounded-lg  bg-white shadow-lg border-black border-2 ">
