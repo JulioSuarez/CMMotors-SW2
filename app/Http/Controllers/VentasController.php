@@ -987,21 +987,21 @@ class VentasController extends Controller
             )
             ->get();
         //  dd($detalles);
-        $mensaje = [];
-        $c = 0;
-        foreach ($detalles as $d) {
-            // dd($d);
-            $producto = Producto::where('id', $d->id)->first();
-            //  dd($producto);
-            if ($d->cantidad_venta >= $producto->cantidad)
-                $mensaje[$c] = 'Solo quedan ' . $producto->cantidad . ' ' . $producto->unidad . ' disponibles en la fila ' . ($c + 1);
-            else  $mensaje[$c] = '';
-            $c++;
-        }
+        // $mensaje = [];
+        // $c = 0;
+        // foreach ($detalles as $d) {
+        //     // dd($d);
+        //     $producto = Producto::where('id', $d->id)->first();
+        //     //  dd($producto);
+        //     if ($d->cantidad_venta >= $producto->cantidad)
+        //         $mensaje[$c] = 'Solo quedan ' . $producto->cantidad . ' ' . $producto->unidad . ' disponibles en la fila ' . ($c + 1);
+        //     else  $mensaje[$c] = '';
+        //     $c++;
+        // }
 
 
 
-        return view('VistaVentas.createVentaCotiza', compact('cliente', 'datos', 'venta', 'detalles', 'id_cot', 'mensaje'));
+        return view('VistaVentas.createVentaCotiza', compact('cliente', 'datos', 'venta', 'detalles', 'id_cot'));
     }
 
     public function cotizarEdit(Cotizacion $co)
