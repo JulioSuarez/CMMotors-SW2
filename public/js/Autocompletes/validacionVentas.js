@@ -123,16 +123,14 @@ const validaciones = (input) => {
                 input.className = 'outline-none focus:border-black  text-gray-500 pl-16  text-sm border-gray-300 rounded border font-normal w-full h-8 items-center '
                 ExisteCliente2(input)
             } else {
-                if(input.name == 'cliente'){
+                if (input.name == 'cliente') {
                     // if(div_ip_cliente.classList.contains('border-gray-300')) {
                     //     div_ip_cliente.classList.remove('border-gray-300');
-                        // div_ip_cliente.classList.add('border-red-600');
+                    // div_ip_cliente.classList.add('border-red-600');
                     // }
-                }else{
+                } else {
                     input.className = 'mt-0 mb-1 text-gray-600 outline-none focus:border-black  font-normal w-full h-8 flex items-center pl-3 text-sm border-gray-300 rounded border capitalize ';
-              
                 }
-              
             }
             mensaje.textContent = '';
 
@@ -277,7 +275,7 @@ const existeNro_coti = (inpNroCoti, e) => {
         //creando un formulario
         let Formulario = new FormData();
         Formulario.append("valor", valor);
-         fetch("/existeCotizar", {
+        fetch("/existeCotizar", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
@@ -324,59 +322,59 @@ const existeNro_coti = (inpNroCoti, e) => {
 let form = document.getElementById('form');
 // console.warn(form)
 
-    form.addEventListener('submit', (e) => {
-        // e.preventDefault();
+form.addEventListener('submit', (e) => {
+    // e.preventDefault();
 
-        console.warn('LE DI CLICK AL FORM')
-        // console.warn('la utliam pos es  :' + ulitmaPos())
-        //limio el la caja de mensaje de error
-        document.getElementById('error_validacion').innerHTML = '';
-        validar_input_arriba(e); //validar los caja de arriba
-        if (ulitmaPos() > 0) {  //para saber que al menos haya un caja
-            let inputs = document.querySelectorAll('#tabla input')
-            // console.log(inputs)
-            inputs.forEach(input => {
-                //   console.log(input.name)
-                if (input.name == 'cod_oem[]' || input.name == 'cantidad[]' || input.name == 'precio[]') {
-                    // console.log('entre!! con '+input.name)
-                    // console.log(input.value)
-                    let fila = enQuePosicionEstoy(input.id); //posicino en la que estoy verificando
-                    let inp = (input.name.substring(0, input.name.length - 2)).toUpperCase(); //nombre de input
-                    // console.log(fila,inp)
+    console.warn('LE DI CLICK AL FORM')
+    // console.warn('la utliam pos es  :' + ulitmaPos())
+    //limio el la caja de mensaje de error
+    document.getElementById('error_validacion').innerHTML = '';
+    validar_input_arriba(e); //validar los caja de arriba
+    if (ulitmaPos() > 0) {  //para saber que al menos haya un caja
+        let inputs = document.querySelectorAll('#tabla input')
+        // console.log(inputs)
+        inputs.forEach(input => {
+            //   console.log(input.name)
+            if (input.name == 'cod_oem[]' || input.name == 'cantidad[]' || input.name == 'precio[]') {
+                // console.log('entre!! con '+input.name)
+                // console.log(input.value)
+                let fila = enQuePosicionEstoy(input.id); //posicino en la que estoy verificando
+                let inp = (input.name.substring(0, input.name.length - 2)).toUpperCase(); //nombre de input
+                // console.log(fila,inp)
 
-                    if (input.value == "" || input.value == 0) {
-                        // console.warn('el' +input.id+'esta vacio o es cero')
-                        //mostrar mensajes de vacioo
-                        //no se permiten valores vacio en el code oem fila 1
-                        e.preventDefault();
-                        mostrarMensaje('Error: ' + inp + ' de la fila ' + fila + ' no puede estar vacia o en 0');
-                        marcarInputsEnRojo(input.name, input.id)
-                    } else {
-                        //hay letras, preguntar si se encontro el producto!!
-                        // valiCode_oe[c] = false;
-                        console.log('no es vacio hay letras')
-                        console.log(valiCode_oem)
-                        console.log(valiCantidad)
-                        console.log(valiPrecio)
-                        verificarInpusTablas(input.name, fila, input.id, e)
+                if (input.value == "" || input.value == 0) {
+                    // console.warn('el' +input.id+'esta vacio o es cero')
+                    //mostrar mensajes de vacioo
+                    //no se permiten valores vacio en el code oem fila 1
+                    e.preventDefault();
+                    mostrarMensaje('Error: ' + inp + ' de la fila ' + fila + ' no puede estar vacia o en 0');
+                    marcarInputsEnRojo(input.name, input.id)
+                } else {
+                    //hay letras, preguntar si se encontro el producto!!
+                    // valiCode_oe[c] = false;
+                    console.log('no es vacio hay letras')
+                    console.log(valiCode_oem)
+                    console.log(valiCantidad)
+                    console.log(valiPrecio)
+                    verificarInpusTablas(input.name, fila, input.id, e)
 
-                    }
                 }
+            }
 
-            });
-        } else {
-            mostrarMensaje('ERROR: SELECCIONE AL MENOS UN PRODUCTO');
-        }
-        // let nrp_coti = document.getElementById('cotizacion');
-        // console.warn(e)
-        // console.log('hice la oregunta')
-        //hacer cuando se este en la vista cotiacion
-        //  existeNro_coti(nrp_coti, e);
-        // console.log(vali)
-        if(vali.nro_coti == false){
-            e.preventDefault();
-            mostrarMensaje('El numero de cotizacion ya existe!!!')
-        }
+        });
+    } else {
+        mostrarMensaje('ERROR: SELECCIONE AL MENOS UN PRODUCTO');
+    }
+    // let nrp_coti = document.getElementById('cotizacion');
+    // console.warn(e)
+    // console.log('hice la oregunta')
+    //hacer cuando se este en la vista cotiacion
+    //  existeNro_coti(nrp_coti, e);
+    // console.log(vali)
+    if (vali.nro_coti == false) {
+        e.preventDefault();
+        mostrarMensaje('El numero de cotizacion ya existe!!!')
+    }
 
-    });
+});
 

@@ -4,7 +4,7 @@
             <div class="relative max-w-full flex justify-between pb-2 flex-1 text-right">
                 <div class="flex z-50">
                     <a href="{{ Route('Cliente.create') }}"
-                        class="bg-blue-500 text-white 
+                        class="bg-blue-500 text-white
                         dark:bg-gray-100  dark:text-gray-800 text-xs font-bold uppercase px-3 flex items-center text-center rounded outline-none focus:outline-none mr-2 ease-linear transition-all duration-150">
                         Nuevo Cliente
                     </a>
@@ -168,7 +168,7 @@
                     });
                 </script>
             </div>
-        @endcan 
+        @endcan
         <div id="tabla_cliente" class="w-full overflow-x-auto z-50">
             <table class="w-full ">
                 <thead>
@@ -224,11 +224,13 @@
                                 <p>{{ $p->correo }}</p>
                             </td>
                             <td class=" text-xs ">
-                           
-                                @if ($p->ci ==  2809343)
-                                    <p class="px-2 py-1 bg-red-100 border border-red-500 rounded-lg text-red-700">Cliente generico</p>
+
+                                @if ($p->ci == 2809343)
+                                    <p class="px-2 py-1 bg-red-100 border border-red-500 rounded-lg text-red-700">
+                                        Cliente generico</p>
                                 @else
-                                    <p class="px-2 py-1 bg-blue-100 border border-blue-500 rounded-lg text-blue-700"> Homologado</p>
+                                    <p class="px-2 py-1 bg-blue-100 border border-blue-500 rounded-lg text-blue-700">
+                                        Homologado</p>
                                 @endif
                             </td>
                             <td class="px-1  text-xs">
@@ -274,7 +276,6 @@
                 console.log(tabla_cliente);
                 // Puedes realizar acciones adicionales aquí, como enviar una solicitud AJAX o realizar una búsqueda
             });
-
         </script>
         {{-- <div
             class="grid px-4 py-3  text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800">
