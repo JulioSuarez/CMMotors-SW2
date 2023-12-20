@@ -260,7 +260,8 @@ const buscarCod = (cod, i) => {
     document.getElementById('td_code_' + i).className = 'border border-gray-300';
     document.getElementById('td_cantidad_' + i).className = 'border border-gray-300';
     document.getElementById('td_precio_' + i).className = 'border border-gray-300';
-    fetch("https://cmmotors.net/api/ProductoApi/" + cod)
+    // fetch("https://cmmotors.net/api/ProductoApi/" + cod)
+    fetch("https://www.tecnoweb.org.bo/inf513/grupo07sa/CMMotors-SW2/public/api/ProductoApi/" + cod)
     //   fetch("https://kuregrill.ga/api/ProductoApi/" + cod)
     // fetch("http://localhost:8000/api/ProductoApi/" + cod)
         .then((res) => res.json()) //promesa
@@ -311,8 +312,8 @@ const buscarCod = (cod, i) => {
 
                 //aqui se llenaran los datos dentro del modal
                 document.getElementById('p_nombre_prod' + i).textContent = data.nombre;
-                let img = document.getElementById('img_producto_venta' + i);
-                img.src = "/img/fotosProductos/" + data.foto;
+                // let img = document.getElementById('img_producto_venta' + i);
+                // img.src = "/img/fotosProductos/" + data.foto;
                 document.getElementById('p_precio_fact_prod' + i).textContent = data.precio_venta_con_factura;
                 document.getElementById('p_estante_prod' + i).textContent = data.estante;
                 document.getElementById('p_cantidad_prod' + i).textContent = data.cantidad;
@@ -350,8 +351,8 @@ const buscarCod = (cod, i) => {
 
             //poner vacio los datos dl models
             document.getElementById('p_nombre_prod' + i).textContent = 'NOMBRE DE PRODUCTO'
-            let img = document.getElementById('img_producto_venta' + i);
-            img.src = "/img/fotosProductos/default.png";
+            // let img = document.getElementById('img_producto_venta' + i);
+            // img.src = "/img/fotosProductos/default.png";
             // console.log('estyo entrando en la pos : '+i)
             // console.log( document.getElementById('p_precio_fact_prod' + i))
             document.getElementById('p_precio_fact_prod' + i).textContent = '';
