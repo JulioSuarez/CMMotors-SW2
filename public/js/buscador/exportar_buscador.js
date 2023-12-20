@@ -2,7 +2,7 @@
 export class buscador {
 
     constructor(laUrlP, id_inputBuscar, id_list) {
-        this.url = laUrlP + '/grupo07sa/CMMotors-SW2/public/';  //la url
+        this.url = laUrlP;  //la url
         this.mysearchp = id_inputBuscar; //la id del input de buscar
         this.ListaP = id_list; //la id donde se aniadira la lista
         this.idli = "mylist"; //???
@@ -15,7 +15,7 @@ export class buscador {
     }
 
     cambiarUrl(url) {
-        this.url = url;
+        this.url = url + '/grupo07sa/CMMotors-SW2/public/';
     }
 
     //funcion para buscar el codigo de
