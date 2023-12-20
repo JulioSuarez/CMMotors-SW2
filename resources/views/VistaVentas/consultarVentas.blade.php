@@ -46,11 +46,9 @@
 
     <p
         class="font-extrabold  text-gray-900 dark:text-gray-200 text-center sm:m-4 m-3 pt-1 text-2xl  sm:text-3xl lg:text-4xl ">
-        Consutlas Ventas xd xd 
+        Consutlas Ventas xd xd
     </p>
 
-
-  
 
     <div
         class="mx-5 my-3 grid xl:grid-cols-7 lg:grid-cols-6 sm:grid-cols-3 grid-cols-1
@@ -63,7 +61,7 @@
                 text-sm sm:text-lg hover:bg-blue-600 focus:bg-blue-600 focus:outline-none whitespace-nowrap"
                 id="axd2" href="{{ Route('Venta.create') }}">
                 Nueva venta
-            </a> 
+            </a>
         </div>
 
         <!-- inputs para busquedas xd xd -->
@@ -107,7 +105,7 @@
                 type="date" min="2022-06-01" max="{{ date('Y-m-d') }}" name="fecha_hasta" value="{{ $fecha_hasta }}">
         </div> --}}
 
-{{-- 
+{{--
         <div class="flex flex-row-reverse items-end justify-between sm:row-start-3 lg:row-start-2 xl:row-start-1">
             <button class="flex justify-evenly  bg-cyan-700 rounded-xl p-2 h-fit" type="submit">
                 <p class="text-white ">Buscar</p>
@@ -186,7 +184,7 @@
                     </svg>
                 </a>
             </div> --}}
-           
+
         </div>
     </div>
 

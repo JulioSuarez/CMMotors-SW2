@@ -2,7 +2,7 @@
 
 @section('Contenido')
 
-    {{-- link para el calendario --}}
+    {{-- link para el calendario1 --}}
     {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> --}}
 
     @if (session('success'))

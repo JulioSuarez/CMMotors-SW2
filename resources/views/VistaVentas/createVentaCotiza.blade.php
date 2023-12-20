@@ -30,7 +30,7 @@
 
     {{-- <div class="lg:bg-blue-500 md:bg-red-300 xl:bg-yellow-400 2xl:bg-purple-600 sm:bg-black bg-gray-400">
     <label>
-        celu = plomo,
+        celu11 = plomo,
         sm 640px = black ,
         md 768px = rojo ,
         lg 1024px = azul ,
@@ -43,7 +43,7 @@
 
 <div class="grid grid-cols-1 sm:grid-cols-4 p-4 px-6  ">
     <h1 class="dark:text-gray-100 sm:text-base text-lg  text-center text-gray-900 font-semibold tracking-normal leading-tight sm:col-span-3">
-        PASAR DE COTIZACION A VENTA 
+        PASAR DE COTIZACION A VENTA
     </h1>
     <div class=" text-left sm:text-right items-center  mt-4 sm:mt-0">
         <form action="{{Route('Venta.volverCotizacion',$id_cot)}}" method="POST">

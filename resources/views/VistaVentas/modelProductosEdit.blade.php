@@ -1,7 +1,7 @@
 {{-- @dd($detalles) --}}
 <dialog id="myModal{{ $i }}" class="h-1/1 w-80 lg:w-96  p-3 rounded-2xl ">
 
-    <!--bt_cerrar_modal-->
+    <!--bt_cerrar_modal 1-->
     <button id="bt_cerrar_modal{{ $i }}" type="button"
         class="cursor-pointer absolute top-0 right-0 mt-2 mr-2 text-gray-500 hover:text-gray-700 transition duration-150 ease-in-out rounded focus:ring-2 focus:outline-none focus:ring-gray-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x"
@@ -107,7 +107,7 @@
                         <span id="p_stock_min{{$i}}" class="pr-4"> {{ $detalles[$i - 1]->cant_minima }}</span>
                     </div>
                 </li>
-                
+
 
                 <li class="mb-3">
                     <div class="flex justify-between border-b border-gray-300">

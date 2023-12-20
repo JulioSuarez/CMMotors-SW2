@@ -39,7 +39,7 @@
 
     {{-- <div class="lg:bg-blue-500 md:bg-red-300 xl:bg-yellow-400 2xl:bg-purple-600 sm:bg-black bg-gray-400">
     <label>
-        celu = plomo,
+        celu1 = plomo,
         sm 640px = black ,
         md 768px = rojo ,
         lg 1024px = azul ,
@@ -87,7 +87,7 @@
                         <span> NIT/CI/CEX/P:</span>
                         <p id="ci_cliente_error" class="text-xs pt-0.5 text-red-500 font-semibold dark:font-normal"> </p>
                     </label>
-            
+
 
                 </div>
                 <div class="relative mt-0 mb-1">
