@@ -1,7 +1,7 @@
 @extends('navegador')
 
 @section('Contenido')
-  
+
     {{-- link para el calendario --}}
     {{-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> --}}
 
@@ -44,7 +44,7 @@
     </div>
     @endif
 
-    
+
     @error('eroorEliminacion')
     <div class="  py-2 px-3 bg-red-600 text-white w-full rounded-lg animate-bounce ">
         <p>  {{ $message }} </p>
@@ -54,7 +54,7 @@
 
     <div id="div_error" class="animate-bounce fixed z-50 hidden top-12 right-3 py-2 px-3 text-white w-fit  rounded-lg bg-red-500">
          Error: No se pudo realizar la facturacion
-            ,verifique si se homologo el producto. 
+            ,verifique si se homologo el producto.
     </div>
 
 
@@ -244,34 +244,34 @@
                     <div class="flex flex-col px-2 py-3  text-gray-800 ">
                         <div class="flex  space-x-1 px-1  hover:text-blue-500  ">
                             <input id="ip_producto_az" type="radio">
-                            <label for="ip_producto_az" class=" cursor-pointer py-1 "> 
+                            <label for="ip_producto_az" class=" cursor-pointer py-1 ">
                                 Titulo de producto A-Z
                             </label>
                         </div>
 
                         <div class="flex   space-x-1 px-1 hover:text-blue-500  ">
                                 <input id="ip_producto_az" type="radio">
-                            <label for="ip_producto_az" class=" cursor-pointer py-1 "> 
+                            <label for="ip_producto_az" class=" cursor-pointer py-1 ">
                                 Titulo de producto Z-A
                             </label>
                         </div>
 
                         <div class="flex   space-x-1 px-1  hover:text-blue-500  ">
                             <input id="ip_producto_az" type="radio">
-                            <label for="ip_producto_az" class=" cursor-pointer py-1"> 
+                            <label for="ip_producto_az" class=" cursor-pointer py-1">
                                 Creado (el mas antiguo primero)
                             </label>
                         </div>
 
                         <div class="flex   space-x-1 px-1  hover:text-blue-500  ">
                             <input id="ip_producto_az" type="radio">
-                            <label for="ip_producto_az" class=" cursor-pointer py-1"> 
+                            <label for="ip_producto_az" class=" cursor-pointer py-1">
                                 Creado (el mas reciente primero)
                             </label>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
             <script>
@@ -280,7 +280,7 @@
                 bt_ordenar.addEventListener('click', function(){
                     div_ordenar.classList.toggle('hidden');
                 });
-                
+
             </script> --}}
         </div>
 
@@ -317,11 +317,11 @@
                 <tbody class=" bg-white divide-2 divide-y divide-gray-300 dark:bg-gray-800">
                     @php
                         $cantidad_ventas = count($ventas);
-                       
+
                     @endphp
                     <input type="hidden" id='cantidad_ventas' value="{{ $cantidad_ventas }}">
                     @for ($i = 0; $i < $cantidad_ventas; $i++)
-                   
+
                         <tr
                             class="bg-gray-50 text-center dark:bg-gray-800 hover:bg-gray-100
                         dark:hover:bg-gray-900 text-gray-700 dark:text-gray-200">
@@ -527,23 +527,13 @@
                             </td>
                             <td class=" pr-2">
                                 {{-- @dd($ventas[$i]->id ) --}}
-                                @if ($ventas[$i]->id_venta == 0)
-                                    {{-- <form action="{{ route('Venta.Refresh', $ventas[$i]->id) }}" method="post">
-                                        @csrf
-                                        <button type="submit"
-                                        onclick="return confirm('Confirmar si en verdad desea xd facturar la venta: {{ $ventas[$i]->id }}?')"
-                                            class="text-sm font-semibold text-black  border  p-1 rounded-lg bg-blue-100 flex items-center justify-center">
-                                            <span class="inline-block w-3 h-3 mr-2 rounded-full bg-blue-500"></span>
-                                            <span class="whitespace-nowrap mr-1"> Realizar Factura!</span>
-
-                                        </button>
-                                    </form> --}}
+                                {{-- @if ($ventas[$i]->id_venta == 0)
                                     <input type="hidden" id="venta_id{{ $i }}" value="{{ $ventas[$i]->id }}">
                                     <button type="button" id="btn_facturar{{ $i }}"
-                                         class="text-sm font-semibold text-black  border  p-1 rounded-lg bg-blue-100 flex items-center justify-center">
+                                        class="text-sm font-semibold text-black  border  p-1 rounded-lg bg-blue-100 flex items-center justify-center">
                                         <span class="inline-block w-3 h-3 mr-2 rounded-full bg-blue-500"></span>
                                         <span class="whitespace-nowrap mr-1">
-                                             Realizar Factura!</span>
+                                            Realizar Factura!</span>
                                     </button>
                                 @else
                                     <p disabled
@@ -551,8 +541,8 @@
                                         <span class="inline-block  w-3 h-3 mr-2 rounded-full bg-green-500"></span>
                                         Facturado #{{ $ventas[$i]->nro_factura }}
                                     </p>
-                                @endif
-
+                                @endif --}}
+hola
 
                             </td>
                             <td class=" py-2 text-xs">
@@ -593,8 +583,8 @@
                                             </form>
                                         </button> --}}
                                         <div class=" relative">
-                                                <div id="modal_eliminar{{ $i }}" class="absolute right-10 -top-14 hidden animacion-appear bg-white h-32 w-56 m-2 p-2 py-3 rounded-lg shadow-2xl shadow-gray-400 border ">    
-                                                    
+                                                <div id="modal_eliminar{{ $i }}" class="absolute right-10 -top-14 hidden animacion-appear bg-white h-32 w-56 m-2 p-2 py-3 rounded-lg shadow-2xl shadow-gray-400 border ">
+
                                                     <h3 class="font-bold uppercase"> Eliminar la venta nro: {{ $ventas[$i]->id }} </h3>
 
                                                     <div class=" h-full flex flex-col justify-center items-center space-y-3">
@@ -603,7 +593,7 @@
                                                             @method('DELETE')
                                                             <input type="hidden" name="tipo" value="venta_facturacion">
                                                             <button class="btn-red">
-                                                                Eliminar venta y facturacion 
+                                                                Eliminar venta y facturacion
                                                             </button>
                                                         </form>
 
@@ -612,7 +602,7 @@
                                                             @method('DELETE')
                                                             <input type="hidden" name="tipo" value="facturacion">
                                                             <button class="btn-blue">
-                                                                Eliminar solo facturacion 
+                                                                Eliminar solo facturacion
                                                             </button>
                                                         </form>
                                                     </div>
@@ -692,7 +682,7 @@
     </div>
 
      {{-- para difuminar la pantalla --}}
-     <div id="difuminar_vista" class="fixed z-50 top-0 left-0 w-screen h-screen bg-black bg-opacity-70 
+     <div id="difuminar_vista" class="fixed z-50 top-0 left-0 w-screen h-screen bg-black bg-opacity-70
      flex flex-col justify-center items-center space-y-4 hidden">
          <div class="animate-spin h-36 w-36 border-t-8 border-white border-solid rounded-full"></div>
          <p class="text-white text-2xl font-bold "> Facturando... </p>
@@ -716,7 +706,7 @@
   <script>
     let cantidad_ventas = @json($cantidad_ventas);
   </script>
-   
+
     @vite('resources/js/facturacion.js')
 
 @endsection
