@@ -194,44 +194,44 @@ class AuthController extends Controller
             ->get();
 
 
-        $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
-            ->select(
-                DB::raw("TO_CHAR(ventas.fecha, 'Month') AS mes"),
-                DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
-            )
-            ->groupBy('mes')
-            ->orderByRaw("TO_CHAR(ventas.fecha, 'Month')")
-            ->get();
+        // $clientesPorMes = Venta::join('clientes', 'ventas.ci_cliente', '=', 'clientes.ci')
+        //     ->select(
+        //         DB::raw("TO_CHAR(ventas.fecha, 'Month') AS mes"),
+        //         DB::raw('COUNT(DISTINCT clientes.ci) as cantidad_clientes')
+        //     )
+        //     ->groupBy('mes')
+        //     ->orderByRaw("TO_CHAR(ventas.fecha, 'Month')")
+        //     ->get();
 
-        // dd($clientesPorMes);
+        // // dd($clientesPorMes);
 
-        $clientesF2 = DB::table('ventas as v')
-            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci')
-            ->where('c.ci', '!=', '9903')
-            ->select(
-                DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
-                'c.ci',
-                'c.nombre as nombre_cliente',
-                DB::raw('COUNT(v.id) as total_ventas')
-            )
-            ->groupBy('mes', 'ci', 'nombre_cliente')
-            ->orderByDesc('total_ventas')
-            ->get();
+        // $clientesF2 = DB::table('ventas as v')
+        //     ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci')
+        //     ->where('c.ci', '!=', '9903')
+        //     ->select(
+        //         DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
+        //         'c.ci',
+        //         'c.nombre as nombre_cliente',
+        //         DB::raw('COUNT(v.id) as total_ventas')
+        //     )
+        //     ->groupBy('mes', 'ci', 'nombre_cliente')
+        //     ->orderByDesc('total_ventas')
+        //     ->get();
 
-        // dd($clientesF2);
+        // // dd($clientesF2);
 
-        $clientesFrecuentes = DB::table('detalle_ventas as dv')
-            ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
-            ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci') // Asume que existe una tabla 'clientes' con un campo 'id'
-            ->select(
-                DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
-                'c.ci',
-                'c.nombre as nombre_cliente',
-                DB::raw('SUM(dv.cantidad * dv.precio) as total_compras')
-            )
-            ->groupBy('mes', 'c.ci', 'nombre_cliente')
-            ->orderByDesc('total_compras')
-            ->get();
+        // $clientesFrecuentes = DB::table('detalle_ventas as dv')
+        //     ->join('ventas as v', 'dv.id_venta', '=', 'v.id')
+        //     ->join('clientes as c', 'v.ci_cliente', '=', 'c.ci') // Asume que existe una tabla 'clientes' con un campo 'id'
+        //     ->select(
+        //         DB::raw("TO_CHAR(v.fecha, 'Month') AS mes"),
+        //         'c.ci',
+        //         'c.nombre as nombre_cliente',
+        //         DB::raw('SUM(dv.cantidad * dv.precio) as total_compras')
+        //     )
+        //     ->groupBy('mes', 'c.ci', 'nombre_cliente')
+        //     ->orderByDesc('total_compras')
+        //     ->get();
 
         // dd($clientesFrecuentes);
 
