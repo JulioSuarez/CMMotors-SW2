@@ -33,7 +33,7 @@ bt_cambiar_busqueda.addEventListener("click", (e) => {
     e.preventDefault();
     bt_limpiar.click();
    if(buscarProducto.url == '/buscarProducto'){
-        buscarProducto.cambiarUrl('/inf513/grupo07sa/CMMotors-SW2/public/buscarProductoNombre');
+        buscarProducto.cambiarUrl('/buscarProductoNombre');
         input_buscador.placeholder = 'Buscar por Nombre';
         busqueda_estado.innerHTML = 'Busqueda por Nombre';
    }else{

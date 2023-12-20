@@ -260,29 +260,14 @@ const buscarCod = (cod, i) => {
     document.getElementById('td_code_' + i).className = 'border border-gray-300';
     document.getElementById('td_cantidad_' + i).className = 'border border-gray-300';
     document.getElementById('td_precio_' + i).className = 'border border-gray-300';
-    // fetch("https://cmmotors.net/api/ProductoApi/" + cod)
+    fetch("https://cmmotors.net/api/ProductoApi/" + cod)
     //   fetch("https://kuregrill.ga/api/ProductoApi/" + cod)
     // fetch("http://localhost:8000/api/ProductoApi/" + cod)
-
-    console.log('entre a buscar cod: ' + cod + ' en la posicion: ' + i);
-    
-    let formulario = new FormData();
-    formulario.append("code", cod);
-
-    let token = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
-    // console.warn('token: '+token);
-    fetch('/api/ProductoApi/', {
-        headers: {
-            "X-CSRF-TOKEN": token,
-        },
-        method: "post",
-        body: formulario,
-    })  .then((res) => res.json()) //promesa
+        .then((res) => res.json()) //promesa
         .then((data) => {
-            console.warn('encontre code en la posicion:' + i);
-            data = data.data;
-            // data = data.data;
+            // console.warn('encontre code en la posicion:' + i);
             document.getElementById('detalles' + i).value = data.nombre;
+
 
             if (data.precio_venta_con_factura != arrayMonto[i - 1]) {
 
@@ -331,15 +316,14 @@ const buscarCod = (cod, i) => {
                 document.getElementById('p_precio_fact_prod' + i).textContent = data.precio_venta_con_factura;
                 document.getElementById('p_estante_prod' + i).textContent = data.estante;
                 document.getElementById('p_cantidad_prod' + i).textContent = data.cantidad;
-                document.getElementById('p_pro' + i).textContent = data.cod_producto;
-                document.getElementById('p_alt' + i).textContent = data.cod_oem;
+                document.getElementById('p_alt' + i).textContent = data.cod_sustituto;
                 document.getElementById('p_precio_comp' + i).textContent = data.precio_compra;
                 document.getElementById('p_precio_sin_fact' + i).textContent = data.precio_venta_sin_factura;
                 document.getElementById('p_marca' + i).textContent = data.marca;
                 document.getElementById('p_procedencia' + i).textContent = data.procedencia;
                 document.getElementById('p_origen' + i).textContent = data.origen;
                 document.getElementById('p_stock_min' + i).textContent = data.cant_minima;
-                // document.getElementById('p_vence' + i).textContent = data.fecha_expiracion;
+                document.getElementById('p_vence' + i).textContent = data.fecha_expiracion;
                 document.getElementById('p_proveedor' + i).textContent = data.nombre_proveedor;
 
 
@@ -349,11 +333,9 @@ const buscarCod = (cod, i) => {
             return;
 
         }) //end de data
-        .catch((e) => {
+        .catch(() => {
             //que hacer cuando hay un error
             console.log('NO SE ENCONTRO PRODUCTO xd entre al catch i=' + i);
-            console.log(e);
-            
             valiCode_oem[i] = false;
             // console.log( document.getElementById('td_code_' +i))
             document.getElementById('unidad_co'+i).value = 'PZA';
@@ -370,12 +352,11 @@ const buscarCod = (cod, i) => {
             document.getElementById('p_nombre_prod' + i).textContent = 'NOMBRE DE PRODUCTO'
             let img = document.getElementById('img_producto_venta' + i);
             img.src = "/img/fotosProductos/default.png";
-            console.warn('estyo entrando en la pos : '+i)
+            // console.log('estyo entrando en la pos : '+i)
             // console.log( document.getElementById('p_precio_fact_prod' + i))
             document.getElementById('p_precio_fact_prod' + i).textContent = '';
             document.getElementById('p_estante_prod' + i).textContent = '';
             document.getElementById('p_cantidad_prod' + i).textContent = ' ';
-            document.getElementById('p_pro' + i).textContent = ' ';
             document.getElementById('p_alt' + i).textContent = ' ';
             document.getElementById('p_precio_comp' + i).textContent = '';
             document.getElementById('p_precio_sin_fact' + i).textContent = '';
@@ -383,13 +364,148 @@ const buscarCod = (cod, i) => {
             document.getElementById('p_procedencia' + i).textContent = '';
             document.getElementById('p_origen' + i).textContent = '';
             document.getElementById('p_stock_min' + i).textContent = '';
-            // document.getElementById('p_vence' + i).textContent = '';
+            document.getElementById('p_vence' + i).textContent = '';
             document.getElementById('p_proveedor' + i).textContent = '';
 
 
         });
 
 };
+// const buscarCod = (cod, i) => {
+//     document.getElementById('td_code_' + i).className = 'border border-gray-300';
+//     document.getElementById('td_cantidad_' + i).className = 'border border-gray-300';
+//     document.getElementById('td_precio_' + i).className = 'border border-gray-300';
+//     // fetch("https://cmmotors.net/api/ProductoApi/" + cod)
+//     // fetch("https://www.tecnoweb.org.bo/inf513/grupo07sa/CMMotors-SW2/public/api/ProductoApi/" + cod)
+//     //   fetch("https://kuregrill.ga/api/ProductoApi/" + cod)
+//     // fetch("http://localhost:8000/api/ProductoApi/" + cod)
+
+//     console.log('entre a buscar cod: ' + cod + ' en la posicion: ' + i);
+
+//     let formulario = new FormData();
+//     formulario.append("code", cod);
+
+//     let token = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
+//     // console.warn('token: '+token);
+//     fetch('/api/ProductoApi/', {
+//         headers: {
+//             "X-CSRF-TOKEN": token,
+//         },
+//         method: "post",
+//         body: formulario,
+//     })  .then((res) => res.json()) //promesa
+//         .then((data) => {
+//             console.warn('encontre code en la posicion:' + i);
+//             data = data.data;
+//             // data = data.data;
+//             document.getElementById('detalles' + i).value = data.nombre;
+
+//             if (data.precio_venta_con_factura != arrayMonto[i - 1]) {
+
+//                 // document.getElementById('p_no_encontrado').innerHTML ='';
+//                 let ppp = document.getElementById('p_no_encontrado');
+//                 //  ppp.className = "text-green-400"
+//                 ppp.textContent = '';
+
+//                 valiCode_oem[i] = true;
+
+//                 let precio = parseFloat(data.precio_venta_con_factura);
+//                 document.getElementById('precio' + i).value = Number(precio.toFixed(2));
+//                 // document.getElementById('costop'+i).value = 0
+
+//                 //unidad de prosucto
+//                 document.getElementById('unidad_co'+i).value = data.unidad;
+//                 let cant = document.getElementById('cantidad' + i).value;
+
+//                 verificarCantidad(cod, cant, i.toString());
+
+//                 precio = Number((precio * cant).toFixed(2));
+//                 // console.log(precio);
+//                 document.getElementById('subtotal' + i).value = precio;
+//                 // console.log('llegue!! ')
+//                 //si estoy en la ventana ventas
+//                 if(document.getElementById('verificar_solo_vista_Cotizacion').value == 'vacio'){
+//                     let precio_compra = parseFloat(data.precio_compra);
+//                     document.getElementById('costop' + i).value = Number((precio_compra).toFixed(2))
+//                 }
+
+
+//                 monto1 = Number((monto1 - (arrayMonto[i - 1] - precio)).toFixed(2));
+//                 document.getElementById('monto_total').value = monto1;//Number(monto1.toFixed(2));
+//                 arrayMonto[i - 1] = precio;
+//                 //    arrayCantidad[i - 1] = cant;
+//                 //    console.warn( arrayMonto);
+
+//                 //fucio que realizar el descuento
+//                 descuento2(tipo_cambio.value);
+
+
+//                 //aqui se llenaran los datos dentro del modal
+//                 document.getElementById('p_nombre_prod' + i).textContent = data.nombre;
+//                 let img = document.getElementById('img_producto_venta' + i);
+//                 img.src = "/img/fotosProductos/" + data.foto;
+//                 document.getElementById('p_precio_fact_prod' + i).textContent = data.precio_venta_con_factura;
+//                 document.getElementById('p_estante_prod' + i).textContent = data.estante;
+//                 document.getElementById('p_cantidad_prod' + i).textContent = data.cantidad;
+//                 document.getElementById('p_pro' + i).textContent = data.cod_producto;
+//                 document.getElementById('p_alt' + i).textContent = data.cod_oem;
+//                 document.getElementById('p_precio_comp' + i).textContent = data.precio_compra;
+//                 document.getElementById('p_precio_sin_fact' + i).textContent = data.precio_venta_sin_factura;
+//                 document.getElementById('p_marca' + i).textContent = data.marca;
+//                 document.getElementById('p_procedencia' + i).textContent = data.procedencia;
+//                 document.getElementById('p_origen' + i).textContent = data.origen;
+//                 document.getElementById('p_stock_min' + i).textContent = data.cant_minima;
+//                 // document.getElementById('p_vence' + i).textContent = data.fecha_expiracion;
+//                 document.getElementById('p_proveedor' + i).textContent = data.nombre_proveedor;
+
+
+//             } else {
+//                 console.log('no entre a completar las caja de precios');
+//             }
+//             return;
+
+//         }) //end de data
+//         .catch((e) => {
+//             //que hacer cuando hay un error
+//             console.log('NO SE ENCONTRO PRODUCTO xd entre al catch i=' + i);
+//             console.log(e);
+
+//             valiCode_oem[i] = false;
+//             // console.log( document.getElementById('td_code_' +i))
+//             document.getElementById('unidad_co'+i).value = 'PZA';
+//             document.getElementById('subtotal' + i).value = 0;
+//             document.getElementById('precio' + i).value = 0;
+//             monto1 = monto1 - arrayMonto[i - 1];
+//             document.getElementById('monto_total').value = monto1;
+//             arrayMonto[i - 1] = 0;
+//             descuento2(tipo_cambio.value);
+//             document.getElementById('p_no_encontrado').textContent = 'Producto no encontrado en la fila: ' + i;
+
+
+//             //poner vacio los datos dl models
+//             document.getElementById('p_nombre_prod' + i).textContent = 'NOMBRE DE PRODUCTO'
+//             let img = document.getElementById('img_producto_venta' + i);
+//             img.src = "/img/fotosProductos/default.png";
+//             console.warn('estyo entrando en la pos : '+i)
+//             // console.log( document.getElementById('p_precio_fact_prod' + i))
+//             document.getElementById('p_precio_fact_prod' + i).textContent = '';
+//             document.getElementById('p_estante_prod' + i).textContent = '';
+//             document.getElementById('p_cantidad_prod' + i).textContent = ' ';
+//             document.getElementById('p_pro' + i).textContent = ' ';
+//             document.getElementById('p_alt' + i).textContent = ' ';
+//             document.getElementById('p_precio_comp' + i).textContent = '';
+//             document.getElementById('p_precio_sin_fact' + i).textContent = '';
+//             document.getElementById('p_marca' + i).textContent = '';
+//             document.getElementById('p_procedencia' + i).textContent = '';
+//             document.getElementById('p_origen' + i).textContent = '';
+//             document.getElementById('p_stock_min' + i).textContent = '';
+//             // document.getElementById('p_vence' + i).textContent = '';
+//             document.getElementById('p_proveedor' + i).textContent = '';
+
+
+//         });
+
+// };
 
 
 
