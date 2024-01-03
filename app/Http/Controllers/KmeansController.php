@@ -13,14 +13,14 @@ use Illuminate\Http\Request;
 
 class KmeansController extends Controller
 {
-    public function kMeans($k)
+    public function kMeans(Request $r)
     {
         // datos de la base de datos
         $dataPoints = DataPoint::all();
 
         // numero de datos y el número de clusters k
         $numDataPoints = count($dataPoints);
-        $numClusters = $k;
+        $numClusters = $r->k;
 
         // Inicializa los centroides de manera aleatoria
         $centroids = $this->initializeCentroids($dataPoints, $numClusters);

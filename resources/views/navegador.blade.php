@@ -16,8 +16,23 @@
 
     {{-- contador de visitas por pagina --}}
     @php
+        use App\Models\Visita;
         $rutaActual = request()->path();
         $contadorKey = 'visitas_' . $rutaActual;
+
+        $visita = Visita::where('ruta', $rutaActual)->first();
+        if ($visita) {
+            // Si la visita existe, incrementar la cantidad
+            $visita->cantidad = $visita->cantidad + 1;
+            $visita->save();
+        } else {
+            // Si la visita no existe, crear una nueva
+            $visita = new Visita([
+                'ruta' => $rutaActual,
+                'cantidad' => 1,
+            ]);
+            $visita->save();
+        }
 
         if (session()->has($contadorKey)) {
             $visitas = session($contadorKey) + 1;
@@ -573,7 +588,7 @@
                     </li>
                 @endcan
                 @can('roles.index')
-                    <li>
+                    {{-- <li>
                         <a href="{{ Route('TallerGrado') }}"
                             class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-blue-800 dark:hover:bg-gray-600 text-white-600 hover:text-white-800 border-r-2 border-gray-800 hover:border-blue-500 dark:hover:border-gray-800 pr-6">
                             <span class="inline-flex justify-center items-center ml-4">
@@ -588,10 +603,10 @@
                                 Taller de Grado
                             </span>
                         </a>
-                    </li>
+                    </li> --}}
                 @endcan
             </ul>
-            <p class="px-5 py-3 hidden md:block text-center text-xs">CM Motor´s @2022</p>
+            <p class="px-5 py-3 hidden md:block text-center text-xs">CM Motor´s @2023</p>
 
         </div>
     </div>

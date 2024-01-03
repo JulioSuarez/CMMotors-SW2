@@ -3,7 +3,7 @@
 @section('Contenido')
 
 
-<div class="lg:bg-blue-500 md:bg-red-300 xl:bg-yellow-400 2xl:bg-purple-600 sm:bg-black bg-gray-400">
+{{-- <div class="lg:bg-blue-500 md:bg-red-300 xl:bg-yellow-400 2xl:bg-purple-600 sm:bg-black bg-gray-400">
     <label>
         celu = plomo,
         sm 640px = black ,
@@ -12,7 +12,7 @@
         xl 1280px = amariilo ,
         2xl 1536px = purpura ,
     </label>
-</div>
+</div> --}}
 
 
 

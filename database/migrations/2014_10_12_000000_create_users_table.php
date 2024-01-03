@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-   
+
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
@@ -15,6 +15,7 @@ return new class extends Migration
             $table->string('correo_electronico')->unique();
           //  $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('tema')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

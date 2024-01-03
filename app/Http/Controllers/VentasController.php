@@ -226,7 +226,6 @@ class VentasController extends Controller
                 $c = Cliente::where('ci', $r->ci_cliente)->first();
                 if ($c == null) {
                     $c = new Cliente();
-                    // $c->id_cliente = $this->__storeClienteGerente($r->cliente, $r->ci_cliente);
                     $c->id_cliente = $r->ci_cliente;
                 }
                 // $id_cliente = $c->id_cliente;
@@ -239,14 +238,14 @@ class VentasController extends Controller
                 // $c->direccion = $r->direccion;
                 $c->save();
 
-                // $xd = new DatosGeneral();
-                // $xd->tipo_de_cambio = $r->tc;
-                // $xd->forma_pago = $r->fpago;
-                // $xd->cheque = $r->cheque;
-                // $xd->cuenta_bancaria = $r->cuenta;
-                // $xd->entrega = $r->entrega;
-                // $xd->nota = $r->nota;
-                // $xd->save();
+                $xd = new DatosGeneral();
+                $xd->tipo_de_cambio = $r->tc;
+                $xd->forma_pago = $r->fpago;
+                $xd->cheque = $r->cheque;
+                $xd->cuenta_bancaria = $r->cuenta;
+                $xd->entrega = $r->entrega;
+                $xd->nota = $r->nota;
+                $xd->save();
 
 
                 // dd($r);
@@ -264,9 +263,6 @@ class VentasController extends Controller
                 $v->id_venta = $id_venta;
                 $v->save();
 
-                // dd($r->nit);
-                //dd(count($r->cod_oem));
-                //  falta cargar empres, nit , telefono
                 $detalles = [];
                 $detalleMetodoPagoQR = [];
                 for ($i = 0; $i < count($r->cod_oem); $i++) {
@@ -286,7 +282,6 @@ class VentasController extends Controller
                     //buscar que producto es
                     $detalle = [
                         "product" => $producto->id_tugerente,
-                        // "price" => $producto->precio_venta_con_factura,
                         "price" => $d->precio_producto_unitario,
                         "qty" => $d->cantidad,
                         "total" => $d->precio,
@@ -311,70 +306,14 @@ class VentasController extends Controller
                     $d->save();
                 }
 
-                // $id_venta = $this->__storeTuGerente($r->total_en_bolivianos, $id_cliente, $detalles);
                 $id_venta = 0;
                 $v->id_venta = $id_venta;
 
-                //metodo de pago QR /////////////////////////////////////////////////////////////
-                $pago = Pago::create([
-                    'estado' => 0,
-                    'fecha_hora' => date('Y-m-d H:i:s'),
-                    'monto_total' => $r->monto_total,
-                    'tipo' => 'Pago Facil',
-                    'nota_venta_id' => $v->id,
-                ]);
-
-                // generacion del QR /////////////////////////////////////////////////////////////
-                $loClient = new Client();
-
-                $laHeader = [
-                    'Accept' => 'application/json'
-                ];
-
-                $laBody   = [
-                    "tcCommerceID"          => "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c",
-                    "tnMoneda"              => 2,
-                    "tnTelefono"            => $r->telefono,
-                    'tcNombreUsuario'       => $r->cliente,
-                    'tnCiNit'               => $r->ci_cliente,
-                    'tcNroPago'             => rand(123456789, 999999999),
-                    "tnMontoClienteEmpresa" => $pago->monto_total,
-                    "tcCorreo"              => $r->correo,
-                    'tcUrlCallBack'         => "http://localhost:8000",
-                    "tcUrlReturn"           => "http://localhost:8000",
-                    'taPedidoDetalle'       => $detalleMetodoPagoQR
-                ];
-
-                $loResponse = $loClient->post("https://serviciostigomoney.pagofacil.com.bo/api/servicio/generarqrv2", [
-                    'headers' => $laHeader,
-                    'json' => $laBody
-                ]);
-
-
-                $laResult = json_decode($loResponse->getBody()->getContents());
-
-                $laValues = explode(";", $laResult->values)[1];
-
-                $laQrImage = json_decode($laValues)->qrImage;
-
-                // Decodifica el base64 para obtener los datos binarios
-                $binaryData = base64_decode($laQrImage);
-
-                // Genera un nombre de archivo único
-                $fileName = time() . '.png';
-
-                // Almacena los datos binarios en el bucket S3
-                Storage::disk('s3')->put($fileName, $binaryData, 'public');
-
-                // Obtiene la URL del archivo almacenado en S3
-                $qrCodeUrl = Storage::disk('s3')->url($fileName);
-
-                $v->pago_qr = $qrCodeUrl;
-
-                // fin del metodo de pago y QR /////////////////////////////////////////////////////////////
-
                 $v->save();
                 DB::commit();
+
+                $this->kmeans($detalles, $v->id);
+
             });
         } catch (\Exception $e) {
             dd($e);
