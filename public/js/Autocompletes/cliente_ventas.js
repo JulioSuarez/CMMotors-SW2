@@ -328,7 +328,7 @@ const buscarCod = (cod, i) => {
                 //aqui se llenaran los datos dentro del modal
                 document.getElementById('p_nombre_prod' + i).textContent = data.nombre;
                 let img = document.getElementById('img_producto_venta' + i);
-                img.src = "/img/fotosProductos/" + data.foto;
+                img.src = "http://tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public/img/fotosProductos/" + data.foto;
                 document.getElementById('p_precio_fact_prod' + i).textContent = data.precio_venta_con_factura;
                 document.getElementById('p_estante_prod' + i).textContent = data.estante;
                 document.getElementById('p_cantidad_prod' + i).textContent = data.cantidad;
@@ -370,7 +370,7 @@ const buscarCod = (cod, i) => {
             //poner vacio los datos dl models
             document.getElementById('p_nombre_prod' + i).textContent = 'NOMBRE DE PRODUCTO'
             let img = document.getElementById('img_producto_venta' + i);
-            img.src = "/img/fotosProductos/default.png";
+            img.src = "http://tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public/img/fotosProductos/default.png";
             console.warn('estyo entrando en la pos : '+i)
             // console.log( document.getElementById('p_precio_fact_prod' + i))
             document.getElementById('p_precio_fact_prod' + i).textContent = '';
