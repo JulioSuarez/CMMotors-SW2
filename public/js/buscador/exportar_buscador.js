@@ -491,6 +491,8 @@ console.log('seleccionado:' + selectedProductoIndex);
 input_buscar.addEventListener("keydown", function (e) {
     // e.preventDefault();
     console.log('se presiono una tecla');
+
+    console.log('mi ruta', this.url);
     // console.log( productos );
 
     if (e.key === "Enter") {
