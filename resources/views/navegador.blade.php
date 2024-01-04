@@ -653,6 +653,6 @@
 
 
 </body>
-@livewireScripts()
+@livewireScripts
 
 </html>
