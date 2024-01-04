@@ -260,10 +260,6 @@ const buscarCod = (cod, i) => {
     document.getElementById('td_code_' + i).className = 'border border-gray-300';
     document.getElementById('td_cantidad_' + i).className = 'border border-gray-300';
     document.getElementById('td_precio_' + i).className = 'border border-gray-300';
-    // fetch("https://cmmotors.net/api/ProductoApi/" + cod)
-    // fetch("https://www.tecnoweb.org.bo/inf513/grupo07sa/CMMotors-SW2/public/api/ProductoApi/" + cod)
-    //   fetch("https://kuregrill.ga/api/ProductoApi/" + cod)
-    // fetch("http://localhost:8000/api/ProductoApi/" + cod)
 
     console.log('entre a buscar cod: ' + cod + ' en la posicion: ' + i);
 
@@ -272,7 +268,7 @@ const buscarCod = (cod, i) => {
 
     let token = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
     // console.warn('token: '+token);
-    fetch('inf513/grupo07sa/proyecto2/public/api/ProductoApi/', {
+    fetch('/inf513/grupo07sa/proyecto2/public/api/ProductoApi/', {
         headers: {
             "X-CSRF-TOKEN": token,
         },
