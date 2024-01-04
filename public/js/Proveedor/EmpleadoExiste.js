@@ -244,7 +244,7 @@ console.log(valor_antes);
         Formulario.append("valor", valor);
         Formulario.append("id_edit",valor_antes);
         //aqui se puede aniadir mas datos como el nobre de la caja
-        fetch("/Existe_" + nombre_imp, {
+        fetch("/inf513/grupo07sa/proyecto2/public/Existe_" + nombre_imp, {
             headers: {
                 "X-CSRF-TOKEN": token,
             },

@@ -114,7 +114,7 @@ export class buscador {
             //      console.log('entre en:'+i);
 
             let formulario = document.createElement('form');
-            formulario.action = "/Producto/" + data[i].id;
+            formulario.action = "/inf513/grupo07sa/proyecto2/public/Producto/" + data[i].id;
             formulario.method = "GET";
 
             //    console.log(formulario);
@@ -492,7 +492,7 @@ input_buscar.addEventListener("keydown", function (e) {
     // e.preventDefault();
     console.log('se presiono una tecla2222');
 
-    console.log('mi ruta', this.url);
+    // console.log('mi ruta', this.url);
     // console.log( productos );
 
     var rutaActual = window.location.href;

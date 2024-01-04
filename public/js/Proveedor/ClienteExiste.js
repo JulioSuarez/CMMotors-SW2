@@ -59,13 +59,13 @@ const ExisteCliente=(valor,input,mensaje)=>{
             Formulario.append("valor", valor);
             Formulario.append("ventana", ipventana);
             Formulario.append("valor_antes", valor_antes);
-            //si estamos en edut no entar cuando sea lo mismo 
+            //si estamos en edut no entar cuando sea lo mismo
             if(!(ipventana == 'ventana_edit' && valor == valor_antes)){
                 console.log('entre al fecth son diferentes');
                 console.log(valor, valor_antes);
                 console.log(ipventana );
-                //no hace falta hacer la consutla 
-                fetch("/Existe_Cliente", {
+                //no hace falta hacer la consutla
+                fetch("/inf513/grupo07sa/proyecto2/public/Existe_Cliente", {
                     headers: {
                         "X-CSRF-TOKEN": token,
                     },

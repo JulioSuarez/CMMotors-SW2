@@ -18,7 +18,7 @@ inp_code.addEventListener("input", (e) => {
         //creando un formulario
             let Formulario = new FormData();
             Formulario.append("valor", valor);
-            fetch("/ExisteProducto", {
+            fetch("/inf513/grupo07sa/proyecto2/public/ExisteProducto", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
@@ -70,7 +70,7 @@ inp_alt.addEventListener("input", (e) => {
         //creando un formulario
             let Formulario = new FormData();
             Formulario.append("valor", valor);
-            fetch("/ExisteProducto", {
+            fetch("/inf513/grupo07sa/proyecto2/public/ExisteProducto", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },

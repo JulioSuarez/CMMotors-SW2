@@ -15,7 +15,7 @@ inp_nit.addEventListener("input", (e) => {
         //creando un formulario
         let Formulario = new FormData();
         Formulario.append("valor", valor);
-        fetch("/ExisteProveedor", {
+        fetch("/inf513/grupo07sa/proyecto2/public/ExisteProveedor", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },

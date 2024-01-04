@@ -83,7 +83,7 @@ let bt_guardar = document.getElementById('bt_guardar_proveedoreM');
                 formulario.append("correo", document.getElementById('correo_provee').value );
                 formulario.append("contacto", document.getElementById('persona_contacto_provee').value );
                 formulario.append("tipo", document.getElementById('tipo_provee').value );
-                fetch("/ProveedorStore", {
+                fetch("/inf513/grupo07sa/proyecto2/public/ProveedorStore", {
                 headers: {
                     "X-CSRF-TOKEN": token,
                 },

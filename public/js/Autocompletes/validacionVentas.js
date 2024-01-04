@@ -42,7 +42,7 @@ const ExisteCliente2 = (input) => {
         //creando un formulario
         let Formulario = new FormData();
         Formulario.append("valor", valor);
-        fetch("/Existe_Cliente", {
+        fetch("/inf513/grupo07sa/proyecto2/public/Existe_Cliente", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
@@ -275,7 +275,7 @@ const existeNro_coti = (inpNroCoti, e) => {
         //creando un formulario
         let Formulario = new FormData();
         Formulario.append("valor", valor);
-        fetch("/existeCotizar", {
+        fetch("/inf513/grupo07sa/proyecto2/public/existeCotizar", {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
