@@ -26,6 +26,7 @@ export class buscador {
             e.preventDefault();
             //limpiar la lista
 
+            console.log('mi ruta', this.url);
             // console.log(e.target.value);
             try {
                 let token = document.querySelector('meta[name="csrf-token"]')
