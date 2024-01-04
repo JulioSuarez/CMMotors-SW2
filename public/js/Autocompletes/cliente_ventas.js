@@ -272,7 +272,7 @@ const buscarCod = (cod, i) => {
 
     let token = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
     // console.warn('token: '+token);
-    fetch('/inf513/grupo07sa/proyecto2/public/api/ProductoApi/', {
+    fetch('/inf513/grupo07sa/proyecto2/public/api/ProductoApiXD/', {
         headers: {
             "X-CSRF-TOKEN": token,
         },
@@ -473,7 +473,7 @@ const verificarCantidad = (code, cantidad_restar, input_id) => {
         datasearch.append("code", code);
         datasearch.append("cantidad", cantidad_restar);
 
-        fetch('https://www.tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public/api/HayDisponible', {
+        fetch('/inf513/grupo07sa/proyecto2/public/api/HayDisponible', {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
