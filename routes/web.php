@@ -154,8 +154,8 @@ Route::delete('Producto/{p}', [ProductoController::class, 'destroy'])
     ->name('Producto.destroy')->middleware('auth')->middleware('rol_admin');
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Route::get('Descargar/{p}', [ProductoController::class, 'descargar'])->middleware('auth')->name('Descargar');
-Route::post('/inf513/grupo07sa/proyecto2/public/buscarProducto', [ProductoController::class, 'buscarProducto'])->middleware('auth');
-Route::post('/inf513/grupo07sa/proyecto2/public/buscarProductoNombre', [ProductoController::class, 'buscarProductoNombre'])->middleware('auth');
+Route::post('buscarProducto', [ProductoController::class, 'buscarProducto'])->middleware('auth');
+Route::post('buscarProductoNombre', [ProductoController::class, 'buscarProductoNombre'])->middleware('auth');
 Route::post('ExisteProducto', [ProductoController::class, 'ExisteProductor'])->middleware('auth');
 //------------------------------------------------------------------------------------------------------------------------------------------//
 Route::get('CargarApiCliente', function () {

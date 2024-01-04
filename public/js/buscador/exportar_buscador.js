@@ -2,7 +2,7 @@
 export class buscador {
 
     constructor(laUrlP, id_inputBuscar, id_list) {
-        this.url = "/inf513/grupo07sa/proyecto2/public/"+ laUrlP;  //la url
+        this.url = laUrlP;  //la url
         this.mysearchp = id_inputBuscar; //la id del input de buscar
         this.ListaP = id_list; //la id donde se aniadira la lista
         this.idli = "mylist"; //???
