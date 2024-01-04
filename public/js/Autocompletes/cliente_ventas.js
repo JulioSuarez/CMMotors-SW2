@@ -272,7 +272,7 @@ const buscarCod = (cod, i) => {
 
     let token = document.querySelector('meta[name="csrf-token"]').getAttribute("content");
     // console.warn('token: '+token);
-    fetch('/inf513/grupo07sa/proyecto2/public/api/ProductoApi/', {
+    fetch('inf513/grupo07sa/proyecto2/public/api/ProductoApi/', {
         headers: {
             "X-CSRF-TOKEN": token,
         },
