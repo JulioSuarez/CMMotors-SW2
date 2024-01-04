@@ -2,7 +2,7 @@ import {buscador} from './exportar_buscador.js';
 
 let input_buscador = document.getElementById('mysearch');
 let id_lista = document.getElementById('ListaProductos');
-let myUrl = "/inf513/grupo07sa/proyecto2/public/buscarProducto";
+let myUrl = "buscarProducto";
 console.log(myUrl);
 
 let buscarProducto = new buscador(myUrl,input_buscador,id_lista);
@@ -33,12 +33,12 @@ bt_cambiar_busqueda.addEventListener("click", (e) => {
     // console.log('click xd xd');
     e.preventDefault();
     bt_limpiar.click();
-   if(buscarProducto.url == '/inf513/grupo07sa/proyecto2/public/buscarProducto'){
-        buscarProducto.cambiarUrl('/inf513/grupo07sa/proyecto2/public/buscarProductoNombre');
+   if(buscarProducto.url == 'buscarProducto'){
+        buscarProducto.cambiarUrl('buscarProductoNombre');
         input_buscador.placeholder = 'Buscar por Nombre';
         busqueda_estado.innerHTML = 'Busqueda por Nombre';
    }else{
-        buscarProducto.cambiarUrl('/inf513/grupo07sa/proyecto2/public/buscarProducto');
+        buscarProducto.cambiarUrl('buscarProducto');
         input_buscador.placeholder = 'Buscar por Codigo';
         busqueda_estado.innerHTML = 'Busqueda por Codigo';
    }
