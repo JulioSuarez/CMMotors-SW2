@@ -15,7 +15,7 @@ document
 
         // Redirige a la ruta de exportación Excel
         // window.location.href = '{{ route('exportar.producto.view') }}';
-        fetch("/exportar/producto/view")
+        fetch("/inf513/grupo07sa/proyecto2/public/exportar/producto/view")
         .then((response) => {
                 console.log("hola xD");
                 if (response.ok) {
