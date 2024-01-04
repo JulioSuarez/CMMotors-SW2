@@ -393,7 +393,6 @@ class ProductoController extends Controller
         $p = Producto::where('cod_producto', $r->code)
             ->join('proveedors as pv', 'pv.id', '=', 'productos.id_proveedor')
             ->select('productos.*', 'pv.nombre_proveedor')
-            ->where('productos.estado', 'HABILITADO')
             ->first();
 
         // return $p;
