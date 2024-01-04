@@ -495,6 +495,10 @@ input_buscar.addEventListener("keydown", function (e) {
     console.log('mi ruta', this.url);
     // console.log( productos );
 
+    var rutaActual = window.location.href;
+    console.log("La ruta actual es: " + rutaActual);
+
+
     if (e.key === "Enter") {
         e.preventDefault();
         console.log('se presiono enter en ', 'i=' + selectedProductoIndex);
