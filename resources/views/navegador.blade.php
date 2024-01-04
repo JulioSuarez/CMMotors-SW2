@@ -42,7 +42,7 @@
             $visitas = 1;
         }
     @endphp
-    @dd(resource_path('views/livewire'));
+    {{-- @dd(resource_path('views/livewire')); --}}
     <div x-data="{ Configuraciones: false }">
         <div class="fixed bottom-4 right-4 z-50">
             <button @click="Configuraciones = !Configuraciones"

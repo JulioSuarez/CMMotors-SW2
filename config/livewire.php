@@ -27,7 +27,8 @@ return [
     |
     */
 
-    'view_path' => resource_path('views/livewire'),
+    'view_path' => 'http://tecnoweb.org.bo/inf513/grupo07sa/proyecto2/resources/views/livewire',
+    // 'view_path' => resource_path('views/livewire'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +55,8 @@ return [
     |
     */
 
-    'asset_url' =>  env('APP_URL', 'http://localhost'),
+    // 'asset_url' =>  env('APP_URL', 'http://localhost'),
+    'asset_url' =>  'http://tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public',
 
     /*
     |--------------------------------------------------------------------------
@@ -67,8 +69,9 @@ return [
     | Examples: "https://my-app.com", "myurl.com/app".
     |
     */
+    'app_url' =>  'http://tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public',
 
-    'app_url' => env('APP_URL', 'http://localhost'),
+    // 'app_url' => env('APP_URL', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
