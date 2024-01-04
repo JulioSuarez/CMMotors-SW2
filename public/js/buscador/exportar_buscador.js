@@ -131,7 +131,7 @@ export class buscador {
             let img_foto = document.createElement('img');
             img_foto.className = 'm-1 border border-black rounded-2xl object-cover h-14 w-14'
             // img_foto.src = "https://dam.muyinteresante.com.mx/wp-content/uploads/2018/05/extranos-pueden-elegir-mejores-fotos-de-perfil.jpg";
-            img_foto.src = "/img/fotosProductos/" + data[i]?.foto;
+            img_foto.src = "/inf513/grupo07sa/proyecto2/public/img/fotosProductos/" + data[i]?.foto;
             img_foto.loading = "no hay foto";
 
             //console.log(img_foto);
@@ -236,7 +236,7 @@ export class buscador {
             let img_foto = document.createElement('img');
             img_foto.className = 'm-1 border border-black rounded-2xl object-cover h-14 w-14'
             // img_foto.src = "https://dam.muyinteresante.com.mx/wp-content/uploads/2018/05/extranos-pueden-elegir-mejores-fotos-de-perfil.jpg";
-            img_foto.src = "/img/fotosProductos/" + data[i]?.foto;
+            img_foto.src = "/inf513/grupo07sa/proyecto2/public/img/fotosProductos/" + data[i]?.foto;
             img_foto.loading = "no hay foto";
 
             //      console.log(img_foto);
