@@ -489,13 +489,13 @@ console.log('seleccionado:' + selectedProductoIndex);
 //cada que pase se debe eliminar este evento.
 input_buscar.addEventListener("keydown", function (e) {
     // e.preventDefault();
-    console.log('se presiono una tecla2222');
+    // console.log('se presiono una tecla2222');
 
     // console.log('mi ruta', this.url);
     // console.log( productos );
 
     var rutaActual = window.location.href;
-    console.log("La ruta actual es: " + rutaActual);
+    // console.log("La ruta actual es: " + rutaActual);
 
 
     if (e.key === "Enter") {
