@@ -473,7 +473,7 @@ const verificarCantidad = (code, cantidad_restar, input_id) => {
         datasearch.append("code", code);
         datasearch.append("cantidad", cantidad_restar);
 
-        fetch('/inf513/grupo07sa/proyecto2/public/api/HayDisponible', {
+        fetch('https://www.tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public/api/HayDisponible', {
             headers: {
                 "X-CSRF-TOKEN": token,
             },
