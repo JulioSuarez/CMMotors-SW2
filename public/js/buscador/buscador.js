@@ -32,12 +32,12 @@ bt_cambiar_busqueda.addEventListener("click", (e) => {
     // console.log('click xd xd');
     e.preventDefault();
     bt_limpiar.click();
-   if(buscarProducto.url == '/buscarProducto'){
-        buscarProducto.cambiarUrl('/buscarProductoNombre');
+   if(buscarProducto.url == '/inf513/grupo07sa/proyecto2/public/buscarProducto'){
+        buscarProducto.cambiarUrl('/inf513/grupo07sa/proyecto2/public/buscarProductoNombre');
         input_buscador.placeholder = 'Buscar por Nombre';
         busqueda_estado.innerHTML = 'Busqueda por Nombre';
    }else{
-        buscarProducto.cambiarUrl('/buscarProducto');
+        buscarProducto.cambiarUrl('/inf513/grupo07sa/proyecto2/public/buscarProducto');
         input_buscador.placeholder = 'Buscar por Codigo';
         busqueda_estado.innerHTML = 'Busqueda por Codigo';
    }
