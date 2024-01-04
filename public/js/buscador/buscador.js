@@ -3,7 +3,7 @@ import {buscador} from './exportar_buscador.js';
 let input_buscador = document.getElementById('mysearch');
 let id_lista = document.getElementById('ListaProductos');
 let myUrl = "/inf513/grupo07sa/proyecto2/public/buscarProducto";
-console.log(myUrl);
+// console.log(myUrl);
 
 let buscarProducto = new buscador(myUrl,input_buscador,id_lista);
  buscarProducto.InputSearch();

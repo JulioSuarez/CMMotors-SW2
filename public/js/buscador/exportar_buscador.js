@@ -1,5 +1,3 @@
-console.log('entre');
-
 // aplicarcompreciono minimizacion para codigo de JS
 export class buscador {
 

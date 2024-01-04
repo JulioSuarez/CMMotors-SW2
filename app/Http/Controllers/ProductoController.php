@@ -160,14 +160,14 @@ class ProductoController extends Controller
             'cantidad' => 'required',
         ]);
 
-        // dd($r);
+        // dd();
         $nombre = '';
         try {
             DB::transaction(function () use ($r, &$nombre) {
                 // dd($r);
                 if ($r->hasFile('foto')) {
                     $file = $r->file('foto');
-                    $destino = 'img/fotosProductos/';
+                    $destino = public_path('img/fotosProductos');
                     $fotos = time() . '-' . $file->getClientOriginalName();
                     $r->file('foto')->move($destino, $fotos);
                 } else {

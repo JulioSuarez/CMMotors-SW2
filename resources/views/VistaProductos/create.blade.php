@@ -87,14 +87,9 @@
                     lg:px-10  2xl:mx-20">
 
             <p
-                class="mb-3 text-gray-900 text-center font-bold tracking-normal leading-tight
-                       lg:mb-5  lg:text-xl ">
+                class="mb-3 text-gray-900 text-center font-bold tracking-normal leading-tight lg:mb-5  lg:text-xl ">
                 REGISTRAR UN PRODUCTO
             </p>
-
-            {{-- <p id="p_pruducto_existe" class="text-black">
-            </p> --}}
-
 
             <!-- GRID COLUMNAS-->
             <div
@@ -314,7 +309,7 @@
                         </div>
 
 
-                       
+
                     </div>
                 </div>
 
