@@ -266,7 +266,7 @@
                 <div class="search w-56">
                     <i class="fas fa-search icon"></i>
                     <input type="text" id="mysearch"
-                        class=" w-full pl-3 text-sm text-black outline-none focus:outline-none bg-transparent"
+                        class=" w-full pl-3 text-sm text-black outline-none focus:outline-none bg-transparent uppercase"
                         placeholder="Buscar por Codigo" autocomplete="off">
 
                 </div>

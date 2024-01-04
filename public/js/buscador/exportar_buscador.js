@@ -26,7 +26,7 @@ export class buscador {
             e.preventDefault();
             //limpiar la lista
 
-            console.log('mi ruta', this.url);
+            // console.log('mi ruta', this.url);
             // console.log(e.target.value);
             try {
                 let token = document.querySelector('meta[name="csrf-token"]')
@@ -310,7 +310,7 @@ export class buscador {
             productos[0].classList.remove("bg-gray-200");
             productos[0].classList.add("bg-gray-400");
         }
-        console.log('cant pridutos:' + data.length);
+        console.log('cantidad productos: ' + data.length);
 
 
     }
