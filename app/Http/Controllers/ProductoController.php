@@ -336,7 +336,7 @@ class ProductoController extends Controller
         // dd($r);
         if ($r->hasFile('foto')) {
             $file = $r->file('foto');
-            $destino = 'img/fotosProductos/';
+            $destino = public_path('img/fotosProductos/');
             $fotos = time() . '-' . $file->getClientOriginalName();
             $subirImagen = $r->file('foto')->move($destino, $fotos);
             $p->foto = $fotos;
