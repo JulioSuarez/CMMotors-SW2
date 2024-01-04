@@ -56,8 +56,9 @@ export class buscador {
                             if (conf.value == 'vacio') {
                                 console.log('es vacio no estoy en create ');
                                 this.mostrarArrayProd(data.productos);
+                                console.log(data.productos);
                             } else {
-                                console.log('entre a no es vacio estoy en create');
+                                console.log('entre en create no es vacio');
                                 this.mostrarEnVentaCreate(data.productos);
                             }
                             // this.ponerEventosTeclado();
