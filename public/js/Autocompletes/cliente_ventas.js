@@ -328,7 +328,7 @@ const buscarCod = (cod, i) => {
                 //aqui se llenaran los datos dentro del modal
                 document.getElementById('p_nombre_prod' + i).textContent = data.nombre;
                 let img = document.getElementById('img_producto_venta' + i);
-                img.src = "/inf513/grupo07sa/proyecto2/public/img/fotosProductos/" + data.foto;
+                img.src = "https://www.tecnoweb.org.bo/inf513/grupo07sa/proyecto2/public/img/fotosProductos/" + data.foto;
                 document.getElementById('p_precio_fact_prod' + i).textContent = data.precio_venta_con_factura;
                 document.getElementById('p_estante_prod' + i).textContent = data.estante;
                 document.getElementById('p_cantidad_prod' + i).textContent = data.cantidad;
