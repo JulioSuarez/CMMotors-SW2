@@ -277,6 +277,7 @@ const buscarCod = (cod, i) => {
     })  .then((res) => res.json()) //promesa
         .then((data) => {
             console.warn('encontre code en la posicion:' + i);
+            console.warn('dataaaaaaaa: ' + data);
             data = data.data;
             // data = data.data;
             document.getElementById('detalles' + i).value = data.nombre;
