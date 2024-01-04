@@ -490,7 +490,7 @@ console.log('seleccionado:' + selectedProductoIndex);
 //cada que pase se debe eliminar este evento.
 input_buscar.addEventListener("keydown", function (e) {
     // e.preventDefault();
-    console.log('se presiono una tecla');
+    console.log('se presiono una tecla2222');
 
     console.log('mi ruta', this.url);
     // console.log( productos );
