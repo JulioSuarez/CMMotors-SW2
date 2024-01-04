@@ -399,6 +399,7 @@ class ProductoController extends Controller
           // Devolver una respuesta JSON
         return response()->json([
             'data' => $p,
+            'request' => $r
         ]);
     }
 
