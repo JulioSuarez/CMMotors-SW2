@@ -9,7 +9,10 @@ const expresion = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,255}$/, // Letras y espacios, pueden llevar acentos.
     pass_escrito: /^.{8,22}$/, // 4 a 12 digitos.
     password: /^.{8,22}$/, // 4 a 12 digitos.
-    correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+    // correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+    // correo: /^[a-zA-Z0-9_.+-]+@[a-z-]+\.[a-z]{2,4}$/,
+    correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]{4,}\.[a-z]{2,4}$/,
+
     telefono: /^\d{7,14}$/, // 7 a 14 numeros.
 };
 
